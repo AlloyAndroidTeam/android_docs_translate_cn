@@ -1064,15 +1064,16 @@ order in which each activity is opened.</p>
 <div class="sidebox-wrapper">
 <div class="sidebox">
 <h3>Adding fragments to a task's back stack</h3>
+<h3>添加 fragment 到 Task 里的后台栈</h3>
 
 <p>Your activity can also include <code><a href="../../reference/android/app/Fragment.html">Fragment</a></code>s to the back stack. For example,
 suppose you have a two-pane layout using fragments, one of which is a list view (fragment A) and the
 other being a layout to display an item from the list (fragment B). When the user selects an item
 from the list, fragment B is replaced by a new fragment (fragment C). In this case, it might be
 desireable for the user to navigate back to reveal fragment B, using the <em>Back</em> button.</p>
-<p>In order to add fragment B to the back stack so that this is possible, you must call <code><a href="../../reference/android/app/FragmentTransaction.html#addToBackStack(java.lang.String)">addToBackStack()</a></code> before you <code><a href="../../reference/android/app/FragmentTransaction.html#commit()">commit()</a></code> the transaction that replaces fragment B with fragment
-C.</p>
-<p>For more information about using fragments and adding them to the back stack, see the <code><a href="../../reference/android/app/Fragment.html">Fragment</a></code> class documentation.</p>
+<p>Activity 可以以 <code><a href="../../reference/android/app/Fragment.html">Fragment</a></code> 为单位放到后台栈内。 例如，假设你有一个使用了 fragment 的双面板同时展示的 layout，其中一个是列表(fragment A)另一个则用于显示此列表中的某元素详情（fragment B)，当用户选中一个列表中的一个元素时，fragment B就被另一个新的fragment替代（fragment C），此时，对用户来说，按<em>返回键</em>时显示fragment B才是合其预期。(desirable?) </p>
+<p>为了实现此目标，你需要在调用 <code><a href="../../reference/android/app/FragmentTransaction.html#commit()">commit()</a></code> 完成以C替代B的操作之前，调用<code><a href="../../reference/android/app/FragmentTransaction.html#addToBackStack(java.lang.String)">addToBackStack()</a></code> </p>
+<p>更多的关于Fragment的使用及其与后台栈相关的内容，详见 <code><a href="../../reference/android/app/Fragment.html">Fragment</a></code> 类之文档</p>
 
 </div>
 </div>
