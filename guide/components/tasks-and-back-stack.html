@@ -1138,12 +1138,30 @@ class="img-caption"><strong>图 2.</strong> 两个 Task : Task B 在前台接收
 <div class="figure" style="width:215px">
   <img src="../../images/fundamentals/diagram_multiple_instances.png" alt="" /> <p
 class="img-caption"><strong>Figure 3.</strong> A single activity is instantiated multiple times.</p>
+<p class="img-caption"><strong>图 3.</strong> 一个被实例化多次的 Activity </p>
 </div>
 
 <p>A task is a cohesive unit that can move to the "background" when users begin a new task or go
 to the Home screen, via the <em>Home</em> button. While in the background, all the activities in the
 task are
 stopped, but the back stack for the task remains intact&mdash;the task has simply lost focus while
+another task takes place, as shown in figure 2. A task can then return to the "foreground" so users
+can pick up where they left off. Suppose, for example, that the current task (Task A) has three
+activities in its stack&mdash;two under the current activity. The user presses the <em>Home</em>
+button, then
+starts a new application from the application launcher. When the Home screen appears, Task A goes
+into the background. When the new application starts, the system starts a task for that application
+(Task B) with its own stack of activities. After interacting with
+that application, the user returns Home again and selects the application that originally
+started Task A. Now, Task A comes to the
+foreground&mdash;all three activities in its stack are intact and the activity at the top of the
+stack resumes. At
+this point, the user can also switch back to Task B by going Home and selecting the application icon
+that started that task (or by touching and holding the <em>Home</em> button to reveal recent tasks
+and selecting
+one). This is an example of multitasking on Android.</p>
+<p>Task 指一个有关联的组合，当用户启动一个新的 Task 或通过按<em>Home 键</em>返回主屏幕时，这个组合可以回到“后台”。
+Task 在后台时，其所有的 Activity 均被停止(stop)，但其后台栈会被保留不变——the task has simply lost focus while
 another task takes place, as shown in figure 2. A task can then return to the "foreground" so users
 can pick up where they left off. Suppose, for example, that the current task (Task A) has three
 activities in its stack&mdash;two under the current activity. The user presses the <em>Home</em>
