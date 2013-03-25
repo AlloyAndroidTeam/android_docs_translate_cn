@@ -1060,9 +1060,10 @@ order in which each activity is opened.</p>
 <p>Task 指用户为实现某项任务而产生的一系列 Activity 的集合。这一系列的 Activity 被排在一个 栈(stack) 里（即 back stack）
 ，以其被打开的顺序进行排列。</p>
 
-<!-- SAVE FOR WHEN THE FRAGMENT DOC IS ADDED
+
 <div class="sidebox-wrapper">
 <div class="sidebox">
+  <b>以下关于Fragment的片段似乎是google忘了去掉注释，原注释段前文： SAVE FOR WHEN THE FRAGMENT DOC IS ADDED </b>
 <h3>Adding fragments to a task's back stack</h3>
 <h3>添加 fragment 到 Task 里的后台栈</h3>
 
@@ -1077,7 +1078,7 @@ desireable for the user to navigate back to reveal fragment B, using the <em>Bac
 
 </div>
 </div>
--->
+
 
 <p>The device Home screen is the starting place for most tasks. When the user touches an icon in the
 application
@@ -1086,7 +1087,8 @@ task exists for the application (the application has not been used recently), th
 is created and the "main" activity for that application opens as the root activity in the stack.</p>
 
 <p>设备里的主屏幕(Home screen)是多数 task 启动点。用户点了应用的图标（或主屏幕的快捷方式）后，应用的 task 就会跑到前台。
-如果此应用当前无 task 存在（该应用最近未被打开过），则启动一个新的 task 并将应用里的 main Activity 打开以做为此任务栈的根(root) Activity。</p>
+如果此应用当前无 task 存在（该应用最近未被打开过），则启动一个新的 task 并将应用里的 main Activity 
+打开以做为此任务栈的根(root) Activity。</p>
 
 <p>When the current activity starts another, the new activity is pushed on the top of the stack and
 takes focus. The previous activity remains in the stack, but is stopped. When an activity
@@ -1102,29 +1104,36 @@ this behavior with a timeline showing the progress between activities along with
 stack at each point in time.</p>
 
 <p>Activity 启动了另一个 Activity 时，新 Activity 将被置于此 Task 栈顶部并获取焦点。而旧的 Activity 仍保留在栈中，
-  但已经被停止(stop)。Activity 停止时，系统会保留其UI状态(译注:比如滚动条位置，文本框内容等)。当用户点 <em>后退键(Back)</em> 
-  时，则当前 Activity 会从 Task 栈中弹出并被销毁(destroy)。
-button, the current activity is popped from the top of the stack (the activity is destroyed) and the
-previous activity resumes (the previous state of its UI is restored). Activities in the stack are
-never rearranged, only pushed and popped from the stack&mdash;pushed onto the stack when started by
-the current activity and popped off when the user leaves it using the <em>Back</em> </p>
+  但已经被停止(stop)。Activity 停止时，系统会保留其UI状态(译注:比如滚动条位置，文本框内容等)。当用户点 
+  <em>后退键</em> 
+  时，则当前 Activity 会从 Task 栈中弹出并被销毁(destroy)，而前一个Activity则会处于栈顶并被恢复(恢复指其UI状态会恢复原样)。
+  栈中的 Activity 永远不会被自动重新排序（<b>译注:只是一般情况如此，never是错误的说法</b> ），它们只会入栈或出栈——启动时入栈，
+  用户按<em>返回键</em>时出栈。</p>
 
 <img src="../../images/fundamentals/diagram_backstack.png" alt="" />
 <p class="img-caption"><strong>Figure 1.</strong> A representation of how each new activity in a
 task adds an item to the back stack. When the user presses the <em>Back</em> button, the current
 activity is
 destroyed and the previous activity resumes.</p>
+<p class="img-caption"><strong>图 1.</strong> 图示 Task 里的新 Activity 如何添加到后台栈。当用户按<em>返回键</em>
+  时，当前 Activity 被销毁而前一个 Activity 被恢复。</p>
 
 
 <p>If the user continues to press <em>Back</em>, then each activity in the stack is popped off to
 reveal the
 previous one, until the user returns to the Home screen (or to whichever activity was running when
 the task began). When all activities are removed from the stack, the task no longer exists.</p>
+<p>如果用户不停按<em>返回键</em>, 则栈中每个 Activity 都会依次地出栈而在其前面 Activity 则取而代之。直至栈空，
+界面则返回系统的 Home 界面( 或才任意启动此 Task 的 Activity)。当 Task 中的栈内所有 Activity 都出栈时，此 Task
+也就不复存在了。 </p>
 
 <div class="figure" style="width:287px">
 <img src="../../images/fundamentals/diagram_multitasking.png" alt="" /> <p
 class="img-caption"><strong>Figure 2.</strong> Two tasks: Task B receives user interaction
 in the foreground, while Task A is in the background, waiting to be resumed.</p>
+<p
+class="img-caption"><strong>图 2.</strong> 两个 Task : Task B 在前台接收用户的交互操作而 Task A
+则处于后台，等待被恢复。</p>
 </div>
 <div class="figure" style="width:215px">
   <img src="../../images/fundamentals/diagram_multiple_instances.png" alt="" /> <p
