@@ -1,9 +1,15 @@
-andorid_docs_api_guide
-typo here...
+andorid_docs_api_guide 
 ======================
-源文件取自android.com,用 SiteSucker 获取。译文多为意译。
 
-任务分配：
+使用方法：（`适用Linux/Unix系统`，*windows未找到办法，可能只能替换掉原目录*）
 
-* http://developer.android.com/guide/components/index.html 【iptton#gmail.com】
-* http://developer.android.com/intl/zh-CN/guide/components/tasks-and-back-stack.html 【iptton#gmail.com】
+* clone本库资源
+* 在所下载的android sdk目录下找到docs目录，重命名或删除其目录下的guide
+* ln -s path/to/downloaded/guide guide
+* `从android sdk中的docs目录`打开文档阅读
+
+
+任务认领及进度：
+
+* （0%）http://developer.android.com/guide/components/index.html 【iptton#gmail.com】
+* （30%）http://developer.android.com/guide/components/tasks-and-back-stack.html 【iptton#gmail.com】

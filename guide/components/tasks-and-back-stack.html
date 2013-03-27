@@ -1108,7 +1108,8 @@ stack at each point in time.</p>
   <em>后退键</em> 
   时，则当前 Activity 会从 Task 栈中弹出并被销毁(destroy)，而前一个Activity则会处于栈顶并被恢复(恢复指其UI状态会恢复原样)。
   栈中的 Activity 永远不会被自动重新排序（<b>译注:只是一般情况如此，never是错误的说法</b> ），它们只会入栈或出栈——启动时入栈，
-  用户按<em>返回键</em>时出栈。</p>
+  用户按<em>返回键</em>时出栈。由上可见，后台栈就是一个“后进先出”的结构(译注：这不是废话吗...)，图 1 以时间为x轴展示了 Activity
+  的切换过程中每一个时间点的后台栈状态。</p>
 
 <img src="../../images/fundamentals/diagram_backstack.png" alt="" />
 <p class="img-caption"><strong>Figure 1.</strong> A representation of how each new activity in a
@@ -1138,7 +1139,7 @@ class="img-caption"><strong>图 2.</strong> 两个 Task : Task B 在前台接收
 <div class="figure" style="width:215px">
   <img src="../../images/fundamentals/diagram_multiple_instances.png" alt="" /> <p
 class="img-caption"><strong>Figure 3.</strong> A single activity is instantiated multiple times.</p>
-<p class="img-caption"><strong>图 3.</strong> 一个被实例化多次的 Activity </p>
+<p class="img-caption"><strong>图 3.</strong> Activity可被实例化多次  </p>
 </div>
 
 <p>A task is a cohesive unit that can move to the "background" when users begin a new task or go
@@ -1161,17 +1162,11 @@ that started that task (or by touching and holding the <em>Home</em> button to r
 and selecting
 one). This is an example of multitasking on Android.</p>
 <p>Task 指一个有关联的组合，当用户启动一个新的 Task 或通过按<em>Home 键</em>返回主屏幕时，这个组合可以回到“后台”。
-Task 在后台时，其所有的 Activity 均被停止(stop)，但其后台栈会被保留不变——the task has simply lost focus while
-another task takes place, as shown in figure 2. A task can then return to the "foreground" so users
-can pick up where they left off. Suppose, for example, that the current task (Task A) has three
-activities in its stack&mdash;two under the current activity. The user presses the <em>Home</em>
-button, then
-starts a new application from the application launcher. When the Home screen appears, Task A goes
-into the background. When the new application starts, the system starts a task for that application
-(Task B) with its own stack of activities. After interacting with
-that application, the user returns Home again and selects the application that originally
-started Task A. Now, Task A comes to the
-foreground&mdash;all three activities in its stack are intact and the activity at the top of the
+Task 在后台时，其所有的 Activity 均被停止(stop)，但其后台栈会被保留不变——如图2所示，Task 被别的 Task 替换时仅仅是失去了焦点。
+Task 也可以被用户从“后台”调回“前台”。例如：假设 Task A 为当前Task，它的后台栈里有3个 Activity——其中两个处于后台状态。
+当用户按 <em>Home 键</em>，然后从主屏幕中点击图标启动一个新的应用，此时系统启动了一个新的 Task (Task B)。此过程中，主屏幕出现时，
+Task A 进入了后台状态，而当新的应用启动时，系统为此应用启动了 Task B，用户在新启动的应用里操作完成后，再次回到主屏幕，
+希望点击启动了 Task A 的应用图标，此时，Task A 重新回到了前台&mdash;all three activities in its stack are intact and the activity at the top of the
 stack resumes. At
 this point, the user can also switch back to Task B by going Home and selecting the application icon
 that started that task (or by touching and holding the <em>Home</em> button to reveal recent tasks
