@@ -38,3 +38,24 @@ andorid_docs_api_guide
 |:------|----------------------------------------------------|-------
 | 0%    |		guide/components/index.html                  | iptton 
 | 30%   | guide/components/tasks-and-back-stack.html        | iptton
+
+
+### 建议不译的术语
+
+部分术语个人觉得在国内未有俗成的译法前，译成中文反而不易理解和交流，此类词语建议不译
+
+* Activity
+* Affinity (task affinity)
+* Fragment
+* Task
+
+### 术语的对译表
+
+
+|英文               |建议译文                    |
+|-------------------|--------------------------|
+|back stack         | 后台栈                    |
+
+
+
+
