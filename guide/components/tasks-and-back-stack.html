@@ -987,22 +987,20 @@ onkeyup="return search_changed(event, false, '../../')" />
     <div class="jd-descr" itemprop="articleBody">
     <div id="qv-wrapper">
 <div id="qv">
-<h2>Quickview</h2>
+<h2>要点</h2>
 <ul>
-  <li>All activities belong to a task</li>
-  <li>A task contains a collection of activities in the order in which the user interacts with
-them</li>
-  <li>Tasks can move to the background and retain the state of each activity in order for users
-to perform other tasks without losing their work</li>
+  <li>所有 Activity 都属于某个 Task 。</li>
+  <li>Task 中的 Activity 以用户操作时间排序</li>
+  <li>Task 可以移到后台，也可以恢复每个 Activity 的状态以使得用户操作数据不会因中途调用了别的 Task 而丢失</li>
 </ul>
 
-<h2>In this document</h2>
+<h2>本节内容</h2>
 <ol>
-<li><a href="#ActivityState">Saving Activity State</a></li></li>
-<li><a href="#ManagingTasks">Managing Tasks</a>
+<li><a href="#ActivityState">保存 Activity 状态</a></li></li>
+<li><a href="#ManagingTasks">管理 Task</a>
   <ol>
-    <li><a href="#TaskLaunchModes">Defining launch modes</a></li>
-    <li><a href="#Affinities">Handling affinities</a></li>
+    <li><a href="#TaskLaunchModes">定义启动模式（ launch modes）</a></li>
+    <li><a href="#Affinities">处理亲和力（ affinities）</a></li>
     <li><a href="#Clearing">Clearing the back stack</a></li>
     <li><a href="#Starting">Starting a task</a></li>
   </ol>
@@ -1440,14 +1438,12 @@ launch mode is <code>"standard"</code>. </p>
 
 
 
-<h3 id="Affinities">Handling affinities</h3>
+<h3 id="Affinities">处理 affinity</h3>
 
-<p>The <em>affinity</em> indicates which task an activity prefers to belong to. By default, all the
-activities from the same application have an affinity for each other. So, by default, all
-activities in the same application prefer to be in the same task. However, you can modify
-the default affinity for an activity. Activities defined in
-different applications can share an affinity, or activities defined in the same application can be
-assigned different task affinities.</p>
+<p> <em>affinity</em> 用于标明 Activity 更应该属于哪个 Task。默认情况下，同一个应用里的 Activity 具有相同的
+  affinity 。因此，默认情况下，同一程序里所有的 Activity 都默认属于同一个 Task 。当然，你可以修改每个 Activity
+  的 affinity 。来自不同应用的 Activity 也可以共用相同的 affinity ，相同应用里的 Activity 之前也可以使用不同的 
+  affinity 。</p>
 
 <p>You can modify the affinity for any given activity with the <a
 href="../../guide/topics/manifest/activity-element.html#aff"><code>taskAffinity</code></a> attribute
