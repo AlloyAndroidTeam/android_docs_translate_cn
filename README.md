@@ -10,6 +10,9 @@ andorid_docs_api_guide
 
 
 任务认领及进度：
+### 【Training】
+* (`100%`)http://developer.android.com/training/basics/supporting-devices/platforms.html 【iptton#gmail.com】
 
+###【API Guides】
 * （0%）http://developer.android.com/guide/components/index.html 【iptton#gmail.com】
 * （30%）http://developer.android.com/guide/components/tasks-and-back-stack.html 【iptton#gmail.com】
