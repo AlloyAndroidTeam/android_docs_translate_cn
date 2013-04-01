@@ -6,6 +6,7 @@ andorid_docs_api_guide
 * clone本库资源
 * 在所下载的android sdk目录下找到docs目录，重命名或删除其目录下的guide
 * ln -s path/to/downloaded/guide guide
+* ln -s path/to/downloaded/training training
 * `从android sdk中的docs目录`打开文档阅读
 
 
