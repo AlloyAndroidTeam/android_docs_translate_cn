@@ -78,7 +78,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
 <link rel="shortcut icon" type="image/x-icon" href="../../../favicon.ico" />
-<title>Supporting Different Languages | Android Developers</title>
+<title>支持不同语言 | Android Developers</title>
 
 <!-- STYLESHEETS -->
 <link rel="stylesheet"
@@ -1544,7 +1544,7 @@ onkeyup="return search_changed(event, false, '../../../')" />
   
   <div class="layout-content-row content-header ">
     <div class="layout-content-col span-7">
-      <h1 itemprop="name">Supporting Different Languages</h1>
+      <h1 itemprop="name">支持不同语言</h1>
       
     </div>
     
@@ -1586,40 +1586,32 @@ onkeyup="return search_changed(event, false, '../../../')" />
     <div class="jd-descr" itemprop="articleBody">
     <div id="tb-wrapper">
   <div id="tb">
-    <h2>This class teaches you to</h2>
+    <h2>本章内容</h2>
     <ol>
-      <li><a href="#CreateDirs">Create Locale Directories and String Files</a></li>
-      <li><a href="#UseString">Use the String Resources</a></li>
+      <li><a href="#CreateDirs">创建本地化目录及字符串文件</a></li>
+      <li><a href="#UseString">使用字符串资源</a></li>
     </ol>
-    <h2>You should also read</h2>
+    <h2>参考阅读</h2>
     <ul>
-      <li><a href="../../../guide/topics/resources/localization.html">Localization</a></li>
+      <li><a href="../../../guide/topics/resources/localization.html">本地化</a></li>
     </ul>
   </div>
 </div>
 
-<p>It’s always a good practice to extract UI strings from your app code and keep them
-in an external file.  Android makes this easy with a resources directory in each Android
-project.</p>
+<p>把文本从代码中分离出来放到外部文件里是较好的做法，在 Android 你可以很容易实现这一点。</p>
 
-<p>If you created your project using the Android SDK
-Tools (read <a href="../../../training/basics/firstapp/creating-project.html">Creating an
-Android Project</a>), the tools create a <code>res/</code> directory in the top level of
-the project. Within this <code>res/</code> directory are subdirectories for various resource
-types. There are also a few default files such as <code>res/values/strings.xml</code>, which holds
-your string values.</p>
+<p>使用 Android SDK Tools来创建的项目 (见 <a href="../../../training/basics/firstapp/creating-project.html">创建 Android 项目</a>）里会有一个名为 <code>res/</code> 的目录。 <code>res/</code>
+  目录下是各种类型资源的子目录，其中一些目录会有些默认的资源文件，如 <code>res/values/strings.xml</code> 
+用于保存字符串。</p>
 
 
-<h2 id="CreateDirs">Create Locale Directories and String Files</h2> 
+<h2 id="CreateDirs">创建本地化目录及字符串文件</h2> 
 
-<p>To add support for more languages, create additional <code>values</code> directories inside
-<code>res/</code> that include a hyphen and the ISO country code at the end of the
-directory name. For example, <code>values-es/</code> is the directory containing simple
-resourcess for the Locales with the language code "es".  Android loads the appropriate resources
-according to the locale settings of the device at run time.</p>
+<p>支持多种语言，只需要在 <code>res/</code> 目录下添加新的 <code>values</code>
+  目录，目录名后加连字符及国家 ISO 代号。例如， <code>values-es/</code> 
+  目录下的内容可被语言代码为"es"的设备使用。Android 会在运行时根据当前的本地设置加载适当的资源。</p>
 
-<p>Once you’ve decided on the languages you will support, create the resource subdirectories and
-string resource files. For example:</p>
+<p>支持某种语言，需创建对应的子目录及字符串资源文件，如下例：</p>
 
 <pre class="classic no-pretty-print">
 MyProject/
@@ -1632,15 +1624,16 @@ MyProject/
            strings.xml
 </pre>
 
-<p>Add the string values for each locale into the appropriate file.</p>
+<p>为每个字符串资源文件添加对应的值。</p>
 
+<!-- 能别这么多啰嗦的重复吗？？？？？
 <p>At runtime, the Android system uses the appropriate set of string resources based on the
 locale currently set for the user's device.</p>
-  
-<p>For example, the following are some different string resource files for different languages.</p>
+-->  
+<p>下例为为不同语言创建的不同字符串资源文件：</p>
 
 
-<p>English (default locale), <code>/values/strings.xml</code>:</p>
+<p>英语 (默认)， <code>/values/strings.xml</code>：</p>
 
 <pre>
 &lt;?xml version="1.0" encoding="utf-8"?>
@@ -1651,7 +1644,7 @@ locale currently set for the user's device.</p>
 </pre>
 
 
-<p>Spanish, <code>/values-es/strings.xml</code>:</p>
+<p>西班牙语， <code>/values-es/strings.xml</code>：</p>
 
 <pre>
 &lt;?xml version="1.0" encoding="utf-8"?>
@@ -1662,7 +1655,7 @@ locale currently set for the user's device.</p>
 </pre>
 
 
-<p>French, <code>/values-fr/strings.xml</code>:</p>
+<p>法语， <code>/values-fr/strings.xml</code>：</p>
 
 <pre>
 &lt;?xml version="1.0" encoding="utf-8"?>
@@ -1672,20 +1665,16 @@ locale currently set for the user's device.</p>
 &lt;/resources>
 </pre>
 
-<p class="note"><strong>Note:</strong> You can use the locale qualifier (or any
-configuration qualifer) on any resource type, such as if you want to provide
-localized versions of your bitmap drawable. For more information, see <a
-href="../../../guide/topics/resources/localization.html">Localization</a>.
+<p class="note"><strong>注意：</strong> 本地代号也可以用于其它资源的本地化，比如你可以它用来完成图片资源的本地化，更多信息，详见： <a
+href="../../../guide/topics/resources/localization.html">本地化</a>。
 
-<h2 id="UseString">Use the String Resources</h2>
+<h2 id="UseString">使用字符串资源</h2>
 
-<p>You can reference your string resources in your source code and other XML files using the
-resource name defined by the <code>&lt;string></code> element's <code>name</code> attribute.</p>
+<p>在源代码或其它 XML 文件中，可通过<code>&lt;string></code> 元素里的 <code>name</code> 属性来使用字符串资源。</p>
 
-<p>In your source code, you can refer to a string resource with the syntax <code>R.string.&lt;string_name></code>. There are a variety of methods that accept a string resource this
-way.</p>
+<p>在 Java 源代码里，通过 <code>R.string.&lt;string_name></code> 来获取字符串资源。很多方法支持这种方式的字符串调用。</p>
   
-<p>For example:</p>
+<p>如：</p>
 
 <pre>
 // Get a string resource from your app's <code><a href="../../../reference/android/content/res/Resources.html">Resources</a></code>
@@ -1696,9 +1685,9 @@ TextView textView = new TextView(this);
 textView.setText(R.string.hello_world);
 </pre>
 
-<p>In other XML files, you can refer to a string resource with the syntax <code>&#64;string/&lt;string_name></code> whenever the XML attribute accepts a string value.</p>
+<p>在其它 XML 文件中，只要这个属性只接受字符串值都可通过 <code>&#64;string/&lt;string_name></code> 来获取字符串。</p>
 
-<p>For example:</p>
+<p>如：</p>
 
 <pre>
 &lt;TextView

@@ -9,12 +9,32 @@ andorid_docs_api_guide
 * ln -s path/to/downloaded/training training
 * `从android sdk中的docs目录`打开文档阅读
 
+---
+
+各模块在译页数：
+
+
+|Training   | Api Guides| Refrence | Tools | Google Services
+|-----------|-----------|----------|-------|----------------
+|4          | 2         | 0        | 0     |  0
+
+---
 
 任务认领及进度：
+
 ### 【Training】
-* (`100%`)training/basics/supporting-devices/platforms.html 【iptton】
-* (99%)training/basics/supporting-devices/screens.html 【iptton】
+
+|完成度  |目录                                                |译者
+|:------|---------------------------------------------------|-------
+|20%    |training/basics/supporting-devices/index.html      | iptton
+|`100%` |training/basics/supporting-devices/platforms.html  | iptton
+|`100%` |training/basics/supporting-devices/languages.html  | iptton
+|99%	   |training/basics/supporting-devices/screens.html | iptton
+
 
 ###【API Guides】
-* （0%）http://developer.android.com/guide/components/index.html 【iptton】
-* （30%）http://developer.android.com/guide/components/tasks-and-back-stack.html 【iptton】
+
+|完成度  |目录                                                |译者
+|:------|----------------------------------------------------|-------
+| 0%    |		guide/components/index.html                  | iptton 
+| 30%   | guide/components/tasks-and-back-stack.html        | iptton
