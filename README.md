@@ -24,20 +24,28 @@ andorid_docs_api_guide
 
 ### 【Training】
 
-|完成度  |目录                                                |译者
-|:------|---------------------------------------------------|-------
-|20%    |training/basics/supporting-devices/index.html      | iptton
-|`100%` |training/basics/supporting-devices/platforms.html  | iptton
-|`100%` |training/basics/supporting-devices/languages.html  | iptton
-|99%	   |training/basics/supporting-devices/screens.html | iptton
-
+|完成度    | 页面                                               |译者
+|:--------|---------------------------------------------------|-------
+|-
+| `99%`     |**training/basics/supporting-devices/**            | 
+|20%      |index.html      | iptton
+|**DONE** |platforms.html  | iptton
+|**DONE** |languages.html  | iptton
+|99%      |screens.html    | iptton
+|-
+| `40%`|**training/basics/fragments/** 
+|20%      |index.html               | iptton
+|**DONE** |support-lib.html         | iptton
+|10%      |creating.html            | iptton
+|0%       |fragment-ui.html         | iptton
+|0%       |communicating.html       | iptton	
 
 ###【API Guides】
 
-|完成度  |目录                                                |译者
-|:------|----------------------------------------------------|-------
-| 0%    |		guide/components/index.html                  | iptton 
-| 30%   | guide/components/tasks-and-back-stack.html        | iptton
+|完成度    | 页面                                                |译者
+|:--------|----------------------------------------------------|-------
+| 0%      | guide/components/index.html                        | iptton 
+| 30%     | guide/components/tasks-and-back-stack.html         | iptton
 
 
 ### 建议不译的术语

@@ -78,7 +78,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
 <link rel="shortcut icon" type="image/x-icon" href="../../../favicon.ico" />
-<title>Creating a Fragment | Android Developers</title>
+<title>创建 Fragment | Android Developers</title>
 
 <!-- STYLESHEETS -->
 <link rel="stylesheet"
@@ -454,7 +454,7 @@ onkeyup="return search_changed(event, false, '../../../')" />
           </a>
           </li>
           <li><a href="../../../training/basics/fragments/creating.html">
-            Creating a Fragment
+            创建 Fragment
           </a>
           </li>
           <li><a href="../../../training/basics/fragments/fragment-ui.html">
@@ -1544,7 +1544,7 @@ onkeyup="return search_changed(event, false, '../../../')" />
   
   <div class="layout-content-row content-header ">
     <div class="layout-content-col span-7">
-      <h1 itemprop="name">Creating a Fragment</h1>
+      <h1 itemprop="name">创建 Fragment</h1>
       
     </div>
     
@@ -1587,18 +1587,18 @@ onkeyup="return search_changed(event, false, '../../../')" />
     <div id="tb-wrapper">
   <div id="tb">
     
-    <h2>This lesson teaches you to</h2>
+    <h2>本章内容</h2>
 <ol>
-  <li><a href="#Create">Create a Fragment Class</a></li>
-  <li><a href="#AddInLayout">Add a Fragment to an Activity using XML</a></li>
+  <li><a href="#Create">新建 Fragment 类</a></li>
+  <li><a href="#AddInLayout">使用 XML 添加 Fragment 到 Activity</a></li>
 </ol>
 
-    <h2>You should also read</h2>
+    <h2>参考阅读</h2>
     <ul>
       <li><a href="../../../guide/components/fragments.html">Fragments</a></li>
     </ul>
 
-<h2>Try it out</h2>
+<h2>试一试</h2>
     
 <div class="download-box">
  <a href="http://developer.android.com/shareables/training/FragmentBasics.zip"
@@ -1609,13 +1609,12 @@ class="button">Download the sample</a>
   </div>
 </div>
 
-<p>You can think of a fragment as a modular section of an activity, which has its own lifecycle,
-receives its own input events, and which you can add or remove while the activity is running (sort
-of like a "sub activity" that you can reuse in different activities). This lesson shows how to
-extend the <code><a href="../../../reference/android/support/v4/app/Fragment.html">Fragment</a></code> class using the Support Library so your app
-remains compatible with devices running system versions as old as Android 1.6.</p>
+<p>可以把 Fragment 理解为 Activity 的一个模块，这些模块有其自身的生命周期、能接收属于其自身的输入事件，
+  在 Activity 运行期间你可以随时添加或删除它们（简单点说就是可在 Activity 中复用的 “子 Activity“）。
+  本章将通过支持库来扩展 <code><a href="../../../reference/android/support/v4/app/Fragment.html">Fragment</a></code>
+  类以支持 Android 1.6 及以上的设备。</p>
 
-<p class="note"><strong>Note:</strong> If you decide for other reasons that the minimum
+<p class="note"><strong>提示：</strong> If you decide for other reasons that the minimum
 API level your app requires is 11 or higher, you don't need to use the Support
 Library and can instead use the framework's built in <code><a href="../../../reference/android/app/Fragment.html">Fragment</a></code> class and related
 APIs. Just be aware that this lesson is focused on using the APIs from the Support Library, which

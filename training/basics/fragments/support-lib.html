@@ -78,7 +78,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
 <link rel="shortcut icon" type="image/x-icon" href="../../../favicon.ico" />
-<title>Using the Support Library | Android Developers</title>
+<title>使用 Android 支持库 | Android Developers</title>
 
 <!-- STYLESHEETS -->
 <link rel="stylesheet"
@@ -450,7 +450,7 @@ onkeyup="return search_changed(event, false, '../../../')" />
         </div>
         <ul>
           <li><a href="../../../training/basics/fragments/support-lib.html">
-            Using the Support Library
+            使用 Android 支持库
           </a>
           </li>
           <li><a href="../../../training/basics/fragments/creating.html">
@@ -1544,7 +1544,7 @@ onkeyup="return search_changed(event, false, '../../../')" />
   
   <div class="layout-content-row content-header ">
     <div class="layout-content-col span-7">
-      <h1 itemprop="name">Using the Support Library</h1>
+      <h1 itemprop="name">使用 Android 支持库</h1>
       
     </div>
     
@@ -1586,65 +1586,55 @@ onkeyup="return search_changed(event, false, '../../../')" />
     <div class="jd-descr" itemprop="articleBody">
     <div id="tb-wrapper">
   <div id="tb"> 
-    <h2>This lesson teaches you to</h2>
+    <h2>本章内容</h2>
     <ol>
-      <li><a href="#Setup">Set Up Your Project with the Support Library</a></li>
-      <li><a href="#Apis">Import the Support Library APIs</a></li>
+      <li><a href="#Setup">在项目中设置支持库</a></li>
+      <li><a href="#Apis">使用支持库 API</a></li>
     </ol>
-    <h2>You should also read</h2>
+    <h2>参考阅读</h2>
     <ul>
-      <li><a href="../../../tools/extras/support-library.html">Support Library</a></li>
+      <li><a href="../../../tools/extras/support-library.html">支持库</a></li>
     </ul>
   </div>
 </div>
 
-<p>The Android <a href="../../../tools/extras/support-library.html">Support Library</a> provides a JAR
-file with an API library that allows you to use some of the more recent Android APIs in your app
-while running on earlier versions of Android. For instance, the Support Library provides a version
-of the <code><a href="../../../reference/android/app/Fragment.html">Fragment</a></code> APIs that you can use on Android 1.6 (API level 4) and
-higher.</p>
+<p>Android <a href="../../../tools/extras/support-library.html">支持库</a> 以 JAR 包的形式提供较新的
+  Android API 以供应用在旧版系统下使用。比如，支持库提供了在 Android 1.6 (API level 4)及以上可用的 <code><a href="../../../reference/android/app/Fragment.html">Fragment</a></code> API。</p>
 
-<p>This lesson shows how to set up your app to use the Support Library in order to use fragments
-to build a dynamic app UI.</p>
+<p>本章展示如何通过支持库来使用 Fragment 。</p>
 
 
-<h2 id="Setup">Set Up Your Project with the Support Library</h2>
+<h2 id="Setup">配置支持库</h2>
 
 <div class="figure" style="width:527px">
 <img src="../../../images/training/basics/sdk-manager.png" alt="" />
-<p class="img-caption"><strong>Figure 1.</strong> The Android SDK Manager with the
-Android Support package selected.</p>
+<p class="img-caption"><strong>图 1.</strong> Android SDK Manager 中选中支持库项</p>
 </div>
 
-<p>To set up your project:</p>
+<p>配置步骤：</p>
 
 <ol>
-  <li>Download the Android Support package using the SDK Manager.</li>
+  <li>使用 SDK Manager 下载支持库。</li>
 
-  <li>Create a <code>libs</code> directory at the top level of your Android project.</li>
-  <li>Locate the JAR file for the library you want to use and copy it into the <code>libs/</code>
-directory.
-<p>For example, the library that supports API level 4 and up is located at
-<code>&lt;sdk>/extras/android/support/v4/android-support-v4.jar</code>.</p></li>
-  <li>Update your manifest file to set the minimum API level to <code>4</code> and the target
-API level to the latest release:
+  <li>在项目的根目录下创建 <code>libs</code> 目录</li>
+  <li>找到所下载的 AJR 文件复制到 <code>libs/</code>
+目录。
+<p>（支持 API level 4 的库路径为：
+<code>&lt;sdk>/extras/android/support/v4/android-support-v4.jar</code>。其它库依此类推）</p></li>
+  <li>修改 manifest 文件的 API level 为 <code>4</code> ，target
+API level 为最新的版本号:
   <pre>&lt;uses-sdk android:minSdkVersion="4" android:targetSdkVersion="15" /></pre>
   </li>
 </ol>
 
 
-<h2 id="Apis">Import the Support Library APIs</h2>
+<h2 id="Apis">引用支持库 API</h2>
 
-<p>The Support Library includes a variety of APIs that were either added in recent versions of
-Android or don't exist in the platform at all and merely provide additional support to you when
-developing specific application features.</p>
+<p>支持库所包含的 API 有些存在于较新版的 Android 上，有些则不包含于任何系统版本而仅仅是供开发者在开发特别需求时使用。</p>
 
-<p>You can find all the API reference documentation for the Support Library in the
-platform docs at <code><a href="../../../reference/android/support/v4/app/package-summary.html">android.support.v4.*</a></code>.</p>
+<p>支持库 API 相关文档在此页面查看：<code><a href="../../../reference/android/support/v4/app/package-summary.html">android.support.v4.*</a></code>。</p>
 
-<div class="warning"><p><strong>Warning:</strong> To be sure that you don't accidentally use new
-APIs on an older system version, be certain that you import the <code><a href="../../../reference/android/support/v4/app/Fragment.html">Fragment</a></code> class and related APIs from the <code><a href="../../../reference/android/support/v4/app/package-summary.html">android.support.v4.app</a></code>
-package:</p>
+<div class="warning"><p><strong>警告：</strong> 为避免在旧版系统中使用了新 API ，请通过 import  <code><a href="../../../reference/android/support/v4/app/package-summary.html">android.support.v4.app</a> </code>路径下相关的类来使用 <code><a href="../../../reference/android/support/v4/app/Fragment.html">Fragment</a></code>：</p>
 <pre>
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -1653,9 +1643,9 @@ import android.support.v4.app.FragmentManager;
 </div>
 
 
-<p>When creating an activity that hosts fragments while using the Support Library, you must also
-extend the <code><a href="../../../reference/android/support/v4/app/FragmentActivity.html">FragmentActivity</a></code> class instead of the traditional <code><a href="../../../reference/android/app/Activity.html">Activity</a></code> class. You'll see sample code for the fragment and activity in the next
-lesson.</p>
+<p>通过 Android 支持库在 Activity 中使用 Fragment，需要继承 <code><a href="../../../reference/android/support/v4/app/FragmentActivity.html">FragmentActivity</a></code> 类而非 
+  <code><a href="../../../reference/android/app/Activity.html">Activity</a></code>。
+  下一章有相关示例代码。</p>
 
 
     </div>
