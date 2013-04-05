@@ -16,7 +16,7 @@ andorid_docs_api_guide
 
 |Training   | Api Guides| Refrence | Tools | Google Services
 |-----------|-----------|----------|-------|----------------
-|4          | 2         | 0        | 0     |  0
+|7          | 2         | 0        | 0     |  0
 
 ---
 
