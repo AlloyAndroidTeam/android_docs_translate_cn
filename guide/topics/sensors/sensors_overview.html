@@ -91,12 +91,14 @@ href="http://fonts.googleapis.com/css?family=Roboto:regular,medium,thin,italic,m
 <script src="http://www.google.com/jsapi" type="text/javascript"></script>
 <script src="../../../assets/js/android_3p-bundle.js" type="text/javascript"></script>
 <script type="text/javascript">
-  var toRoot = "/";
+  var toRoot = "../../../";
   
   var devsite = false;
   
 </script>
 <script src="../../../assets/js/docs.js" type="text/javascript"></script>
+
+<script src="../../../navtree_data.js" type="text/javascript"></script>
 
 
 <script type="text/javascript">
@@ -123,8 +125,8 @@ href="http://fonts.googleapis.com/css?family=Roboto:regular,medium,thin,italic,m
             <img src="../../../assets/images/dac_logo.png" width="123" height="25" alt="Android Developers" />
           </a>
           <div class="btn-quicknav" id="btn-quicknav">
-          	<a href="sensors_overview.html#" class="arrow-inactive">Quicknav</a>
-			      <a href="sensors_overview.html#" class="arrow-active">Quicknav</a>
+          	<a href="#" class="arrow-inactive">Quicknav</a>
+			      <a href="#" class="arrow-active">Quicknav</a>
           </div>
           </div>
             <ul class="nav-x col-9">
@@ -179,24 +181,6 @@ href="http://fonts.googleapis.com/css?family=Roboto:regular,medium,thin,italic,m
 
       
       
-        <div class="header">Language</div>
-          <div id="language" class="locales">
-            <select name="language" onChange="changeLangPref(this.value, true)">
-                <option value="en">English</option>
-                <option value="es">Español</option>
-                <option value="ja">日本語</option>
-                <option value="ko">한국어</option>
-                <option value="ru">Русский</option>
-                <option value="zh-CN">中文 (中国)</option>
-                <option value="zh-TW">中文 (台灣)</option>
-            </select>
-          </div>
-        <script type="text/javascript">
-          <!--
-          loadLangPref();
-            //-->
-        </script>
-      
       
 
 
@@ -211,8 +195,8 @@ href="http://fonts.googleapis.com/css?family=Roboto:regular,medium,thin,italic,m
       <form onsubmit="return submit_search()">
         <input id="search_autocomplete" type="text" value="" autocomplete="off" name="q"
 onfocus="search_focus_changed(this, true)" onblur="search_focus_changed(this, false)"
-onkeydown="return search_changed(event, true, '/')" 
-onkeyup="return search_changed(event, false, '/')" />
+onkeydown="return search_changed(event, true, '../../../')" 
+onkeyup="return search_changed(event, false, '../../../')" />
       </form>
       <div class="right"></div>
         <a class="close hide">close</a>
@@ -254,7 +238,7 @@ onkeyup="return search_changed(event, false, '/')" />
                           ja-lang="トレーニング"
                           es-lang="Capacitación"               
                           >Training</a></li>
-                        <li><a href="../../components/index.html"
+                        <li><a href="../../../guide/components/index.html"
                           zh-TW-lang="API 指南"
                           zh-CN-lang="API 指南"
                           ru-lang="Руководства по API"
@@ -322,7 +306,7 @@ onkeyup="return search_changed(event, false, '/')" />
                   ja-lang="トレーニング"
                   es-lang="Capacitación"               
                   >Training</a></li>
-                <li class="guide"><a href="../../components/index.html"
+                <li class="guide"><a href="../../../guide/components/index.html"
                   zh-TW-lang="API 指南"
                   zh-CN-lang="API 指南"
                   ru-lang="Руководства по API"
@@ -360,7 +344,7 @@ onkeyup="return search_changed(event, false, '/')" />
   <div class="wrap clearfix" id="body-content">
     <div class="col-4" id="side-nav" itemscope itemtype="http://schema.org/SiteNavigationElement">
       <div id="devdoc-nav" class="scroll-pane">
-<a class="totop" href="sensors_overview.html#top" data-g-event="left-nav-top">to top</a>
+<a class="totop" href="#top" data-g-event="left-nav-top">to top</a>
 
 
 
@@ -369,106 +353,106 @@ onkeyup="return search_changed(event, false, '/')" />
   <!--<li style="color:red">Overview</li> -->
 
   <li class="nav-section">
-    <div class="nav-section-header"><a href="../../components/index.html">
+    <div class="nav-section-header"><a href="../../../guide/components/index.html">
         <span class="en">App Components</span>
       </a></div>
     <ul>
-      <li><a href="../../components/fundamentals.html">
+      <li><a href="../../../guide/components/fundamentals.html">
             <span class="en">App Fundamentals</span></a>
       </li>
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../../components/activities.html">
+        <div class="nav-section-header"><a href="../../../guide/components/activities.html">
             <span class="en">Activities</span>
           </a></div>
         <ul>
-          <li><a href="../../components/fragments.html">
+          <li><a href="../../../guide/components/fragments.html">
               <span class="en">Fragments</span>
             </a></li>
-          <li><a href="../../components/loaders.html">
+          <li><a href="../../../guide/components/loaders.html">
               <span class="en">Loaders</span>
             </a></li>
-          <li><a href="../../components/tasks-and-back-stack.html">
+          <li><a href="../../../guide/components/tasks-and-back-stack.html">
               <span class="en">Tasks and Back Stack</span>
             </a></li>
         </ul>
       </li>
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../../components/services.html">
+        <div class="nav-section-header"><a href="../../../guide/components/services.html">
             <span class="en">Services</span>
           </a></div>
         <ul>
-          <li><a href="../../components/bound-services.html">
+          <li><a href="../../../guide/components/bound-services.html">
               <span class="en">Bound Services</span>
             </a></li>
-          <li><a href="../../components/aidl.html">
+          <li><a href="../../../guide/components/aidl.html">
               <span class="en">AIDL</span>
             </a></li>
         </ul>
       </li>
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../providers/content-providers.html">
+        <div class="nav-section-header"><a href="../../../guide/topics/providers/content-providers.html">
             <span class="en">Content Providers</span>
           </a></div>
         <ul>
-          <li><a href="../providers/content-provider-basics.html">
+          <li><a href="../../../guide/topics/providers/content-provider-basics.html">
               <span class="en">Content Provider Basics</span>
             </a></li>
-          <li><a href="../providers/content-provider-creating.html">
+          <li><a href="../../../guide/topics/providers/content-provider-creating.html">
               <span class="en">Creating a Content Provider</span>
             </a></li>
-          <li><a href="../providers/calendar-provider.html">
+          <li><a href="../../../guide/topics/providers/calendar-provider.html">
               <span class="en">Calendar Provider</span>
             </a></li>
-          <li><a href="../providers/contacts-provider.html">
+          <li><a href="../../../guide/topics/providers/contacts-provider.html">
               <span class="en">Contacts Provider</span>
             </a></li>
         </ul>
       </li>
-      <li><a href="../../components/intents-filters.html">
+      <li><a href="../../../guide/components/intents-filters.html">
           <span class="en">Intents and Intent Filters</span>
         </a></li>
-      <li><a href="../../components/processes-and-threads.html">
+      <li><a href="../../../guide/components/processes-and-threads.html">
           <span class="en">Processes and Threads</span>
         </a>
       </li>
-      <li><a href="../security/permissions.html">
+      <li><a href="../../../guide/topics/security/permissions.html">
           <span class="en">Permissions</span>
         </a>
       </li>
-      <li><a href="../appwidgets/index.html">
+      <li><a href="../../../guide/topics/appwidgets/index.html">
             <span class="en">App Widgets</span>
           </a></li>
       <li class="nav-section">
-      <div class="nav-section-header"><a href="../manifest/manifest-intro.html">
+      <div class="nav-section-header"><a href="../../../guide/topics/manifest/manifest-intro.html">
           <span class="en">Android Manifest</span>
         </a></div>
         <ul>
-          <li><a href="../manifest/action-element.html">&lt;action&gt;</a></li>
-          <li><a href="../manifest/activity-element.html">&lt;activity&gt;</a></li>
-          <li><a href="../manifest/activity-alias-element.html">&lt;activity-alias&gt;</a></li>
-          <li><a href="../manifest/application-element.html">&lt;application&gt;</a></li>
-          <li><a href="../manifest/category-element.html">&lt;category&gt;</a></li>
-          <li><a href="../manifest/compatible-screens-element.html">&lt;compatible-screens&gt;</a></li>
-          <li><a href="../manifest/data-element.html">&lt;data&gt;</a></li>
-          <li><a href="../manifest/grant-uri-permission-element.html">&lt;grant-uri-permission&gt;</a></li>
-          <li><a href="../manifest/instrumentation-element.html">&lt;instrumentation&gt;</a></li>
-          <li><a href="../manifest/intent-filter-element.html">&lt;intent-filter&gt;</a></li>
-          <li><a href="../manifest/manifest-element.html">&lt;manifest&gt;</a></li>
-          <li><a href="../manifest/meta-data-element.html">&lt;meta-data&gt;</a></li>
-          <li><a href="../manifest/path-permission-element.html">&lt;path-permission&gt;</a></li>
-          <li><a href="../manifest/permission-element.html">&lt;permission&gt;</a></li>
-          <li><a href="../manifest/permission-group-element.html">&lt;permission-group&gt;</a></li>
-          <li><a href="../manifest/permission-tree-element.html">&lt;permission-tree&gt;</a></li>
-          <li><a href="../manifest/provider-element.html">&lt;provider&gt;</a></li>
-          <li><a href="../manifest/receiver-element.html">&lt;receiver&gt;</a></li>
-          <li><a href="../manifest/service-element.html">&lt;service&gt;</a></li>
-          <li><a href="../manifest/supports-gl-texture-element.html">&lt;supports-gl-texture&gt;</a></li>
-          <li><a href="../manifest/supports-screens-element.html">&lt;supports-screens&gt;</a></li><!-- ##api level 4## -->
-          <li><a href="../manifest/uses-configuration-element.html">&lt;uses-configuration&gt;</a></li>
-          <li><a href="../manifest/uses-feature-element.html">&lt;uses-feature&gt;</a></li> <!-- ##api level 4## -->
-          <li><a href="../manifest/uses-library-element.html">&lt;uses-library&gt;</a></li>
-          <li><a href="../manifest/uses-permission-element.html">&lt;uses-permission&gt;</a></li>
-          <li><a href="../manifest/uses-sdk-element.html">&lt;uses-sdk&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/action-element.html">&lt;action&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/activity-element.html">&lt;activity&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/activity-alias-element.html">&lt;activity-alias&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/application-element.html">&lt;application&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/category-element.html">&lt;category&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/compatible-screens-element.html">&lt;compatible-screens&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/data-element.html">&lt;data&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/grant-uri-permission-element.html">&lt;grant-uri-permission&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/instrumentation-element.html">&lt;instrumentation&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/intent-filter-element.html">&lt;intent-filter&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/manifest-element.html">&lt;manifest&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/meta-data-element.html">&lt;meta-data&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/path-permission-element.html">&lt;path-permission&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/permission-element.html">&lt;permission&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/permission-group-element.html">&lt;permission-group&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/permission-tree-element.html">&lt;permission-tree&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/provider-element.html">&lt;provider&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/receiver-element.html">&lt;receiver&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/service-element.html">&lt;service&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/supports-gl-texture-element.html">&lt;supports-gl-texture&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/supports-screens-element.html">&lt;supports-screens&gt;</a></li><!-- ##api level 4## -->
+          <li><a href="../../../guide/topics/manifest/uses-configuration-element.html">&lt;uses-configuration&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/uses-feature-element.html">&lt;uses-feature&gt;</a></li> <!-- ##api level 4## -->
+          <li><a href="../../../guide/topics/manifest/uses-library-element.html">&lt;uses-library&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/uses-permission-element.html">&lt;uses-permission&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/uses-sdk-element.html">&lt;uses-sdk&gt;</a></li>
         </ul>
    </li><!-- end of the manifest file -->
 
@@ -476,263 +460,263 @@ onkeyup="return search_changed(event, false, '/')" />
   </li>
 
   <li class="nav-section">
-    <div class="nav-section-header"><a href="../ui/index.html">
+    <div class="nav-section-header"><a href="../../../guide/topics/ui/index.html">
         <span class="en">User Interface</span>
       </a></div>
     <ul>
-      <li><a href="../ui/overview.html">
+      <li><a href="../../../guide/topics/ui/overview.html">
           <span class="en">Overview</span>
         </a></li>
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../ui/declaring-layout.html">
+        <div class="nav-section-header"><a href="../../../guide/topics/ui/declaring-layout.html">
             <span class="en">Layouts</span>
           </a></div>
         <ul>
-          <li><a href="../ui/layout/linear.html">
+          <li><a href="../../../guide/topics/ui/layout/linear.html">
               <span class="en">Linear Layout</span>
             </a></li>
-          <li><a href="../ui/layout/relative.html">
+          <li><a href="../../../guide/topics/ui/layout/relative.html">
               <span class="en">Relative Layout</span>
             </a></li>
        <!--
-          <li><a href="/guide/topics/ui/layout/grid.html">
+          <li><a href="../../../guide/topics/ui/layout/grid.html">
               <span class="en">Grid Layout</span>
             </a></li>
-          <li><a href="/guide/topics/ui/layout/tabs.html">
+          <li><a href="../../../guide/topics/ui/layout/tabs.html">
               <span class="en">Tab Layout</span>
             </a></li>
        -->
-          <li><a href="../ui/layout/listview.html">
+          <li><a href="../../../guide/topics/ui/layout/listview.html">
               <span class="en">List View</span>
             </a></li>
-          <li><a href="../ui/layout/gridview.html">
+          <li><a href="../../../guide/topics/ui/layout/gridview.html">
               <span class="en">Grid View</span>
             </a></li>
         </ul>
       </li>
 
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../ui/controls.html">
+        <div class="nav-section-header"><a href="../../../guide/topics/ui/controls.html">
             <span class="en">Input Controls</span>
           </a></div>
         <ul>
-          <li><a href="../ui/controls/button.html">
+          <li><a href="../../../guide/topics/ui/controls/button.html">
               <span class="en">Buttons</span>
             </a></li>
-          <li><a href="../ui/controls/text.html">
+          <li><a href="../../../guide/topics/ui/controls/text.html">
               <span class="en">Text Fields</span>
             </a></li>
-          <li><a href="../ui/controls/checkbox.html">
+          <li><a href="../../../guide/topics/ui/controls/checkbox.html">
               <span class="en">Checkboxes</span>
             </a></li>
-          <li><a href="../ui/controls/radiobutton.html">
+          <li><a href="../../../guide/topics/ui/controls/radiobutton.html">
               <span class="en">Radio Buttons</span>
             </a></li>
-          <li><a href="../ui/controls/togglebutton.html">
+          <li><a href="../../../guide/topics/ui/controls/togglebutton.html">
               <span class="en">Toggle Buttons</span>
             </a></li>
-          <li><a href="../ui/controls/spinner.html">
+          <li><a href="../../../guide/topics/ui/controls/spinner.html">
               <span class="en">Spinners</span>
             </a></li>
-          <li><a href="../ui/controls/pickers.html">
+          <li><a href="../../../guide/topics/ui/controls/pickers.html">
               <span class="en">Pickers</span>
             </a></li>
 <!--
-          <li><a href="/guide/topics/ui/controls/progress.html">
+          <li><a href="../../../guide/topics/ui/controls/progress.html">
               <span class="en">Seek and Progress Bars</span>
             </a></li>
 -->
         </ul>
       </li>
-      <li><a href="../ui/ui-events.html">
+      <li><a href="../../../guide/topics/ui/ui-events.html">
           <span class="en">Input Events</span>
         </a></li>
-      <li><a href="../ui/menus.html">
+      <li><a href="../../../guide/topics/ui/menus.html">
           <span class="en">Menus</span></span>
           </a></li>
-      <li><a href="../ui/actionbar.html">
+      <li><a href="../../../guide/topics/ui/actionbar.html">
            <span class="en">Action Bar</span>
           </a></li>
-      <li><a href="../ui/settings.html">
+      <li><a href="../../../guide/topics/ui/settings.html">
             <span class="en">Settings</span>
           </a></li>
-      <li><a href="../ui/dialogs.html">
+      <li><a href="../../../guide/topics/ui/dialogs.html">
            <span class="en">Dialogs</span>
           </a></li>
-      <li><a href="../ui/notifiers/notifications.html">
+      <li><a href="../../../guide/topics/ui/notifiers/notifications.html">
           <span class="en">Notifications</span>
         </a></li>
-      <li><a href="../ui/notifiers/toasts.html">
+      <li><a href="../../../guide/topics/ui/notifiers/toasts.html">
           <span class="en">Toasts</span>
         </a></li>
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../search/index.html">
+        <div class="nav-section-header"><a href="../../../guide/topics/search/index.html">
             <span class="en">Search</span>
           </a></div>
           <ul>
-            <li><a href="../search/search-dialog.html">Creating a Search Interface</a></li>
-            <li><a href="../search/adding-recent-query-suggestions.html">Adding Recent Query Suggestions</a></li>
-            <li><a href="../search/adding-custom-suggestions.html">Adding Custom Suggestions</a></li>
-            <li><a href="../search/searchable-config.html">Searchable Configuration</a></li>
+            <li><a href="../../../guide/topics/search/search-dialog.html">Creating a Search Interface</a></li>
+            <li><a href="../../../guide/topics/search/adding-recent-query-suggestions.html">Adding Recent Query Suggestions</a></li>
+            <li><a href="../../../guide/topics/search/adding-custom-suggestions.html">Adding Custom Suggestions</a></li>
+            <li><a href="../../../guide/topics/search/searchable-config.html">Searchable Configuration</a></li>
           </ul>
       </li>
-      <li><a href="../ui/drag-drop.html">
+      <li><a href="../../../guide/topics/ui/drag-drop.html">
           <span class="en">Drag and Drop</span>
         </a></li>
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../ui/accessibility/index.html">
+        <div class="nav-section-header"><a href="../../../guide/topics/ui/accessibility/index.html">
             <span class="en">Accessibility</span>
           </a></div>
         <ul>
-          <li><a href="../ui/accessibility/apps.html">
+          <li><a href="../../../guide/topics/ui/accessibility/apps.html">
               <span class="en">Making Applications Accessible</span>
             </a></li>
-          <li><a href="../ui/accessibility/checklist.html">
+          <li><a href="../../../guide/topics/ui/accessibility/checklist.html">
               <span class="en">Accessibility Developer Checklist</span>
             </a></li>
-          <li><a href="../ui/accessibility/services.html">
+          <li><a href="../../../guide/topics/ui/accessibility/services.html">
               <span class="en">Building Accessibility Services</span>
             </a></li>
         </ul>
       </li>
-      <li><a href="../ui/themes.html">
+      <li><a href="../../../guide/topics/ui/themes.html">
           <span class="en">Styles and Themes</span>
         </a></li>
-      <li><a href="../ui/custom-components.html">
+      <li><a href="../../../guide/topics/ui/custom-components.html">
           <span class="en">Custom Components</span>
         </a></li>
     </ul>
   </li><!-- end of User Interface -->
 
     <li class="nav-section">
-      <div class="nav-section-header"><a href="../resources/index.html">
+      <div class="nav-section-header"><a href="../../../guide/topics/resources/index.html">
            <span class="en">App Resources</span>
          </a></div>
       <ul>
-        <li><a href="../resources/overview.html">
+        <li><a href="../../../guide/topics/resources/overview.html">
             <span class="en">Overview</span>
           </a></li>
-          <li><a href="../resources/providing-resources.html">
+          <li><a href="../../../guide/topics/resources/providing-resources.html">
             <span class="en">Providing Resources</span>
           </a></li>
-        <li><a href="../resources/accessing-resources.html">
+        <li><a href="../../../guide/topics/resources/accessing-resources.html">
             <span class="en">Accessing Resources</span>
           </a></li>
-        <li><a href="../resources/runtime-changes.html">
+        <li><a href="../../../guide/topics/resources/runtime-changes.html">
               <span class="en">Handling Runtime Changes</span>
             </a></li>
-        <li><a href="../resources/localization.html">
+        <li><a href="../../../guide/topics/resources/localization.html">
             <span class="en">Localization</span>
           </a></li>
         <li class="nav-section">
-          <div class="nav-section-header"><a href="../resources/available-resources.html">
+          <div class="nav-section-header"><a href="../../../guide/topics/resources/available-resources.html">
               <span class="en">Resource Types</span>
             </a></div>
           <ul>
-            <li><a href="../resources/animation-resource.html">Animation</a></li>
-            <li><a href="../resources/color-list-resource.html">Color State List</a></li>
-            <li><a href="../resources/drawable-resource.html">Drawable</a></li>
-            <li><a href="../resources/layout-resource.html">Layout</a></li>
-            <li><a href="../resources/menu-resource.html">Menu</a></li>
-            <li><a href="../resources/string-resource.html">String</a></li>
-            <li><a href="../resources/style-resource.html">Style</a></li>
-            <li><a href="../resources/more-resources.html">More Types</a></li>
+            <li><a href="../../../guide/topics/resources/animation-resource.html">Animation</a></li>
+            <li><a href="../../../guide/topics/resources/color-list-resource.html">Color State List</a></li>
+            <li><a href="../../../guide/topics/resources/drawable-resource.html">Drawable</a></li>
+            <li><a href="../../../guide/topics/resources/layout-resource.html">Layout</a></li>
+            <li><a href="../../../guide/topics/resources/menu-resource.html">Menu</a></li>
+            <li><a href="../../../guide/topics/resources/string-resource.html">String</a></li>
+            <li><a href="../../../guide/topics/resources/style-resource.html">Style</a></li>
+            <li><a href="../../../guide/topics/resources/more-resources.html">More Types</a></li>
           </ul>
         </li><!-- end of resource types -->
       </ul>
     </li><!-- end of app resources -->
 
    <li class="nav-section">
-      <div class="nav-section-header"><a href="../graphics/index.html">
+      <div class="nav-section-header"><a href="../../../guide/topics/graphics/index.html">
           <span class="en">Animation and Graphics</span>
         </a></div>
       <ul>
       <li class="nav-section">
-        <li><a href="../graphics/overview.html">
+        <li><a href="../../../guide/topics/graphics/overview.html">
             <span class="en">Overview</span>
           </a></li>
-        <li><a href="../graphics/prop-animation.html">
+        <li><a href="../../../guide/topics/graphics/prop-animation.html">
             <span class="en">Property Animation</span>
           </a></li>
-        <li><a href="../graphics/view-animation.html">
+        <li><a href="../../../guide/topics/graphics/view-animation.html">
             <span class="en">View Animation</span>
           </a></li>
-        <li><a href="../graphics/drawable-animation.html">
+        <li><a href="../../../guide/topics/graphics/drawable-animation.html">
             <span class="en">Drawable Animation</span>
           </a></li>
-        <li><a href="../graphics/2d-graphics.html">
+        <li><a href="../../../guide/topics/graphics/2d-graphics.html">
             <span class="en">Canvas and Drawables</span>
           </a></li>
-        <li><a href="../graphics/opengl.html">
+        <li><a href="../../../guide/topics/graphics/opengl.html">
             <span class="en">OpenGL</span>
           </a></li>
-        <li><a href="../graphics/hardware-accel.html">
+        <li><a href="../../../guide/topics/graphics/hardware-accel.html">
             <span class="en">Hardware Acceleration</span>
           </a></li>
        </ul>
     </li><!-- end of graphics and animation-->
 
    <li class="nav-section">
-            <div class="nav-section-header"><a href="../renderscript/index.html">
+            <div class="nav-section-header"><a href="../../../guide/topics/renderscript/index.html">
               <span class="en">Computation</span>
             </a></div>
             <ul>
-              <li><a href="../renderscript/compute.html">
+              <li><a href="../../../guide/topics/renderscript/compute.html">
                     <span class="en">Renderscript</span></a>
                   </li>
 
-              <li><a href="../renderscript/advanced.html">
+              <li><a href="../../../guide/topics/renderscript/advanced.html">
                     <span class="en">Advanced Renderscript</span></a>
                   </li>
-              <li><a href="../renderscript/reference.html">
+              <li><a href="../../../guide/topics/renderscript/reference.html">
                     <span class="en">Runtime API Reference</span></a>
               </li>
              </ul>
    </li>
       <li class="nav-section">
-          <div class="nav-section-header"><a href="../media/index.html">
+          <div class="nav-section-header"><a href="../../../guide/topics/media/index.html">
             <span class="en">Media and Camera</span>
           </a></div>
           <ul>
-            <li><a href="../media/mediaplayer.html">
+            <li><a href="../../../guide/topics/media/mediaplayer.html">
                   <span class="en">Media Playback</span></a>
                 </li>
-            <li><a href="../../appendix/media-formats.html">
+            <li><a href="../../../guide/appendix/media-formats.html">
                    <span class="en">Supported Media Formats</span></a>
                 </li>
-            <li><a href="../media/audio-capture.html">
+            <li><a href="../../../guide/topics/media/audio-capture.html">
                   <span class="en">Audio Capture</span></a>
                 </li>
-            <li><a href="../media/jetplayer.html">
+            <li><a href="../../../guide/topics/media/jetplayer.html">
                   <span class="en">JetPlayer</span></a>
                 </li>
-            <li><a href="../media/camera.html">
+            <li><a href="../../../guide/topics/media/camera.html">
                   <span class="en">Camera</span></a>
                 </li>
           </ul>
       </li><!-- end of media and camera -->
 
       <li class="nav-section">
-        <div class="nav-section-header"><a href="index.html">
+        <div class="nav-section-header"><a href="../../../guide/topics/sensors/index.html">
               <span class="en">Location and Sensors</span>
               </a></div>
         <ul>
-          <li><a href="../location/index.html">
+          <li><a href="../../../guide/topics/location/index.html">
                <span class="en">Location and Maps</span>
              </a>
-          <li><a href="../location/strategies.html">
+          <li><a href="../../../guide/topics/location/strategies.html">
                <span class="en">Location Strategies</span>
              </a></li>
-          <li><a href="sensors_overview.html">
+          <li><a href="../../../guide/topics/sensors/sensors_overview.html">
               <span class="en">Sensors Overview</span>
             </a></li>
-          <li><a href="sensors_motion.html">
+          <li><a href="../../../guide/topics/sensors/sensors_motion.html">
               <span class="en">Motion Sensors</span>
             </a></li>
-          <li><a href="sensors_position.html">
+          <li><a href="../../../guide/topics/sensors/sensors_position.html">
               <span class="en">Position Sensors</span>
             </a></li>
-          <li><a href="sensors_environment.html">
+          <li><a href="../../../guide/topics/sensors/sensors_environment.html">
               <span class="en">Environment Sensors</span>
             </a></li>
         </ul>
@@ -741,36 +725,36 @@ onkeyup="return search_changed(event, false, '/')" />
 
 
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../connectivity/index.html">
+        <div class="nav-section-header"><a href="../../../guide/topics/connectivity/index.html">
                <span class="en">Connectivity</span>
              </a></div>
         <ul>
-          <li><a href="../connectivity/bluetooth.html">
+          <li><a href="../../../guide/topics/connectivity/bluetooth.html">
               <span class="en">Bluetooth</span>
             </a>
           </li>
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../connectivity/nfc/index.html">
+        <div class="nav-section-header"><a href="../../../guide/topics/connectivity/nfc/index.html">
           <span class="en">NFC</span></a>
         </div>
         <ul>
-          <li><a href="../connectivity/nfc/nfc.html">NFC Basics</a></li>
-          <li><a href="../connectivity/nfc/advanced-nfc.html">Advanced NFC</a></li>
+          <li><a href="../../../guide/topics/connectivity/nfc/nfc.html">NFC Basics</a></li>
+          <li><a href="../../../guide/topics/connectivity/nfc/advanced-nfc.html">Advanced NFC</a></li>
         </ul>
       </li>
-      <li><a href="../connectivity/wifip2p.html">
+      <li><a href="../../../guide/topics/connectivity/wifip2p.html">
             <span class="en">Wi-Fi Direct</span></a>
           </li>
       <li class="nav-section">
-          <div class="nav-section-header"><a href="../connectivity/usb/index.html">
+          <div class="nav-section-header"><a href="../../../guide/topics/connectivity/usb/index.html">
             <span class="en">USB</span></a>
           </div>
             <ul>
-              <li><a href="../connectivity/usb/accessory.html">Accessory</a></li>
-              <li><a href="../connectivity/usb/host.html">Host</a></li>
+              <li><a href="../../../guide/topics/connectivity/usb/accessory.html">Accessory</a></li>
+              <li><a href="../../../guide/topics/connectivity/usb/host.html">Host</a></li>
             </ul>
      </li>
-     <li><a href="../connectivity/sip.html">
+     <li><a href="../../../guide/topics/connectivity/sip.html">
             <span class="en">SIP</span>
           </a>
      </li>
@@ -779,34 +763,34 @@ onkeyup="return search_changed(event, false, '/')" />
   </li><!-- end of connectivity -->
 
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../text/index.html">
+        <div class="nav-section-header"><a href="../../../guide/topics/text/index.html">
             <span class="en">Text and Input</span>
         </a></div>
         <ul>
-          <li><a href="../text/copy-paste.html">
+          <li><a href="../../../guide/topics/text/copy-paste.html">
               <span class="en">Copy and Paste</span>
             </a></li>
-          <li><a href="../text/creating-input-method.html">
+          <li><a href="../../../guide/topics/text/creating-input-method.html">
               <span class="en">Creating an IME</span>
             </a></li>
-          <li><a href="../text/spell-checker-framework.html">
+          <li><a href="../../../guide/topics/text/spell-checker-framework.html">
               <span class="en">Spelling Checker</span>
             </a></li>
         </ul>
       </li><!-- end of text and input -->
 
      <li class="nav-section">
-      <div class="nav-section-header"><a href="../data/index.html">
+      <div class="nav-section-header"><a href="../../../guide/topics/data/index.html">
           <span class="en">Data Storage</span>
         </a></div>
       <ul>
-         <li><a href="../data/data-storage.html">
+         <li><a href="../../../guide/topics/data/data-storage.html">
             <span class="en">Storage Options</span>
            </a></li>
-        <li><a href="../data/backup.html">
+        <li><a href="../../../guide/topics/data/backup.html">
             <span class="en">Data Backup</span>
           </a></li>
-        <li><a href="../data/install-location.html">
+        <li><a href="../../../guide/topics/data/install-location.html">
             <span class="en">App Install Location</span>
           </a></li>
       </ul>
@@ -814,17 +798,17 @@ onkeyup="return search_changed(event, false, '/')" />
 
 
   <li class="nav-section">
-           <div class="nav-section-header"><a href="../admin/index.html">
+           <div class="nav-section-header"><a href="../../../guide/topics/admin/index.html">
                <span class="en">Administration</span>
              </a></div>
            <ul>
               <li>
-                <a href="../admin/device-admin.html">
+                <a href="../../../guide/topics/admin/device-admin.html">
                 <span class="en">Device Policies</span></a>
               </li>
             <!--
               <li>
-                <a href="/guide/topics/admin/keychain.html">
+                <a href="../../../guide/topics/admin/keychain.html">
                 <span class="en">Certificate Store</span></a>
               </li>
             -->
@@ -832,30 +816,30 @@ onkeyup="return search_changed(event, false, '/')" />
   </li><!-- end of administration -->
 
   <li class="nav-section">
-    <div class="nav-section-header"><a href="../../webapps/index.html">
+    <div class="nav-section-header"><a href="../../../guide/webapps/index.html">
     <span class="en">Web Apps</span>
     </a></div>
     <ul>
-      <li><a href="../../webapps/overview.html">
+      <li><a href="../../../guide/webapps/overview.html">
             <span class="en">Overview</span>
           </a></li>
-      <li><a href="../../webapps/targeting.html">
+      <li><a href="../../../guide/webapps/targeting.html">
             <span class="en">Targeting Screens from Web Apps</span>
           </a></li>
-      <li><a href="../../webapps/webview.html">
+      <li><a href="../../../guide/webapps/webview.html">
             <span class="en">Building Web Apps in WebView</span>
           </a></li>
-      <li><a href="../../webapps/debugging.html">
+      <li><a href="../../../guide/webapps/debugging.html">
             <span class="en">Debugging Web Apps</span>
           </a></li>
-      <li><a href="../../webapps/best-practices.html">
+      <li><a href="../../../guide/webapps/best-practices.html">
             <span class="en">Best Practices for Web Apps</span>
           </a></li>
     </ul>
   </li><!-- end of web apps -->
 
   <li class="nav-section">
-    <div class="nav-section-header"><a href="../../practices/index.html">
+    <div class="nav-section-header"><a href="../../../guide/practices/index.html">
       <span class="en">Best Practices</span>
       <span class="de" style="display:none">Bewährte Verfahren</span>
       <span class="es" style="display:none">Prácticas recomendadas</span>
@@ -866,26 +850,26 @@ onkeyup="return search_changed(event, false, '/')" />
       <span class="zh-TW" style="display:none">最佳實務</span>
     </div></a>
     <ul>
-      <li><a href="../../practices/compatibility.html">
+      <li><a href="../../../guide/practices/compatibility.html">
             <span class="en">Compatibility</span>
           </a></li>
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../../practices/screens_support.html">
+        <div class="nav-section-header"><a href="../../../guide/practices/screens_support.html">
           <span class="en">Supporting Multiple Screens</span>
         </a></div>
         <ul>
-          <li><a href="../../practices/screens-distribution.html">
+          <li><a href="../../../guide/practices/screens-distribution.html">
             <span class="en">Distributing to Specific Screens</span>
           </a></li>
-          <li><a href="../../practices/screen-compat-mode.html">
+          <li><a href="../../../guide/practices/screen-compat-mode.html">
             <span class="en">Screen Compatibility Mode</span>
           </a></li>
-          <!--<li><a href="../../practices/screens-support-1.5.html">
+          <!--<li><a href="../../../guide/practices/screens-support-1.5.html">
             <span class="en">Strategies for Android 1.5</span>
           </a></li> -->
         </ul>
       </li>
-      <li><a href="../../practices/tablets-and-handsets.html">
+      <li><a href="../../../guide/practices/tablets-and-handsets.html">
             <span class="en">Supporting Tablets and Handsets</span>
           </a></li>
 
@@ -894,39 +878,39 @@ onkeyup="return search_changed(event, false, '/')" />
 
       <!-- this needs to move
       <li class="nav-section">
-        <div class="nav-section-header"><a href="/guide/practices/ui_guidelines/index.html">
+        <div class="nav-section-header"><a href="../../../guide/practices/ui_guidelines/index.html">
                <span class="en">UI Guidelines</span>
              </a></div>
         <ul>
           <li class="nav-section">
-            <div class="nav-section-header"><a href="/guide/practices/ui_guidelines/icon_design.html">
+            <div class="nav-section-header"><a href="../../../guide/practices/ui_guidelines/icon_design.html">
                    <span class="en">Icon Design</span>
                  </a></div>
             <ul>
-              <li><a href="/guide/practices/ui_guidelines/icon_design_launcher.html">
+              <li><a href="../../../guide/practices/ui_guidelines/icon_design_launcher.html">
                     <span class="en">Launcher Icons</span>
                   </a></li>
-              <li><a href="/guide/practices/ui_guidelines/icon_design_menu.html">
+              <li><a href="../../../guide/practices/ui_guidelines/icon_design_menu.html">
                     <span class="en">Menu Icons</span>
                   </a></li>
-              <li><a href="/guide/practices/ui_guidelines/icon_design_action_bar.html">
+              <li><a href="../../../guide/practices/ui_guidelines/icon_design_action_bar.html">
                     <span class="en">Action Bar Icons</span>
                   </a></li>
-              <li><a href="/guide/practices/ui_guidelines/icon_design_status_bar.html">
+              <li><a href="../../../guide/practices/ui_guidelines/icon_design_status_bar.html">
                     <span class="en">Status Bar Icons</span>
                   </a></li>
-              <li><a href="/guide/practices/ui_guidelines/icon_design_tab.html">
+              <li><a href="../../../guide/practices/ui_guidelines/icon_design_tab.html">
                     <span class="en">Tab Icons</span>
                   </a></li>
-              <li><a href="/guide/practices/ui_guidelines/icon_design_dialog.html">
+              <li><a href="../../../guide/practices/ui_guidelines/icon_design_dialog.html">
                     <span class="en">Dialog Icons</span>
                   </a></li>
-              <li><a href="/guide/practices/ui_guidelines/icon_design_list.html">
+              <li><a href="../../../guide/practices/ui_guidelines/icon_design_list.html">
                     <span class="en">List View Icons</span>
                   </a></li>
             </ul>
           </li>
-          <li><div><a href="/guide/practices/ui_guidelines/widget_design.html">
+          <li><div><a href="../../../guide/practices/ui_guidelines/widget_design.html">
                 <span class="en">App Widget Design</span>
               </a></div>
           </li>
@@ -936,7 +920,7 @@ onkeyup="return search_changed(event, false, '/')" />
 
 <!-- Remove
   <li class="nav-section">
-    <div class="nav-section-header"><a href="/guide/appendix/index.html">
+    <div class="nav-section-header"><a href="../../../guide/appendix/index.html">
         <span class="en">Appendix</span>
         <span class="de" style="display:none">Anhang</span>
         <span class="es" style="display:none">Apéndice</span>
@@ -947,12 +931,12 @@ onkeyup="return search_changed(event, false, '/')" />
         <span class="zh-TW" style="display:none">附錄</span>
       </a></div>
     <ul>
-      <li><a href="/guide/appendix/g-app-intents.html">
+      <li><a href="../../../guide/appendix/g-app-intents.html">
             <span class="en">Intents List: Google Apps</span>
           </a></li>
 
 
-      <li><a href="/guide/appendix/glossary.html">
+      <li><a href="../../../guide/appendix/glossary.html">
             <span class="en">Glossary</span>
           </a></li>
     </ul>
@@ -1011,38 +995,38 @@ onkeyup="return search_changed(event, false, '/')" />
     </ul>
     <h2>In this document</h2>
     <ol>
-      <li><a href="sensors_overview.html#sensors-intro">Introduction to Sensors</a></li>
-      <li><a href="sensors_overview.html#sensors-identify">Identifying Sensors and Sensor Capabilities</a></li>
-      <li><a href="sensors_overview.html#sensors-monitor">Monitoring Sensor Events</a></li>
-      <li><a href="sensors_overview.html#sensors-configs">Handling Different Sensor Configurations</a></li>
-      <li><a href="sensors_overview.html#sensors-coords">Sensor Coordinate System</a></li>
-      <li><a href="sensors_overview.html#sensors-practices">Best Practices for Accessing and Using Sensors</a></li>
+      <li><a href="#sensors-intro">Introduction to Sensors</a></li>
+      <li><a href="#sensors-identify">Identifying Sensors and Sensor Capabilities</a></li>
+      <li><a href="#sensors-monitor">Monitoring Sensor Events</a></li>
+      <li><a href="#sensors-configs">Handling Different Sensor Configurations</a></li>
+      <li><a href="#sensors-coords">Sensor Coordinate System</a></li>
+      <li><a href="#sensors-practices">Best Practices for Accessing and Using Sensors</a></li>
     </ol>
     <h2>Key classes and interfaces</h2>
     <ol>
-      <li><code><a href="http://developer.android.com/reference/android/hardware/Sensor.html">Sensor</a></code></li>
-      <li><code><a href="http://developer.android.com/reference/android/hardware/SensorEvent.html">SensorEvent</a></code></li>
-      <li><code><a href="http://developer.android.com/reference/android/hardware/SensorManager.html">SensorManager</a></code></li>
-      <li><code><a href="http://developer.android.com/reference/android/hardware/SensorEventListener.html">SensorEventListener</a></code></li>
+      <li><code><a href="../../../reference/android/hardware/Sensor.html">Sensor</a></code></li>
+      <li><code><a href="../../../reference/android/hardware/SensorEvent.html">SensorEvent</a></code></li>
+      <li><code><a href="../../../reference/android/hardware/SensorManager.html">SensorManager</a></code></li>
+      <li><code><a href="../../../reference/android/hardware/SensorEventListener.html">SensorEventListener</a></code></li>
     </ol>
     <h2>Related samples</h2>
     <ol>
-      <li><a href="http://developer.android.com/resources/samples/AccelerometerPlay/index.html">Accelerometer
+      <li><a href="../../../resources/samples/AccelerometerPlay/index.html">Accelerometer
       Play</a></li>
       <li><a
-href="http://developer.android.com/resources/samples/ApiDemos/src/com/example/android/apis/os/RotationVectorDemo.html">
+href="../../../resources/samples/ApiDemos/src/com/example/android/apis/os/RotationVectorDemo.html">
 API Demos (OS - RotationVectorDemo)</a></li>
       <li><a
-href="http://developer.android.com/resources/samples/ApiDemos/src/com/example/android/apis/os/Sensors.html">API Demos
+href="../../../resources/samples/ApiDemos/src/com/example/android/apis/os/Sensors.html">API Demos
 (OS - Sensors)</a></li>
     </ol>
     <h2>See also</h2>
     <ol>
-      <li><a href="index.html">Sensors</a></li>
-      <li><a href="sensors_motion.html">Motion Sensors</a></li>
-      <li><a href="sensors_position.html">Position
+      <li><a href="../../../guide/topics/sensors/index.html">Sensors</a></li>
+      <li><a href="../../../guide/topics/sensors/sensors_motion.html">Motion Sensors</a></li>
+      <li><a href="../../../guide/topics/sensors/sensors_position.html">Position
           Sensors</a></li>
-      <li><a href="sensors_environment.html">Environment
+      <li><a href="../../../guide/topics/sensors/sensors_environment.html">Environment
           Sensors</a></li>
     </ol>
   </div>
@@ -1120,26 +1104,26 @@ example, a device can have two gravity sensors, each one having a different rang
     <th scope="col" style="white-space:nowrap">Common Uses</th>
   </tr>
   <tr>
-    <td><code><a href="http://developer.android.com/reference/android/hardware/Sensor.html#TYPE_ACCELEROMETER">TYPE_ACCELEROMETER</a></code></td>
+    <td><code><a href="../../../reference/android/hardware/Sensor.html#TYPE_ACCELEROMETER">TYPE_ACCELEROMETER</a></code></td>
     <td>Hardware</td>
     <td>Measures the acceleration force in m/s<sup>2</sup> that is applied to a device on
 all three physical axes (x, y, and z), including the force of gravity.</td>
     <td>Motion detection (shake, tilt, etc.).</td>
   </tr>
   <tr>
-    <td><code><a href="http://developer.android.com/reference/android/hardware/Sensor.html#TYPE_AMBIENT_TEMPERATURE">TYPE_AMBIENT_TEMPERATURE</a></code></td>
+    <td><code><a href="../../../reference/android/hardware/Sensor.html#TYPE_AMBIENT_TEMPERATURE">TYPE_AMBIENT_TEMPERATURE</a></code></td>
     <td>Hardware</td>
     <td>Measures the ambient room temperature in degrees Celsius (&deg;C). See note below.</td>
     <td>Monitoring air temperatures.</td>
   <tr>
-    <td><code><a href="http://developer.android.com/reference/android/hardware/Sensor.html#TYPE_GRAVITY">TYPE_GRAVITY</a></code></td>
+    <td><code><a href="../../../reference/android/hardware/Sensor.html#TYPE_GRAVITY">TYPE_GRAVITY</a></code></td>
     <td>Software or Hardware</td>
     <td>Measures the force of gravity in m/s<sup>2</sup> that is applied to a device on all
       three physical axes (x, y, z).</td>
     <td>Motion detection (shake, tilt, etc.).</td>
    </tr>
   <tr>
-    <td><code><a href="http://developer.android.com/reference/android/hardware/Sensor.html#TYPE_GYROSCOPE">TYPE_GYROSCOPE</a></code></td>
+    <td><code><a href="../../../reference/android/hardware/Sensor.html#TYPE_GYROSCOPE">TYPE_GYROSCOPE</a></code></td>
     <td>Hardware</td>
     <td>Measures a device's rate of rotation in rad/s around each of the three
 physical axes
@@ -1147,13 +1131,13 @@ physical axes
     <td>Rotation detection (spin, turn, etc.).</td>
    </tr>
   <tr>
-    <td><code><a href="http://developer.android.com/reference/android/hardware/Sensor.html#TYPE_LIGHT">TYPE_LIGHT</a></code></td>
+    <td><code><a href="../../../reference/android/hardware/Sensor.html#TYPE_LIGHT">TYPE_LIGHT</a></code></td>
     <td>Hardware</td>
     <td>Measures the ambient light level (illumination) in lx.</td>
     <td>Controlling screen brightness.</td>
    </tr>
   <tr>
-    <td><code><a href="http://developer.android.com/reference/android/hardware/Sensor.html#TYPE_LINEAR_ACCELERATION">TYPE_LINEAR_ACCELERATION</a></code></td>
+    <td><code><a href="../../../reference/android/hardware/Sensor.html#TYPE_LINEAR_ACCELERATION">TYPE_LINEAR_ACCELERATION</a></code></td>
     <td>Software or Hardware</td>
      <td>Measures the acceleration force in m/s<sup>2</sup> that is
 applied to a device on
@@ -1161,30 +1145,30 @@ applied to a device on
     <td>Monitoring acceleration along a single axis.</td>
   </tr>
   <tr>
-    <td><code><a href="http://developer.android.com/reference/android/hardware/Sensor.html#TYPE_MAGNETIC_FIELD">TYPE_MAGNETIC_FIELD</a></code></td>
+    <td><code><a href="../../../reference/android/hardware/Sensor.html#TYPE_MAGNETIC_FIELD">TYPE_MAGNETIC_FIELD</a></code></td>
     <td>Hardware</td>
       <td>Measures the ambient geomagnetic field for all three physical axes (x, y, z) in
 &mu;T.</td>
     <td>Creating a compass.</td>
   </tr>
   <tr>
-    <td><code><a href="http://developer.android.com/reference/android/hardware/Sensor.html#TYPE_ORIENTATION">TYPE_ORIENTATION</a></code></td>
+    <td><code><a href="../../../reference/android/hardware/Sensor.html#TYPE_ORIENTATION">TYPE_ORIENTATION</a></code></td>
     <td>Software</td>
      <td>Measures degrees of rotation that a device makes around all three physical axes (x, y, z).
       As of API level 3 you can obtain the inclination matrix and rotation matrix for
       a device by using the gravity sensor and the geomagnetic field sensor in conjunction with
-      the <code><a href="http://developer.android.com/reference/android/hardware/SensorManager.html#getRotationMatrix(float%5B%5D,%20float%5B%5D,%20float%5B%5D,%20float%5B%5D)">getRotationMatrix()</a></code>
+      the <code><a href="../../../reference/android/hardware/SensorManager.html#getRotationMatrix(float[], float[], float[], float[])">getRotationMatrix()</a></code>
       method.</td>
     <td>Determining device position.</td>
   </tr>
   <tr>
-    <td><code><a href="http://developer.android.com/reference/android/hardware/Sensor.html#TYPE_PRESSURE">TYPE_PRESSURE</a></code></td>
+    <td><code><a href="../../../reference/android/hardware/Sensor.html#TYPE_PRESSURE">TYPE_PRESSURE</a></code></td>
     <td>Hardware</td>
     <td>Measures the ambient air pressure in hPa or mbar.</td>
     <td>Monitoring air pressure changes.</td>
   </tr>
   <tr>
-    <td><code><a href="http://developer.android.com/reference/android/hardware/Sensor.html#TYPE_PROXIMITY">TYPE_PROXIMITY</a></code></td>
+    <td><code><a href="../../../reference/android/hardware/Sensor.html#TYPE_PROXIMITY">TYPE_PROXIMITY</a></code></td>
     <td>Hardware</td>
     <td>Measures the proximity of an object in cm relative to the view screen of a
       device. This sensor is typically used to determine whether a handset is being held up to
@@ -1192,24 +1176,24 @@ applied to a device on
     <td>Phone position during a call.</td>
   </tr>
   <tr>
-    <td><code><a href="http://developer.android.com/reference/android/hardware/Sensor.html#TYPE_RELATIVE_HUMIDITY">TYPE_RELATIVE_HUMIDITY</a></code></td>
+    <td><code><a href="../../../reference/android/hardware/Sensor.html#TYPE_RELATIVE_HUMIDITY">TYPE_RELATIVE_HUMIDITY</a></code></td>
     <td>Hardware</td>
     <td>Measures the relative ambient humidity in percent (%).</td>
     <td>Monitoring dewpoint, absolute, and relative humidity.</td>
   </tr>
   <tr>
-    <td><code><a href="http://developer.android.com/reference/android/hardware/Sensor.html#TYPE_ROTATION_VECTOR">TYPE_ROTATION_VECTOR</a></code></td>
+    <td><code><a href="../../../reference/android/hardware/Sensor.html#TYPE_ROTATION_VECTOR">TYPE_ROTATION_VECTOR</a></code></td>
     <td>Software or Hardware</td>
     <td>Measures the orientation of a device by providing the three elements of the device's
       rotation vector.</td>
     <td>Motion detection and rotation detection.</td>
   </tr>
   <tr>
-    <td><code><a href="http://developer.android.com/reference/android/hardware/Sensor.html#TYPE_TEMPERATURE">TYPE_TEMPERATURE</a></code></td>
+    <td><code><a href="../../../reference/android/hardware/Sensor.html#TYPE_TEMPERATURE">TYPE_TEMPERATURE</a></code></td>
     <td>Hardware</td>
     <td>Measures the temperature of the device in degrees Celsius (&deg;C). This sensor
 implementation varies across devices and
-this sensor was replaced with the <code><a href="http://developer.android.com/reference/android/hardware/Sensor.html#TYPE_AMBIENT_TEMPERATURE">TYPE_AMBIENT_TEMPERATURE</a></code> sensor in
+this sensor was replaced with the <code><a href="../../../reference/android/hardware/Sensor.html#TYPE_AMBIENT_TEMPERATURE">TYPE_AMBIENT_TEMPERATURE</a></code> sensor in
 API Level 14</td>
     <td>Monitoring temperatures.</td>
   </tr>
@@ -1222,20 +1206,20 @@ The sensor framework is part of the <code><a href="../../../reference/android/ha
 classes and interfaces:</p>
 
 <dl>
-<dt><code><a href="http://developer.android.com/reference/android/hardware/SensorManager.html">SensorManager</a></code></dt>
+<dt><code><a href="../../../reference/android/hardware/SensorManager.html">SensorManager</a></code></dt>
 <dd>You can use this class to create an instance of the sensor service. This class provides
 various methods for accessing and listing sensors, registering and unregistering sensor event
 listeners, and acquiring orientation information. This class also provides several sensor constants
 that are used to report sensor accuracy, set data acquisition rates, and calibrate sensors.</dd>
-<dt><code><a href="http://developer.android.com/reference/android/hardware/Sensor.html">Sensor</a></code></dt>
+<dt><code><a href="../../../reference/android/hardware/Sensor.html">Sensor</a></code></dt>
 <dd>You can use this class to create an instance of a specific sensor. This class provides various
 methods that let you determine a sensor's capabilities.</dd>
-<dt><code><a href="http://developer.android.com/reference/android/hardware/SensorEvent.html">SensorEvent</a></code></dt>
+<dt><code><a href="../../../reference/android/hardware/SensorEvent.html">SensorEvent</a></code></dt>
 <dd>The system uses this class to create a sensor event object, which provides information about a
 sensor event. A sensor event object includes the following information: the raw sensor data, the
 type of sensor that generated the event, the accuracy of the data, and the timestamp for the
 event.</dd>
-<dt><code><a href="http://developer.android.com/reference/android/hardware/SensorEventListener.html">SensorEventListener</a></code></dt>
+<dt><code><a href="../../../reference/android/hardware/SensorEventListener.html">SensorEventListener</a></code></dt>
 <dd>You can use this interface to create two callback methods that receive notifications (sensor
 events) when sensor values change or when sensor accuracy changes.</dd>
 </dl>
@@ -1285,91 +1269,91 @@ sensor is present on a device), which is in line with Android's forward compatib
     <th scope="col">Android 1.5 <br>(API Level 3)</th>
   </tr>
   <tr>
-    <td><code><a href="http://developer.android.com/reference/android/hardware/Sensor.html#TYPE_ACCELEROMETER">TYPE_ACCELEROMETER</a></code></td>
+    <td><code><a href="../../../reference/android/hardware/Sensor.html#TYPE_ACCELEROMETER">TYPE_ACCELEROMETER</a></code></td>
     <td><strong>Yes</strong></td>
     <td><strong>Yes</strong></td>
     <td><strong>Yes</strong></td>
     <td><strong>Yes</strong></td>
   </tr>
   <tr>
-    <td><code><a href="http://developer.android.com/reference/android/hardware/Sensor.html#TYPE_AMBIENT_TEMPERATURE">TYPE_AMBIENT_TEMPERATURE</a></code></td>
+    <td><code><a href="../../../reference/android/hardware/Sensor.html#TYPE_AMBIENT_TEMPERATURE">TYPE_AMBIENT_TEMPERATURE</a></code></td>
     <td><strong>Yes</strong></td>
     <td>n/a</td>
     <td>n/a</td>
     <td>n/a</td>
   </tr>
   <tr>
-    <td><code><a href="http://developer.android.com/reference/android/hardware/Sensor.html#TYPE_GRAVITY">TYPE_GRAVITY</a></code></td>
+    <td><code><a href="../../../reference/android/hardware/Sensor.html#TYPE_GRAVITY">TYPE_GRAVITY</a></code></td>
     <td><strong>Yes</strong></td>
     <td><strong>Yes</strong></td>
     <td>n/a</td>
     <td>n/a</td>
   </tr>
   <tr>
-    <td><code><a href="http://developer.android.com/reference/android/hardware/Sensor.html#TYPE_GYROSCOPE">TYPE_GYROSCOPE</a></code></td>
+    <td><code><a href="../../../reference/android/hardware/Sensor.html#TYPE_GYROSCOPE">TYPE_GYROSCOPE</a></code></td>
     <td><strong>Yes</strong></td>
     <td><strong>Yes</strong></td>
     <td>n/a<sup>1</sup></td>
     <td>n/a<sup>1</sup></td>
   </tr>
   <tr>
-    <td><code><a href="http://developer.android.com/reference/android/hardware/Sensor.html#TYPE_LIGHT">TYPE_LIGHT</a></code></td>
+    <td><code><a href="../../../reference/android/hardware/Sensor.html#TYPE_LIGHT">TYPE_LIGHT</a></code></td>
     <td><strong>Yes</strong></td>
     <td><strong>Yes</strong></td>
     <td><strong>Yes</strong></td>
     <td><strong>Yes</strong></td>
   </tr>
   <tr>
-    <td><code><a href="http://developer.android.com/reference/android/hardware/Sensor.html#TYPE_LINEAR_ACCELERATION">TYPE_LINEAR_ACCELERATION</a></code></td>
+    <td><code><a href="../../../reference/android/hardware/Sensor.html#TYPE_LINEAR_ACCELERATION">TYPE_LINEAR_ACCELERATION</a></code></td>
     <td><strong>Yes</strong></td>
     <td><strong>Yes</strong></td>
     <td>n/a</td>
     <td>n/a</td>
   </tr>
   <tr>
-    <td><code><a href="http://developer.android.com/reference/android/hardware/Sensor.html#TYPE_MAGNETIC_FIELD">TYPE_MAGNETIC_FIELD</a></code></td>
+    <td><code><a href="../../../reference/android/hardware/Sensor.html#TYPE_MAGNETIC_FIELD">TYPE_MAGNETIC_FIELD</a></code></td>
     <td><strong>Yes</strong></td>
     <td><strong>Yes</strong></td>
     <td><strong>Yes</strong></td>
     <td><strong>Yes</strong></td>
   </tr>
   <tr>
-    <td><code><a href="http://developer.android.com/reference/android/hardware/Sensor.html#TYPE_ORIENTATION">TYPE_ORIENTATION</a></code></td>
+    <td><code><a href="../../../reference/android/hardware/Sensor.html#TYPE_ORIENTATION">TYPE_ORIENTATION</a></code></td>
     <td><strong>Yes</strong><sup>2</sup></td>
     <td><strong>Yes</strong><sup>2</sup></td>
     <td><strong>Yes</strong><sup>2</sup></td>
     <td><strong>Yes</strong></td>
   </tr>
   <tr>
-    <td><code><a href="http://developer.android.com/reference/android/hardware/Sensor.html#TYPE_PRESSURE">TYPE_PRESSURE</a></code></td>
+    <td><code><a href="../../../reference/android/hardware/Sensor.html#TYPE_PRESSURE">TYPE_PRESSURE</a></code></td>
     <td><strong>Yes</strong></td>
     <td><strong>Yes</strong></td>
     <td>n/a<sup>1</sup></td>
     <td>n/a<sup>1</sup></td>
   </tr>
   <tr>
-    <td><code><a href="http://developer.android.com/reference/android/hardware/Sensor.html#TYPE_PROXIMITY">TYPE_PROXIMITY</a></code></td>
+    <td><code><a href="../../../reference/android/hardware/Sensor.html#TYPE_PROXIMITY">TYPE_PROXIMITY</a></code></td>
     <td><strong>Yes</strong></td>
     <td><strong>Yes</strong></td>
     <td><strong>Yes</strong></td>
     <td><strong>Yes</strong></td>
   </tr>
   <tr>
-    <td><code><a href="http://developer.android.com/reference/android/hardware/Sensor.html#TYPE_RELATIVE_HUMIDITY">TYPE_RELATIVE_HUMIDITY</a></code></td>
+    <td><code><a href="../../../reference/android/hardware/Sensor.html#TYPE_RELATIVE_HUMIDITY">TYPE_RELATIVE_HUMIDITY</a></code></td>
     <td><strong>Yes</strong></td>
     <td>n/a</td>
     <td>n/a</td>
     <td>n/a</td>
   </tr>
   <tr>
-    <td><code><a href="http://developer.android.com/reference/android/hardware/Sensor.html#TYPE_ROTATION_VECTOR">TYPE_ROTATION_VECTOR</a></code></td>
+    <td><code><a href="../../../reference/android/hardware/Sensor.html#TYPE_ROTATION_VECTOR">TYPE_ROTATION_VECTOR</a></code></td>
     <td><strong>Yes</strong></td>
     <td><strong>Yes</strong></td>
     <td>n/a</td>
     <td>n/a</td>
   </tr>
   <tr>
-    <td><code><a href="http://developer.android.com/reference/android/hardware/Sensor.html#TYPE_TEMPERATURE">TYPE_TEMPERATURE</a></code></td>
+    <td><code><a href="../../../reference/android/hardware/Sensor.html#TYPE_TEMPERATURE">TYPE_TEMPERATURE</a></code></td>
     <td><strong>Yes</strong><sup>2</sup></td>
     <td><strong>Yes</strong></td>
     <td><strong>Yes</strong></td>
@@ -1392,7 +1376,7 @@ capabilities of each sensor, such as its maximum range, its resolution, and its 
 requirements.</p>
 
 <p>To identify the sensors that are on a device you first need to get a reference to the sensor
-service. To do this, you create an instance of the <code><a href="http://developer.android.com/reference/android/hardware/SensorManager.html">SensorManager</a></code> class by
+service. To do this, you create an instance of the <code><a href="../../../reference/android/hardware/SensorManager.html">SensorManager</a></code> class by
 calling the <code><a href="../../../reference/android/content/Context.html#getSystemService(java.lang.String)">getSystemService()</a></code> method and passing
 in the <code><a href="../../../reference/android/content/Context.html#SENSOR_SERVICE">SENSOR_SERVICE</a></code> argument. For example:</p>
 
@@ -1403,18 +1387,18 @@ mSensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
 </pre>
 
 <p>Next, you can get a listing of every sensor on a device by calling the
-<code><a href="http://developer.android.com/reference/android/hardware/SensorManager.html#getSensorList(int)">getSensorList()</a></code> method and using the <code><a href="http://developer.android.com/reference/android/hardware/Sensor.html#TYPE_ALL">TYPE_ALL</a></code> constant. For example:</p>
+<code><a href="../../../reference/android/hardware/SensorManager.html#getSensorList(int)">getSensorList()</a></code> method and using the <code><a href="../../../reference/android/hardware/Sensor.html#TYPE_ALL">TYPE_ALL</a></code> constant. For example:</p>
 <pre>
 List&lt;Sensor&gt; deviceSensors = mSensorManager.getSensorList(Sensor.TYPE_ALL);
 </pre>
 
 <p>If you want to list all of the sensors of a given type, you could use another constant instead of
-<code><a href="http://developer.android.com/reference/android/hardware/Sensor.html#TYPE_ALL">TYPE_ALL</a></code> such as <code><a href="http://developer.android.com/reference/android/hardware/Sensor.html#TYPE_GYROSCOPE">TYPE_GYROSCOPE</a></code>,
-<code><a href="http://developer.android.com/reference/android/hardware/Sensor.html#TYPE_LINEAR_ACCELERATION">TYPE_LINEAR_ACCELERATION</a></code>, or
-<code><a href="http://developer.android.com/reference/android/hardware/Sensor.html#TYPE_GRAVITY">TYPE_GRAVITY</a></code>.
+<code><a href="../../../reference/android/hardware/Sensor.html#TYPE_ALL">TYPE_ALL</a></code> such as <code><a href="../../../reference/android/hardware/Sensor.html#TYPE_GYROSCOPE">TYPE_GYROSCOPE</a></code>,
+<code><a href="../../../reference/android/hardware/Sensor.html#TYPE_LINEAR_ACCELERATION">TYPE_LINEAR_ACCELERATION</a></code>, or
+<code><a href="../../../reference/android/hardware/Sensor.html#TYPE_GRAVITY">TYPE_GRAVITY</a></code>.
 </p>
 
-<p>You can also determine whether a specific type of sensor exists on a device by using the <code><a href="http://developer.android.com/reference/android/hardware/SensorManager.html#getDefaultSensor(int)">getDefaultSensor()</a></code> method and passing in the type
+<p>You can also determine whether a specific type of sensor exists on a device by using the <code><a href="../../../reference/android/hardware/SensorManager.html#getDefaultSensor(int)">getDefaultSensor()</a></code> method and passing in the type
 constant for a specific sensor. If a device has more than one sensor of a given type, one of the
 sensors must be designated as the default sensor. If a default sensor does not exist for a given
 type of sensor, the method call returns null, which means the device does not have that type of
@@ -1436,18 +1420,18 @@ particular types of sensors into their Android-powered devices, so devices can h
 sensor configurations.</p>
 
 <p>In addition to listing the sensors that are on a device, you can use the public methods of the
-<code><a href="http://developer.android.com/reference/android/hardware/Sensor.html">Sensor</a></code> class to determine the capabilities and attributes of individual
+<code><a href="../../../reference/android/hardware/Sensor.html">Sensor</a></code> class to determine the capabilities and attributes of individual
 sensors. This is useful if you want your application to behave differently based on which sensors or
-sensor capabilities are available on a device. For example, you can use the <code><a href="http://developer.android.com/reference/android/hardware/Sensor.html#getResolution()">getResolution()</a></code> and <code><a href="http://developer.android.com/reference/android/hardware/Sensor.html#getMaximumRange()">getMaximumRange()</a></code>
+sensor capabilities are available on a device. For example, you can use the <code><a href="../../../reference/android/hardware/Sensor.html#getResolution()">getResolution()</a></code> and <code><a href="../../../reference/android/hardware/Sensor.html#getMaximumRange()">getMaximumRange()</a></code>
 methods to obtain a sensor's resolution and maximum range of measurement. You can also use the
-<code><a href="http://developer.android.com/reference/android/hardware/Sensor.html#getPower()">getPower()</a></code> method to obtain a sensor's power requirements.</p>
+<code><a href="../../../reference/android/hardware/Sensor.html#getPower()">getPower()</a></code> method to obtain a sensor's power requirements.</p>
 
 <p>Two of the public methods are particularly useful if you want to optimize your application for
 different manufacturer's sensors or different versions of a sensor. For example, if your application
 needs to monitor user gestures such as tilt and shake, you could create one set of data filtering
 rules and optimizations for newer devices that have a specific vendor's gravity sensor, and another
 set of data filtering rules and optimizations for devices that do not have a gravity sensor and have
-only an accelerometer. The following code sample shows you how you can use the <code><a href="http://developer.android.com/reference/android/hardware/Sensor.html#getVendor()">getVendor()</a></code> and <code><a href="http://developer.android.com/reference/android/hardware/Sensor.html#getVersion()">getVersion()</a></code> methods to do
+only an accelerometer. The following code sample shows you how you can use the <code><a href="../../../reference/android/hardware/Sensor.html#getVendor()">getVendor()</a></code> and <code><a href="../../../reference/android/hardware/Sensor.html#getVersion()">getVersion()</a></code> methods to do
 this. In this sample, we're looking for a gravity sensor that lists Google Inc. as the vendor and
 has a version number of 3. If that particular sensor is not present on the device, we try to use the
 accelerometer.</p>
@@ -1482,16 +1466,16 @@ else{
 }
 </pre>
 
-<p>Another useful method is the <code><a href="http://developer.android.com/reference/android/hardware/Sensor.html#getMinDelay()">getMinDelay()</a></code> method,
+<p>Another useful method is the <code><a href="../../../reference/android/hardware/Sensor.html#getMinDelay()">getMinDelay()</a></code> method,
 which returns the minimum time interval (in microseconds) a sensor can use to sense data. Any sensor
-that returns a non-zero value for the <code><a href="http://developer.android.com/reference/android/hardware/Sensor.html#getMinDelay()">getMinDelay()</a></code>
+that returns a non-zero value for the <code><a href="../../../reference/android/hardware/Sensor.html#getMinDelay()">getMinDelay()</a></code>
 method is a streaming
 sensor. Streaming sensors sense data at regular intervals and were introduced in Android 2.3 (API
-Level 9). If a sensor returns zero when you call the <code><a href="http://developer.android.com/reference/android/hardware/Sensor.html#getMinDelay()">getMinDelay()</a></code> method, it means the
+Level 9). If a sensor returns zero when you call the <code><a href="../../../reference/android/hardware/Sensor.html#getMinDelay()">getMinDelay()</a></code> method, it means the
 sensor is not a streaming sensor because it reports data only when there is a change in the
 parameters it is sensing.</p>
 
-<p>The <code><a href="http://developer.android.com/reference/android/hardware/Sensor.html#getMinDelay()">getMinDelay()</a></code> method is useful because it lets
+<p>The <code><a href="../../../reference/android/hardware/Sensor.html#getMinDelay()">getMinDelay()</a></code> method is useful because it lets
 you determine the maximum rate
 at which a sensor can acquire data. If certain features in your application require high data
 acquisition rates or a streaming sensor, you can use this method to determine whether a sensor
@@ -1502,35 +1486,35 @@ accordingly.</p>
 necessarily the rate at which the sensor framework delivers sensor data to your application. The
 sensor framework reports data through sensor events, and several factors influence the rate at which
 your application receives sensor events. For more information, see <a
-href="sensors_overview.html#sensors-monitor">Monitoring Sensor Events</a>.</p>
+href="#sensors-monitor">Monitoring Sensor Events</a>.</p>
 
 <h2 id="sensors-monitor">Monitoring Sensor Events</h2>
 
 <p>To monitor raw sensor data you need to implement two callback methods that are exposed through
-the <code><a href="http://developer.android.com/reference/android/hardware/SensorEventListener.html">SensorEventListener</a></code> interface: <code><a href="http://developer.android.com/reference/android/hardware/SensorEventListener.html#onAccuracyChanged(android.hardware.Sensor,%20int)">onAccuracyChanged()</a></code> and <code><a href="http://developer.android.com/reference/android/hardware/SensorEventListener.html#onSensorChanged(android.hardware.SensorEvent)">onSensorChanged()</a></code>. The Android system calls
+the <code><a href="../../../reference/android/hardware/SensorEventListener.html">SensorEventListener</a></code> interface: <code><a href="../../../reference/android/hardware/SensorEventListener.html#onAccuracyChanged(android.hardware.Sensor, int)">onAccuracyChanged()</a></code> and <code><a href="../../../reference/android/hardware/SensorEventListener.html#onSensorChanged(android.hardware.SensorEvent)">onSensorChanged()</a></code>. The Android system calls
 these methods whenever the following occurs:</p>
 
 <ul>
   <li><strong>A sensor's accuracy changes.</strong>
-    <p>In this case the system invokes the <code><a href="http://developer.android.com/reference/android/hardware/SensorEventListener.html#onAccuracyChanged(android.hardware.Sensor,%20int)">onAccuracyChanged()</a></code> method, providing
-    you with a reference to the <code><a href="http://developer.android.com/reference/android/hardware/Sensor.html">Sensor</a></code> object that changed and the
+    <p>In this case the system invokes the <code><a href="../../../reference/android/hardware/SensorEventListener.html#onAccuracyChanged(android.hardware.Sensor, int)">onAccuracyChanged()</a></code> method, providing
+    you with a reference to the <code><a href="../../../reference/android/hardware/Sensor.html">Sensor</a></code> object that changed and the
     new accuracy of the sensor. Accuracy is represented by one of four status constants:
-    <code><a href="http://developer.android.com/reference/android/hardware/SensorManager.html#SENSOR_STATUS_ACCURACY_LOW">SENSOR_STATUS_ACCURACY_LOW</a></code>,
-    <code><a href="http://developer.android.com/reference/android/hardware/SensorManager.html#SENSOR_STATUS_ACCURACY_MEDIUM">SENSOR_STATUS_ACCURACY_MEDIUM</a></code>,
-    <code><a href="http://developer.android.com/reference/android/hardware/SensorManager.html#SENSOR_STATUS_ACCURACY_HIGH">SENSOR_STATUS_ACCURACY_HIGH</a></code>,
-    or <code><a href="http://developer.android.com/reference/android/hardware/SensorManager.html#SENSOR_STATUS_UNRELIABLE">SENSOR_STATUS_UNRELIABLE</a></code>.</p>
+    <code><a href="../../../reference/android/hardware/SensorManager.html#SENSOR_STATUS_ACCURACY_LOW">SENSOR_STATUS_ACCURACY_LOW</a></code>,
+    <code><a href="../../../reference/android/hardware/SensorManager.html#SENSOR_STATUS_ACCURACY_MEDIUM">SENSOR_STATUS_ACCURACY_MEDIUM</a></code>,
+    <code><a href="../../../reference/android/hardware/SensorManager.html#SENSOR_STATUS_ACCURACY_HIGH">SENSOR_STATUS_ACCURACY_HIGH</a></code>,
+    or <code><a href="../../../reference/android/hardware/SensorManager.html#SENSOR_STATUS_UNRELIABLE">SENSOR_STATUS_UNRELIABLE</a></code>.</p>
   </li>
   <li><strong>A sensor reports a new value.</strong>
-    <p>In this case the system invokes the <code><a href="http://developer.android.com/reference/android/hardware/SensorEventListener.html#onSensorChanged(android.hardware.SensorEvent)">onSensorChanged()</a></code> method, providing you with
-a <code><a href="http://developer.android.com/reference/android/hardware/SensorEvent.html">SensorEvent</a></code> object. A <code><a href="http://developer.android.com/reference/android/hardware/SensorEvent.html">SensorEvent</a></code> object
+    <p>In this case the system invokes the <code><a href="../../../reference/android/hardware/SensorEventListener.html#onSensorChanged(android.hardware.SensorEvent)">onSensorChanged()</a></code> method, providing you with
+a <code><a href="../../../reference/android/hardware/SensorEvent.html">SensorEvent</a></code> object. A <code><a href="../../../reference/android/hardware/SensorEvent.html">SensorEvent</a></code> object
       contains information about the new sensor data, including: the accuracy of the data, the
       sensor that generated the data, the timestamp at which the data was generated, and the new
       data that the sensor recorded.</p>
   </li>
 </ul>
 
-<p>The following code shows how to use the <code><a href="http://developer.android.com/reference/android/hardware/SensorEventListener.html#onSensorChanged(android.hardware.SensorEvent)">onSensorChanged()</a></code> method to monitor data from
-the light sensor. This example displays the raw sensor data in a <code><a href="http://developer.android.com/reference/android/widget/TextView.html">TextView</a></code>
+<p>The following code shows how to use the <code><a href="../../../reference/android/hardware/SensorEventListener.html#onSensorChanged(android.hardware.SensorEvent)">onSensorChanged()</a></code> method to monitor data from
+the light sensor. This example displays the raw sensor data in a <code><a href="../../../reference/android/widget/TextView.html">TextView</a></code>
 that is
 defined in the main.xml file as <code>sensor_data</code>.</p>
 
@@ -1575,13 +1559,13 @@ public class SensorActivity extends Activity implements SensorEventListener {
 }
 </pre>
 
-<p>In this example, the default data delay (<code><a href="http://developer.android.com/reference/android/hardware/SensorManager.html#SENSOR_DELAY_NORMAL">SENSOR_DELAY_NORMAL</a></code>) is specified when the <code><a href="http://developer.android.com/reference/android/hardware/SensorManager.html#registerListener(android.hardware.SensorEventListener,%20android.hardware.Sensor,%20int)">registerListener()</a></code> method is invoked. The data
+<p>In this example, the default data delay (<code><a href="../../../reference/android/hardware/SensorManager.html#SENSOR_DELAY_NORMAL">SENSOR_DELAY_NORMAL</a></code>) is specified when the <code><a href="../../../reference/android/hardware/SensorManager.html#registerListener(android.hardware.SensorEventListener, android.hardware.Sensor, int)">registerListener()</a></code> method is invoked. The data
 delay (or sampling rate) controls the interval at which sensor events are sent to your application
-via the <code><a href="http://developer.android.com/reference/android/hardware/SensorEventListener.html#onSensorChanged(android.hardware.SensorEvent)">onSensorChanged()</a></code> callback method. The default
+via the <code><a href="../../../reference/android/hardware/SensorEventListener.html#onSensorChanged(android.hardware.SensorEvent)">onSensorChanged()</a></code> callback method. The default
 data delay is suitable for monitoring
 typical screen orientation changes and uses a delay of 200,000 microseconds. You can specify other
-data delays, such as <code><a href="http://developer.android.com/reference/android/hardware/SensorManager.html#SENSOR_DELAY_GAME">SENSOR_DELAY_GAME</a></code> (20,000 microsecond
-delay), <code><a href="http://developer.android.com/reference/android/hardware/SensorManager.html#SENSOR_DELAY_UI">SENSOR_DELAY_UI</a></code> (60,000 microsecond delay), or <code><a href="http://developer.android.com/reference/android/hardware/SensorManager.html#SENSOR_DELAY_FASTEST">SENSOR_DELAY_FASTEST</a></code> (0 microsecond delay). As of Android 3.0 (API
+data delays, such as <code><a href="../../../reference/android/hardware/SensorManager.html#SENSOR_DELAY_GAME">SENSOR_DELAY_GAME</a></code> (20,000 microsecond
+delay), <code><a href="../../../reference/android/hardware/SensorManager.html#SENSOR_DELAY_UI">SENSOR_DELAY_UI</a></code> (60,000 microsecond delay), or <code><a href="../../../reference/android/hardware/SensorManager.html#SENSOR_DELAY_FASTEST">SENSOR_DELAY_FASTEST</a></code> (0 microsecond delay). As of Android 3.0 (API
 Level 11) you can also specify the delay as an absolute value (in microseconds).</p>
 
 <p>The delay that you specify is only a suggested delay. The Android system and other applications
@@ -1645,7 +1629,7 @@ whether there's a pressure sensor on a device:</p>
 <h4>Using Google Play filters to target specific sensor configurations</h4>
 
 <p>If you are publishing your application on Google Play you can use the
-  <a href="../manifest/uses-feature-element.html"><code>&lt;uses-feature&gt;
+  <a href="../../../guide/topics/manifest/uses-feature-element.html"><code>&lt;uses-feature&gt;
     </code></a> element in your manifest file to filter your application from devices that do not
 have the appropriate sensor configuration for your application. The
 <code>&lt;uses-feature&gt;</code> element has several hardware descriptors that let you filter
@@ -1681,7 +1665,7 @@ axis points toward the outside of the screen face. In this system, coordinates b
 have negative Z values. This coordinate system is used by the following sensors:</p>
 
 <div class="figure" style="width:269px">
-  <img src="http://developer.android.com/images/axis_device.png" alt="" height="225" />
+  <img src="../../../images/axis_device.png" alt="" height="225" />
   <p class="img-caption">
     <strong>Figure 1.</strong> Coordinate system (relative to a device) that's used by the Sensor
     API.
@@ -1690,18 +1674,18 @@ have negative Z values. This coordinate system is used by the following sensors:
 
 <ul>
   <li><a
-href="sensors_motion.html#sensors-motion-accel">Acceleration
+href="../../../guide/topics/sensors/sensors_motion.html#sensors-motion-accel">Acceleration
 sensor</a></li>
 <li><a
-href="sensors_motion.html#sensors-motion-gravity">Gravity
+href="../../../guide/topics/sensors/sensors_motion.html#sensors-motion-gravity">Gravity
 sensor</a></li>
 <li><a
-href="sensors_motion.html#sensors-motion-gyro">Gyroscope</a></li>
+href="../../../guide/topics/sensors/sensors_motion.html#sensors-motion-gyro">Gyroscope</a></li>
 <li><a
-href="sensors_motion.html#sensors-motion-linear">Linear acceleration
+href="../../../guide/topics/sensors/sensors_motion.html#sensors-motion-linear">Linear acceleration
 sensor</a></li>
 <li><a
-href="sensors_position.html#sensors-pos-mag">Geomagnetic field
+href="../../../guide/topics/sensors/sensors_position.html#sensors-pos-mag">Geomagnetic field
 sensor</a></li>
 </ul>
 
@@ -1715,8 +1699,8 @@ coordinate system.</p>
 the sensor coordinate system is always based on the natural orientation of a device.</p>
 
 <p>Finally, if your application matches sensor data to the on-screen display, you need to use the
-<code><a href="http://developer.android.com/reference/android/view/Display.html#getRotation()">getRotation()</a></code> method to determine screen rotation, and then use the
-<code><a href="http://developer.android.com/reference/android/hardware/SensorManager.html#remapCoordinateSystem(float%5B%5D,%20int,%20int,%20float%5B%5D)">remapCoordinateSystem()</a></code> method to map
+<code><a href="../../../reference/android/view/Display.html#getRotation()">getRotation()</a></code> method to determine screen rotation, and then use the
+<code><a href="../../../reference/android/hardware/SensorManager.html#remapCoordinateSystem(float[], int, int, float[])">remapCoordinateSystem()</a></code> method to map
 sensor coordinates to screen coordinates. You need to do this even if your manifest specifies
 portrait-only display.</p>
 
@@ -1728,10 +1712,10 @@ Screen Turn Deserves Another</a>.</p>
 <p class="note"><strong>Note:</strong> Some sensors and methods use a coordinate system that is
 relative to the world's frame of reference (as opposed to the device's frame of reference). These
 sensors and methods return data that represent device motion or device position relative to the
-earth. For more information, see the <code><a href="http://developer.android.com/reference/android/hardware/SensorManager.html#getOrientation(float%5B%5D,%20float%5B%5D)">getOrientation()</a></code> method, the <code><a href="http://developer.android.com/reference/android/hardware/SensorManager.html#getRotationMatrix(float%5B%5D,%20float%5B%5D,%20float%5B%5D,%20float%5B%5D)">getRotationMatrix()</a></code> method, <a
-href="sensors_position.html#sensors-pos-orient">Orientation
+earth. For more information, see the <code><a href="../../../reference/android/hardware/SensorManager.html#getOrientation(float[], float[])">getOrientation()</a></code> method, the <code><a href="../../../reference/android/hardware/SensorManager.html#getRotationMatrix(float[], float[], float[], float[])">getRotationMatrix()</a></code> method, <a
+href="../../../guide/topics/sensors/sensors_position.html#sensors-pos-orient">Orientation
 Sensor</a>, and <a
-href="sensors_motion.html#sensors-motion-rotate">Rotation Vector
+href="../../../guide/topics/sensors/sensors_motion.html#sensors-motion-rotate">Rotation Vector
 Sensor</a>.</p>
 
 <h2 id="sensors-practices">Best Practices for Accessing and Using Sensors</h2>
@@ -1757,7 +1741,7 @@ protected void onPause() {
 }
 </pre>
 
-<p>For more information, see <code><a href="http://developer.android.com/reference/android/hardware/SensorManager.html#unregisterListener(android.hardware.SensorEventListener)">unregisterListener(SensorEventListener)</a></code>.</p>
+<p>For more information, see <code><a href="../../../reference/android/hardware/SensorManager.html#unregisterListener(android.hardware.SensorEventListener)">unregisterListener(SensorEventListener)</a></code>.</p>
 
 <h4>Don't test your code on the emulator</h4>
 
@@ -1767,18 +1751,18 @@ can use to simulate sensor output.</p>
 
 <h4>Don't block the onSensorChanged() method</h4>
 
-<p>Sensor data can change at a high rate, which means the system may call the <code><a href="http://developer.android.com/reference/android/hardware/SensorEventListener.html#onSensorChanged(android.hardware.SensorEvent)">onSensorChanged(SensorEvent)</a></code> method quite often. As a best practice, you
-should do as little as possible within the <code><a href="http://developer.android.com/reference/android/hardware/SensorEventListener.html#onSensorChanged(android.hardware.SensorEvent)">onSensorChanged(SensorEvent)</a></code> method so you don't block it. If your
+<p>Sensor data can change at a high rate, which means the system may call the <code><a href="../../../reference/android/hardware/SensorEventListener.html#onSensorChanged(android.hardware.SensorEvent)">onSensorChanged(SensorEvent)</a></code> method quite often. As a best practice, you
+should do as little as possible within the <code><a href="../../../reference/android/hardware/SensorEventListener.html#onSensorChanged(android.hardware.SensorEvent)">onSensorChanged(SensorEvent)</a></code> method so you don't block it. If your
 application requires you to do any data filtering or reduction of sensor data, you should perform
-that work outside of the <code><a href="http://developer.android.com/reference/android/hardware/SensorEventListener.html#onSensorChanged(android.hardware.SensorEvent)">onSensorChanged(SensorEvent)</a></code> method.</p>
+that work outside of the <code><a href="../../../reference/android/hardware/SensorEventListener.html#onSensorChanged(android.hardware.SensorEvent)">onSensorChanged(SensorEvent)</a></code> method.</p>
 
 <h4>Avoid using deprecated methods or sensor types</h4>
 
 <p>Several methods and constants have been deprecated.
-In particular, the <code><a href="http://developer.android.com/reference/android/hardware/Sensor.html#TYPE_ORIENTATION">TYPE_ORIENTATION</a></code>
-sensor type has been deprecated. To get orientation data you should use the <code><a href="http://developer.android.com/reference/android/hardware/SensorManager.html#getOrientation(float%5B%5D,%20float%5B%5D)">getOrientation()</a></code> method instead. Likewise, the
-<code><a href="http://developer.android.com/reference/android/hardware/Sensor.html#TYPE_TEMPERATURE">TYPE_TEMPERATURE</a></code> sensor type has been deprecated. You should use
-the <code><a href="http://developer.android.com/reference/android/hardware/Sensor.html#TYPE_AMBIENT_TEMPERATURE">TYPE_AMBIENT_TEMPERATURE</a></code> sensor type instead on devices
+In particular, the <code><a href="../../../reference/android/hardware/Sensor.html#TYPE_ORIENTATION">TYPE_ORIENTATION</a></code>
+sensor type has been deprecated. To get orientation data you should use the <code><a href="../../../reference/android/hardware/SensorManager.html#getOrientation(float[], float[])">getOrientation()</a></code> method instead. Likewise, the
+<code><a href="../../../reference/android/hardware/Sensor.html#TYPE_TEMPERATURE">TYPE_TEMPERATURE</a></code> sensor type has been deprecated. You should use
+the <code><a href="../../../reference/android/hardware/Sensor.html#TYPE_AMBIENT_TEMPERATURE">TYPE_AMBIENT_TEMPERATURE</a></code> sensor type instead on devices
 that are running Android 4.0.</p>
 
 <h4>Verify sensors before you use them</h4>
@@ -1789,7 +1773,7 @@ not required to provide any particular sensors in their devices.</p>
 
 <h4>Choose sensor delays carefully</h4>
 
-<p>When you register a sensor with the <code><a href="http://developer.android.com/reference/android/hardware/SensorManager.html#registerListener(android.hardware.SensorEventListener,%20android.hardware.Sensor,%20int)">registerListener()</a></code> method, be sure you choose a delivery rate that is suitable for your
+<p>When you register a sensor with the <code><a href="../../../reference/android/hardware/SensorManager.html#registerListener(android.hardware.SensorEventListener, android.hardware.Sensor, int)">registerListener()</a></code> method, be sure you choose a delivery rate that is suitable for your
 application or use-case. Sensors can provide data at very high rates. Allowing the system to send
 extra data that you don't need wastes system resources and uses battery power.</p>
     </div>
@@ -1804,7 +1788,7 @@ extra data that you don't need wastes system resources and uses battery power.</
         
         <div class="paging-links layout-content-col col-4">
           
-            <a href="sensors_overview.html#" class="prev-page-link hide"
+            <a href="#" class="prev-page-link hide"
                 zh-TW-lang="上一堂課"
                 zh-CN-lang="上一课"
                 ru-lang="Предыдущий"
@@ -1812,7 +1796,7 @@ extra data that you don't need wastes system resources and uses battery power.</
                 ja-lang="前へ"
                 es-lang="Anterior"               
                 >Previous</a>
-            <a href="sensors_overview.html#" class="next-page-link hide"
+            <a href="#" class="next-page-link hide"
                 zh-TW-lang="下一堂課"
                 zh-CN-lang="下一课"
                 ru-lang="Следующий"

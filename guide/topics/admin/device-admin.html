@@ -91,12 +91,14 @@ href="http://fonts.googleapis.com/css?family=Roboto:regular,medium,thin,italic,m
 <script src="http://www.google.com/jsapi" type="text/javascript"></script>
 <script src="../../../assets/js/android_3p-bundle.js" type="text/javascript"></script>
 <script type="text/javascript">
-  var toRoot = "/";
+  var toRoot = "../../../";
   
   var devsite = false;
   
 </script>
 <script src="../../../assets/js/docs.js" type="text/javascript"></script>
+
+<script src="../../../navtree_data.js" type="text/javascript"></script>
 
 
 <script type="text/javascript">
@@ -123,8 +125,8 @@ href="http://fonts.googleapis.com/css?family=Roboto:regular,medium,thin,italic,m
             <img src="../../../assets/images/dac_logo.png" width="123" height="25" alt="Android Developers" />
           </a>
           <div class="btn-quicknav" id="btn-quicknav">
-          	<a href="device-admin.html#" class="arrow-inactive">Quicknav</a>
-			      <a href="device-admin.html#" class="arrow-active">Quicknav</a>
+          	<a href="#" class="arrow-inactive">Quicknav</a>
+			      <a href="#" class="arrow-active">Quicknav</a>
           </div>
           </div>
             <ul class="nav-x col-9">
@@ -179,24 +181,6 @@ href="http://fonts.googleapis.com/css?family=Roboto:regular,medium,thin,italic,m
 
       
       
-        <div class="header">Language</div>
-          <div id="language" class="locales">
-            <select name="language" onChange="changeLangPref(this.value, true)">
-                <option value="en">English</option>
-                <option value="es">Español</option>
-                <option value="ja">日本語</option>
-                <option value="ko">한국어</option>
-                <option value="ru">Русский</option>
-                <option value="zh-CN">中文 (中国)</option>
-                <option value="zh-TW">中文 (台灣)</option>
-            </select>
-          </div>
-        <script type="text/javascript">
-          <!--
-          loadLangPref();
-            //-->
-        </script>
-      
       
 
 
@@ -211,8 +195,8 @@ href="http://fonts.googleapis.com/css?family=Roboto:regular,medium,thin,italic,m
       <form onsubmit="return submit_search()">
         <input id="search_autocomplete" type="text" value="" autocomplete="off" name="q"
 onfocus="search_focus_changed(this, true)" onblur="search_focus_changed(this, false)"
-onkeydown="return search_changed(event, true, '/')" 
-onkeyup="return search_changed(event, false, '/')" />
+onkeydown="return search_changed(event, true, '../../../')" 
+onkeyup="return search_changed(event, false, '../../../')" />
       </form>
       <div class="right"></div>
         <a class="close hide">close</a>
@@ -254,7 +238,7 @@ onkeyup="return search_changed(event, false, '/')" />
                           ja-lang="トレーニング"
                           es-lang="Capacitación"               
                           >Training</a></li>
-                        <li><a href="../../components/index.html"
+                        <li><a href="../../../guide/components/index.html"
                           zh-TW-lang="API 指南"
                           zh-CN-lang="API 指南"
                           ru-lang="Руководства по API"
@@ -322,7 +306,7 @@ onkeyup="return search_changed(event, false, '/')" />
                   ja-lang="トレーニング"
                   es-lang="Capacitación"               
                   >Training</a></li>
-                <li class="guide"><a href="../../components/index.html"
+                <li class="guide"><a href="../../../guide/components/index.html"
                   zh-TW-lang="API 指南"
                   zh-CN-lang="API 指南"
                   ru-lang="Руководства по API"
@@ -360,7 +344,7 @@ onkeyup="return search_changed(event, false, '/')" />
   <div class="wrap clearfix" id="body-content">
     <div class="col-4" id="side-nav" itemscope itemtype="http://schema.org/SiteNavigationElement">
       <div id="devdoc-nav" class="scroll-pane">
-<a class="totop" href="device-admin.html#top" data-g-event="left-nav-top">to top</a>
+<a class="totop" href="#top" data-g-event="left-nav-top">to top</a>
 
 
 
@@ -369,106 +353,106 @@ onkeyup="return search_changed(event, false, '/')" />
   <!--<li style="color:red">Overview</li> -->
 
   <li class="nav-section">
-    <div class="nav-section-header"><a href="../../components/index.html">
+    <div class="nav-section-header"><a href="../../../guide/components/index.html">
         <span class="en">App Components</span>
       </a></div>
     <ul>
-      <li><a href="../../components/fundamentals.html">
+      <li><a href="../../../guide/components/fundamentals.html">
             <span class="en">App Fundamentals</span></a>
       </li>
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../../components/activities.html">
+        <div class="nav-section-header"><a href="../../../guide/components/activities.html">
             <span class="en">Activities</span>
           </a></div>
         <ul>
-          <li><a href="../../components/fragments.html">
+          <li><a href="../../../guide/components/fragments.html">
               <span class="en">Fragments</span>
             </a></li>
-          <li><a href="../../components/loaders.html">
+          <li><a href="../../../guide/components/loaders.html">
               <span class="en">Loaders</span>
             </a></li>
-          <li><a href="../../components/tasks-and-back-stack.html">
+          <li><a href="../../../guide/components/tasks-and-back-stack.html">
               <span class="en">Tasks and Back Stack</span>
             </a></li>
         </ul>
       </li>
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../../components/services.html">
+        <div class="nav-section-header"><a href="../../../guide/components/services.html">
             <span class="en">Services</span>
           </a></div>
         <ul>
-          <li><a href="../../components/bound-services.html">
+          <li><a href="../../../guide/components/bound-services.html">
               <span class="en">Bound Services</span>
             </a></li>
-          <li><a href="../../components/aidl.html">
+          <li><a href="../../../guide/components/aidl.html">
               <span class="en">AIDL</span>
             </a></li>
         </ul>
       </li>
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../providers/content-providers.html">
+        <div class="nav-section-header"><a href="../../../guide/topics/providers/content-providers.html">
             <span class="en">Content Providers</span>
           </a></div>
         <ul>
-          <li><a href="../providers/content-provider-basics.html">
+          <li><a href="../../../guide/topics/providers/content-provider-basics.html">
               <span class="en">Content Provider Basics</span>
             </a></li>
-          <li><a href="../providers/content-provider-creating.html">
+          <li><a href="../../../guide/topics/providers/content-provider-creating.html">
               <span class="en">Creating a Content Provider</span>
             </a></li>
-          <li><a href="../providers/calendar-provider.html">
+          <li><a href="../../../guide/topics/providers/calendar-provider.html">
               <span class="en">Calendar Provider</span>
             </a></li>
-          <li><a href="../providers/contacts-provider.html">
+          <li><a href="../../../guide/topics/providers/contacts-provider.html">
               <span class="en">Contacts Provider</span>
             </a></li>
         </ul>
       </li>
-      <li><a href="../../components/intents-filters.html">
+      <li><a href="../../../guide/components/intents-filters.html">
           <span class="en">Intents and Intent Filters</span>
         </a></li>
-      <li><a href="../../components/processes-and-threads.html">
+      <li><a href="../../../guide/components/processes-and-threads.html">
           <span class="en">Processes and Threads</span>
         </a>
       </li>
-      <li><a href="../security/permissions.html">
+      <li><a href="../../../guide/topics/security/permissions.html">
           <span class="en">Permissions</span>
         </a>
       </li>
-      <li><a href="../appwidgets/index.html">
+      <li><a href="../../../guide/topics/appwidgets/index.html">
             <span class="en">App Widgets</span>
           </a></li>
       <li class="nav-section">
-      <div class="nav-section-header"><a href="../manifest/manifest-intro.html">
+      <div class="nav-section-header"><a href="../../../guide/topics/manifest/manifest-intro.html">
           <span class="en">Android Manifest</span>
         </a></div>
         <ul>
-          <li><a href="../manifest/action-element.html">&lt;action&gt;</a></li>
-          <li><a href="../manifest/activity-element.html">&lt;activity&gt;</a></li>
-          <li><a href="../manifest/activity-alias-element.html">&lt;activity-alias&gt;</a></li>
-          <li><a href="../manifest/application-element.html">&lt;application&gt;</a></li>
-          <li><a href="../manifest/category-element.html">&lt;category&gt;</a></li>
-          <li><a href="../manifest/compatible-screens-element.html">&lt;compatible-screens&gt;</a></li>
-          <li><a href="../manifest/data-element.html">&lt;data&gt;</a></li>
-          <li><a href="../manifest/grant-uri-permission-element.html">&lt;grant-uri-permission&gt;</a></li>
-          <li><a href="../manifest/instrumentation-element.html">&lt;instrumentation&gt;</a></li>
-          <li><a href="../manifest/intent-filter-element.html">&lt;intent-filter&gt;</a></li>
-          <li><a href="../manifest/manifest-element.html">&lt;manifest&gt;</a></li>
-          <li><a href="../manifest/meta-data-element.html">&lt;meta-data&gt;</a></li>
-          <li><a href="../manifest/path-permission-element.html">&lt;path-permission&gt;</a></li>
-          <li><a href="../manifest/permission-element.html">&lt;permission&gt;</a></li>
-          <li><a href="../manifest/permission-group-element.html">&lt;permission-group&gt;</a></li>
-          <li><a href="../manifest/permission-tree-element.html">&lt;permission-tree&gt;</a></li>
-          <li><a href="../manifest/provider-element.html">&lt;provider&gt;</a></li>
-          <li><a href="../manifest/receiver-element.html">&lt;receiver&gt;</a></li>
-          <li><a href="../manifest/service-element.html">&lt;service&gt;</a></li>
-          <li><a href="../manifest/supports-gl-texture-element.html">&lt;supports-gl-texture&gt;</a></li>
-          <li><a href="../manifest/supports-screens-element.html">&lt;supports-screens&gt;</a></li><!-- ##api level 4## -->
-          <li><a href="../manifest/uses-configuration-element.html">&lt;uses-configuration&gt;</a></li>
-          <li><a href="../manifest/uses-feature-element.html">&lt;uses-feature&gt;</a></li> <!-- ##api level 4## -->
-          <li><a href="../manifest/uses-library-element.html">&lt;uses-library&gt;</a></li>
-          <li><a href="../manifest/uses-permission-element.html">&lt;uses-permission&gt;</a></li>
-          <li><a href="../manifest/uses-sdk-element.html">&lt;uses-sdk&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/action-element.html">&lt;action&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/activity-element.html">&lt;activity&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/activity-alias-element.html">&lt;activity-alias&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/application-element.html">&lt;application&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/category-element.html">&lt;category&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/compatible-screens-element.html">&lt;compatible-screens&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/data-element.html">&lt;data&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/grant-uri-permission-element.html">&lt;grant-uri-permission&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/instrumentation-element.html">&lt;instrumentation&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/intent-filter-element.html">&lt;intent-filter&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/manifest-element.html">&lt;manifest&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/meta-data-element.html">&lt;meta-data&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/path-permission-element.html">&lt;path-permission&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/permission-element.html">&lt;permission&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/permission-group-element.html">&lt;permission-group&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/permission-tree-element.html">&lt;permission-tree&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/provider-element.html">&lt;provider&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/receiver-element.html">&lt;receiver&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/service-element.html">&lt;service&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/supports-gl-texture-element.html">&lt;supports-gl-texture&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/supports-screens-element.html">&lt;supports-screens&gt;</a></li><!-- ##api level 4## -->
+          <li><a href="../../../guide/topics/manifest/uses-configuration-element.html">&lt;uses-configuration&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/uses-feature-element.html">&lt;uses-feature&gt;</a></li> <!-- ##api level 4## -->
+          <li><a href="../../../guide/topics/manifest/uses-library-element.html">&lt;uses-library&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/uses-permission-element.html">&lt;uses-permission&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/uses-sdk-element.html">&lt;uses-sdk&gt;</a></li>
         </ul>
    </li><!-- end of the manifest file -->
 
@@ -476,263 +460,263 @@ onkeyup="return search_changed(event, false, '/')" />
   </li>
 
   <li class="nav-section">
-    <div class="nav-section-header"><a href="../ui/index.html">
+    <div class="nav-section-header"><a href="../../../guide/topics/ui/index.html">
         <span class="en">User Interface</span>
       </a></div>
     <ul>
-      <li><a href="../ui/overview.html">
+      <li><a href="../../../guide/topics/ui/overview.html">
           <span class="en">Overview</span>
         </a></li>
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../ui/declaring-layout.html">
+        <div class="nav-section-header"><a href="../../../guide/topics/ui/declaring-layout.html">
             <span class="en">Layouts</span>
           </a></div>
         <ul>
-          <li><a href="../ui/layout/linear.html">
+          <li><a href="../../../guide/topics/ui/layout/linear.html">
               <span class="en">Linear Layout</span>
             </a></li>
-          <li><a href="../ui/layout/relative.html">
+          <li><a href="../../../guide/topics/ui/layout/relative.html">
               <span class="en">Relative Layout</span>
             </a></li>
        <!--
-          <li><a href="/guide/topics/ui/layout/grid.html">
+          <li><a href="../../../guide/topics/ui/layout/grid.html">
               <span class="en">Grid Layout</span>
             </a></li>
-          <li><a href="/guide/topics/ui/layout/tabs.html">
+          <li><a href="../../../guide/topics/ui/layout/tabs.html">
               <span class="en">Tab Layout</span>
             </a></li>
        -->
-          <li><a href="../ui/layout/listview.html">
+          <li><a href="../../../guide/topics/ui/layout/listview.html">
               <span class="en">List View</span>
             </a></li>
-          <li><a href="../ui/layout/gridview.html">
+          <li><a href="../../../guide/topics/ui/layout/gridview.html">
               <span class="en">Grid View</span>
             </a></li>
         </ul>
       </li>
 
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../ui/controls.html">
+        <div class="nav-section-header"><a href="../../../guide/topics/ui/controls.html">
             <span class="en">Input Controls</span>
           </a></div>
         <ul>
-          <li><a href="../ui/controls/button.html">
+          <li><a href="../../../guide/topics/ui/controls/button.html">
               <span class="en">Buttons</span>
             </a></li>
-          <li><a href="../ui/controls/text.html">
+          <li><a href="../../../guide/topics/ui/controls/text.html">
               <span class="en">Text Fields</span>
             </a></li>
-          <li><a href="../ui/controls/checkbox.html">
+          <li><a href="../../../guide/topics/ui/controls/checkbox.html">
               <span class="en">Checkboxes</span>
             </a></li>
-          <li><a href="../ui/controls/radiobutton.html">
+          <li><a href="../../../guide/topics/ui/controls/radiobutton.html">
               <span class="en">Radio Buttons</span>
             </a></li>
-          <li><a href="../ui/controls/togglebutton.html">
+          <li><a href="../../../guide/topics/ui/controls/togglebutton.html">
               <span class="en">Toggle Buttons</span>
             </a></li>
-          <li><a href="../ui/controls/spinner.html">
+          <li><a href="../../../guide/topics/ui/controls/spinner.html">
               <span class="en">Spinners</span>
             </a></li>
-          <li><a href="../ui/controls/pickers.html">
+          <li><a href="../../../guide/topics/ui/controls/pickers.html">
               <span class="en">Pickers</span>
             </a></li>
 <!--
-          <li><a href="/guide/topics/ui/controls/progress.html">
+          <li><a href="../../../guide/topics/ui/controls/progress.html">
               <span class="en">Seek and Progress Bars</span>
             </a></li>
 -->
         </ul>
       </li>
-      <li><a href="../ui/ui-events.html">
+      <li><a href="../../../guide/topics/ui/ui-events.html">
           <span class="en">Input Events</span>
         </a></li>
-      <li><a href="../ui/menus.html">
+      <li><a href="../../../guide/topics/ui/menus.html">
           <span class="en">Menus</span></span>
           </a></li>
-      <li><a href="../ui/actionbar.html">
+      <li><a href="../../../guide/topics/ui/actionbar.html">
            <span class="en">Action Bar</span>
           </a></li>
-      <li><a href="../ui/settings.html">
+      <li><a href="../../../guide/topics/ui/settings.html">
             <span class="en">Settings</span>
           </a></li>
-      <li><a href="../ui/dialogs.html">
+      <li><a href="../../../guide/topics/ui/dialogs.html">
            <span class="en">Dialogs</span>
           </a></li>
-      <li><a href="../ui/notifiers/notifications.html">
+      <li><a href="../../../guide/topics/ui/notifiers/notifications.html">
           <span class="en">Notifications</span>
         </a></li>
-      <li><a href="../ui/notifiers/toasts.html">
+      <li><a href="../../../guide/topics/ui/notifiers/toasts.html">
           <span class="en">Toasts</span>
         </a></li>
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../search/index.html">
+        <div class="nav-section-header"><a href="../../../guide/topics/search/index.html">
             <span class="en">Search</span>
           </a></div>
           <ul>
-            <li><a href="../search/search-dialog.html">Creating a Search Interface</a></li>
-            <li><a href="../search/adding-recent-query-suggestions.html">Adding Recent Query Suggestions</a></li>
-            <li><a href="../search/adding-custom-suggestions.html">Adding Custom Suggestions</a></li>
-            <li><a href="../search/searchable-config.html">Searchable Configuration</a></li>
+            <li><a href="../../../guide/topics/search/search-dialog.html">Creating a Search Interface</a></li>
+            <li><a href="../../../guide/topics/search/adding-recent-query-suggestions.html">Adding Recent Query Suggestions</a></li>
+            <li><a href="../../../guide/topics/search/adding-custom-suggestions.html">Adding Custom Suggestions</a></li>
+            <li><a href="../../../guide/topics/search/searchable-config.html">Searchable Configuration</a></li>
           </ul>
       </li>
-      <li><a href="../ui/drag-drop.html">
+      <li><a href="../../../guide/topics/ui/drag-drop.html">
           <span class="en">Drag and Drop</span>
         </a></li>
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../ui/accessibility/index.html">
+        <div class="nav-section-header"><a href="../../../guide/topics/ui/accessibility/index.html">
             <span class="en">Accessibility</span>
           </a></div>
         <ul>
-          <li><a href="../ui/accessibility/apps.html">
+          <li><a href="../../../guide/topics/ui/accessibility/apps.html">
               <span class="en">Making Applications Accessible</span>
             </a></li>
-          <li><a href="../ui/accessibility/checklist.html">
+          <li><a href="../../../guide/topics/ui/accessibility/checklist.html">
               <span class="en">Accessibility Developer Checklist</span>
             </a></li>
-          <li><a href="../ui/accessibility/services.html">
+          <li><a href="../../../guide/topics/ui/accessibility/services.html">
               <span class="en">Building Accessibility Services</span>
             </a></li>
         </ul>
       </li>
-      <li><a href="../ui/themes.html">
+      <li><a href="../../../guide/topics/ui/themes.html">
           <span class="en">Styles and Themes</span>
         </a></li>
-      <li><a href="../ui/custom-components.html">
+      <li><a href="../../../guide/topics/ui/custom-components.html">
           <span class="en">Custom Components</span>
         </a></li>
     </ul>
   </li><!-- end of User Interface -->
 
     <li class="nav-section">
-      <div class="nav-section-header"><a href="../resources/index.html">
+      <div class="nav-section-header"><a href="../../../guide/topics/resources/index.html">
            <span class="en">App Resources</span>
          </a></div>
       <ul>
-        <li><a href="../resources/overview.html">
+        <li><a href="../../../guide/topics/resources/overview.html">
             <span class="en">Overview</span>
           </a></li>
-          <li><a href="../resources/providing-resources.html">
+          <li><a href="../../../guide/topics/resources/providing-resources.html">
             <span class="en">Providing Resources</span>
           </a></li>
-        <li><a href="../resources/accessing-resources.html">
+        <li><a href="../../../guide/topics/resources/accessing-resources.html">
             <span class="en">Accessing Resources</span>
           </a></li>
-        <li><a href="../resources/runtime-changes.html">
+        <li><a href="../../../guide/topics/resources/runtime-changes.html">
               <span class="en">Handling Runtime Changes</span>
             </a></li>
-        <li><a href="../resources/localization.html">
+        <li><a href="../../../guide/topics/resources/localization.html">
             <span class="en">Localization</span>
           </a></li>
         <li class="nav-section">
-          <div class="nav-section-header"><a href="../resources/available-resources.html">
+          <div class="nav-section-header"><a href="../../../guide/topics/resources/available-resources.html">
               <span class="en">Resource Types</span>
             </a></div>
           <ul>
-            <li><a href="../resources/animation-resource.html">Animation</a></li>
-            <li><a href="../resources/color-list-resource.html">Color State List</a></li>
-            <li><a href="../resources/drawable-resource.html">Drawable</a></li>
-            <li><a href="../resources/layout-resource.html">Layout</a></li>
-            <li><a href="../resources/menu-resource.html">Menu</a></li>
-            <li><a href="../resources/string-resource.html">String</a></li>
-            <li><a href="../resources/style-resource.html">Style</a></li>
-            <li><a href="../resources/more-resources.html">More Types</a></li>
+            <li><a href="../../../guide/topics/resources/animation-resource.html">Animation</a></li>
+            <li><a href="../../../guide/topics/resources/color-list-resource.html">Color State List</a></li>
+            <li><a href="../../../guide/topics/resources/drawable-resource.html">Drawable</a></li>
+            <li><a href="../../../guide/topics/resources/layout-resource.html">Layout</a></li>
+            <li><a href="../../../guide/topics/resources/menu-resource.html">Menu</a></li>
+            <li><a href="../../../guide/topics/resources/string-resource.html">String</a></li>
+            <li><a href="../../../guide/topics/resources/style-resource.html">Style</a></li>
+            <li><a href="../../../guide/topics/resources/more-resources.html">More Types</a></li>
           </ul>
         </li><!-- end of resource types -->
       </ul>
     </li><!-- end of app resources -->
 
    <li class="nav-section">
-      <div class="nav-section-header"><a href="../graphics/index.html">
+      <div class="nav-section-header"><a href="../../../guide/topics/graphics/index.html">
           <span class="en">Animation and Graphics</span>
         </a></div>
       <ul>
       <li class="nav-section">
-        <li><a href="../graphics/overview.html">
+        <li><a href="../../../guide/topics/graphics/overview.html">
             <span class="en">Overview</span>
           </a></li>
-        <li><a href="../graphics/prop-animation.html">
+        <li><a href="../../../guide/topics/graphics/prop-animation.html">
             <span class="en">Property Animation</span>
           </a></li>
-        <li><a href="../graphics/view-animation.html">
+        <li><a href="../../../guide/topics/graphics/view-animation.html">
             <span class="en">View Animation</span>
           </a></li>
-        <li><a href="../graphics/drawable-animation.html">
+        <li><a href="../../../guide/topics/graphics/drawable-animation.html">
             <span class="en">Drawable Animation</span>
           </a></li>
-        <li><a href="../graphics/2d-graphics.html">
+        <li><a href="../../../guide/topics/graphics/2d-graphics.html">
             <span class="en">Canvas and Drawables</span>
           </a></li>
-        <li><a href="../graphics/opengl.html">
+        <li><a href="../../../guide/topics/graphics/opengl.html">
             <span class="en">OpenGL</span>
           </a></li>
-        <li><a href="../graphics/hardware-accel.html">
+        <li><a href="../../../guide/topics/graphics/hardware-accel.html">
             <span class="en">Hardware Acceleration</span>
           </a></li>
        </ul>
     </li><!-- end of graphics and animation-->
 
    <li class="nav-section">
-            <div class="nav-section-header"><a href="../renderscript/index.html">
+            <div class="nav-section-header"><a href="../../../guide/topics/renderscript/index.html">
               <span class="en">Computation</span>
             </a></div>
             <ul>
-              <li><a href="../renderscript/compute.html">
+              <li><a href="../../../guide/topics/renderscript/compute.html">
                     <span class="en">Renderscript</span></a>
                   </li>
 
-              <li><a href="../renderscript/advanced.html">
+              <li><a href="../../../guide/topics/renderscript/advanced.html">
                     <span class="en">Advanced Renderscript</span></a>
                   </li>
-              <li><a href="../renderscript/reference.html">
+              <li><a href="../../../guide/topics/renderscript/reference.html">
                     <span class="en">Runtime API Reference</span></a>
               </li>
              </ul>
    </li>
       <li class="nav-section">
-          <div class="nav-section-header"><a href="../media/index.html">
+          <div class="nav-section-header"><a href="../../../guide/topics/media/index.html">
             <span class="en">Media and Camera</span>
           </a></div>
           <ul>
-            <li><a href="../media/mediaplayer.html">
+            <li><a href="../../../guide/topics/media/mediaplayer.html">
                   <span class="en">Media Playback</span></a>
                 </li>
-            <li><a href="../../appendix/media-formats.html">
+            <li><a href="../../../guide/appendix/media-formats.html">
                    <span class="en">Supported Media Formats</span></a>
                 </li>
-            <li><a href="../media/audio-capture.html">
+            <li><a href="../../../guide/topics/media/audio-capture.html">
                   <span class="en">Audio Capture</span></a>
                 </li>
-            <li><a href="../media/jetplayer.html">
+            <li><a href="../../../guide/topics/media/jetplayer.html">
                   <span class="en">JetPlayer</span></a>
                 </li>
-            <li><a href="../media/camera.html">
+            <li><a href="../../../guide/topics/media/camera.html">
                   <span class="en">Camera</span></a>
                 </li>
           </ul>
       </li><!-- end of media and camera -->
 
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../sensors/index.html">
+        <div class="nav-section-header"><a href="../../../guide/topics/sensors/index.html">
               <span class="en">Location and Sensors</span>
               </a></div>
         <ul>
-          <li><a href="../location/index.html">
+          <li><a href="../../../guide/topics/location/index.html">
                <span class="en">Location and Maps</span>
              </a>
-          <li><a href="../location/strategies.html">
+          <li><a href="../../../guide/topics/location/strategies.html">
                <span class="en">Location Strategies</span>
              </a></li>
-          <li><a href="../sensors/sensors_overview.html">
+          <li><a href="../../../guide/topics/sensors/sensors_overview.html">
               <span class="en">Sensors Overview</span>
             </a></li>
-          <li><a href="../sensors/sensors_motion.html">
+          <li><a href="../../../guide/topics/sensors/sensors_motion.html">
               <span class="en">Motion Sensors</span>
             </a></li>
-          <li><a href="../sensors/sensors_position.html">
+          <li><a href="../../../guide/topics/sensors/sensors_position.html">
               <span class="en">Position Sensors</span>
             </a></li>
-          <li><a href="../sensors/sensors_environment.html">
+          <li><a href="../../../guide/topics/sensors/sensors_environment.html">
               <span class="en">Environment Sensors</span>
             </a></li>
         </ul>
@@ -741,36 +725,36 @@ onkeyup="return search_changed(event, false, '/')" />
 
 
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../connectivity/index.html">
+        <div class="nav-section-header"><a href="../../../guide/topics/connectivity/index.html">
                <span class="en">Connectivity</span>
              </a></div>
         <ul>
-          <li><a href="../connectivity/bluetooth.html">
+          <li><a href="../../../guide/topics/connectivity/bluetooth.html">
               <span class="en">Bluetooth</span>
             </a>
           </li>
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../connectivity/nfc/index.html">
+        <div class="nav-section-header"><a href="../../../guide/topics/connectivity/nfc/index.html">
           <span class="en">NFC</span></a>
         </div>
         <ul>
-          <li><a href="../connectivity/nfc/nfc.html">NFC Basics</a></li>
-          <li><a href="../connectivity/nfc/advanced-nfc.html">Advanced NFC</a></li>
+          <li><a href="../../../guide/topics/connectivity/nfc/nfc.html">NFC Basics</a></li>
+          <li><a href="../../../guide/topics/connectivity/nfc/advanced-nfc.html">Advanced NFC</a></li>
         </ul>
       </li>
-      <li><a href="../connectivity/wifip2p.html">
+      <li><a href="../../../guide/topics/connectivity/wifip2p.html">
             <span class="en">Wi-Fi Direct</span></a>
           </li>
       <li class="nav-section">
-          <div class="nav-section-header"><a href="../connectivity/usb/index.html">
+          <div class="nav-section-header"><a href="../../../guide/topics/connectivity/usb/index.html">
             <span class="en">USB</span></a>
           </div>
             <ul>
-              <li><a href="../connectivity/usb/accessory.html">Accessory</a></li>
-              <li><a href="../connectivity/usb/host.html">Host</a></li>
+              <li><a href="../../../guide/topics/connectivity/usb/accessory.html">Accessory</a></li>
+              <li><a href="../../../guide/topics/connectivity/usb/host.html">Host</a></li>
             </ul>
      </li>
-     <li><a href="../connectivity/sip.html">
+     <li><a href="../../../guide/topics/connectivity/sip.html">
             <span class="en">SIP</span>
           </a>
      </li>
@@ -779,34 +763,34 @@ onkeyup="return search_changed(event, false, '/')" />
   </li><!-- end of connectivity -->
 
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../text/index.html">
+        <div class="nav-section-header"><a href="../../../guide/topics/text/index.html">
             <span class="en">Text and Input</span>
         </a></div>
         <ul>
-          <li><a href="../text/copy-paste.html">
+          <li><a href="../../../guide/topics/text/copy-paste.html">
               <span class="en">Copy and Paste</span>
             </a></li>
-          <li><a href="../text/creating-input-method.html">
+          <li><a href="../../../guide/topics/text/creating-input-method.html">
               <span class="en">Creating an IME</span>
             </a></li>
-          <li><a href="../text/spell-checker-framework.html">
+          <li><a href="../../../guide/topics/text/spell-checker-framework.html">
               <span class="en">Spelling Checker</span>
             </a></li>
         </ul>
       </li><!-- end of text and input -->
 
      <li class="nav-section">
-      <div class="nav-section-header"><a href="../data/index.html">
+      <div class="nav-section-header"><a href="../../../guide/topics/data/index.html">
           <span class="en">Data Storage</span>
         </a></div>
       <ul>
-         <li><a href="../data/data-storage.html">
+         <li><a href="../../../guide/topics/data/data-storage.html">
             <span class="en">Storage Options</span>
            </a></li>
-        <li><a href="../data/backup.html">
+        <li><a href="../../../guide/topics/data/backup.html">
             <span class="en">Data Backup</span>
           </a></li>
-        <li><a href="../data/install-location.html">
+        <li><a href="../../../guide/topics/data/install-location.html">
             <span class="en">App Install Location</span>
           </a></li>
       </ul>
@@ -814,17 +798,17 @@ onkeyup="return search_changed(event, false, '/')" />
 
 
   <li class="nav-section">
-           <div class="nav-section-header"><a href="index.html">
+           <div class="nav-section-header"><a href="../../../guide/topics/admin/index.html">
                <span class="en">Administration</span>
              </a></div>
            <ul>
               <li>
-                <a href="device-admin.html">
+                <a href="../../../guide/topics/admin/device-admin.html">
                 <span class="en">Device Policies</span></a>
               </li>
             <!--
               <li>
-                <a href="/guide/topics/admin/keychain.html">
+                <a href="../../../guide/topics/admin/keychain.html">
                 <span class="en">Certificate Store</span></a>
               </li>
             -->
@@ -832,30 +816,30 @@ onkeyup="return search_changed(event, false, '/')" />
   </li><!-- end of administration -->
 
   <li class="nav-section">
-    <div class="nav-section-header"><a href="../../webapps/index.html">
+    <div class="nav-section-header"><a href="../../../guide/webapps/index.html">
     <span class="en">Web Apps</span>
     </a></div>
     <ul>
-      <li><a href="../../webapps/overview.html">
+      <li><a href="../../../guide/webapps/overview.html">
             <span class="en">Overview</span>
           </a></li>
-      <li><a href="../../webapps/targeting.html">
+      <li><a href="../../../guide/webapps/targeting.html">
             <span class="en">Targeting Screens from Web Apps</span>
           </a></li>
-      <li><a href="../../webapps/webview.html">
+      <li><a href="../../../guide/webapps/webview.html">
             <span class="en">Building Web Apps in WebView</span>
           </a></li>
-      <li><a href="../../webapps/debugging.html">
+      <li><a href="../../../guide/webapps/debugging.html">
             <span class="en">Debugging Web Apps</span>
           </a></li>
-      <li><a href="../../webapps/best-practices.html">
+      <li><a href="../../../guide/webapps/best-practices.html">
             <span class="en">Best Practices for Web Apps</span>
           </a></li>
     </ul>
   </li><!-- end of web apps -->
 
   <li class="nav-section">
-    <div class="nav-section-header"><a href="../../practices/index.html">
+    <div class="nav-section-header"><a href="../../../guide/practices/index.html">
       <span class="en">Best Practices</span>
       <span class="de" style="display:none">Bewährte Verfahren</span>
       <span class="es" style="display:none">Prácticas recomendadas</span>
@@ -866,26 +850,26 @@ onkeyup="return search_changed(event, false, '/')" />
       <span class="zh-TW" style="display:none">最佳實務</span>
     </div></a>
     <ul>
-      <li><a href="../../practices/compatibility.html">
+      <li><a href="../../../guide/practices/compatibility.html">
             <span class="en">Compatibility</span>
           </a></li>
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../../practices/screens_support.html">
+        <div class="nav-section-header"><a href="../../../guide/practices/screens_support.html">
           <span class="en">Supporting Multiple Screens</span>
         </a></div>
         <ul>
-          <li><a href="../../practices/screens-distribution.html">
+          <li><a href="../../../guide/practices/screens-distribution.html">
             <span class="en">Distributing to Specific Screens</span>
           </a></li>
-          <li><a href="../../practices/screen-compat-mode.html">
+          <li><a href="../../../guide/practices/screen-compat-mode.html">
             <span class="en">Screen Compatibility Mode</span>
           </a></li>
-          <!--<li><a href="../../practices/screens-support-1.5.html">
+          <!--<li><a href="../../../guide/practices/screens-support-1.5.html">
             <span class="en">Strategies for Android 1.5</span>
           </a></li> -->
         </ul>
       </li>
-      <li><a href="../../practices/tablets-and-handsets.html">
+      <li><a href="../../../guide/practices/tablets-and-handsets.html">
             <span class="en">Supporting Tablets and Handsets</span>
           </a></li>
 
@@ -894,39 +878,39 @@ onkeyup="return search_changed(event, false, '/')" />
 
       <!-- this needs to move
       <li class="nav-section">
-        <div class="nav-section-header"><a href="/guide/practices/ui_guidelines/index.html">
+        <div class="nav-section-header"><a href="../../../guide/practices/ui_guidelines/index.html">
                <span class="en">UI Guidelines</span>
              </a></div>
         <ul>
           <li class="nav-section">
-            <div class="nav-section-header"><a href="/guide/practices/ui_guidelines/icon_design.html">
+            <div class="nav-section-header"><a href="../../../guide/practices/ui_guidelines/icon_design.html">
                    <span class="en">Icon Design</span>
                  </a></div>
             <ul>
-              <li><a href="/guide/practices/ui_guidelines/icon_design_launcher.html">
+              <li><a href="../../../guide/practices/ui_guidelines/icon_design_launcher.html">
                     <span class="en">Launcher Icons</span>
                   </a></li>
-              <li><a href="/guide/practices/ui_guidelines/icon_design_menu.html">
+              <li><a href="../../../guide/practices/ui_guidelines/icon_design_menu.html">
                     <span class="en">Menu Icons</span>
                   </a></li>
-              <li><a href="/guide/practices/ui_guidelines/icon_design_action_bar.html">
+              <li><a href="../../../guide/practices/ui_guidelines/icon_design_action_bar.html">
                     <span class="en">Action Bar Icons</span>
                   </a></li>
-              <li><a href="/guide/practices/ui_guidelines/icon_design_status_bar.html">
+              <li><a href="../../../guide/practices/ui_guidelines/icon_design_status_bar.html">
                     <span class="en">Status Bar Icons</span>
                   </a></li>
-              <li><a href="/guide/practices/ui_guidelines/icon_design_tab.html">
+              <li><a href="../../../guide/practices/ui_guidelines/icon_design_tab.html">
                     <span class="en">Tab Icons</span>
                   </a></li>
-              <li><a href="/guide/practices/ui_guidelines/icon_design_dialog.html">
+              <li><a href="../../../guide/practices/ui_guidelines/icon_design_dialog.html">
                     <span class="en">Dialog Icons</span>
                   </a></li>
-              <li><a href="/guide/practices/ui_guidelines/icon_design_list.html">
+              <li><a href="../../../guide/practices/ui_guidelines/icon_design_list.html">
                     <span class="en">List View Icons</span>
                   </a></li>
             </ul>
           </li>
-          <li><div><a href="/guide/practices/ui_guidelines/widget_design.html">
+          <li><div><a href="../../../guide/practices/ui_guidelines/widget_design.html">
                 <span class="en">App Widget Design</span>
               </a></div>
           </li>
@@ -936,7 +920,7 @@ onkeyup="return search_changed(event, false, '/')" />
 
 <!-- Remove
   <li class="nav-section">
-    <div class="nav-section-header"><a href="/guide/appendix/index.html">
+    <div class="nav-section-header"><a href="../../../guide/appendix/index.html">
         <span class="en">Appendix</span>
         <span class="de" style="display:none">Anhang</span>
         <span class="es" style="display:none">Apéndice</span>
@@ -947,12 +931,12 @@ onkeyup="return search_changed(event, false, '/')" />
         <span class="zh-TW" style="display:none">附錄</span>
       </a></div>
     <ul>
-      <li><a href="/guide/appendix/g-app-intents.html">
+      <li><a href="../../../guide/appendix/g-app-intents.html">
             <span class="en">Intents List: Google Apps</span>
           </a></li>
 
 
-      <li><a href="/guide/appendix/glossary.html">
+      <li><a href="../../../guide/appendix/glossary.html">
             <span class="en">Glossary</span>
           </a></li>
     </ul>
@@ -1005,17 +989,17 @@ onkeyup="return search_changed(event, false, '/')" />
 <div id="qv">
     <h2>In this document</h2>
     <ol>
-<li><a href="device-admin.html#overview">Device Administration API Overview</a>
+<li><a href="#overview">Device Administration API Overview</a>
     <ol>
-      <li><a href="device-admin.html#how">How does it work?</a></li>
-      <li><a href="device-admin.html#policies">Policies</a></li>
+      <li><a href="#how">How does it work?</a></li>
+      <li><a href="#policies">Policies</a></li>
     </ol>
   </li>
-  <li><a href="device-admin.html#sample">Sample Application</a></li>
-  <li><a href="device-admin.html#developing">Developing a Device Administration Application</a>
+  <li><a href="#sample">Sample Application</a></li>
+  <li><a href="#developing">Developing a Device Administration Application</a>
     <ol>
-      <li><a href="device-admin.html#manifest">Creating the manifest</a></li>
-      <li><a href="device-admin.html#code">Implementing the code</a></li>
+      <li><a href="#manifest">Creating the manifest</a></li>
+      <li><a href="#code">Implementing the code</a></li>
     </ol>
   </li>
 
@@ -1023,14 +1007,14 @@ onkeyup="return search_changed(event, false, '/')" />
 
     <h2>Key classes</h2>
     <ol>
-      <li><code><a href="http://developer.android.com/reference/android/app/admin/DeviceAdminReceiver.html">DeviceAdminReceiver</a></code></li>
-      <li><code><a href="http://developer.android.com/reference/android/app/admin/DevicePolicyManager.html">DevicePolicyManager</a></code></li>
-      <li><code><a href="http://developer.android.com/reference/android/app/admin/DeviceAdminInfo.html">DeviceAdminInfo</a></code></li>
+      <li><code><a href="../../../reference/android/app/admin/DeviceAdminReceiver.html">DeviceAdminReceiver</a></code></li>
+      <li><code><a href="../../../reference/android/app/admin/DevicePolicyManager.html">DevicePolicyManager</a></code></li>
+      <li><code><a href="../../../reference/android/app/admin/DeviceAdminInfo.html">DeviceAdminInfo</a></code></li>
     </ol>
     <h2>Related samples</h2>
     <ol>
       <li><a
-href="http://developer.android.com/resources/samples/ApiDemos/src/com/example/android/apis/app/DeviceAdminSample.html">
+href="../../../resources/samples/ApiDemos/src/com/example/android/apis/app/DeviceAdminSample.html">
 DeviceAdminSample</a></li>
 </ol>
 </div>
@@ -1183,7 +1167,7 @@ non-letter characters required in the password for all admins or a particular on
   <td>Password history restriction</td> 
   <td>This policy prevents users from reusing the last <em>n</em> unique passwords.
  This policy is typically used in conjunction with
-<code><a href="http://developer.android.com/reference/android/app/admin/DevicePolicyManager.html#setPasswordExpirationTimeout(android.content.ComponentName,%20long)">setPasswordExpirationTimeout()</a></code>, which forces
+<code><a href="../../../reference/android/app/admin/DevicePolicyManager.html#setPasswordExpirationTimeout(android.content.ComponentName, long)">setPasswordExpirationTimeout()</a></code>, which forces
 users to update their passwords after a specified amount of time has elapsed.
 Introduced in Android 3.0.</td> 
 </tr>
@@ -1232,13 +1216,13 @@ Administration API lets you do the following:</p> <ul>
 <h2 id="sample">Sample Application</h2>
 
 <p>The examples used in this document are based on the <a
-href="http://developer.android.com/resources/samples/ApiDemos/src/com/example/android/apis/app/DeviceAdminSample.html">
+href="../../../resources/samples/ApiDemos/src/com/example/android/apis/app/DeviceAdminSample.html">
 Device Administration API
 sample</a>, which is included in the SDK samples. For information on downloading and
 installing the SDK samples, see <a
-href="http://developer.android.com/resources/samples/get.html">
+href="../../../resources/samples/get.html">
 Getting the Samples</a>. Here is the  <a
-href="http://developer.android.com/resources/samples/ApiDemos/src/com/example/android/apis/app/DeviceAdminSample.html">
+href="../../../resources/samples/ApiDemos/src/com/example/android/apis/app/DeviceAdminSample.html">
 complete code</a> for
 the sample. </p>
 <p>The
@@ -1269,7 +1253,7 @@ locks.</li>
 
 
 
-<img src="http://developer.android.com/images/admin/device-admin-app.png"/>
+<img src="../../../images/admin/device-admin-app.png"/>
 
 <p class="img-caption"><strong>Figure 1.</strong> Screenshot of the Sample Application</p>
 
@@ -1287,10 +1271,10 @@ application.</p>
 <p>To use the Device Administration API, the application's
 manifest must include the following:</p>
 <ul>
-  <li>A subclass of <code><a href="http://developer.android.com/reference/android/app/admin/DeviceAdminReceiver.html">DeviceAdminReceiver</a></code> that includes the following:
+  <li>A subclass of <code><a href="../../../reference/android/app/admin/DeviceAdminReceiver.html">DeviceAdminReceiver</a></code> that includes the following:
     <ul>
-      <li>The <code><a href="http://developer.android.com/reference/android/Manifest.permission.html#BIND_DEVICE_ADMIN">BIND_DEVICE_ADMIN</a></code> permission.</li>
-      <li>The ability to  respond to the <code><a href="http://developer.android.com/reference/android/app/admin/DeviceAdminReceiver.html#ACTION_DEVICE_ADMIN_ENABLED">ACTION_DEVICE_ADMIN_ENABLED</a></code>
+      <li>The <code><a href="../../../reference/android/Manifest.permission.html#BIND_DEVICE_ADMIN">BIND_DEVICE_ADMIN</a></code> permission.</li>
+      <li>The ability to  respond to the <code><a href="../../../reference/android/app/admin/DeviceAdminReceiver.html#ACTION_DEVICE_ADMIN_ENABLED">ACTION_DEVICE_ADMIN_ENABLED</a></code>
 intent, expressed in the manifest as an intent filter.</li>
     </ul>
   </li>
@@ -1320,7 +1304,7 @@ intent, expressed in the manifest as an intent filter.</li>
 <li>The following attributes refer to string resources that for the sample application reside in
 <code>ApiDemos/res/values/strings.xml</code>. For more information about resources, see
 <a
-href="../resources/index.html">Application Resources</a>.
+href="../../../guide/topics/resources/index.html">Application Resources</a>.
 <ul>
 <li><code>android:label=&quot;&#64;string/activity_sample_device_admin&quot;</code> refers to the
 user-readable label for the activity.</li>
@@ -1336,15 +1320,15 @@ a label.</li>
 
 
 <li><code>android:permission=&quot;android.permission.BIND_DEVICE_ADMIN&quot;
-</code> is a permission that a <code><a href="http://developer.android.com/reference/android/app/admin/DeviceAdminReceiver.html">DeviceAdminReceiver</a></code> subclass must
+</code> is a permission that a <code><a href="../../../reference/android/app/admin/DeviceAdminReceiver.html">DeviceAdminReceiver</a></code> subclass must
 have, to ensure that only the system can interact with the receiver (no application can be granted this permission). This
 prevents other applications from abusing your device admin app.</li>
 <li><code>android.app.action.DEVICE_ADMIN_ENABLED</code> is the  the primary
-action that a <code><a href="http://developer.android.com/reference/android/app/admin/DeviceAdminReceiver.html">DeviceAdminReceiver</a></code> subclass must handle to be
+action that a <code><a href="../../../reference/android/app/admin/DeviceAdminReceiver.html">DeviceAdminReceiver</a></code> subclass must handle to be
 allowed to manage a device. This is set to the receiver when the user enables
 the device admin app. Your code typically handles this in
-<code><a href="http://developer.android.com/reference/android/app/admin/DeviceAdminReceiver.html#onEnabled(android.content.Context,%20android.content.Intent)">onEnabled()</a></code>. To be supported, the receiver must also
-require the <code><a href="http://developer.android.com/reference/android/Manifest.permission.html#BIND_DEVICE_ADMIN">BIND_DEVICE_ADMIN</a></code> permission so that other applications
+<code><a href="../../../reference/android/app/admin/DeviceAdminReceiver.html#onEnabled(android.content.Context, android.content.Intent)">onEnabled()</a></code>. To be supported, the receiver must also
+require the <code><a href="../../../reference/android/Manifest.permission.html#BIND_DEVICE_ADMIN">BIND_DEVICE_ADMIN</a></code> permission so that other applications
 cannot abuse it.  </li>
 <li>When a user enables the device admin application, that gives the receiver
 permission to perform actions in response to the broadcast of particular system
@@ -1355,7 +1339,7 @@ that does meet the requirements.</li>
 
   <li><code>android:resource=&quot;&#64;xml/device_admin_sample&quot;</code>
 declares the security policies used in metadata. The metadata provides additional
-information specific to the device administrator, as parsed by the <code><a href="http://developer.android.com/reference/android/app/admin/DeviceAdminInfo.html">DeviceAdminInfo</a></code> class. Here are the contents of
+information specific to the device administrator, as parsed by the <code><a href="../../../reference/android/app/admin/DeviceAdminInfo.html">DeviceAdminInfo</a></code> class. Here are the contents of
 <code>device_admin_sample.xml</code>:</li>
 </ul>
 <pre>&lt;device-admin xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;&gt;
@@ -1375,7 +1359,7 @@ information specific to the device administrator, as parsed by the <code><a href
 include all of the policies, just the ones that are relevant for your app.
 </p>
 For more discussion of the manifest file, see the <a
-href="../manifest/manifest-intro.html">Android Developers Guide</a>.
+href="../../../guide/topics/manifest/manifest-intro.html">Android Developers Guide</a>.
 
 
 
@@ -1383,31 +1367,31 @@ href="../manifest/manifest-intro.html">Android Developers Guide</a>.
 
 <p>The Device Administration API includes the following classes:</p>
 <dl>
-  <dt><code><a href="http://developer.android.com/reference/android/app/admin/DeviceAdminReceiver.html">DeviceAdminReceiver</a></code></dt>
+  <dt><code><a href="../../../reference/android/app/admin/DeviceAdminReceiver.html">DeviceAdminReceiver</a></code></dt>
      <dd>Base class for implementing a device administration component. This class provides
 a convenience for interpreting the raw intent actions   that are sent by the
 system. Your Device Administration application must include a
-<code><a href="http://developer.android.com/reference/android/app/admin/DeviceAdminReceiver.html">DeviceAdminReceiver</a></code> subclass.</dd>
-  <dt><code><a href="http://developer.android.com/reference/android/app/admin/DevicePolicyManager.html">DevicePolicyManager</a></code></dt>
+<code><a href="../../../reference/android/app/admin/DeviceAdminReceiver.html">DeviceAdminReceiver</a></code> subclass.</dd>
+  <dt><code><a href="../../../reference/android/app/admin/DevicePolicyManager.html">DevicePolicyManager</a></code></dt>
 <dd>A class for managing policies enforced on a device. Most clients of
-this class must have published a <code><a href="http://developer.android.com/reference/android/app/admin/DeviceAdminReceiver.html">DeviceAdminReceiver</a></code> that the user
-has currently enabled. The <code><a href="http://developer.android.com/reference/android/app/admin/DevicePolicyManager.html">DevicePolicyManager</a></code> manages policies for
-one or more <code><a href="http://developer.android.com/reference/android/app/admin/DeviceAdminReceiver.html">DeviceAdminReceiver</a></code> instances</dd>
-  <dt><code><a href="http://developer.android.com/reference/android/app/admin/DeviceAdminInfo.html">DeviceAdminInfo</a></code></dt>
+this class must have published a <code><a href="../../../reference/android/app/admin/DeviceAdminReceiver.html">DeviceAdminReceiver</a></code> that the user
+has currently enabled. The <code><a href="../../../reference/android/app/admin/DevicePolicyManager.html">DevicePolicyManager</a></code> manages policies for
+one or more <code><a href="../../../reference/android/app/admin/DeviceAdminReceiver.html">DeviceAdminReceiver</a></code> instances</dd>
+  <dt><code><a href="../../../reference/android/app/admin/DeviceAdminInfo.html">DeviceAdminInfo</a></code></dt>
 <dd>This class is used to specify metadata
 for a device administrator component.</dd>
 </dl>
 <p>These classes provide the foundation for a fully functional device administration application.
-The rest of this section describes how you use the <code><a href="http://developer.android.com/reference/android/app/admin/DeviceAdminReceiver.html">DeviceAdminReceiver</a></code> and
-<code><a href="http://developer.android.com/reference/android/app/admin/DevicePolicyManager.html">DevicePolicyManager</a></code> APIs to write a device admin application.</p>
+The rest of this section describes how you use the <code><a href="../../../reference/android/app/admin/DeviceAdminReceiver.html">DeviceAdminReceiver</a></code> and
+<code><a href="../../../reference/android/app/admin/DevicePolicyManager.html">DevicePolicyManager</a></code> APIs to write a device admin application.</p>
 
 <h4 id="receiver">Subclassing DeviceAdminReceiver</h4>
 <p>To create a device admin application, you must subclass
-<code><a href="http://developer.android.com/reference/android/app/admin/DeviceAdminReceiver.html">DeviceAdminReceiver</a></code>. The <code><a href="http://developer.android.com/reference/android/app/admin/DeviceAdminReceiver.html">DeviceAdminReceiver</a></code> class
+<code><a href="../../../reference/android/app/admin/DeviceAdminReceiver.html">DeviceAdminReceiver</a></code>. The <code><a href="../../../reference/android/app/admin/DeviceAdminReceiver.html">DeviceAdminReceiver</a></code> class
 consists of a series of callbacks that are triggered when particular events
 occur.</p>
-<p>In its <code><a href="http://developer.android.com/reference/android/app/admin/DeviceAdminReceiver.html">DeviceAdminReceiver</a></code> subclass, the sample application
-simply displays a <code><a href="http://developer.android.com/reference/android/widget/Toast.html">Toast</a></code> notification in response to particular
+<p>In its <code><a href="../../../reference/android/app/admin/DeviceAdminReceiver.html">DeviceAdminReceiver</a></code> subclass, the sample application
+simply displays a <code><a href="../../../reference/android/widget/Toast.html">Toast</a></code> notification in response to particular
 events. For example:</p>
 <pre>public class DeviceAdminSample extends DeviceAdminReceiver {
 
@@ -1446,7 +1430,7 @@ the policies to be enforced. If the user chooses not to enable the application
 it will still be present on the device, but its policies will not be enforced, and the user will not
 get any of the application's benefits.</p>
 <p>The process of enabling the application begins when the user performs an
-action that triggers the <code><a href="http://developer.android.com/reference/android/app/admin/DevicePolicyManager.html#ACTION_ADD_DEVICE_ADMIN">ACTION_ADD_DEVICE_ADMIN</a></code>
+action that triggers the <code><a href="../../../reference/android/app/admin/DevicePolicyManager.html#ACTION_ADD_DEVICE_ADMIN">ACTION_ADD_DEVICE_ADMIN</a></code>
 intent. In the
 sample application, this happens when the user clicks the <strong>Enable
 Admin</strong> checkbox. </p>
@@ -1454,12 +1438,12 @@ Admin</strong> checkbox. </p>
 changes to prompt the user to activate the device admin application, as shown in figure
 2.</p>
 
-<img src="http://developer.android.com/images/admin/device-admin-activate-prompt.png"/>
+<img src="../../../images/admin/device-admin-activate-prompt.png"/>
 <p class="img-caption"><strong>Figure 2.</strong> Sample Application: Activating the Application</p>
 
 <p>Below  is the code that gets executed when the user clicks the <strong>Enable Admin</strong> checkbox. This has the effect of triggering the 
-<code><a href="http://developer.android.com/reference/android/preference/Preference.OnPreferenceChangeListener.html#onPreferenceChange(android.preference.Preference,%20java.lang.Object)">onPreferenceChange()</a></code> 
-callback. This callback is invoked when the value of this  <code><a href="http://developer.android.com/reference/android/preference/Preference.html">Preference</a></code> has been changed by the user and is about to be set and/or persisted. If the user is enabling the application, the display
+<code><a href="../../../reference/android/preference/Preference.OnPreferenceChangeListener.html#onPreferenceChange(android.preference.Preference, java.lang.Object)">onPreferenceChange()</a></code> 
+callback. This callback is invoked when the value of this  <code><a href="../../../reference/android/preference/Preference.html">Preference</a></code> has been changed by the user and is about to be set and/or persisted. If the user is enabling the application, the display
 changes to prompt the user to activate the device admin application, as shown in figure
 2. Otherwise, the device admin application is disabled. </p>
 
@@ -1497,15 +1481,15 @@ changes to prompt the user to activate the device admin application, as shown in
 <p>The line
 <code>intent.putExtra(DevicePolicyManager.EXTRA_DEVICE_ADMIN,
 mDeviceAdminSample)</code> states that <code>mDeviceAdminSample</code> (which is
-a <code><a href="http://developer.android.com/reference/android/app/admin/DeviceAdminReceiver.html">DeviceAdminReceiver</a></code> component) is the target policy.
+a <code><a href="../../../reference/android/app/admin/DeviceAdminReceiver.html">DeviceAdminReceiver</a></code> component) is the target policy.
 This line invokes the user interface shown in figure 2, which guides users through
 adding the device administrator to the system (or allows them to reject it).</p>
 
 <p>When the application needs to perform an operation that is contingent on the
 device admin application being enabled, it confirms that the application is
-active. To do this it uses the <code><a href="http://developer.android.com/reference/android/app/admin/DevicePolicyManager.html">DevicePolicyManager</a></code> method
-<code><a href="http://developer.android.com/reference/android/app/admin/DevicePolicyManager.html#isAdminActive(android.content.ComponentName)">isAdminActive()</a></code>. Notice that the <code><a href="http://developer.android.com/reference/android/app/admin/DevicePolicyManager.html">DevicePolicyManager</a></code>
-method <code><a href="http://developer.android.com/reference/android/app/admin/DevicePolicyManager.html#isAdminActive(android.content.ComponentName)">isAdminActive()</a></code> takes a <code><a href="http://developer.android.com/reference/android/app/admin/DeviceAdminReceiver.html">DeviceAdminReceiver</a></code>
+active. To do this it uses the <code><a href="../../../reference/android/app/admin/DevicePolicyManager.html">DevicePolicyManager</a></code> method
+<code><a href="../../../reference/android/app/admin/DevicePolicyManager.html#isAdminActive(android.content.ComponentName)">isAdminActive()</a></code>. Notice that the <code><a href="../../../reference/android/app/admin/DevicePolicyManager.html">DevicePolicyManager</a></code>
+method <code><a href="../../../reference/android/app/admin/DevicePolicyManager.html#isAdminActive(android.content.ComponentName)">isAdminActive()</a></code> takes a <code><a href="../../../reference/android/app/admin/DeviceAdminReceiver.html">DeviceAdminReceiver</a></code>
 component as its argument:</p>
 
 <pre>
@@ -1519,24 +1503,24 @@ private boolean isActiveAdmin() {
 
 
 <h3 id="admin_ops">Managing policies</h3>
-<p><code><a href="http://developer.android.com/reference/android/app/admin/DevicePolicyManager.html">DevicePolicyManager</a></code> is a public class for managing policies
-enforced on a device. <code><a href="http://developer.android.com/reference/android/app/admin/DevicePolicyManager.html">DevicePolicyManager</a></code> manages policies for one
-or more <code><a href="http://developer.android.com/reference/android/app/admin/DeviceAdminReceiver.html">DeviceAdminReceiver</a></code> instances. </p>
-<p>You get a handle to the <code><a href="http://developer.android.com/reference/android/app/admin/DevicePolicyManager.html">DevicePolicyManager</a></code> as follows: </p>
+<p><code><a href="../../../reference/android/app/admin/DevicePolicyManager.html">DevicePolicyManager</a></code> is a public class for managing policies
+enforced on a device. <code><a href="../../../reference/android/app/admin/DevicePolicyManager.html">DevicePolicyManager</a></code> manages policies for one
+or more <code><a href="../../../reference/android/app/admin/DeviceAdminReceiver.html">DeviceAdminReceiver</a></code> instances. </p>
+<p>You get a handle to the <code><a href="../../../reference/android/app/admin/DevicePolicyManager.html">DevicePolicyManager</a></code> as follows: </p>
 <pre>
 DevicePolicyManager mDPM =
     (DevicePolicyManager)getSystemService(Context.DEVICE_POLICY_SERVICE);
 </pre>
-<p>This section describes how to use <code><a href="http://developer.android.com/reference/android/app/admin/DevicePolicyManager.html">DevicePolicyManager</a></code> to perform
+<p>This section describes how to use <code><a href="../../../reference/android/app/admin/DevicePolicyManager.html">DevicePolicyManager</a></code> to perform
  administrative tasks:</p>
 <ul>
-  <li><a href="device-admin.html#pwd">Set password policies</a></li>
-  <li><a href="device-admin.html#lock">Set  device lock</a></li>
-  <li><a href="device-admin.html#wipe">Perform data wipe</a></li>
+  <li><a href="#pwd">Set password policies</a></li>
+  <li><a href="#lock">Set  device lock</a></li>
+  <li><a href="#wipe">Perform data wipe</a></li>
 </ul>
 
 <h4 id="pwd">Set password policies</h4>
-<p><code><a href="http://developer.android.com/reference/android/app/admin/DevicePolicyManager.html">DevicePolicyManager</a></code> includes APIs for setting and enforcing the
+<p><code><a href="../../../reference/android/app/admin/DevicePolicyManager.html">DevicePolicyManager</a></code> includes APIs for setting and enforcing the
 device password policy. In the Device Administration API, the password only applies to
 screen lock. This section describes common password-related tasks.</p>
 
@@ -1547,22 +1531,22 @@ startActivity(intent);
 </pre>
 
 <h5>Set the password quality</h5>
-<p>The password quality can be one of the following <code><a href="http://developer.android.com/reference/android/app/admin/DevicePolicyManager.html">DevicePolicyManager</a></code> constants: </p>
+<p>The password quality can be one of the following <code><a href="../../../reference/android/app/admin/DevicePolicyManager.html">DevicePolicyManager</a></code> constants: </p>
 <dl>
-  <dt><code><a href="http://developer.android.com/reference/android/app/admin/DevicePolicyManager.html#PASSWORD_QUALITY_ALPHABETIC">PASSWORD_QUALITY_ALPHABETIC</a></code></dt><dd>The user must enter a
+  <dt><code><a href="../../../reference/android/app/admin/DevicePolicyManager.html#PASSWORD_QUALITY_ALPHABETIC">PASSWORD_QUALITY_ALPHABETIC</a></code></dt><dd>The user must enter a
 password containing at least alphabetic (or other symbol) characters.</dd>
-  <dt><code><a href="http://developer.android.com/reference/android/app/admin/DevicePolicyManager.html#PASSWORD_QUALITY_ALPHANUMERIC">PASSWORD_QUALITY_ALPHANUMERIC</a></code></dt><dd>The user must enter a
+  <dt><code><a href="../../../reference/android/app/admin/DevicePolicyManager.html#PASSWORD_QUALITY_ALPHANUMERIC">PASSWORD_QUALITY_ALPHANUMERIC</a></code></dt><dd>The user must enter a
 password containing at least <em>both</em> numeric <em>and</em> alphabetic (or
 other symbol) characters.</dd>
-  <dt><code><a href="http://developer.android.com/reference/android/app/admin/DevicePolicyManager.html#PASSWORD_QUALITY_NUMERIC">PASSWORD_QUALITY_NUMERIC</a></code></dt><dd>The user must enter a   password
+  <dt><code><a href="../../../reference/android/app/admin/DevicePolicyManager.html#PASSWORD_QUALITY_NUMERIC">PASSWORD_QUALITY_NUMERIC</a></code></dt><dd>The user must enter a   password
 containing at least numeric characters.</dd>
-<dt><code><a href="http://developer.android.com/reference/android/app/admin/DevicePolicyManager.html#PASSWORD_QUALITY_COMPLEX">PASSWORD_QUALITY_COMPLEX</a></code></dt><dd>The user
+<dt><code><a href="../../../reference/android/app/admin/DevicePolicyManager.html#PASSWORD_QUALITY_COMPLEX">PASSWORD_QUALITY_COMPLEX</a></code></dt><dd>The user
 must have entered a password containing at least a letter, a numerical digit and
 a special symbol.</dd> 
-<dt><code><a href="http://developer.android.com/reference/android/app/admin/DevicePolicyManager.html#PASSWORD_QUALITY_SOMETHING">PASSWORD_QUALITY_SOMETHING</a></code></dt><dd>The
+<dt><code><a href="../../../reference/android/app/admin/DevicePolicyManager.html#PASSWORD_QUALITY_SOMETHING">PASSWORD_QUALITY_SOMETHING</a></code></dt><dd>The
 policy requires some kind
 of password, but doesn't care what it is.</dd>
-  <dt><code><a href="http://developer.android.com/reference/android/app/admin/DevicePolicyManager.html#PASSWORD_QUALITY_UNSPECIFIED">PASSWORD_QUALITY_UNSPECIFIED</a></code></dt><dd>
+  <dt><code><a href="../../../reference/android/app/admin/DevicePolicyManager.html#PASSWORD_QUALITY_UNSPECIFIED">PASSWORD_QUALITY_UNSPECIFIED</a></code></dt><dd>
   The policy has no requirements   for the password. </dd>
 </dl>
 <p>For example, this is how you would set the password policy to require an alphanumeric password:</p>
@@ -1575,24 +1559,24 @@ mDPM.setPasswordQuality(mDeviceAdminSample, DevicePolicyManager.PASSWORD_QUALITY
 
 <h5>Set password content requirements</h5>
 
-<p>Beginning with Android 3.0, the <code><a href="http://developer.android.com/reference/android/app/admin/DevicePolicyManager.html">DevicePolicyManager</a></code> class
+<p>Beginning with Android 3.0, the <code><a href="../../../reference/android/app/admin/DevicePolicyManager.html">DevicePolicyManager</a></code> class
 includes methods that let you fine-tune the contents of the password. For
 example, you could set a policy that states that passwords must contain at least
 <em>n</em> uppercase letters. Here are the methods for fine-tuning a password's
 contents:</p>
 <ul>
 
-<li><code><a href="http://developer.android.com/reference/android/app/admin/DevicePolicyManager.html#setPasswordMinimumLetters(android.content.ComponentName,%20int)">setPasswordMinimumLetters()</a></code></li> 
+<li><code><a href="../../../reference/android/app/admin/DevicePolicyManager.html#setPasswordMinimumLetters(android.content.ComponentName, int)">setPasswordMinimumLetters()</a></code></li> 
 
-<li><code><a href="http://developer.android.com/reference/android/app/admin/DevicePolicyManager.html#setPasswordMinimumLowerCase(android.content.ComponentName,%20int)">setPasswordMinimumLowerCase()</a></code></li>
+<li><code><a href="../../../reference/android/app/admin/DevicePolicyManager.html#setPasswordMinimumLowerCase(android.content.ComponentName, int)">setPasswordMinimumLowerCase()</a></code></li>
 
-<li><code><a href="http://developer.android.com/reference/android/app/admin/DevicePolicyManager.html#setPasswordMinimumUpperCase(android.content.ComponentName,%20int)">setPasswordMinimumUpperCase()</a></code></li>
+<li><code><a href="../../../reference/android/app/admin/DevicePolicyManager.html#setPasswordMinimumUpperCase(android.content.ComponentName, int)">setPasswordMinimumUpperCase()</a></code></li>
 
-<li><code><a href="http://developer.android.com/reference/android/app/admin/DevicePolicyManager.html#setPasswordMinimumNonLetter(android.content.ComponentName,%20int)">setPasswordMinimumNonLetter()</a></code></li>
+<li><code><a href="../../../reference/android/app/admin/DevicePolicyManager.html#setPasswordMinimumNonLetter(android.content.ComponentName, int)">setPasswordMinimumNonLetter()</a></code></li>
 
-<li><code><a href="http://developer.android.com/reference/android/app/admin/DevicePolicyManager.html#setPasswordMinimumNumeric(android.content.ComponentName,%20int)">setPasswordMinimumNumeric()</a></code></li>
+<li><code><a href="../../../reference/android/app/admin/DevicePolicyManager.html#setPasswordMinimumNumeric(android.content.ComponentName, int)">setPasswordMinimumNumeric()</a></code></li>
 
-<li><code><a href="http://developer.android.com/reference/android/app/admin/DevicePolicyManager.html#setPasswordMinimumSymbols(android.content.ComponentName,%20int)">setPasswordMinimumSymbols()</a></code></li>
+<li><code><a href="../../../reference/android/app/admin/DevicePolicyManager.html#setPasswordMinimumSymbols(android.content.ComponentName, int)">setPasswordMinimumSymbols()</a></code></li>
 </ul>
 <p>For example, this snippet states that the password must have at least 2 uppercase letters:</p>
 <pre>
@@ -1624,7 +1608,7 @@ mDPM.setMaximumFailedPasswordsForWipe(mDeviceAdminSample, maxFailedPw);</pre>
 
 <h5 id="expiration">Set password expiration timeout</h5>
 <p>Beginning with Android 3.0, you can use the 
-<code><a href="http://developer.android.com/reference/android/app/admin/DevicePolicyManager.html#setPasswordExpirationTimeout(android.content.ComponentName,%20long)">setPasswordExpirationTimeout()</a></code> 
+<code><a href="../../../reference/android/app/admin/DevicePolicyManager.html#setPasswordExpirationTimeout(android.content.ComponentName, long)">setPasswordExpirationTimeout()</a></code> 
 method to set when a password will expire, expressed as a delta in milliseconds from when a device admin sets the expiration timeout. For example:</p>
 
 <pre>DevicePolicyManager mDPM;
@@ -1637,7 +1621,7 @@ mDPM.setPasswordExpirationTimeout(mDeviceAdminSample, pwExpiration);
 <h5 id="history">Restrict password based on history</h5>
 
 <p>Beginning with Android 3.0, you can use the 
-<code><a href="http://developer.android.com/reference/android/app/admin/DevicePolicyManager.html#setPasswordHistoryLength(android.content.ComponentName,%20int)">setPasswordHistoryLength()</a></code> 
+<code><a href="../../../reference/android/app/admin/DevicePolicyManager.html#setPasswordHistoryLength(android.content.ComponentName, int)">setPasswordHistoryLength()</a></code> 
 method to limit users'
 ability to reuse old passwords. This method takes a <em>length</em>
 parameter, which specifies how many old
@@ -1645,7 +1629,7 @@ passwords are stored. When this policy is active, users cannot enter a new
 password that matches the last <em>n</em> passwords. This prevents
 users from using the same password over and over. This policy is typically used
 in conjunction with 
-<code><a href="http://developer.android.com/reference/android/app/admin/DevicePolicyManager.html#setPasswordExpirationTimeout(android.content.ComponentName,%20long)">setPasswordExpirationTimeout()</a></code>,
+<code><a href="../../../reference/android/app/admin/DevicePolicyManager.html#setPasswordExpirationTimeout(android.content.ComponentName, long)">setPasswordExpirationTimeout()</a></code>,
 which forces users
 to update their passwords after a specified amount of time has elapsed. </p>
 
@@ -1677,23 +1661,23 @@ mDPM.lockNow();</pre>
 
 <h4 id="wipe">Perform data wipe</h4>
 
-<p>You can use the <code><a href="http://developer.android.com/reference/android/app/admin/DevicePolicyManager.html">DevicePolicyManager</a></code> method
-<code><a href="http://developer.android.com/reference/android/app/admin/DevicePolicyManager.html#wipeData(int)">wipeData()</a></code> to reset the device to factory settings. This is useful
+<p>You can use the <code><a href="../../../reference/android/app/admin/DevicePolicyManager.html">DevicePolicyManager</a></code> method
+<code><a href="../../../reference/android/app/admin/DevicePolicyManager.html#wipeData(int)">wipeData()</a></code> to reset the device to factory settings. This is useful
 if the device is lost or stolen. Often the decision to wipe the device is the
 result of certain conditions being met. For example, you can use
-<code><a href="http://developer.android.com/reference/android/app/admin/DevicePolicyManager.html#setMaximumFailedPasswordsForWipe(android.content.ComponentName,%20int)">setMaximumFailedPasswordsForWipe()</a></code> to state that a device should be
+<code><a href="../../../reference/android/app/admin/DevicePolicyManager.html#setMaximumFailedPasswordsForWipe(android.content.ComponentName, int)">setMaximumFailedPasswordsForWipe()</a></code> to state that a device should be
 wiped after a specific number of failed password attempts.</p>
 <p>You wipe data as follows:</p>
 <pre>
 DevicePolicyManager mDPM;
 mDPM.wipeData(0);</pre>
-<p>The <code><a href="http://developer.android.com/reference/android/app/admin/DevicePolicyManager.html#wipeData(int)">wipeData()</a></code> method takes as its parameter a bit mask of
+<p>The <code><a href="../../../reference/android/app/admin/DevicePolicyManager.html#wipeData(int)">wipeData()</a></code> method takes as its parameter a bit mask of
 additional options. Currently the value must be 0. </p>
 
 <h4>Disable camera</h4>
 <p>Beginning with Android 4.0, you can disable the camera. Note that this doesn't have to be a permanent disabling. The camera can be enabled/disabled dynamically based on context, time, and so on. </p>
 <p>You control whether the camera is disabled by using the 
-<code><a href="http://developer.android.com/reference/android/app/admin/DevicePolicyManager.html#setCameraDisabled(android.content.ComponentName,%20boolean)">setCameraDisabled()</a></code> method. For example, this snippet sets the camera to be enabled or disabled based on a checkbox setting:</p>
+<code><a href="../../../reference/android/app/admin/DevicePolicyManager.html#setCameraDisabled(android.content.ComponentName, boolean)">setCameraDisabled()</a></code> method. For example, this snippet sets the camera to be enabled or disabled based on a checkbox setting:</p>
 
 <pre>private CheckBoxPreference mDisableCameraCheckbox;
 DevicePolicyManager mDPM;
@@ -1705,7 +1689,7 @@ mDPM.setCameraDisabled(mDeviceAdminSample, mDisableCameraCheckbox.isChecked());<
 
 <h4 id=storage">Storage encryption</h4>
 <p>Beginning with Android 3.0, you can use the 
-<code><a href="http://developer.android.com/reference/android/app/admin/DevicePolicyManager.html#setStorageEncryption(android.content.ComponentName,%20boolean)">setStorageEncryption()</a></code> 
+<code><a href="../../../reference/android/app/admin/DevicePolicyManager.html#setStorageEncryption(android.content.ComponentName, boolean)">setStorageEncryption()</a></code> 
 method to set a policy requiring encryption of the storage area, where supported.</p>
 
 <p>For example:</p>
@@ -1717,7 +1701,7 @@ ComponentName mDeviceAdminSample;
 mDPM.setStorageEncryption(mDeviceAdminSample, true);
 </pre>
 <p>
-See the <a href="http://developer.android.com/resources/samples/ApiDemos/src/com/example/android/apis/app/DeviceAdminSample.html"> Device Administration API sample</a> for a complete
+See the <a href="../../../resources/samples/ApiDemos/src/com/example/android/apis/app/DeviceAdminSample.html"> Device Administration API sample</a> for a complete
 example of how to enable storage encryption.</p>
 
     </div>
@@ -1732,7 +1716,7 @@ example of how to enable storage encryption.</p>
         
         <div class="paging-links layout-content-col col-4">
           
-            <a href="device-admin.html#" class="prev-page-link hide"
+            <a href="#" class="prev-page-link hide"
                 zh-TW-lang="上一堂課"
                 zh-CN-lang="上一课"
                 ru-lang="Предыдущий"
@@ -1740,7 +1724,7 @@ example of how to enable storage encryption.</p>
                 ja-lang="前へ"
                 es-lang="Anterior"               
                 >Previous</a>
-            <a href="device-admin.html#" class="next-page-link hide"
+            <a href="#" class="next-page-link hide"
                 zh-TW-lang="下一堂課"
                 zh-CN-lang="下一课"
                 ru-lang="Следующий"

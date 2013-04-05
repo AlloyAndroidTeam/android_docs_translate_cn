@@ -91,12 +91,14 @@ href="http://fonts.googleapis.com/css?family=Roboto:regular,medium,thin,italic,m
 <script src="http://www.google.com/jsapi" type="text/javascript"></script>
 <script src="../../../assets/js/android_3p-bundle.js" type="text/javascript"></script>
 <script type="text/javascript">
-  var toRoot = "/";
+  var toRoot = "../../../";
   
   var devsite = false;
   
 </script>
 <script src="../../../assets/js/docs.js" type="text/javascript"></script>
+
+<script src="../../../navtree_data.js" type="text/javascript"></script>
 
 
 <script type="text/javascript">
@@ -123,8 +125,8 @@ href="http://fonts.googleapis.com/css?family=Roboto:regular,medium,thin,italic,m
             <img src="../../../assets/images/dac_logo.png" width="123" height="25" alt="Android Developers" />
           </a>
           <div class="btn-quicknav" id="btn-quicknav">
-          	<a href="activity-element.html#" class="arrow-inactive">Quicknav</a>
-			      <a href="activity-element.html#" class="arrow-active">Quicknav</a>
+          	<a href="#" class="arrow-inactive">Quicknav</a>
+			      <a href="#" class="arrow-active">Quicknav</a>
           </div>
           </div>
             <ul class="nav-x col-9">
@@ -179,24 +181,6 @@ href="http://fonts.googleapis.com/css?family=Roboto:regular,medium,thin,italic,m
 
       
       
-        <div class="header">Language</div>
-          <div id="language" class="locales">
-            <select name="language" onChange="changeLangPref(this.value, true)">
-                <option value="en">English</option>
-                <option value="es">Español</option>
-                <option value="ja">日本語</option>
-                <option value="ko">한국어</option>
-                <option value="ru">Русский</option>
-                <option value="zh-CN">中文 (中国)</option>
-                <option value="zh-TW">中文 (台灣)</option>
-            </select>
-          </div>
-        <script type="text/javascript">
-          <!--
-          loadLangPref();
-            //-->
-        </script>
-      
       
 
 
@@ -211,8 +195,8 @@ href="http://fonts.googleapis.com/css?family=Roboto:regular,medium,thin,italic,m
       <form onsubmit="return submit_search()">
         <input id="search_autocomplete" type="text" value="" autocomplete="off" name="q"
 onfocus="search_focus_changed(this, true)" onblur="search_focus_changed(this, false)"
-onkeydown="return search_changed(event, true, '/')" 
-onkeyup="return search_changed(event, false, '/')" />
+onkeydown="return search_changed(event, true, '../../../')" 
+onkeyup="return search_changed(event, false, '../../../')" />
       </form>
       <div class="right"></div>
         <a class="close hide">close</a>
@@ -254,7 +238,7 @@ onkeyup="return search_changed(event, false, '/')" />
                           ja-lang="トレーニング"
                           es-lang="Capacitación"               
                           >Training</a></li>
-                        <li><a href="../../components/index.html"
+                        <li><a href="../../../guide/components/index.html"
                           zh-TW-lang="API 指南"
                           zh-CN-lang="API 指南"
                           ru-lang="Руководства по API"
@@ -322,7 +306,7 @@ onkeyup="return search_changed(event, false, '/')" />
                   ja-lang="トレーニング"
                   es-lang="Capacitación"               
                   >Training</a></li>
-                <li class="guide"><a href="../../components/index.html"
+                <li class="guide"><a href="../../../guide/components/index.html"
                   zh-TW-lang="API 指南"
                   zh-CN-lang="API 指南"
                   ru-lang="Руководства по API"
@@ -360,7 +344,7 @@ onkeyup="return search_changed(event, false, '/')" />
   <div class="wrap clearfix" id="body-content">
     <div class="col-4" id="side-nav" itemscope itemtype="http://schema.org/SiteNavigationElement">
       <div id="devdoc-nav" class="scroll-pane">
-<a class="totop" href="activity-element.html#top" data-g-event="left-nav-top">to top</a>
+<a class="totop" href="#top" data-g-event="left-nav-top">to top</a>
 
 
 
@@ -369,106 +353,106 @@ onkeyup="return search_changed(event, false, '/')" />
   <!--<li style="color:red">Overview</li> -->
 
   <li class="nav-section">
-    <div class="nav-section-header"><a href="../../components/index.html">
+    <div class="nav-section-header"><a href="../../../guide/components/index.html">
         <span class="en">App Components</span>
       </a></div>
     <ul>
-      <li><a href="../../components/fundamentals.html">
+      <li><a href="../../../guide/components/fundamentals.html">
             <span class="en">App Fundamentals</span></a>
       </li>
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../../components/activities.html">
+        <div class="nav-section-header"><a href="../../../guide/components/activities.html">
             <span class="en">Activities</span>
           </a></div>
         <ul>
-          <li><a href="../../components/fragments.html">
+          <li><a href="../../../guide/components/fragments.html">
               <span class="en">Fragments</span>
             </a></li>
-          <li><a href="../../components/loaders.html">
+          <li><a href="../../../guide/components/loaders.html">
               <span class="en">Loaders</span>
             </a></li>
-          <li><a href="../../components/tasks-and-back-stack.html">
+          <li><a href="../../../guide/components/tasks-and-back-stack.html">
               <span class="en">Tasks and Back Stack</span>
             </a></li>
         </ul>
       </li>
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../../components/services.html">
+        <div class="nav-section-header"><a href="../../../guide/components/services.html">
             <span class="en">Services</span>
           </a></div>
         <ul>
-          <li><a href="../../components/bound-services.html">
+          <li><a href="../../../guide/components/bound-services.html">
               <span class="en">Bound Services</span>
             </a></li>
-          <li><a href="../../components/aidl.html">
+          <li><a href="../../../guide/components/aidl.html">
               <span class="en">AIDL</span>
             </a></li>
         </ul>
       </li>
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../providers/content-providers.html">
+        <div class="nav-section-header"><a href="../../../guide/topics/providers/content-providers.html">
             <span class="en">Content Providers</span>
           </a></div>
         <ul>
-          <li><a href="../providers/content-provider-basics.html">
+          <li><a href="../../../guide/topics/providers/content-provider-basics.html">
               <span class="en">Content Provider Basics</span>
             </a></li>
-          <li><a href="../providers/content-provider-creating.html">
+          <li><a href="../../../guide/topics/providers/content-provider-creating.html">
               <span class="en">Creating a Content Provider</span>
             </a></li>
-          <li><a href="../providers/calendar-provider.html">
+          <li><a href="../../../guide/topics/providers/calendar-provider.html">
               <span class="en">Calendar Provider</span>
             </a></li>
-          <li><a href="../providers/contacts-provider.html">
+          <li><a href="../../../guide/topics/providers/contacts-provider.html">
               <span class="en">Contacts Provider</span>
             </a></li>
         </ul>
       </li>
-      <li><a href="../../components/intents-filters.html">
+      <li><a href="../../../guide/components/intents-filters.html">
           <span class="en">Intents and Intent Filters</span>
         </a></li>
-      <li><a href="../../components/processes-and-threads.html">
+      <li><a href="../../../guide/components/processes-and-threads.html">
           <span class="en">Processes and Threads</span>
         </a>
       </li>
-      <li><a href="../security/permissions.html">
+      <li><a href="../../../guide/topics/security/permissions.html">
           <span class="en">Permissions</span>
         </a>
       </li>
-      <li><a href="../appwidgets/index.html">
+      <li><a href="../../../guide/topics/appwidgets/index.html">
             <span class="en">App Widgets</span>
           </a></li>
       <li class="nav-section">
-      <div class="nav-section-header"><a href="manifest-intro.html">
+      <div class="nav-section-header"><a href="../../../guide/topics/manifest/manifest-intro.html">
           <span class="en">Android Manifest</span>
         </a></div>
         <ul>
-          <li><a href="action-element.html">&lt;action&gt;</a></li>
-          <li><a href="activity-element.html">&lt;activity&gt;</a></li>
-          <li><a href="activity-alias-element.html">&lt;activity-alias&gt;</a></li>
-          <li><a href="application-element.html">&lt;application&gt;</a></li>
-          <li><a href="category-element.html">&lt;category&gt;</a></li>
-          <li><a href="compatible-screens-element.html">&lt;compatible-screens&gt;</a></li>
-          <li><a href="data-element.html">&lt;data&gt;</a></li>
-          <li><a href="grant-uri-permission-element.html">&lt;grant-uri-permission&gt;</a></li>
-          <li><a href="instrumentation-element.html">&lt;instrumentation&gt;</a></li>
-          <li><a href="intent-filter-element.html">&lt;intent-filter&gt;</a></li>
-          <li><a href="manifest-element.html">&lt;manifest&gt;</a></li>
-          <li><a href="meta-data-element.html">&lt;meta-data&gt;</a></li>
-          <li><a href="path-permission-element.html">&lt;path-permission&gt;</a></li>
-          <li><a href="permission-element.html">&lt;permission&gt;</a></li>
-          <li><a href="permission-group-element.html">&lt;permission-group&gt;</a></li>
-          <li><a href="permission-tree-element.html">&lt;permission-tree&gt;</a></li>
-          <li><a href="provider-element.html">&lt;provider&gt;</a></li>
-          <li><a href="receiver-element.html">&lt;receiver&gt;</a></li>
-          <li><a href="service-element.html">&lt;service&gt;</a></li>
-          <li><a href="supports-gl-texture-element.html">&lt;supports-gl-texture&gt;</a></li>
-          <li><a href="supports-screens-element.html">&lt;supports-screens&gt;</a></li><!-- ##api level 4## -->
-          <li><a href="uses-configuration-element.html">&lt;uses-configuration&gt;</a></li>
-          <li><a href="uses-feature-element.html">&lt;uses-feature&gt;</a></li> <!-- ##api level 4## -->
-          <li><a href="uses-library-element.html">&lt;uses-library&gt;</a></li>
-          <li><a href="uses-permission-element.html">&lt;uses-permission&gt;</a></li>
-          <li><a href="uses-sdk-element.html">&lt;uses-sdk&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/action-element.html">&lt;action&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/activity-element.html">&lt;activity&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/activity-alias-element.html">&lt;activity-alias&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/application-element.html">&lt;application&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/category-element.html">&lt;category&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/compatible-screens-element.html">&lt;compatible-screens&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/data-element.html">&lt;data&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/grant-uri-permission-element.html">&lt;grant-uri-permission&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/instrumentation-element.html">&lt;instrumentation&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/intent-filter-element.html">&lt;intent-filter&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/manifest-element.html">&lt;manifest&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/meta-data-element.html">&lt;meta-data&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/path-permission-element.html">&lt;path-permission&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/permission-element.html">&lt;permission&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/permission-group-element.html">&lt;permission-group&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/permission-tree-element.html">&lt;permission-tree&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/provider-element.html">&lt;provider&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/receiver-element.html">&lt;receiver&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/service-element.html">&lt;service&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/supports-gl-texture-element.html">&lt;supports-gl-texture&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/supports-screens-element.html">&lt;supports-screens&gt;</a></li><!-- ##api level 4## -->
+          <li><a href="../../../guide/topics/manifest/uses-configuration-element.html">&lt;uses-configuration&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/uses-feature-element.html">&lt;uses-feature&gt;</a></li> <!-- ##api level 4## -->
+          <li><a href="../../../guide/topics/manifest/uses-library-element.html">&lt;uses-library&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/uses-permission-element.html">&lt;uses-permission&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/uses-sdk-element.html">&lt;uses-sdk&gt;</a></li>
         </ul>
    </li><!-- end of the manifest file -->
 
@@ -476,263 +460,263 @@ onkeyup="return search_changed(event, false, '/')" />
   </li>
 
   <li class="nav-section">
-    <div class="nav-section-header"><a href="../ui/index.html">
+    <div class="nav-section-header"><a href="../../../guide/topics/ui/index.html">
         <span class="en">User Interface</span>
       </a></div>
     <ul>
-      <li><a href="../ui/overview.html">
+      <li><a href="../../../guide/topics/ui/overview.html">
           <span class="en">Overview</span>
         </a></li>
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../ui/declaring-layout.html">
+        <div class="nav-section-header"><a href="../../../guide/topics/ui/declaring-layout.html">
             <span class="en">Layouts</span>
           </a></div>
         <ul>
-          <li><a href="../ui/layout/linear.html">
+          <li><a href="../../../guide/topics/ui/layout/linear.html">
               <span class="en">Linear Layout</span>
             </a></li>
-          <li><a href="../ui/layout/relative.html">
+          <li><a href="../../../guide/topics/ui/layout/relative.html">
               <span class="en">Relative Layout</span>
             </a></li>
        <!--
-          <li><a href="/guide/topics/ui/layout/grid.html">
+          <li><a href="../../../guide/topics/ui/layout/grid.html">
               <span class="en">Grid Layout</span>
             </a></li>
-          <li><a href="/guide/topics/ui/layout/tabs.html">
+          <li><a href="../../../guide/topics/ui/layout/tabs.html">
               <span class="en">Tab Layout</span>
             </a></li>
        -->
-          <li><a href="../ui/layout/listview.html">
+          <li><a href="../../../guide/topics/ui/layout/listview.html">
               <span class="en">List View</span>
             </a></li>
-          <li><a href="../ui/layout/gridview.html">
+          <li><a href="../../../guide/topics/ui/layout/gridview.html">
               <span class="en">Grid View</span>
             </a></li>
         </ul>
       </li>
 
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../ui/controls.html">
+        <div class="nav-section-header"><a href="../../../guide/topics/ui/controls.html">
             <span class="en">Input Controls</span>
           </a></div>
         <ul>
-          <li><a href="../ui/controls/button.html">
+          <li><a href="../../../guide/topics/ui/controls/button.html">
               <span class="en">Buttons</span>
             </a></li>
-          <li><a href="../ui/controls/text.html">
+          <li><a href="../../../guide/topics/ui/controls/text.html">
               <span class="en">Text Fields</span>
             </a></li>
-          <li><a href="../ui/controls/checkbox.html">
+          <li><a href="../../../guide/topics/ui/controls/checkbox.html">
               <span class="en">Checkboxes</span>
             </a></li>
-          <li><a href="../ui/controls/radiobutton.html">
+          <li><a href="../../../guide/topics/ui/controls/radiobutton.html">
               <span class="en">Radio Buttons</span>
             </a></li>
-          <li><a href="../ui/controls/togglebutton.html">
+          <li><a href="../../../guide/topics/ui/controls/togglebutton.html">
               <span class="en">Toggle Buttons</span>
             </a></li>
-          <li><a href="../ui/controls/spinner.html">
+          <li><a href="../../../guide/topics/ui/controls/spinner.html">
               <span class="en">Spinners</span>
             </a></li>
-          <li><a href="../ui/controls/pickers.html">
+          <li><a href="../../../guide/topics/ui/controls/pickers.html">
               <span class="en">Pickers</span>
             </a></li>
 <!--
-          <li><a href="/guide/topics/ui/controls/progress.html">
+          <li><a href="../../../guide/topics/ui/controls/progress.html">
               <span class="en">Seek and Progress Bars</span>
             </a></li>
 -->
         </ul>
       </li>
-      <li><a href="../ui/ui-events.html">
+      <li><a href="../../../guide/topics/ui/ui-events.html">
           <span class="en">Input Events</span>
         </a></li>
-      <li><a href="../ui/menus.html">
+      <li><a href="../../../guide/topics/ui/menus.html">
           <span class="en">Menus</span></span>
           </a></li>
-      <li><a href="../ui/actionbar.html">
+      <li><a href="../../../guide/topics/ui/actionbar.html">
            <span class="en">Action Bar</span>
           </a></li>
-      <li><a href="../ui/settings.html">
+      <li><a href="../../../guide/topics/ui/settings.html">
             <span class="en">Settings</span>
           </a></li>
-      <li><a href="../ui/dialogs.html">
+      <li><a href="../../../guide/topics/ui/dialogs.html">
            <span class="en">Dialogs</span>
           </a></li>
-      <li><a href="../ui/notifiers/notifications.html">
+      <li><a href="../../../guide/topics/ui/notifiers/notifications.html">
           <span class="en">Notifications</span>
         </a></li>
-      <li><a href="../ui/notifiers/toasts.html">
+      <li><a href="../../../guide/topics/ui/notifiers/toasts.html">
           <span class="en">Toasts</span>
         </a></li>
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../search/index.html">
+        <div class="nav-section-header"><a href="../../../guide/topics/search/index.html">
             <span class="en">Search</span>
           </a></div>
           <ul>
-            <li><a href="../search/search-dialog.html">Creating a Search Interface</a></li>
-            <li><a href="../search/adding-recent-query-suggestions.html">Adding Recent Query Suggestions</a></li>
-            <li><a href="../search/adding-custom-suggestions.html">Adding Custom Suggestions</a></li>
-            <li><a href="../search/searchable-config.html">Searchable Configuration</a></li>
+            <li><a href="../../../guide/topics/search/search-dialog.html">Creating a Search Interface</a></li>
+            <li><a href="../../../guide/topics/search/adding-recent-query-suggestions.html">Adding Recent Query Suggestions</a></li>
+            <li><a href="../../../guide/topics/search/adding-custom-suggestions.html">Adding Custom Suggestions</a></li>
+            <li><a href="../../../guide/topics/search/searchable-config.html">Searchable Configuration</a></li>
           </ul>
       </li>
-      <li><a href="../ui/drag-drop.html">
+      <li><a href="../../../guide/topics/ui/drag-drop.html">
           <span class="en">Drag and Drop</span>
         </a></li>
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../ui/accessibility/index.html">
+        <div class="nav-section-header"><a href="../../../guide/topics/ui/accessibility/index.html">
             <span class="en">Accessibility</span>
           </a></div>
         <ul>
-          <li><a href="../ui/accessibility/apps.html">
+          <li><a href="../../../guide/topics/ui/accessibility/apps.html">
               <span class="en">Making Applications Accessible</span>
             </a></li>
-          <li><a href="../ui/accessibility/checklist.html">
+          <li><a href="../../../guide/topics/ui/accessibility/checklist.html">
               <span class="en">Accessibility Developer Checklist</span>
             </a></li>
-          <li><a href="../ui/accessibility/services.html">
+          <li><a href="../../../guide/topics/ui/accessibility/services.html">
               <span class="en">Building Accessibility Services</span>
             </a></li>
         </ul>
       </li>
-      <li><a href="../ui/themes.html">
+      <li><a href="../../../guide/topics/ui/themes.html">
           <span class="en">Styles and Themes</span>
         </a></li>
-      <li><a href="../ui/custom-components.html">
+      <li><a href="../../../guide/topics/ui/custom-components.html">
           <span class="en">Custom Components</span>
         </a></li>
     </ul>
   </li><!-- end of User Interface -->
 
     <li class="nav-section">
-      <div class="nav-section-header"><a href="../resources/index.html">
+      <div class="nav-section-header"><a href="../../../guide/topics/resources/index.html">
            <span class="en">App Resources</span>
          </a></div>
       <ul>
-        <li><a href="../resources/overview.html">
+        <li><a href="../../../guide/topics/resources/overview.html">
             <span class="en">Overview</span>
           </a></li>
-          <li><a href="../resources/providing-resources.html">
+          <li><a href="../../../guide/topics/resources/providing-resources.html">
             <span class="en">Providing Resources</span>
           </a></li>
-        <li><a href="../resources/accessing-resources.html">
+        <li><a href="../../../guide/topics/resources/accessing-resources.html">
             <span class="en">Accessing Resources</span>
           </a></li>
-        <li><a href="../resources/runtime-changes.html">
+        <li><a href="../../../guide/topics/resources/runtime-changes.html">
               <span class="en">Handling Runtime Changes</span>
             </a></li>
-        <li><a href="../resources/localization.html">
+        <li><a href="../../../guide/topics/resources/localization.html">
             <span class="en">Localization</span>
           </a></li>
         <li class="nav-section">
-          <div class="nav-section-header"><a href="../resources/available-resources.html">
+          <div class="nav-section-header"><a href="../../../guide/topics/resources/available-resources.html">
               <span class="en">Resource Types</span>
             </a></div>
           <ul>
-            <li><a href="../resources/animation-resource.html">Animation</a></li>
-            <li><a href="../resources/color-list-resource.html">Color State List</a></li>
-            <li><a href="../resources/drawable-resource.html">Drawable</a></li>
-            <li><a href="../resources/layout-resource.html">Layout</a></li>
-            <li><a href="../resources/menu-resource.html">Menu</a></li>
-            <li><a href="../resources/string-resource.html">String</a></li>
-            <li><a href="../resources/style-resource.html">Style</a></li>
-            <li><a href="../resources/more-resources.html">More Types</a></li>
+            <li><a href="../../../guide/topics/resources/animation-resource.html">Animation</a></li>
+            <li><a href="../../../guide/topics/resources/color-list-resource.html">Color State List</a></li>
+            <li><a href="../../../guide/topics/resources/drawable-resource.html">Drawable</a></li>
+            <li><a href="../../../guide/topics/resources/layout-resource.html">Layout</a></li>
+            <li><a href="../../../guide/topics/resources/menu-resource.html">Menu</a></li>
+            <li><a href="../../../guide/topics/resources/string-resource.html">String</a></li>
+            <li><a href="../../../guide/topics/resources/style-resource.html">Style</a></li>
+            <li><a href="../../../guide/topics/resources/more-resources.html">More Types</a></li>
           </ul>
         </li><!-- end of resource types -->
       </ul>
     </li><!-- end of app resources -->
 
    <li class="nav-section">
-      <div class="nav-section-header"><a href="../graphics/index.html">
+      <div class="nav-section-header"><a href="../../../guide/topics/graphics/index.html">
           <span class="en">Animation and Graphics</span>
         </a></div>
       <ul>
       <li class="nav-section">
-        <li><a href="../graphics/overview.html">
+        <li><a href="../../../guide/topics/graphics/overview.html">
             <span class="en">Overview</span>
           </a></li>
-        <li><a href="../graphics/prop-animation.html">
+        <li><a href="../../../guide/topics/graphics/prop-animation.html">
             <span class="en">Property Animation</span>
           </a></li>
-        <li><a href="../graphics/view-animation.html">
+        <li><a href="../../../guide/topics/graphics/view-animation.html">
             <span class="en">View Animation</span>
           </a></li>
-        <li><a href="../graphics/drawable-animation.html">
+        <li><a href="../../../guide/topics/graphics/drawable-animation.html">
             <span class="en">Drawable Animation</span>
           </a></li>
-        <li><a href="../graphics/2d-graphics.html">
+        <li><a href="../../../guide/topics/graphics/2d-graphics.html">
             <span class="en">Canvas and Drawables</span>
           </a></li>
-        <li><a href="../graphics/opengl.html">
+        <li><a href="../../../guide/topics/graphics/opengl.html">
             <span class="en">OpenGL</span>
           </a></li>
-        <li><a href="../graphics/hardware-accel.html">
+        <li><a href="../../../guide/topics/graphics/hardware-accel.html">
             <span class="en">Hardware Acceleration</span>
           </a></li>
        </ul>
     </li><!-- end of graphics and animation-->
 
    <li class="nav-section">
-            <div class="nav-section-header"><a href="../renderscript/index.html">
+            <div class="nav-section-header"><a href="../../../guide/topics/renderscript/index.html">
               <span class="en">Computation</span>
             </a></div>
             <ul>
-              <li><a href="../renderscript/compute.html">
+              <li><a href="../../../guide/topics/renderscript/compute.html">
                     <span class="en">Renderscript</span></a>
                   </li>
 
-              <li><a href="../renderscript/advanced.html">
+              <li><a href="../../../guide/topics/renderscript/advanced.html">
                     <span class="en">Advanced Renderscript</span></a>
                   </li>
-              <li><a href="../renderscript/reference.html">
+              <li><a href="../../../guide/topics/renderscript/reference.html">
                     <span class="en">Runtime API Reference</span></a>
               </li>
              </ul>
    </li>
       <li class="nav-section">
-          <div class="nav-section-header"><a href="../media/index.html">
+          <div class="nav-section-header"><a href="../../../guide/topics/media/index.html">
             <span class="en">Media and Camera</span>
           </a></div>
           <ul>
-            <li><a href="../media/mediaplayer.html">
+            <li><a href="../../../guide/topics/media/mediaplayer.html">
                   <span class="en">Media Playback</span></a>
                 </li>
-            <li><a href="../../appendix/media-formats.html">
+            <li><a href="../../../guide/appendix/media-formats.html">
                    <span class="en">Supported Media Formats</span></a>
                 </li>
-            <li><a href="../media/audio-capture.html">
+            <li><a href="../../../guide/topics/media/audio-capture.html">
                   <span class="en">Audio Capture</span></a>
                 </li>
-            <li><a href="../media/jetplayer.html">
+            <li><a href="../../../guide/topics/media/jetplayer.html">
                   <span class="en">JetPlayer</span></a>
                 </li>
-            <li><a href="../media/camera.html">
+            <li><a href="../../../guide/topics/media/camera.html">
                   <span class="en">Camera</span></a>
                 </li>
           </ul>
       </li><!-- end of media and camera -->
 
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../sensors/index.html">
+        <div class="nav-section-header"><a href="../../../guide/topics/sensors/index.html">
               <span class="en">Location and Sensors</span>
               </a></div>
         <ul>
-          <li><a href="../location/index.html">
+          <li><a href="../../../guide/topics/location/index.html">
                <span class="en">Location and Maps</span>
              </a>
-          <li><a href="../location/strategies.html">
+          <li><a href="../../../guide/topics/location/strategies.html">
                <span class="en">Location Strategies</span>
              </a></li>
-          <li><a href="../sensors/sensors_overview.html">
+          <li><a href="../../../guide/topics/sensors/sensors_overview.html">
               <span class="en">Sensors Overview</span>
             </a></li>
-          <li><a href="../sensors/sensors_motion.html">
+          <li><a href="../../../guide/topics/sensors/sensors_motion.html">
               <span class="en">Motion Sensors</span>
             </a></li>
-          <li><a href="../sensors/sensors_position.html">
+          <li><a href="../../../guide/topics/sensors/sensors_position.html">
               <span class="en">Position Sensors</span>
             </a></li>
-          <li><a href="../sensors/sensors_environment.html">
+          <li><a href="../../../guide/topics/sensors/sensors_environment.html">
               <span class="en">Environment Sensors</span>
             </a></li>
         </ul>
@@ -741,36 +725,36 @@ onkeyup="return search_changed(event, false, '/')" />
 
 
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../connectivity/index.html">
+        <div class="nav-section-header"><a href="../../../guide/topics/connectivity/index.html">
                <span class="en">Connectivity</span>
              </a></div>
         <ul>
-          <li><a href="../connectivity/bluetooth.html">
+          <li><a href="../../../guide/topics/connectivity/bluetooth.html">
               <span class="en">Bluetooth</span>
             </a>
           </li>
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../connectivity/nfc/index.html">
+        <div class="nav-section-header"><a href="../../../guide/topics/connectivity/nfc/index.html">
           <span class="en">NFC</span></a>
         </div>
         <ul>
-          <li><a href="../connectivity/nfc/nfc.html">NFC Basics</a></li>
-          <li><a href="../connectivity/nfc/advanced-nfc.html">Advanced NFC</a></li>
+          <li><a href="../../../guide/topics/connectivity/nfc/nfc.html">NFC Basics</a></li>
+          <li><a href="../../../guide/topics/connectivity/nfc/advanced-nfc.html">Advanced NFC</a></li>
         </ul>
       </li>
-      <li><a href="../connectivity/wifip2p.html">
+      <li><a href="../../../guide/topics/connectivity/wifip2p.html">
             <span class="en">Wi-Fi Direct</span></a>
           </li>
       <li class="nav-section">
-          <div class="nav-section-header"><a href="../connectivity/usb/index.html">
+          <div class="nav-section-header"><a href="../../../guide/topics/connectivity/usb/index.html">
             <span class="en">USB</span></a>
           </div>
             <ul>
-              <li><a href="../connectivity/usb/accessory.html">Accessory</a></li>
-              <li><a href="../connectivity/usb/host.html">Host</a></li>
+              <li><a href="../../../guide/topics/connectivity/usb/accessory.html">Accessory</a></li>
+              <li><a href="../../../guide/topics/connectivity/usb/host.html">Host</a></li>
             </ul>
      </li>
-     <li><a href="../connectivity/sip.html">
+     <li><a href="../../../guide/topics/connectivity/sip.html">
             <span class="en">SIP</span>
           </a>
      </li>
@@ -779,34 +763,34 @@ onkeyup="return search_changed(event, false, '/')" />
   </li><!-- end of connectivity -->
 
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../text/index.html">
+        <div class="nav-section-header"><a href="../../../guide/topics/text/index.html">
             <span class="en">Text and Input</span>
         </a></div>
         <ul>
-          <li><a href="../text/copy-paste.html">
+          <li><a href="../../../guide/topics/text/copy-paste.html">
               <span class="en">Copy and Paste</span>
             </a></li>
-          <li><a href="../text/creating-input-method.html">
+          <li><a href="../../../guide/topics/text/creating-input-method.html">
               <span class="en">Creating an IME</span>
             </a></li>
-          <li><a href="../text/spell-checker-framework.html">
+          <li><a href="../../../guide/topics/text/spell-checker-framework.html">
               <span class="en">Spelling Checker</span>
             </a></li>
         </ul>
       </li><!-- end of text and input -->
 
      <li class="nav-section">
-      <div class="nav-section-header"><a href="../data/index.html">
+      <div class="nav-section-header"><a href="../../../guide/topics/data/index.html">
           <span class="en">Data Storage</span>
         </a></div>
       <ul>
-         <li><a href="../data/data-storage.html">
+         <li><a href="../../../guide/topics/data/data-storage.html">
             <span class="en">Storage Options</span>
            </a></li>
-        <li><a href="../data/backup.html">
+        <li><a href="../../../guide/topics/data/backup.html">
             <span class="en">Data Backup</span>
           </a></li>
-        <li><a href="../data/install-location.html">
+        <li><a href="../../../guide/topics/data/install-location.html">
             <span class="en">App Install Location</span>
           </a></li>
       </ul>
@@ -814,17 +798,17 @@ onkeyup="return search_changed(event, false, '/')" />
 
 
   <li class="nav-section">
-           <div class="nav-section-header"><a href="../admin/index.html">
+           <div class="nav-section-header"><a href="../../../guide/topics/admin/index.html">
                <span class="en">Administration</span>
              </a></div>
            <ul>
               <li>
-                <a href="../admin/device-admin.html">
+                <a href="../../../guide/topics/admin/device-admin.html">
                 <span class="en">Device Policies</span></a>
               </li>
             <!--
               <li>
-                <a href="/guide/topics/admin/keychain.html">
+                <a href="../../../guide/topics/admin/keychain.html">
                 <span class="en">Certificate Store</span></a>
               </li>
             -->
@@ -832,30 +816,30 @@ onkeyup="return search_changed(event, false, '/')" />
   </li><!-- end of administration -->
 
   <li class="nav-section">
-    <div class="nav-section-header"><a href="../../webapps/index.html">
+    <div class="nav-section-header"><a href="../../../guide/webapps/index.html">
     <span class="en">Web Apps</span>
     </a></div>
     <ul>
-      <li><a href="../../webapps/overview.html">
+      <li><a href="../../../guide/webapps/overview.html">
             <span class="en">Overview</span>
           </a></li>
-      <li><a href="../../webapps/targeting.html">
+      <li><a href="../../../guide/webapps/targeting.html">
             <span class="en">Targeting Screens from Web Apps</span>
           </a></li>
-      <li><a href="../../webapps/webview.html">
+      <li><a href="../../../guide/webapps/webview.html">
             <span class="en">Building Web Apps in WebView</span>
           </a></li>
-      <li><a href="../../webapps/debugging.html">
+      <li><a href="../../../guide/webapps/debugging.html">
             <span class="en">Debugging Web Apps</span>
           </a></li>
-      <li><a href="../../webapps/best-practices.html">
+      <li><a href="../../../guide/webapps/best-practices.html">
             <span class="en">Best Practices for Web Apps</span>
           </a></li>
     </ul>
   </li><!-- end of web apps -->
 
   <li class="nav-section">
-    <div class="nav-section-header"><a href="../../practices/index.html">
+    <div class="nav-section-header"><a href="../../../guide/practices/index.html">
       <span class="en">Best Practices</span>
       <span class="de" style="display:none">Bewährte Verfahren</span>
       <span class="es" style="display:none">Prácticas recomendadas</span>
@@ -866,26 +850,26 @@ onkeyup="return search_changed(event, false, '/')" />
       <span class="zh-TW" style="display:none">最佳實務</span>
     </div></a>
     <ul>
-      <li><a href="../../practices/compatibility.html">
+      <li><a href="../../../guide/practices/compatibility.html">
             <span class="en">Compatibility</span>
           </a></li>
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../../practices/screens_support.html">
+        <div class="nav-section-header"><a href="../../../guide/practices/screens_support.html">
           <span class="en">Supporting Multiple Screens</span>
         </a></div>
         <ul>
-          <li><a href="../../practices/screens-distribution.html">
+          <li><a href="../../../guide/practices/screens-distribution.html">
             <span class="en">Distributing to Specific Screens</span>
           </a></li>
-          <li><a href="../../practices/screen-compat-mode.html">
+          <li><a href="../../../guide/practices/screen-compat-mode.html">
             <span class="en">Screen Compatibility Mode</span>
           </a></li>
-          <!--<li><a href="../../practices/screens-support-1.5.html">
+          <!--<li><a href="../../../guide/practices/screens-support-1.5.html">
             <span class="en">Strategies for Android 1.5</span>
           </a></li> -->
         </ul>
       </li>
-      <li><a href="../../practices/tablets-and-handsets.html">
+      <li><a href="../../../guide/practices/tablets-and-handsets.html">
             <span class="en">Supporting Tablets and Handsets</span>
           </a></li>
 
@@ -894,39 +878,39 @@ onkeyup="return search_changed(event, false, '/')" />
 
       <!-- this needs to move
       <li class="nav-section">
-        <div class="nav-section-header"><a href="/guide/practices/ui_guidelines/index.html">
+        <div class="nav-section-header"><a href="../../../guide/practices/ui_guidelines/index.html">
                <span class="en">UI Guidelines</span>
              </a></div>
         <ul>
           <li class="nav-section">
-            <div class="nav-section-header"><a href="/guide/practices/ui_guidelines/icon_design.html">
+            <div class="nav-section-header"><a href="../../../guide/practices/ui_guidelines/icon_design.html">
                    <span class="en">Icon Design</span>
                  </a></div>
             <ul>
-              <li><a href="/guide/practices/ui_guidelines/icon_design_launcher.html">
+              <li><a href="../../../guide/practices/ui_guidelines/icon_design_launcher.html">
                     <span class="en">Launcher Icons</span>
                   </a></li>
-              <li><a href="/guide/practices/ui_guidelines/icon_design_menu.html">
+              <li><a href="../../../guide/practices/ui_guidelines/icon_design_menu.html">
                     <span class="en">Menu Icons</span>
                   </a></li>
-              <li><a href="/guide/practices/ui_guidelines/icon_design_action_bar.html">
+              <li><a href="../../../guide/practices/ui_guidelines/icon_design_action_bar.html">
                     <span class="en">Action Bar Icons</span>
                   </a></li>
-              <li><a href="/guide/practices/ui_guidelines/icon_design_status_bar.html">
+              <li><a href="../../../guide/practices/ui_guidelines/icon_design_status_bar.html">
                     <span class="en">Status Bar Icons</span>
                   </a></li>
-              <li><a href="/guide/practices/ui_guidelines/icon_design_tab.html">
+              <li><a href="../../../guide/practices/ui_guidelines/icon_design_tab.html">
                     <span class="en">Tab Icons</span>
                   </a></li>
-              <li><a href="/guide/practices/ui_guidelines/icon_design_dialog.html">
+              <li><a href="../../../guide/practices/ui_guidelines/icon_design_dialog.html">
                     <span class="en">Dialog Icons</span>
                   </a></li>
-              <li><a href="/guide/practices/ui_guidelines/icon_design_list.html">
+              <li><a href="../../../guide/practices/ui_guidelines/icon_design_list.html">
                     <span class="en">List View Icons</span>
                   </a></li>
             </ul>
           </li>
-          <li><div><a href="/guide/practices/ui_guidelines/widget_design.html">
+          <li><div><a href="../../../guide/practices/ui_guidelines/widget_design.html">
                 <span class="en">App Widget Design</span>
               </a></div>
           </li>
@@ -936,7 +920,7 @@ onkeyup="return search_changed(event, false, '/')" />
 
 <!-- Remove
   <li class="nav-section">
-    <div class="nav-section-header"><a href="/guide/appendix/index.html">
+    <div class="nav-section-header"><a href="../../../guide/appendix/index.html">
         <span class="en">Appendix</span>
         <span class="de" style="display:none">Anhang</span>
         <span class="es" style="display:none">Apéndice</span>
@@ -947,12 +931,12 @@ onkeyup="return search_changed(event, false, '/')" />
         <span class="zh-TW" style="display:none">附錄</span>
       </a></div>
     <ul>
-      <li><a href="/guide/appendix/g-app-intents.html">
+      <li><a href="../../../guide/appendix/g-app-intents.html">
             <span class="en">Intents List: Google Apps</span>
           </a></li>
 
 
-      <li><a href="/guide/appendix/glossary.html">
+      <li><a href="../../../guide/appendix/glossary.html">
             <span class="en">Glossary</span>
           </a></li>
     </ul>
@@ -1003,38 +987,38 @@ onkeyup="return search_changed(event, false, '/')" />
     <div class="jd-descr" itemprop="articleBody">
     <dl class="xml">
 <dt>syntax:</dt>
-<dd><pre class="stx">&lt;activity android:<a href="activity-element.html#reparent">allowTaskReparenting</a>=["true" | "false"]
-          android:<a href="activity-element.html#always">alwaysRetainTaskState</a>=["true" | "false"]
-          android:<a href="activity-element.html#clear">clearTaskOnLaunch</a>=["true" | "false"]
-          android:<a href="activity-element.html#config">configChanges</a>=["mcc", "mnc", "locale",
+<dd><pre class="stx">&lt;activity android:<a href="#reparent">allowTaskReparenting</a>=["true" | "false"]
+          android:<a href="#always">alwaysRetainTaskState</a>=["true" | "false"]
+          android:<a href="#clear">clearTaskOnLaunch</a>=["true" | "false"]
+          android:<a href="#config">configChanges</a>=["mcc", "mnc", "locale",
                                  "touchscreen", "keyboard", "keyboardHidden",
                                  "navigation", "screenLayout", "fontScale", "uiMode",
                                  "orientation", "screenSize", "smallestScreenSize"]
-          android:<a href="activity-element.html#enabled">enabled</a>=["true" | "false"]
-          android:<a href="activity-element.html#exclude">excludeFromRecents</a>=["true" | "false"]
-          android:<a href="activity-element.html#exported">exported</a>=["true" | "false"]
-          android:<a href="activity-element.html#finish">finishOnTaskLaunch</a>=["true" | "false"]
-          android:<a href="activity-element.html#hwaccel">hardwareAccelerated</a>=["true" | "false"]
-          android:<a href="activity-element.html#icon">icon</a>="<i>drawable resource</i>"
-          android:<a href="activity-element.html#label">label</a>="<i>string resource</i>"
-          android:<a href="activity-element.html#lmode">launchMode</a>=["multiple" | "singleTop" |
+          android:<a href="#enabled">enabled</a>=["true" | "false"]
+          android:<a href="#exclude">excludeFromRecents</a>=["true" | "false"]
+          android:<a href="#exported">exported</a>=["true" | "false"]
+          android:<a href="#finish">finishOnTaskLaunch</a>=["true" | "false"]
+          android:<a href="#hwaccel">hardwareAccelerated</a>=["true" | "false"]
+          android:<a href="#icon">icon</a>="<i>drawable resource</i>"
+          android:<a href="#label">label</a>="<i>string resource</i>"
+          android:<a href="#lmode">launchMode</a>=["multiple" | "singleTop" |
                               "singleTask" | "singleInstance"]
-          android:<a href="activity-element.html#multi">multiprocess</a>=["true" | "false"]
-          android:<a href="activity-element.html#nm">name</a>="<i>string</i>"
-          android:<a href="activity-element.html#nohist">noHistory</a>=["true" | "false"]  <!-- ##api level 3## -->
-          android:<a href="activity-element.html#parent">parentActivityName</a>="<i>string</i>" <!-- api level 16 -->
-          android:<a href="activity-element.html#prmsn">permission</a>="<i>string</i>"
-          android:<a href="activity-element.html#proc">process</a>="<i>string</i>"
-          android:<a href="activity-element.html#screen">screenOrientation</a>=["unspecified" | "user" | "behind" |
+          android:<a href="#multi">multiprocess</a>=["true" | "false"]
+          android:<a href="#nm">name</a>="<i>string</i>"
+          android:<a href="#nohist">noHistory</a>=["true" | "false"]  <!-- ##api level 3## -->
+          android:<a href="#parent">parentActivityName</a>="<i>string</i>" <!-- api level 16 -->
+          android:<a href="#prmsn">permission</a>="<i>string</i>"
+          android:<a href="#proc">process</a>="<i>string</i>"
+          android:<a href="#screen">screenOrientation</a>=["unspecified" | "user" | "behind" |
                                      "landscape" | "portrait" |
                                      "reverseLandscape" | "reversePortrait" |
                                      "sensorLandscape" | "sensorPortrait" |
                                      "sensor" | "fullSensor" | "nosensor"]
-          android:<a href="activity-element.html#state">stateNotNeeded</a>=["true" | "false"]
-          android:<a href="activity-element.html#aff">taskAffinity</a>="<i>string</i>"
-          android:<a href="activity-element.html#theme">theme</a>="<i>resource or theme</i>"
-          android:<a href="activity-element.html#uioptions">uiOptions</a>=["none" | "splitActionBarWhenNarrow"]
-          android:<a href="activity-element.html#wsoft">windowSoftInputMode</a>=["stateUnspecified",
+          android:<a href="#state">stateNotNeeded</a>=["true" | "false"]
+          android:<a href="#aff">taskAffinity</a>="<i>string</i>"
+          android:<a href="#theme">theme</a>="<i>resource or theme</i>"
+          android:<a href="#uioptions">uiOptions</a>=["none" | "splitActionBarWhenNarrow"]
+          android:<a href="#wsoft">windowSoftInputMode</a>=["stateUnspecified",
                                        "stateUnchanged", "stateHidden",
                                        "stateAlwaysHidden", "stateVisible",
                                        "stateAlwaysVisible", "adjustUnspecified",
@@ -1043,11 +1027,11 @@ onkeyup="return search_changed(event, false, '/')" />
 &lt;/activity&gt;</pre></dd>
 
 <dt>contained in:</dt>
-<dd><code><a href="application-element.html">&lt;application&gt;</a></code></dd>
+<dd><code><a href="../../../guide/topics/manifest/application-element.html">&lt;application&gt;</a></code></dd>
 
 <dt>can contain:</dt>
-<dd><code><a href="intent-filter-element.html">&lt;intent-filter&gt;</a></code>
-<br/><code><a href="meta-data-element.html">&lt;meta-data&gt;</a></code></dd>
+<dd><code><a href="../../../guide/topics/manifest/intent-filter-element.html">&lt;intent-filter&gt;</a></code>
+<br/><code><a href="../../../guide/topics/manifest/meta-data-element.html">&lt;meta-data&gt;</a></code></dd>
 
 <dt>description:</dt>
 <dd>Declares an activity (an <code><a href="../../../reference/android/app/Activity.html">Activity</a></code> subclass) that 
@@ -1066,8 +1050,8 @@ must remain with the task where it started.
 
 <p>
 If this attribute is not set, the value set by the corresponding 
-<code><a href="application-element.html#reparent">allowTaskReparenting</a></code>
-attribute of the <code><a href="application-element.html">&lt;application&gt;</a></code> element 
+<code><a href="../../../guide/topics/manifest/application-element.html#reparent">allowTaskReparenting</a></code>
+attribute of the <code><a href="../../../guide/topics/manifest/application-element.html">&lt;application&gt;</a></code> element 
 applies to the activity.  The default value is "<code>false</code>".
 </p>
 
@@ -1091,13 +1075,13 @@ again comes forward.
 
 <p>
 The affinity of an activity is defined by the 
-<code><a href="activity-element.html#aff">taskAffinity</a></code> attribute.  The affinity 
+<code><a href="#aff">taskAffinity</a></code> attribute.  The affinity 
 of a task is determined by reading the affinity of its root activity.
 Therefore, by definition, a root activity is always in a task with the
 same affinity.  Since activities with "<code>singleTask</code>" or 
 "<code>singleInstance</code>" launch modes can only be at the root of a task,
 re-parenting is limited to the "<code>standard</code>" and "<code>singleTop</code>" 
-modes.  (See also the <code><a href="activity-element.html#lmode">launchMode</a></code> 
+modes.  (See also the <code><a href="#lmode">launchMode</a></code> 
 attribute.)
 </p></dd>
 
@@ -1137,7 +1121,7 @@ are brought to its root activity regardless of what they were last doing in
 the task and regardless of whether they used the <em>Back</em> or <em>Home</em> button to
 leave it. When the value is "<code>false</code>", the task may be cleared of activities in
 some situations (see the 
-<code><a href="activity-element.html#always">alwaysRetainTaskState</a></code> attribute), but not always.  
+<code><a href="#always">alwaysRetainTaskState</a></code> attribute), but not always.  
 </p>
 
 <p>
@@ -1151,7 +1135,7 @@ to the task.
 </p>
 
 <p>
-If this attribute and <code><a href="activity-element.html#reparent">allowTaskReparenting</a></code> 
+If this attribute and <code><a href="#reparent">allowTaskReparenting</a></code> 
 are both "<code>true</code>", any activities that can be re-parented are moved to 
 the task they share an affinity with; the remaining activities are then dropped, 
 as described above.
@@ -1165,7 +1149,7 @@ activity remains running and its <code><code><a href="../../../reference/android
 
 <p class="note"><strong>Note:</strong> Using this attribute should be
 avoided and used only as a last-resort. Please read <a
-href="../resources/runtime-changes.html">Handling Runtime Changes</a> for more
+href="../../../guide/topics/resources/runtime-changes.html">Handling Runtime Changes</a> for more
 information about how to properly handle a restart due to a configuration change.</p>
 
 <p>
@@ -1214,13 +1198,13 @@ separated by '<code>|</code>' &mdash; for example, "<code>locale|navigation|orie
   </tr><tr>
   <td>"<code>uiMode</code>"</td>
    <td>The user interface mode has changed &mdash; this can be caused when the user places the
-device into a desk/car dock or when the the night mode changes. See <code><a href="http://developer.android.com/reference/android/app/UiModeManager.html">UiModeManager</a></code>. 
+device into a desk/car dock or when the the night mode changes. See <code><a href="../../../reference/android/app/UiModeManager.html">UiModeManager</a></code>. 
     <em>Added in API level 8</em>.</td>
   </tr><tr>
    <td>"<code>orientation</code>"</td>
    <td>The screen orientation has changed &mdash; the user has rotated the device. 
        <p class="note"><strong>Note:</strong> If your application targets API level 13 or higher (as
-declared by the <a href="uses-sdk-element.html#min"><code>minSdkVersion</code></a> and <a href="uses-sdk-element.html#target"><code>targetSdkVersion</code></a> attributes), then you should also declare the <code>"screenSize"</code>
+declared by the <a href="../../../guide/topics/manifest/uses-sdk-element.html#min"><code>minSdkVersion</code></a> and <a href="../../../guide/topics/manifest/uses-sdk-element.html#target"><code>targetSdkVersion</code></a> attributes), then you should also declare the <code>"screenSize"</code>
 configuration, because it also changes when a device switches between portrait and landscape
 orientations.</p></td>
  </tr><tr>
@@ -1236,7 +1220,7 @@ your activity, even when running on an Android 3.2 or higher device).
    <td>The physical screen size has changed. This represents a change in size regardless of
 orientation, so will only change when the actual physical screen size has changed such as switching
 to an external display. A change to this configuration corresponds to a change in the <a
-href="../resources/providing-resources.html#SmallestScreenWidthQualifier">
+href="../../../guide/topics/resources/providing-resources.html#SmallestScreenWidthQualifier">
 smallestWidth configuration</a>. However, if your application targets API level 12 or lower, then
 your activity always handles this configuration change itself (this configuration change does not
 restart your activity, even when running on an Android 3.2 or higher device).
@@ -1262,10 +1246,10 @@ handle the change.
 is "<code>true</code>".
 
 <p>
-The <code><a href="application-element.html">&lt;application&gt;</a></code> element has its own 
-<code><a href="application-element.html#enabled">enabled</a></code> 
+The <code><a href="../../../guide/topics/manifest/application-element.html">&lt;application&gt;</a></code> element has its own 
+<code><a href="../../../guide/topics/manifest/application-element.html#enabled">enabled</a></code> 
 attribute that applies to all application components, including activities.  The 
-<code><a href="application-element.html">&lt;application&gt;</a></code> 
+<code><a href="../../../guide/topics/manifest/application-element.html">&lt;application&gt;</a></code> 
 and <code>&lt;activity&gt;</code> attributes must both be "<code>true</code>" (as they both 
 are by default) for the system to be able to instantiate the activity.  If either 
 is "<code>false</code>", it cannot be instantiated.
@@ -1298,7 +1282,7 @@ is intended for external use, so the default value is "<code>true</code>".
 This attribute is not the only way to limit an activity's exposure to other
 applications.  You can also use a permission to limit the external entities that 
 can invoke the activity  (see the 
-<code><a href="activity-element.html#prmsn">permission</a></code> 
+<code><a href="../../../guide/topics/manifest/activity-element.html#prmsn">permission</a></code> 
 attribute).
 </p></dd>
 
@@ -1310,7 +1294,7 @@ if not. The default value is "<code>false</code>".
 
 <p>
 If this attribute and 
-<code><a href="activity-element.html#reparent">allowTaskReparenting</a></code> 
+<code><a href="../../../guide/topics/manifest/activity-element.html#reparent">allowTaskReparenting</a></code> 
 are both "<code>true</code>", this attribute trumps the other.  The affinity of the 
 activity is ignored.  The activity is not re-parented, but destroyed.
 </p>
@@ -1339,23 +1323,23 @@ make use of the renderer without errors.</p>
 <dd>An icon representing the activity. The icon is displayed to users when 
 a representation of the activity is required on-screen.  For example, icons 
 for activities that initiate tasks are displayed in the launcher window.  
-The icon is often accompanied by a label (see the <a href="activity-element.html#label"><code>android:label</code></a> attribute).
+The icon is often accompanied by a label (see the <a href="#label"><code>android:label</code></a> attribute).
 </p>
 
 <p>
 This attribute must be set as a reference to a drawable resource containing 
 the image definition.  If it is not set, the icon specified for the application 
 as a whole is used instead (see the 
-<code><a href="application-element.html">&lt;application&gt;</a></code> 
-element's <code><a href="application-element.html#icon">icon</a></code> attribute).
+<code><a href="../../../guide/topics/manifest/application-element.html">&lt;application&gt;</a></code> 
+element's <code><a href="../../../guide/topics/manifest/application-element.html#icon">icon</a></code> attribute).
 </p>
 
 <p>
 The activity's icon &mdash; whether set here or by the 
-<code><a href="application-element.html">&lt;application&gt;</a></code> 
+<code><a href="../../../guide/topics/manifest/application-element.html">&lt;application&gt;</a></code> 
 element &mdash; is also the default icon for all the activity's intent filters (see the 
-<code><a href="intent-filter-element.html">&lt;intent-filter&gt;</a></code> element's 
-<code><a href="intent-filter-element.html#icon">icon</a></code> attribute). 
+<code><a href="../../../guide/topics/manifest/intent-filter-element.html">&lt;intent-filter&gt;</a></code> element's 
+<code><a href="../../../guide/topics/manifest/intent-filter-element.html#icon">icon</a></code> attribute). 
 </p></dd>
 
 <dt><a name="label"></a><code>android:label</code></dt>
@@ -1365,16 +1349,16 @@ with the activity icon.
 
 <p>
 If this attribute is not set, the label set for the application as a whole is 
-used instead (see the <code><a href="application-element.html">&lt;application&gt;</a></code> element's 
-<code><a href="application-element.html#label">label</a></code> attribute).
+used instead (see the <code><a href="../../../guide/topics/manifest/application-element.html">&lt;application&gt;</a></code> element's 
+<code><a href="../../../guide/topics/manifest/application-element.html#label">label</a></code> attribute).
 </p>
 
 <p>
 The activity's label &mdash; whether set here or by the 
-<code><a href="application-element.html">&lt;application&gt;</a></code> element &mdash; is also the 
+<code><a href="../../../guide/topics/manifest/application-element.html">&lt;application&gt;</a></code> element &mdash; is also the 
 default label for all the activity's intent filters (see the 
-<code><a href="intent-filter-element.html">&lt;intent-filter&gt;</a></code> element's 
-<code><a href="intent-filter-element.html#label">label</a></code> attribute). 
+<code><a href="../../../guide/topics/manifest/intent-filter-element.html">&lt;intent-filter&gt;</a></code> element's 
+<code><a href="../../../guide/topics/manifest/intent-filter-element.html#label">label</a></code> attribute). 
 </p>
 
 <p>
@@ -1411,7 +1395,7 @@ launched into the task that called
 (unless the Intent object contains a
 <code><code><a href="../../../reference/android/content/Intent.html#FLAG_ACTIVITY_NEW_TASK">FLAG_ACTIVITY_NEW_TASK</a></code></code>
 instruction, in which case a different task is chosen &mdash; see the
-<a href="activity-element.html#aff">taskAffinity</a> attribute).
+<a href="#aff">taskAffinity</a> attribute).
 </p>
 
 <p>
@@ -1503,7 +1487,7 @@ other activities and tasks using the <em>Back</em> button. </p>
 
 <p>For more information on launch modes and their interaction with Intent
 flags, see the 
-<a href="../../components/tasks-and-back-stack.html">Tasks and Back Stack</a>
+<a href="../../../guide/components/tasks-and-back-stack.html">Tasks and Back Stack</a>
 document.
 </p>
 </dd>
@@ -1529,12 +1513,12 @@ class name (such as, "<code>com.example.project.ExtracurricularActivity</code>")
 However, as a shorthand, if the first character of the name is a period 
 (for example, "<code>.ExtracurricularActivity</code>"), it is appended to the 
 package name specified in the 
-<code><a href="manifest-element.html">&lt;manifest&gt;</a></code> 
+<code><a href="../../../guide/topics/manifest/manifest-element.html">&lt;manifest&gt;</a></code> 
 element.
 <p>Once you publish your application, you <a
 href="http://android-developers.blogspot.com/2011/06/things-that-cannot-change.html">should not
 change this name</a> (unless you've set <code><a
-href="activity-element.html#exported">android:exported</a>="false"</code>).</p>
+href="#exported">android:exported</a>="false"</code>).</p>
 
 <p>
 There is no default.  The name must be specified.
@@ -1563,11 +1547,11 @@ This attribute was introduced in API Level 3.
 <dt><a name="parent"></a><code>android:parentActivityName</code></dt>
 <dd>The class name of the logical parent of the activity. The name here must be formatted
   the same as the corresponding activity is declared in its own
-  <a href="activity-element.html#nm">android:name</a>.
+  <a href="#nm">android:name</a>.
   
 <p>The system reads this attribute to determine which activity should be started when
   the use presses the Up button in the action bar. The system can also use this information to
-  synthesize a back stack of activities with <code><a href="http://developer.android.com/reference/android/app/TaskStackBuilder.html">TaskStackBuilder</a></code>.</p>
+  synthesize a back stack of activities with <code><a href="../../../reference/android/app/TaskStackBuilder.html">TaskStackBuilder</a></code>.</p>
 
 <p>
 This attribute was introduced in API Level 16.
@@ -1586,26 +1570,26 @@ delivered to the activity.
 
 <p>
 If this attribute is not set, the permission set by the 
-<code><a href="application-element.html">&lt;application&gt;</a></code> 
+<code><a href="../../../guide/topics/manifest/application-element.html">&lt;application&gt;</a></code> 
 element's
-<code><a href="application-element.html#prmsn">permission</a></code> 
+<code><a href="../../../guide/topics/manifest/application-element.html#prmsn">permission</a></code> 
 attribute applies to the activity.  If neither attribute is set, the activity is
 not protected by a permission.
 </p>
 
 <p>
 For more information on permissions, see the 
-<a href="manifest-intro.html#sectperm">Permissions</a> 
+<a href="../../../guide/topics/manifest/manifest-intro.html#sectperm">Permissions</a> 
 section in the introduction and another document, 
-<a href="http://developer.android.com/guide/topics/security/security.html">Security and
+<a href="../../../guide/topics/security/security.html">Security and
 Permissions</a>.
 </p></dd>
 
 <dt><a name="proc"></a><code>android:process</code></dt>
 <dd>The name of the process in which the activity should run. Normally, 
 all components of an application run in the default process created for the 
-application.  It has the same name as the application package. The <code><a href="application-element.html">&lt;application&gt;</a></code> element's 
-<code><a href="application-element.html#proc">process</a></code> 
+application.  It has the same name as the application package. The <code><a href="../../../guide/topics/manifest/application-element.html">&lt;application&gt;</a></code> element's 
+<code><a href="../../../guide/topics/manifest/application-element.html#proc">process</a></code> 
 attribute can set a different default for all components.  But each component 
 can override the default, allowing you to spread your application across 
 multiple processes.
@@ -1690,7 +1674,7 @@ example, if you declare either <code>"landscape"</code>, <code>"reverseLandscape
 <code>"sensorLandscape"</code>, then your application will be available only to devices that support
 landscape orientation. However, you should also explicitly declare that
 your application requires either portrait or landscape orientation with the <a
-href="uses-feature-element.html"><code>&lt;uses-feature&gt;</code></a>
+href="../../../guide/topics/manifest/uses-feature-element.html"><code>&lt;uses-feature&gt;</code></a>
 element. For example, <code>&lt;uses-feature
 android:name="android.hardware.screen.portrait"/></code>. This is purely a filtering behavior
 provided by Google Play (and other services that support it) and the platform itself does not
@@ -1731,7 +1715,7 @@ is determined by the affinity of its root activity.
 
 <p>
 The affinity determines two things &mdash; the task that the activity is re-parented 
-to (see the <code><a href="activity-element.html#reparent">allowTaskReparenting</a></code> 
+to (see the <code><a href="../../../guide/topics/manifest/activity-element.html#reparent">allowTaskReparenting</a></code> 
 attribute) and the task that will house the activity when it is launched 
 with the <code><code><a href="../../../reference/android/content/Intent.html#FLAG_ACTIVITY_NEW_TASK">FLAG_ACTIVITY_NEW_TASK</a></code></code> 
 flag.
@@ -1747,12 +1731,12 @@ it to an empty string.
 <p>
 If this attribute is not set, the activity inherits the affinity set 
 for the application (see the 
-<code><a href="application-element.html">&lt;application&gt;</a></code> 
+<code><a href="../../../guide/topics/manifest/application-element.html">&lt;application&gt;</a></code> 
 element's 
-<code><a href="application-element.html#aff">taskAffinity</a></code>
+<code><a href="../../../guide/topics/manifest/application-element.html#aff">taskAffinity</a></code>
 attribute).  The name of the default affinity for an application is 
 the package name set by the 
-<code><a href="manifest-element.html">&lt;manifest&gt;</a></code> 
+<code><a href="../../../guide/topics/manifest/manifest-element.html">&lt;manifest&gt;</a></code> 
 element.
 </p>
 
@@ -1766,12 +1750,12 @@ match what the activity actually looks like).
 <p>
 If this attribute is not set, the activity inherits the theme set for the 
 application as a whole &mdash; from the 
-<code><a href="application-element.html">&lt;application&gt;</a></code> 
+<code><a href="../../../guide/topics/manifest/application-element.html">&lt;application&gt;</a></code> 
 element's 
-<code><a href="application-element.html#theme">theme</a></code> 
+<code><a href="../../../guide/topics/manifest/application-element.html#theme">theme</a></code> 
 attribute.  If that attribute is also not set, the default system theme is used. For more
 information, see the <a
-href="../ui/themes.html">Styles and Themes</a> developer guide.
+href="../../../guide/topics/ui/themes.html">Styles and Themes</a> developer guide.
 </p>
 <dd>
 
@@ -1784,7 +1768,7 @@ href="../ui/themes.html">Styles and Themes</a> developer guide.
     <tr><th>Value</th><th>Description</th></tr>
     <tr><td><code>"none"</code></td><td>No extra UI options. This is the default.</td></tr>
     <tr><td><code>"splitActionBarWhenNarrow"</code></td><td>Add a bar at
-the bottom of the screen to display action items in the <code><a href="http://developer.android.com/reference/android/app/ActionBar.html">ActionBar</a></code>, when
+the bottom of the screen to display action items in the <code><a href="../../../reference/android/app/ActionBar.html">ActionBar</a></code>, when
 constrained for horizontal space (such as when in portrait mode on a handset). Instead of a small
 number of action items appearing in the action bar at the top of the screen, the action bar is
 split into the top navigation section and the bottom bar for action items. This ensures a reasonable
@@ -1793,7 +1777,7 @@ elements at the top. Menu items are not split across the two bars; they always a
 together.</td></tr>
   </table>
   <p>For more information about the action bar, see the <a
-href="../ui/actionbar.html">Action Bar</a> developer guide.</p>
+href="../../../guide/topics/ui/actionbar.html">Action Bar</a> developer guide.</p>
   <p>This attribute was added in API level 14.</p>
 </dd>
 
@@ -1902,13 +1886,13 @@ This attribute was introduced in API Level 3.
 <!-- ##api level indication## -->
 <dt>introduced in:</dt>
 <dd>API Level 1 for all attributes except for 
-<code><a href="activity-element.html#nohist">noHistory</a></code> and
-<code><a href="activity-element.html#wsoft">windowSoftInputMode</a></code>, which were added in API 
+<code><a href="#nohist">noHistory</a></code> and
+<code><a href="#wsoft">windowSoftInputMode</a></code>, which were added in API 
 Level 3.</dd>
 
 <dt>see also:</dt>
-<dd><code><a href="application-element.html">&lt;application&gt;</a></code> 
-<br/><code><a href="activity-alias-element.html">&lt;activity-alias&gt;</a></code></dd>
+<dd><code><a href="../../../guide/topics/manifest/application-element.html">&lt;application&gt;</a></code> 
+<br/><code><a href="../../../guide/topics/manifest/activity-alias-element.html">&lt;activity-alias&gt;</a></code></dd>
 </dl>
 
     </div>
@@ -1923,7 +1907,7 @@ Level 3.</dd>
         
         <div class="paging-links layout-content-col col-4">
           
-            <a href="activity-element.html#" class="prev-page-link hide"
+            <a href="#" class="prev-page-link hide"
                 zh-TW-lang="上一堂課"
                 zh-CN-lang="上一课"
                 ru-lang="Предыдущий"
@@ -1931,7 +1915,7 @@ Level 3.</dd>
                 ja-lang="前へ"
                 es-lang="Anterior"               
                 >Previous</a>
-            <a href="activity-element.html#" class="next-page-link hide"
+            <a href="#" class="next-page-link hide"
                 zh-TW-lang="下一堂課"
                 zh-CN-lang="下一课"
                 ru-lang="Следующий"

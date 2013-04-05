@@ -91,12 +91,14 @@ href="http://fonts.googleapis.com/css?family=Roboto:regular,medium,thin,italic,m
 <script src="http://www.google.com/jsapi" type="text/javascript"></script>
 <script src="../../../assets/js/android_3p-bundle.js" type="text/javascript"></script>
 <script type="text/javascript">
-  var toRoot = "/";
+  var toRoot = "../../../";
   
   var devsite = false;
   
 </script>
 <script src="../../../assets/js/docs.js" type="text/javascript"></script>
+
+<script src="../../../navtree_data.js" type="text/javascript"></script>
 
 
 <script type="text/javascript">
@@ -123,8 +125,8 @@ href="http://fonts.googleapis.com/css?family=Roboto:regular,medium,thin,italic,m
             <img src="../../../assets/images/dac_logo.png" width="123" height="25" alt="Android Developers" />
           </a>
           <div class="btn-quicknav" id="btn-quicknav">
-          	<a href="providing-resources.html#" class="arrow-inactive">Quicknav</a>
-			      <a href="providing-resources.html#" class="arrow-active">Quicknav</a>
+          	<a href="#" class="arrow-inactive">Quicknav</a>
+			      <a href="#" class="arrow-active">Quicknav</a>
           </div>
           </div>
             <ul class="nav-x col-9">
@@ -179,24 +181,6 @@ href="http://fonts.googleapis.com/css?family=Roboto:regular,medium,thin,italic,m
 
       
       
-        <div class="header">Language</div>
-          <div id="language" class="locales">
-            <select name="language" onChange="changeLangPref(this.value, true)">
-                <option value="en">English</option>
-                <option value="es">Español</option>
-                <option value="ja">日本語</option>
-                <option value="ko">한국어</option>
-                <option value="ru">Русский</option>
-                <option value="zh-CN">中文 (中国)</option>
-                <option value="zh-TW">中文 (台灣)</option>
-            </select>
-          </div>
-        <script type="text/javascript">
-          <!--
-          loadLangPref();
-            //-->
-        </script>
-      
       
 
 
@@ -211,8 +195,8 @@ href="http://fonts.googleapis.com/css?family=Roboto:regular,medium,thin,italic,m
       <form onsubmit="return submit_search()">
         <input id="search_autocomplete" type="text" value="" autocomplete="off" name="q"
 onfocus="search_focus_changed(this, true)" onblur="search_focus_changed(this, false)"
-onkeydown="return search_changed(event, true, '/')" 
-onkeyup="return search_changed(event, false, '/')" />
+onkeydown="return search_changed(event, true, '../../../')" 
+onkeyup="return search_changed(event, false, '../../../')" />
       </form>
       <div class="right"></div>
         <a class="close hide">close</a>
@@ -254,7 +238,7 @@ onkeyup="return search_changed(event, false, '/')" />
                           ja-lang="トレーニング"
                           es-lang="Capacitación"               
                           >Training</a></li>
-                        <li><a href="../../components/index.html"
+                        <li><a href="../../../guide/components/index.html"
                           zh-TW-lang="API 指南"
                           zh-CN-lang="API 指南"
                           ru-lang="Руководства по API"
@@ -322,7 +306,7 @@ onkeyup="return search_changed(event, false, '/')" />
                   ja-lang="トレーニング"
                   es-lang="Capacitación"               
                   >Training</a></li>
-                <li class="guide"><a href="../../components/index.html"
+                <li class="guide"><a href="../../../guide/components/index.html"
                   zh-TW-lang="API 指南"
                   zh-CN-lang="API 指南"
                   ru-lang="Руководства по API"
@@ -360,7 +344,7 @@ onkeyup="return search_changed(event, false, '/')" />
   <div class="wrap clearfix" id="body-content">
     <div class="col-4" id="side-nav" itemscope itemtype="http://schema.org/SiteNavigationElement">
       <div id="devdoc-nav" class="scroll-pane">
-<a class="totop" href="providing-resources.html#top" data-g-event="left-nav-top">to top</a>
+<a class="totop" href="#top" data-g-event="left-nav-top">to top</a>
 
 
 
@@ -369,106 +353,106 @@ onkeyup="return search_changed(event, false, '/')" />
   <!--<li style="color:red">Overview</li> -->
 
   <li class="nav-section">
-    <div class="nav-section-header"><a href="../../components/index.html">
+    <div class="nav-section-header"><a href="../../../guide/components/index.html">
         <span class="en">App Components</span>
       </a></div>
     <ul>
-      <li><a href="../../components/fundamentals.html">
+      <li><a href="../../../guide/components/fundamentals.html">
             <span class="en">App Fundamentals</span></a>
       </li>
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../../components/activities.html">
+        <div class="nav-section-header"><a href="../../../guide/components/activities.html">
             <span class="en">Activities</span>
           </a></div>
         <ul>
-          <li><a href="../../components/fragments.html">
+          <li><a href="../../../guide/components/fragments.html">
               <span class="en">Fragments</span>
             </a></li>
-          <li><a href="../../components/loaders.html">
+          <li><a href="../../../guide/components/loaders.html">
               <span class="en">Loaders</span>
             </a></li>
-          <li><a href="../../components/tasks-and-back-stack.html">
+          <li><a href="../../../guide/components/tasks-and-back-stack.html">
               <span class="en">Tasks and Back Stack</span>
             </a></li>
         </ul>
       </li>
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../../components/services.html">
+        <div class="nav-section-header"><a href="../../../guide/components/services.html">
             <span class="en">Services</span>
           </a></div>
         <ul>
-          <li><a href="../../components/bound-services.html">
+          <li><a href="../../../guide/components/bound-services.html">
               <span class="en">Bound Services</span>
             </a></li>
-          <li><a href="../../components/aidl.html">
+          <li><a href="../../../guide/components/aidl.html">
               <span class="en">AIDL</span>
             </a></li>
         </ul>
       </li>
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../providers/content-providers.html">
+        <div class="nav-section-header"><a href="../../../guide/topics/providers/content-providers.html">
             <span class="en">Content Providers</span>
           </a></div>
         <ul>
-          <li><a href="../providers/content-provider-basics.html">
+          <li><a href="../../../guide/topics/providers/content-provider-basics.html">
               <span class="en">Content Provider Basics</span>
             </a></li>
-          <li><a href="../providers/content-provider-creating.html">
+          <li><a href="../../../guide/topics/providers/content-provider-creating.html">
               <span class="en">Creating a Content Provider</span>
             </a></li>
-          <li><a href="../providers/calendar-provider.html">
+          <li><a href="../../../guide/topics/providers/calendar-provider.html">
               <span class="en">Calendar Provider</span>
             </a></li>
-          <li><a href="../providers/contacts-provider.html">
+          <li><a href="../../../guide/topics/providers/contacts-provider.html">
               <span class="en">Contacts Provider</span>
             </a></li>
         </ul>
       </li>
-      <li><a href="../../components/intents-filters.html">
+      <li><a href="../../../guide/components/intents-filters.html">
           <span class="en">Intents and Intent Filters</span>
         </a></li>
-      <li><a href="../../components/processes-and-threads.html">
+      <li><a href="../../../guide/components/processes-and-threads.html">
           <span class="en">Processes and Threads</span>
         </a>
       </li>
-      <li><a href="../security/permissions.html">
+      <li><a href="../../../guide/topics/security/permissions.html">
           <span class="en">Permissions</span>
         </a>
       </li>
-      <li><a href="../appwidgets/index.html">
+      <li><a href="../../../guide/topics/appwidgets/index.html">
             <span class="en">App Widgets</span>
           </a></li>
       <li class="nav-section">
-      <div class="nav-section-header"><a href="../manifest/manifest-intro.html">
+      <div class="nav-section-header"><a href="../../../guide/topics/manifest/manifest-intro.html">
           <span class="en">Android Manifest</span>
         </a></div>
         <ul>
-          <li><a href="../manifest/action-element.html">&lt;action&gt;</a></li>
-          <li><a href="../manifest/activity-element.html">&lt;activity&gt;</a></li>
-          <li><a href="../manifest/activity-alias-element.html">&lt;activity-alias&gt;</a></li>
-          <li><a href="../manifest/application-element.html">&lt;application&gt;</a></li>
-          <li><a href="../manifest/category-element.html">&lt;category&gt;</a></li>
-          <li><a href="../manifest/compatible-screens-element.html">&lt;compatible-screens&gt;</a></li>
-          <li><a href="../manifest/data-element.html">&lt;data&gt;</a></li>
-          <li><a href="../manifest/grant-uri-permission-element.html">&lt;grant-uri-permission&gt;</a></li>
-          <li><a href="../manifest/instrumentation-element.html">&lt;instrumentation&gt;</a></li>
-          <li><a href="../manifest/intent-filter-element.html">&lt;intent-filter&gt;</a></li>
-          <li><a href="../manifest/manifest-element.html">&lt;manifest&gt;</a></li>
-          <li><a href="../manifest/meta-data-element.html">&lt;meta-data&gt;</a></li>
-          <li><a href="../manifest/path-permission-element.html">&lt;path-permission&gt;</a></li>
-          <li><a href="../manifest/permission-element.html">&lt;permission&gt;</a></li>
-          <li><a href="../manifest/permission-group-element.html">&lt;permission-group&gt;</a></li>
-          <li><a href="../manifest/permission-tree-element.html">&lt;permission-tree&gt;</a></li>
-          <li><a href="../manifest/provider-element.html">&lt;provider&gt;</a></li>
-          <li><a href="../manifest/receiver-element.html">&lt;receiver&gt;</a></li>
-          <li><a href="../manifest/service-element.html">&lt;service&gt;</a></li>
-          <li><a href="../manifest/supports-gl-texture-element.html">&lt;supports-gl-texture&gt;</a></li>
-          <li><a href="../manifest/supports-screens-element.html">&lt;supports-screens&gt;</a></li><!-- ##api level 4## -->
-          <li><a href="../manifest/uses-configuration-element.html">&lt;uses-configuration&gt;</a></li>
-          <li><a href="../manifest/uses-feature-element.html">&lt;uses-feature&gt;</a></li> <!-- ##api level 4## -->
-          <li><a href="../manifest/uses-library-element.html">&lt;uses-library&gt;</a></li>
-          <li><a href="../manifest/uses-permission-element.html">&lt;uses-permission&gt;</a></li>
-          <li><a href="../manifest/uses-sdk-element.html">&lt;uses-sdk&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/action-element.html">&lt;action&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/activity-element.html">&lt;activity&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/activity-alias-element.html">&lt;activity-alias&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/application-element.html">&lt;application&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/category-element.html">&lt;category&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/compatible-screens-element.html">&lt;compatible-screens&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/data-element.html">&lt;data&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/grant-uri-permission-element.html">&lt;grant-uri-permission&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/instrumentation-element.html">&lt;instrumentation&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/intent-filter-element.html">&lt;intent-filter&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/manifest-element.html">&lt;manifest&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/meta-data-element.html">&lt;meta-data&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/path-permission-element.html">&lt;path-permission&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/permission-element.html">&lt;permission&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/permission-group-element.html">&lt;permission-group&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/permission-tree-element.html">&lt;permission-tree&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/provider-element.html">&lt;provider&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/receiver-element.html">&lt;receiver&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/service-element.html">&lt;service&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/supports-gl-texture-element.html">&lt;supports-gl-texture&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/supports-screens-element.html">&lt;supports-screens&gt;</a></li><!-- ##api level 4## -->
+          <li><a href="../../../guide/topics/manifest/uses-configuration-element.html">&lt;uses-configuration&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/uses-feature-element.html">&lt;uses-feature&gt;</a></li> <!-- ##api level 4## -->
+          <li><a href="../../../guide/topics/manifest/uses-library-element.html">&lt;uses-library&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/uses-permission-element.html">&lt;uses-permission&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/uses-sdk-element.html">&lt;uses-sdk&gt;</a></li>
         </ul>
    </li><!-- end of the manifest file -->
 
@@ -476,263 +460,263 @@ onkeyup="return search_changed(event, false, '/')" />
   </li>
 
   <li class="nav-section">
-    <div class="nav-section-header"><a href="../ui/index.html">
+    <div class="nav-section-header"><a href="../../../guide/topics/ui/index.html">
         <span class="en">User Interface</span>
       </a></div>
     <ul>
-      <li><a href="../ui/overview.html">
+      <li><a href="../../../guide/topics/ui/overview.html">
           <span class="en">Overview</span>
         </a></li>
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../ui/declaring-layout.html">
+        <div class="nav-section-header"><a href="../../../guide/topics/ui/declaring-layout.html">
             <span class="en">Layouts</span>
           </a></div>
         <ul>
-          <li><a href="../ui/layout/linear.html">
+          <li><a href="../../../guide/topics/ui/layout/linear.html">
               <span class="en">Linear Layout</span>
             </a></li>
-          <li><a href="../ui/layout/relative.html">
+          <li><a href="../../../guide/topics/ui/layout/relative.html">
               <span class="en">Relative Layout</span>
             </a></li>
        <!--
-          <li><a href="/guide/topics/ui/layout/grid.html">
+          <li><a href="../../../guide/topics/ui/layout/grid.html">
               <span class="en">Grid Layout</span>
             </a></li>
-          <li><a href="/guide/topics/ui/layout/tabs.html">
+          <li><a href="../../../guide/topics/ui/layout/tabs.html">
               <span class="en">Tab Layout</span>
             </a></li>
        -->
-          <li><a href="../ui/layout/listview.html">
+          <li><a href="../../../guide/topics/ui/layout/listview.html">
               <span class="en">List View</span>
             </a></li>
-          <li><a href="../ui/layout/gridview.html">
+          <li><a href="../../../guide/topics/ui/layout/gridview.html">
               <span class="en">Grid View</span>
             </a></li>
         </ul>
       </li>
 
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../ui/controls.html">
+        <div class="nav-section-header"><a href="../../../guide/topics/ui/controls.html">
             <span class="en">Input Controls</span>
           </a></div>
         <ul>
-          <li><a href="../ui/controls/button.html">
+          <li><a href="../../../guide/topics/ui/controls/button.html">
               <span class="en">Buttons</span>
             </a></li>
-          <li><a href="../ui/controls/text.html">
+          <li><a href="../../../guide/topics/ui/controls/text.html">
               <span class="en">Text Fields</span>
             </a></li>
-          <li><a href="../ui/controls/checkbox.html">
+          <li><a href="../../../guide/topics/ui/controls/checkbox.html">
               <span class="en">Checkboxes</span>
             </a></li>
-          <li><a href="../ui/controls/radiobutton.html">
+          <li><a href="../../../guide/topics/ui/controls/radiobutton.html">
               <span class="en">Radio Buttons</span>
             </a></li>
-          <li><a href="../ui/controls/togglebutton.html">
+          <li><a href="../../../guide/topics/ui/controls/togglebutton.html">
               <span class="en">Toggle Buttons</span>
             </a></li>
-          <li><a href="../ui/controls/spinner.html">
+          <li><a href="../../../guide/topics/ui/controls/spinner.html">
               <span class="en">Spinners</span>
             </a></li>
-          <li><a href="../ui/controls/pickers.html">
+          <li><a href="../../../guide/topics/ui/controls/pickers.html">
               <span class="en">Pickers</span>
             </a></li>
 <!--
-          <li><a href="/guide/topics/ui/controls/progress.html">
+          <li><a href="../../../guide/topics/ui/controls/progress.html">
               <span class="en">Seek and Progress Bars</span>
             </a></li>
 -->
         </ul>
       </li>
-      <li><a href="../ui/ui-events.html">
+      <li><a href="../../../guide/topics/ui/ui-events.html">
           <span class="en">Input Events</span>
         </a></li>
-      <li><a href="../ui/menus.html">
+      <li><a href="../../../guide/topics/ui/menus.html">
           <span class="en">Menus</span></span>
           </a></li>
-      <li><a href="../ui/actionbar.html">
+      <li><a href="../../../guide/topics/ui/actionbar.html">
            <span class="en">Action Bar</span>
           </a></li>
-      <li><a href="../ui/settings.html">
+      <li><a href="../../../guide/topics/ui/settings.html">
             <span class="en">Settings</span>
           </a></li>
-      <li><a href="../ui/dialogs.html">
+      <li><a href="../../../guide/topics/ui/dialogs.html">
            <span class="en">Dialogs</span>
           </a></li>
-      <li><a href="../ui/notifiers/notifications.html">
+      <li><a href="../../../guide/topics/ui/notifiers/notifications.html">
           <span class="en">Notifications</span>
         </a></li>
-      <li><a href="../ui/notifiers/toasts.html">
+      <li><a href="../../../guide/topics/ui/notifiers/toasts.html">
           <span class="en">Toasts</span>
         </a></li>
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../search/index.html">
+        <div class="nav-section-header"><a href="../../../guide/topics/search/index.html">
             <span class="en">Search</span>
           </a></div>
           <ul>
-            <li><a href="../search/search-dialog.html">Creating a Search Interface</a></li>
-            <li><a href="../search/adding-recent-query-suggestions.html">Adding Recent Query Suggestions</a></li>
-            <li><a href="../search/adding-custom-suggestions.html">Adding Custom Suggestions</a></li>
-            <li><a href="../search/searchable-config.html">Searchable Configuration</a></li>
+            <li><a href="../../../guide/topics/search/search-dialog.html">Creating a Search Interface</a></li>
+            <li><a href="../../../guide/topics/search/adding-recent-query-suggestions.html">Adding Recent Query Suggestions</a></li>
+            <li><a href="../../../guide/topics/search/adding-custom-suggestions.html">Adding Custom Suggestions</a></li>
+            <li><a href="../../../guide/topics/search/searchable-config.html">Searchable Configuration</a></li>
           </ul>
       </li>
-      <li><a href="../ui/drag-drop.html">
+      <li><a href="../../../guide/topics/ui/drag-drop.html">
           <span class="en">Drag and Drop</span>
         </a></li>
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../ui/accessibility/index.html">
+        <div class="nav-section-header"><a href="../../../guide/topics/ui/accessibility/index.html">
             <span class="en">Accessibility</span>
           </a></div>
         <ul>
-          <li><a href="../ui/accessibility/apps.html">
+          <li><a href="../../../guide/topics/ui/accessibility/apps.html">
               <span class="en">Making Applications Accessible</span>
             </a></li>
-          <li><a href="../ui/accessibility/checklist.html">
+          <li><a href="../../../guide/topics/ui/accessibility/checklist.html">
               <span class="en">Accessibility Developer Checklist</span>
             </a></li>
-          <li><a href="../ui/accessibility/services.html">
+          <li><a href="../../../guide/topics/ui/accessibility/services.html">
               <span class="en">Building Accessibility Services</span>
             </a></li>
         </ul>
       </li>
-      <li><a href="../ui/themes.html">
+      <li><a href="../../../guide/topics/ui/themes.html">
           <span class="en">Styles and Themes</span>
         </a></li>
-      <li><a href="../ui/custom-components.html">
+      <li><a href="../../../guide/topics/ui/custom-components.html">
           <span class="en">Custom Components</span>
         </a></li>
     </ul>
   </li><!-- end of User Interface -->
 
     <li class="nav-section">
-      <div class="nav-section-header"><a href="index.html">
+      <div class="nav-section-header"><a href="../../../guide/topics/resources/index.html">
            <span class="en">App Resources</span>
          </a></div>
       <ul>
-        <li><a href="overview.html">
+        <li><a href="../../../guide/topics/resources/overview.html">
             <span class="en">Overview</span>
           </a></li>
-          <li><a href="providing-resources.html">
+          <li><a href="../../../guide/topics/resources/providing-resources.html">
             <span class="en">Providing Resources</span>
           </a></li>
-        <li><a href="accessing-resources.html">
+        <li><a href="../../../guide/topics/resources/accessing-resources.html">
             <span class="en">Accessing Resources</span>
           </a></li>
-        <li><a href="runtime-changes.html">
+        <li><a href="../../../guide/topics/resources/runtime-changes.html">
               <span class="en">Handling Runtime Changes</span>
             </a></li>
-        <li><a href="localization.html">
+        <li><a href="../../../guide/topics/resources/localization.html">
             <span class="en">Localization</span>
           </a></li>
         <li class="nav-section">
-          <div class="nav-section-header"><a href="available-resources.html">
+          <div class="nav-section-header"><a href="../../../guide/topics/resources/available-resources.html">
               <span class="en">Resource Types</span>
             </a></div>
           <ul>
-            <li><a href="animation-resource.html">Animation</a></li>
-            <li><a href="color-list-resource.html">Color State List</a></li>
-            <li><a href="drawable-resource.html">Drawable</a></li>
-            <li><a href="layout-resource.html">Layout</a></li>
-            <li><a href="menu-resource.html">Menu</a></li>
-            <li><a href="string-resource.html">String</a></li>
-            <li><a href="style-resource.html">Style</a></li>
-            <li><a href="more-resources.html">More Types</a></li>
+            <li><a href="../../../guide/topics/resources/animation-resource.html">Animation</a></li>
+            <li><a href="../../../guide/topics/resources/color-list-resource.html">Color State List</a></li>
+            <li><a href="../../../guide/topics/resources/drawable-resource.html">Drawable</a></li>
+            <li><a href="../../../guide/topics/resources/layout-resource.html">Layout</a></li>
+            <li><a href="../../../guide/topics/resources/menu-resource.html">Menu</a></li>
+            <li><a href="../../../guide/topics/resources/string-resource.html">String</a></li>
+            <li><a href="../../../guide/topics/resources/style-resource.html">Style</a></li>
+            <li><a href="../../../guide/topics/resources/more-resources.html">More Types</a></li>
           </ul>
         </li><!-- end of resource types -->
       </ul>
     </li><!-- end of app resources -->
 
    <li class="nav-section">
-      <div class="nav-section-header"><a href="../graphics/index.html">
+      <div class="nav-section-header"><a href="../../../guide/topics/graphics/index.html">
           <span class="en">Animation and Graphics</span>
         </a></div>
       <ul>
       <li class="nav-section">
-        <li><a href="../graphics/overview.html">
+        <li><a href="../../../guide/topics/graphics/overview.html">
             <span class="en">Overview</span>
           </a></li>
-        <li><a href="../graphics/prop-animation.html">
+        <li><a href="../../../guide/topics/graphics/prop-animation.html">
             <span class="en">Property Animation</span>
           </a></li>
-        <li><a href="../graphics/view-animation.html">
+        <li><a href="../../../guide/topics/graphics/view-animation.html">
             <span class="en">View Animation</span>
           </a></li>
-        <li><a href="../graphics/drawable-animation.html">
+        <li><a href="../../../guide/topics/graphics/drawable-animation.html">
             <span class="en">Drawable Animation</span>
           </a></li>
-        <li><a href="../graphics/2d-graphics.html">
+        <li><a href="../../../guide/topics/graphics/2d-graphics.html">
             <span class="en">Canvas and Drawables</span>
           </a></li>
-        <li><a href="../graphics/opengl.html">
+        <li><a href="../../../guide/topics/graphics/opengl.html">
             <span class="en">OpenGL</span>
           </a></li>
-        <li><a href="../graphics/hardware-accel.html">
+        <li><a href="../../../guide/topics/graphics/hardware-accel.html">
             <span class="en">Hardware Acceleration</span>
           </a></li>
        </ul>
     </li><!-- end of graphics and animation-->
 
    <li class="nav-section">
-            <div class="nav-section-header"><a href="../renderscript/index.html">
+            <div class="nav-section-header"><a href="../../../guide/topics/renderscript/index.html">
               <span class="en">Computation</span>
             </a></div>
             <ul>
-              <li><a href="../renderscript/compute.html">
+              <li><a href="../../../guide/topics/renderscript/compute.html">
                     <span class="en">Renderscript</span></a>
                   </li>
 
-              <li><a href="../renderscript/advanced.html">
+              <li><a href="../../../guide/topics/renderscript/advanced.html">
                     <span class="en">Advanced Renderscript</span></a>
                   </li>
-              <li><a href="../renderscript/reference.html">
+              <li><a href="../../../guide/topics/renderscript/reference.html">
                     <span class="en">Runtime API Reference</span></a>
               </li>
              </ul>
    </li>
       <li class="nav-section">
-          <div class="nav-section-header"><a href="../media/index.html">
+          <div class="nav-section-header"><a href="../../../guide/topics/media/index.html">
             <span class="en">Media and Camera</span>
           </a></div>
           <ul>
-            <li><a href="../media/mediaplayer.html">
+            <li><a href="../../../guide/topics/media/mediaplayer.html">
                   <span class="en">Media Playback</span></a>
                 </li>
-            <li><a href="../../appendix/media-formats.html">
+            <li><a href="../../../guide/appendix/media-formats.html">
                    <span class="en">Supported Media Formats</span></a>
                 </li>
-            <li><a href="../media/audio-capture.html">
+            <li><a href="../../../guide/topics/media/audio-capture.html">
                   <span class="en">Audio Capture</span></a>
                 </li>
-            <li><a href="../media/jetplayer.html">
+            <li><a href="../../../guide/topics/media/jetplayer.html">
                   <span class="en">JetPlayer</span></a>
                 </li>
-            <li><a href="../media/camera.html">
+            <li><a href="../../../guide/topics/media/camera.html">
                   <span class="en">Camera</span></a>
                 </li>
           </ul>
       </li><!-- end of media and camera -->
 
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../sensors/index.html">
+        <div class="nav-section-header"><a href="../../../guide/topics/sensors/index.html">
               <span class="en">Location and Sensors</span>
               </a></div>
         <ul>
-          <li><a href="../location/index.html">
+          <li><a href="../../../guide/topics/location/index.html">
                <span class="en">Location and Maps</span>
              </a>
-          <li><a href="../location/strategies.html">
+          <li><a href="../../../guide/topics/location/strategies.html">
                <span class="en">Location Strategies</span>
              </a></li>
-          <li><a href="../sensors/sensors_overview.html">
+          <li><a href="../../../guide/topics/sensors/sensors_overview.html">
               <span class="en">Sensors Overview</span>
             </a></li>
-          <li><a href="../sensors/sensors_motion.html">
+          <li><a href="../../../guide/topics/sensors/sensors_motion.html">
               <span class="en">Motion Sensors</span>
             </a></li>
-          <li><a href="../sensors/sensors_position.html">
+          <li><a href="../../../guide/topics/sensors/sensors_position.html">
               <span class="en">Position Sensors</span>
             </a></li>
-          <li><a href="../sensors/sensors_environment.html">
+          <li><a href="../../../guide/topics/sensors/sensors_environment.html">
               <span class="en">Environment Sensors</span>
             </a></li>
         </ul>
@@ -741,36 +725,36 @@ onkeyup="return search_changed(event, false, '/')" />
 
 
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../connectivity/index.html">
+        <div class="nav-section-header"><a href="../../../guide/topics/connectivity/index.html">
                <span class="en">Connectivity</span>
              </a></div>
         <ul>
-          <li><a href="../connectivity/bluetooth.html">
+          <li><a href="../../../guide/topics/connectivity/bluetooth.html">
               <span class="en">Bluetooth</span>
             </a>
           </li>
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../connectivity/nfc/index.html">
+        <div class="nav-section-header"><a href="../../../guide/topics/connectivity/nfc/index.html">
           <span class="en">NFC</span></a>
         </div>
         <ul>
-          <li><a href="../connectivity/nfc/nfc.html">NFC Basics</a></li>
-          <li><a href="../connectivity/nfc/advanced-nfc.html">Advanced NFC</a></li>
+          <li><a href="../../../guide/topics/connectivity/nfc/nfc.html">NFC Basics</a></li>
+          <li><a href="../../../guide/topics/connectivity/nfc/advanced-nfc.html">Advanced NFC</a></li>
         </ul>
       </li>
-      <li><a href="../connectivity/wifip2p.html">
+      <li><a href="../../../guide/topics/connectivity/wifip2p.html">
             <span class="en">Wi-Fi Direct</span></a>
           </li>
       <li class="nav-section">
-          <div class="nav-section-header"><a href="../connectivity/usb/index.html">
+          <div class="nav-section-header"><a href="../../../guide/topics/connectivity/usb/index.html">
             <span class="en">USB</span></a>
           </div>
             <ul>
-              <li><a href="../connectivity/usb/accessory.html">Accessory</a></li>
-              <li><a href="../connectivity/usb/host.html">Host</a></li>
+              <li><a href="../../../guide/topics/connectivity/usb/accessory.html">Accessory</a></li>
+              <li><a href="../../../guide/topics/connectivity/usb/host.html">Host</a></li>
             </ul>
      </li>
-     <li><a href="../connectivity/sip.html">
+     <li><a href="../../../guide/topics/connectivity/sip.html">
             <span class="en">SIP</span>
           </a>
      </li>
@@ -779,34 +763,34 @@ onkeyup="return search_changed(event, false, '/')" />
   </li><!-- end of connectivity -->
 
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../text/index.html">
+        <div class="nav-section-header"><a href="../../../guide/topics/text/index.html">
             <span class="en">Text and Input</span>
         </a></div>
         <ul>
-          <li><a href="../text/copy-paste.html">
+          <li><a href="../../../guide/topics/text/copy-paste.html">
               <span class="en">Copy and Paste</span>
             </a></li>
-          <li><a href="../text/creating-input-method.html">
+          <li><a href="../../../guide/topics/text/creating-input-method.html">
               <span class="en">Creating an IME</span>
             </a></li>
-          <li><a href="../text/spell-checker-framework.html">
+          <li><a href="../../../guide/topics/text/spell-checker-framework.html">
               <span class="en">Spelling Checker</span>
             </a></li>
         </ul>
       </li><!-- end of text and input -->
 
      <li class="nav-section">
-      <div class="nav-section-header"><a href="../data/index.html">
+      <div class="nav-section-header"><a href="../../../guide/topics/data/index.html">
           <span class="en">Data Storage</span>
         </a></div>
       <ul>
-         <li><a href="../data/data-storage.html">
+         <li><a href="../../../guide/topics/data/data-storage.html">
             <span class="en">Storage Options</span>
            </a></li>
-        <li><a href="../data/backup.html">
+        <li><a href="../../../guide/topics/data/backup.html">
             <span class="en">Data Backup</span>
           </a></li>
-        <li><a href="../data/install-location.html">
+        <li><a href="../../../guide/topics/data/install-location.html">
             <span class="en">App Install Location</span>
           </a></li>
       </ul>
@@ -814,17 +798,17 @@ onkeyup="return search_changed(event, false, '/')" />
 
 
   <li class="nav-section">
-           <div class="nav-section-header"><a href="../admin/index.html">
+           <div class="nav-section-header"><a href="../../../guide/topics/admin/index.html">
                <span class="en">Administration</span>
              </a></div>
            <ul>
               <li>
-                <a href="../admin/device-admin.html">
+                <a href="../../../guide/topics/admin/device-admin.html">
                 <span class="en">Device Policies</span></a>
               </li>
             <!--
               <li>
-                <a href="/guide/topics/admin/keychain.html">
+                <a href="../../../guide/topics/admin/keychain.html">
                 <span class="en">Certificate Store</span></a>
               </li>
             -->
@@ -832,30 +816,30 @@ onkeyup="return search_changed(event, false, '/')" />
   </li><!-- end of administration -->
 
   <li class="nav-section">
-    <div class="nav-section-header"><a href="../../webapps/index.html">
+    <div class="nav-section-header"><a href="../../../guide/webapps/index.html">
     <span class="en">Web Apps</span>
     </a></div>
     <ul>
-      <li><a href="../../webapps/overview.html">
+      <li><a href="../../../guide/webapps/overview.html">
             <span class="en">Overview</span>
           </a></li>
-      <li><a href="../../webapps/targeting.html">
+      <li><a href="../../../guide/webapps/targeting.html">
             <span class="en">Targeting Screens from Web Apps</span>
           </a></li>
-      <li><a href="../../webapps/webview.html">
+      <li><a href="../../../guide/webapps/webview.html">
             <span class="en">Building Web Apps in WebView</span>
           </a></li>
-      <li><a href="../../webapps/debugging.html">
+      <li><a href="../../../guide/webapps/debugging.html">
             <span class="en">Debugging Web Apps</span>
           </a></li>
-      <li><a href="../../webapps/best-practices.html">
+      <li><a href="../../../guide/webapps/best-practices.html">
             <span class="en">Best Practices for Web Apps</span>
           </a></li>
     </ul>
   </li><!-- end of web apps -->
 
   <li class="nav-section">
-    <div class="nav-section-header"><a href="../../practices/index.html">
+    <div class="nav-section-header"><a href="../../../guide/practices/index.html">
       <span class="en">Best Practices</span>
       <span class="de" style="display:none">Bewährte Verfahren</span>
       <span class="es" style="display:none">Prácticas recomendadas</span>
@@ -866,26 +850,26 @@ onkeyup="return search_changed(event, false, '/')" />
       <span class="zh-TW" style="display:none">最佳實務</span>
     </div></a>
     <ul>
-      <li><a href="../../practices/compatibility.html">
+      <li><a href="../../../guide/practices/compatibility.html">
             <span class="en">Compatibility</span>
           </a></li>
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../../practices/screens_support.html">
+        <div class="nav-section-header"><a href="../../../guide/practices/screens_support.html">
           <span class="en">Supporting Multiple Screens</span>
         </a></div>
         <ul>
-          <li><a href="../../practices/screens-distribution.html">
+          <li><a href="../../../guide/practices/screens-distribution.html">
             <span class="en">Distributing to Specific Screens</span>
           </a></li>
-          <li><a href="../../practices/screen-compat-mode.html">
+          <li><a href="../../../guide/practices/screen-compat-mode.html">
             <span class="en">Screen Compatibility Mode</span>
           </a></li>
-          <!--<li><a href="../../practices/screens-support-1.5.html">
+          <!--<li><a href="../../../guide/practices/screens-support-1.5.html">
             <span class="en">Strategies for Android 1.5</span>
           </a></li> -->
         </ul>
       </li>
-      <li><a href="../../practices/tablets-and-handsets.html">
+      <li><a href="../../../guide/practices/tablets-and-handsets.html">
             <span class="en">Supporting Tablets and Handsets</span>
           </a></li>
 
@@ -894,39 +878,39 @@ onkeyup="return search_changed(event, false, '/')" />
 
       <!-- this needs to move
       <li class="nav-section">
-        <div class="nav-section-header"><a href="/guide/practices/ui_guidelines/index.html">
+        <div class="nav-section-header"><a href="../../../guide/practices/ui_guidelines/index.html">
                <span class="en">UI Guidelines</span>
              </a></div>
         <ul>
           <li class="nav-section">
-            <div class="nav-section-header"><a href="/guide/practices/ui_guidelines/icon_design.html">
+            <div class="nav-section-header"><a href="../../../guide/practices/ui_guidelines/icon_design.html">
                    <span class="en">Icon Design</span>
                  </a></div>
             <ul>
-              <li><a href="/guide/practices/ui_guidelines/icon_design_launcher.html">
+              <li><a href="../../../guide/practices/ui_guidelines/icon_design_launcher.html">
                     <span class="en">Launcher Icons</span>
                   </a></li>
-              <li><a href="/guide/practices/ui_guidelines/icon_design_menu.html">
+              <li><a href="../../../guide/practices/ui_guidelines/icon_design_menu.html">
                     <span class="en">Menu Icons</span>
                   </a></li>
-              <li><a href="/guide/practices/ui_guidelines/icon_design_action_bar.html">
+              <li><a href="../../../guide/practices/ui_guidelines/icon_design_action_bar.html">
                     <span class="en">Action Bar Icons</span>
                   </a></li>
-              <li><a href="/guide/practices/ui_guidelines/icon_design_status_bar.html">
+              <li><a href="../../../guide/practices/ui_guidelines/icon_design_status_bar.html">
                     <span class="en">Status Bar Icons</span>
                   </a></li>
-              <li><a href="/guide/practices/ui_guidelines/icon_design_tab.html">
+              <li><a href="../../../guide/practices/ui_guidelines/icon_design_tab.html">
                     <span class="en">Tab Icons</span>
                   </a></li>
-              <li><a href="/guide/practices/ui_guidelines/icon_design_dialog.html">
+              <li><a href="../../../guide/practices/ui_guidelines/icon_design_dialog.html">
                     <span class="en">Dialog Icons</span>
                   </a></li>
-              <li><a href="/guide/practices/ui_guidelines/icon_design_list.html">
+              <li><a href="../../../guide/practices/ui_guidelines/icon_design_list.html">
                     <span class="en">List View Icons</span>
                   </a></li>
             </ul>
           </li>
-          <li><div><a href="/guide/practices/ui_guidelines/widget_design.html">
+          <li><div><a href="../../../guide/practices/ui_guidelines/widget_design.html">
                 <span class="en">App Widget Design</span>
               </a></div>
           </li>
@@ -936,7 +920,7 @@ onkeyup="return search_changed(event, false, '/')" />
 
 <!-- Remove
   <li class="nav-section">
-    <div class="nav-section-header"><a href="/guide/appendix/index.html">
+    <div class="nav-section-header"><a href="../../../guide/appendix/index.html">
         <span class="en">Appendix</span>
         <span class="de" style="display:none">Anhang</span>
         <span class="es" style="display:none">Apéndice</span>
@@ -947,12 +931,12 @@ onkeyup="return search_changed(event, false, '/')" />
         <span class="zh-TW" style="display:none">附錄</span>
       </a></div>
     <ul>
-      <li><a href="/guide/appendix/g-app-intents.html">
+      <li><a href="../../../guide/appendix/g-app-intents.html">
             <span class="en">Intents List: Google Apps</span>
           </a></li>
 
 
-      <li><a href="/guide/appendix/glossary.html">
+      <li><a href="../../../guide/appendix/glossary.html">
             <span class="en">Glossary</span>
           </a></li>
     </ul>
@@ -1012,28 +996,28 @@ device configurations</li>
   </ul>
   <h2>In this document</h2>
   <ol>
-    <li><a href="providing-resources.html#ResourceTypes">Grouping Resource Types</a></li>
-    <li><a href="providing-resources.html#AlternativeResources">Providing Alternative Resources</a>
+    <li><a href="#ResourceTypes">Grouping Resource Types</a></li>
+    <li><a href="#AlternativeResources">Providing Alternative Resources</a>
       <ol>
-        <li><a href="providing-resources.html#QualifierRules">Qualifier name rules</a></li>
-        <li><a href="providing-resources.html#AliasResources">Creating alias resources</a></li>
+        <li><a href="#QualifierRules">Qualifier name rules</a></li>
+        <li><a href="#AliasResources">Creating alias resources</a></li>
       </ol>
     </li>
-    <li><a href="providing-resources.html#Compatibility">Providing the Best Device Compatibility with Resources</a>
+    <li><a href="#Compatibility">Providing the Best Device Compatibility with Resources</a>
       <ol>
-        <li><a href="providing-resources.html#ScreenCompatibility">Providing screen resource compatibility for Android
+        <li><a href="#ScreenCompatibility">Providing screen resource compatibility for Android
 1.5</a></li>
       </ol>
     </li>
-    <li><a href="providing-resources.html#BestMatch">How Android Finds the Best-matching Resource</a></li>
-    <li><a href="providing-resources.html#KnownIssues">Known Issues</a></li>
+    <li><a href="#BestMatch">How Android Finds the Best-matching Resource</a></li>
+    <li><a href="#KnownIssues">Known Issues</a></li>
   </ol>
 
   <h2>See also</h2>
   <ol>
     <li><a href="accessing-resources.html">Accessing Resources</a></li>
     <li><a href="available-resources.html">Resource Types</a></li>
-    <li><a href="../../practices/screens_support.html">Supporting Multiple
+    <li><a href="../../../guide/practices/screens_support.html">Supporting Multiple
 Screens</a></li>
   </ol>
 </div>
@@ -1087,14 +1071,14 @@ supported inside project <code>res/</code> directory.</p>
 
   <tr>
     <td><code>animator/</code></td>
-    <td>XML files that define <a href="../graphics/prop-animation.html">property
+    <td>XML files that define <a href="../../../guide/topics/graphics/prop-animation.html">property
 animations</a>.</td>
   </tr>
 
   <tr>
     <td><code>anim/</code></td>
     <td>XML files that define <a
-href="../graphics/view-animation.html#tween-animation">tween
+href="../../../guide/topics/graphics/view-animation.html#tween-animation">tween
 animations</a>. (Property animations can also be saved in this directory, but
 the <code>animator/</code> directory is preferred for property animations to distinguish between the two
 types.)</td>
@@ -1137,10 +1121,10 @@ Menu. See <a href="menu-resource.html">Menu Resource</a>.</td>
   <tr>
     <td><code>raw/</code></td>
     <td><p>Arbitrary files to save in their raw form. To open these resources with a raw
-<code><a href="http://developer.android.com/reference/java/io/InputStream.html">InputStream</a></code>, call <code><a href="http://developer.android.com/reference/android/content/res/Resources.html#openRawResource(int)">Resources.openRawResource()</a></code> with the resource ID, which is <code>R.raw.<em>filename</em></code>.</p>
+<code><a href="../../../reference/java/io/InputStream.html">InputStream</a></code>, call <code><a href="../../../reference/android/content/res/Resources.html#openRawResource(int)">Resources.openRawResource()</a></code> with the resource ID, which is <code>R.raw.<em>filename</em></code>.</p>
       <p>However, if you need access to original file names and file hierarchy, you might consider
 saving some resources in the <code>assets/</code> directory (instead of <code>res/raw/</code>). Files in <code>assets/</code> are not given a
-resource ID, so you can read them only using <code><a href="http://developer.android.com/reference/android/content/res/AssetManager.html">AssetManager</a></code>.</p></td>
+resource ID, so you can read them only using <code><a href="../../../reference/android/content/res/AssetManager.html">AssetManager</a></code>.</p></td>
   </tr>
 
   <tr>
@@ -1175,9 +1159,9 @@ values</a>.</li>
 
   <tr>
     <td><code>xml/</code></td>
-    <td>Arbitrary XML files that can be read at runtime by calling <code><a href="http://developer.android.com/reference/android/content/res/Resources.html#getXml(int)">Resources.getXML()</a></code>. Various XML configuration files
+    <td>Arbitrary XML files that can be read at runtime by calling <code><a href="../../../reference/android/content/res/Resources.html#getXml(int)">Resources.getXML()</a></code>. Various XML configuration files
 must be saved here, such as a <a
-href="../search/searchable-config.html">searchable configuration</a>.
+href="../../../guide/topics/search/searchable-config.html">searchable configuration</a>.
 <!-- or preferences configuration. --></td>
   </tr>
 </table>
@@ -1203,7 +1187,7 @@ resources.</p>
 
 
 <div class="figure" style="width:429px">
-<img src="http://developer.android.com/images/resources/resource_devices_diagram2.png" height="167" alt="" />
+<img src="../../../images/resources/resource_devices_diagram2.png" height="167" alt="" />
 <p class="img-caption">
 <strong>Figure 1.</strong> Two different devices, each using different layout resources.</p>
 </div>
@@ -1286,7 +1270,7 @@ names.</p>
 resources in your application). If you need to specify based on the language only, then use the
 <em>language and region</em> qualifier instead (discussed next). If you decide to use the MCC and
 MNC qualifier, you should do so with care and test that it works as expected.</p>
-        <p>Also see the configuration fields <code><a href="http://developer.android.com/reference/android/content/res/Configuration.html#mcc">mcc</a></code>, and <code><a href="http://developer.android.com/reference/android/content/res/Configuration.html#mnc">mnc</a></code>, which indicate the current mobile country code
+        <p>Also see the configuration fields <code><a href="../../../reference/android/content/res/Configuration.html#mcc">mcc</a></code>, and <code><a href="../../../reference/android/content/res/Configuration.html#mnc">mnc</a></code>, which indicate the current mobile country code
 and mobile network code, respectively.</p>
       </td>
     </tr>
@@ -1316,7 +1300,7 @@ href="runtime-changes.html">Handling Runtime Changes</a> for information about
 how this can affect your application during runtime.</p>
         <p>See <a href="localization.html">Localization</a> for a complete guide to localizing
 your application for other languages.</p>
-        <p>Also see the <code><a href="http://developer.android.com/reference/android/content/res/Configuration.html#locale">locale</a></code> configuration field, which
+        <p>Also see the <code><a href="../../../reference/android/content/res/Configuration.html#locale">locale</a></code> configuration field, which
 indicates the current locale.</p>
       </td>
     </tr>
@@ -1346,8 +1330,8 @@ res/
 </pre>
         <p class="note"><strong>Note:</strong> To enable right-to-left layout features
         for your app, you must set <a
-        href="../manifest/application-element.html#supportsrtl"><code>supportsRtl</code></a> to <code>"true"</code> and set <a
-        href="../manifest/uses-sdk-element.html#target"
+        href="../../../guide/topics/manifest/application-element.html#supportsrtl"><code>supportsRtl</code></a> to <code>"true"</code> and set <a
+        href="../../../guide/topics/manifest/uses-sdk-element.html#target"
         ><code>targetSdkVersion</code></a> to 17 or higher.</p>
         <p><em>Added in API level 17.</em></p>
       </td>
@@ -1396,11 +1380,11 @@ should be the actual smallest dimension <em>required by your layout</em> (usuall
 device's smallestWidth. </p>
         <p><em>Added in API level 13.</em></p>
         <p>Also see the <a
-href="../manifest/supports-screens-element.html#requiresSmallest"><code>android:requiresSmallestWidthDp</code></a> attribute, which declares the minimum smallestWidth with which
-your application is compatible, and the <code><a href="http://developer.android.com/reference/android/content/res/Configuration.html#smallestScreenWidthDp">smallestScreenWidthDp</a></code> configuration field, which holds the
+href="../../../guide/topics/manifest/supports-screens-element.html#requiresSmallest"><code>android:requiresSmallestWidthDp</code></a> attribute, which declares the minimum smallestWidth with which
+your application is compatible, and the <code><a href="../../../reference/android/content/res/Configuration.html#smallestScreenWidthDp">smallestScreenWidthDp</a></code> configuration field, which holds the
 device's smallestWidth value.</p>
         <p>For more information about designing for different screens and using this
-qualifier, see the <a href="../../practices/screens_support.html">Supporting
+qualifier, see the <a href="../../../guide/practices/screens_support.html">Supporting
 Multiple Screens</a> developer guide.</p>
       </td>
     </tr>
@@ -1425,10 +1409,10 @@ Multiple Screens</a> developer guide.</p>
           uses a value for the width that is smaller than the real screen size, accounting
           for these UI elements and reducing the application's available space.</p>
         <p><em>Added in API level 13.</em></p>
-        <p>Also see the <code><a href="http://developer.android.com/reference/android/content/res/Configuration.html#screenWidthDp">screenWidthDp</a></code>
+        <p>Also see the <code><a href="../../../reference/android/content/res/Configuration.html#screenWidthDp">screenWidthDp</a></code>
           configuration field, which holds the current screen width.</p>
         <p>For more information about designing for different screens and using this
-qualifier, see the <a href="../../practices/screens_support.html">Supporting
+qualifier, see the <a href="../../../guide/practices/screens_support.html">Supporting
 Multiple Screens</a> developer guide.</p>
       </td>
     </tr>
@@ -1457,10 +1441,10 @@ Multiple Screens</a> developer guide.</p>
           window decorations like the title bar or action bar, so applications must be prepared to
           deal with a somewhat smaller space than they specify.
         <p><em>Added in API level 13.</em></p>
-        <p>Also see the <code><a href="http://developer.android.com/reference/android/content/res/Configuration.html#screenHeightDp">screenHeightDp</a></code>
+        <p>Also see the <code><a href="../../../reference/android/content/res/Configuration.html#screenHeightDp">screenHeightDp</a></code>
           configuration field, which holds the current screen width.</p>
         <p>For more information about designing for different screens and using this
-qualifier, see the <a href="../../practices/screens_support.html">Supporting
+qualifier, see the <a href="../../../guide/practices/screens_support.html">Supporting
 Multiple Screens</a> developer guide.</p>
       </td>
     </tr>
@@ -1496,15 +1480,15 @@ Multiple Screens</a> developer guide.</p>
         <p class="note"><strong>Note:</strong> Using a size qualifier does not imply that the
 resources are <em>only</em> for screens of that size. If you do not provide alternative
 resources with qualifiers that better match the current device configuration, the system may use
-whichever resources are the <a href="providing-resources.html#BestMatch">best match</a>.</p>
+whichever resources are the <a href="#BestMatch">best match</a>.</p>
         <p class="caution"><strong>Caution:</strong> If all your resources use a size qualifier that
 is <em>larger</em> than the current screen, the system will <strong>not</strong> use them and your
 application will crash at runtime (for example, if all layout resources are tagged with the <code>xlarge</code> qualifier, but the device is a normal-size screen).</p>
         <p><em>Added in API level 4.</em></p>
         
-        <p>See <a href="../../practices/screens_support.html">Supporting Multiple
+        <p>See <a href="../../../guide/practices/screens_support.html">Supporting Multiple
 Screens</a> for more information.</p>
-        <p>Also see the <code><a href="http://developer.android.com/reference/android/content/res/Configuration.html#screenLayout">screenLayout</a></code> configuration field,
+        <p>Also see the <code><a href="../../../reference/android/content/res/Configuration.html#screenLayout">screenLayout</a></code> configuration field,
 which indicates whether the screen is small, normal,
 or large.</p>
       </td>
@@ -1523,7 +1507,7 @@ or large.</p>
         <p><em>Added in API level 4.</em></p>
         <p>This is based purely on the aspect ratio of the screen (a "long" screen is wider). This
 is not related to the screen orientation.</p>
-        <p>Also see the <code><a href="http://developer.android.com/reference/android/content/res/Configuration.html#screenLayout">screenLayout</a></code> configuration field,
+        <p>Also see the <code><a href="../../../reference/android/content/res/Configuration.html#screenLayout">screenLayout</a></code> configuration field,
 which indicates whether the screen is long.</p>
       </td>
     </tr>
@@ -1543,7 +1527,7 @@ which indicates whether the screen is long.</p>
         <p>This can change during the life of your application if the user rotates the
 screen. See <a href="runtime-changes.html">Handling Runtime Changes</a> for information about
 how this affects your application during runtime.</p>
-        <p>Also see the <code><a href="http://developer.android.com/reference/android/content/res/Configuration.html#orientation">orientation</a></code> configuration field,
+        <p>Also see the <code><a href="../../../reference/android/content/res/Configuration.html#orientation">orientation</a></code> configuration field,
 which indicates the current device orientation.</p>
       </td>
     </tr>
@@ -1572,7 +1556,7 @@ which indicates the current device orientation.</p>
         href="../../../training/monitoring-device-state/docking-monitoring.html">Determining
 and Monitoring the Docking State and Type</a>.</p>
         <p>This can change during the life of your application if the user places the device in a
-dock. You can enable or disable some of these modes using <code><a href="http://developer.android.com/reference/android/app/UiModeManager.html">UiModeManager</a></code>. See <a href="runtime-changes.html">Handling Runtime Changes</a> for
+dock. You can enable or disable some of these modes using <code><a href="../../../reference/android/app/UiModeManager.html">UiModeManager</a></code>. See <a href="runtime-changes.html">Handling Runtime Changes</a> for
 information about how this affects your application during runtime.</p>
       </td>
     </tr>
@@ -1590,7 +1574,7 @@ information about how this affects your application during runtime.</p>
         <p><em>Added in API level 8.</em></p>
         <p>This can change during the life of your application if night mode is left in
 auto mode (default), in which case the mode changes based on the time of day.  You can enable
-or disable this mode using <code><a href="http://developer.android.com/reference/android/app/UiModeManager.html">UiModeManager</a></code>. See <a
+or disable this mode using <code><a href="../../../reference/android/app/UiModeManager.html">UiModeManager</a></code>. See <a
 href="runtime-changes.html">Handling Runtime Changes</a> for information about how this affects your
 application during runtime.</p>
       </td>
@@ -1628,8 +1612,8 @@ example, a 100px x 100px image for mdpi screens should be 133px x 133px for tvdp
         <p class="note"><strong>Note:</strong> Using a density qualifier does not imply that the
 resources are <em>only</em> for screens of that density. If you do not provide alternative
 resources with qualifiers that better match the current device configuration, the system may use
-whichever resources are the <a href="providing-resources.html#BestMatch">best match</a>.</p>
-        <p>See <a href="../../practices/screens_support.html">Supporting Multiple
+whichever resources are the <a href="#BestMatch">best match</a>.</p>
+        <p>See <a href="../../../guide/practices/screens_support.html">Supporting Multiple
 Screens</a> for more information about how to handle different screen densities and how Android
 might scale your bitmaps to fit the current density.</p>
        </td>
@@ -1646,7 +1630,7 @@ might scale your bitmaps to fit the current density.</p>
           <li><code>finger</code>: Device has a touchscreen that is intended to
           be used through direction interaction of the user's finger.</li>
         </ul>
-        <p>Also see the <code><a href="http://developer.android.com/reference/android/content/res/Configuration.html#touchscreen">touchscreen</a></code> configuration field,
+        <p>Also see the <code><a href="../../../reference/android/content/res/Configuration.html#touchscreen">touchscreen</a></code> configuration field,
 which indicates the type of touchscreen on the device.</p>
       </td>
     </tr>
@@ -1675,7 +1659,7 @@ keyboard is visible, as long as the system has a software keyboard enabled.</p>
         <p>This can change during the life of your application if the user opens a hardware
 keyboard. See <a href="runtime-changes.html">Handling Runtime Changes</a> for information about how
 this affects your application during runtime.</p>
-        <p>Also see the configuration fields <code><a href="http://developer.android.com/reference/android/content/res/Configuration.html#hardKeyboardHidden">hardKeyboardHidden</a></code> and <code><a href="http://developer.android.com/reference/android/content/res/Configuration.html#keyboardHidden">keyboardHidden</a></code>, which indicate the visibility of a hardware
+        <p>Also see the configuration fields <code><a href="../../../reference/android/content/res/Configuration.html#hardKeyboardHidden">hardKeyboardHidden</a></code> and <code><a href="../../../reference/android/content/res/Configuration.html#keyboardHidden">keyboardHidden</a></code>, which indicate the visibility of a hardware
 keyboard and and the visibility of any kind of keyboard (including software), respectively.</p>
       </td>
     </tr>
@@ -1695,7 +1679,7 @@ or not.</li>
           <li><code>12key</code>: Device has a hardware 12-key keyboard, whether it's visible to the user
 or not.</li>
         </ul>
-        <p>Also see the <code><a href="http://developer.android.com/reference/android/content/res/Configuration.html#keyboard">keyboard</a></code> configuration field,
+        <p>Also see the <code><a href="../../../reference/android/content/res/Configuration.html#keyboard">keyboard</a></code> configuration field,
 which indicates the primary text input method available.</p>
       </td>
     </tr>
@@ -1714,7 +1698,7 @@ lid).</li>
         <p>This can change during the life of your application if the user reveals the navigation
 keys. See <a href="runtime-changes.html">Handling Runtime Changes</a> for
 information about how this affects your application during runtime.</p>
-        <p>Also see the <code><a href="http://developer.android.com/reference/android/content/res/Configuration.html#navigationHidden">navigationHidden</a></code> configuration
+        <p>Also see the <code><a href="../../../reference/android/content/res/Configuration.html#navigationHidden">navigationHidden</a></code> configuration
 field, which indicates whether navigation keys are hidden.</p>
       </td>
     </tr>
@@ -1734,7 +1718,7 @@ touchscreen.</li>
           <li><code>trackball</code>: Device has a trackball for navigation.</li>
           <li><code>wheel</code>: Device has a directional wheel(s) for navigation (uncommon).</li>
         </ul>
-        <p>Also see the <code><a href="http://developer.android.com/reference/android/content/res/Configuration.html#navigation">navigation</a></code> configuration field,
+        <p>Also see the <code><a href="../../../reference/android/content/res/Configuration.html#navigation">navigation</a></code> configuration field,
 which indicates the type of navigation method available.</p>
       </td>
     </tr>
@@ -1764,11 +1748,11 @@ orientation" described above.</p>
         <p>The API level supported by the device. For example, <code>v1</code> for API level
 1 (devices with Android 1.0 or higher) and <code>v4</code> for API level 4 (devices with Android
 1.6 or higher). See the <a
-href="../manifest/uses-sdk-element.html#ApiLevels">Android API levels</a> document for more information
+href="../../../guide/topics/manifest/uses-sdk-element.html#ApiLevels">Android API levels</a> document for more information
 about these values.</p>
         <p class="caution"><strong>Caution:</strong> Android 1.5 and 1.6 only match resources
 with this qualifier when it exactly matches the platform version. See the section below about <a
-href="providing-resources.html#KnownIssues">Known Issues</a> for more information.</p>
+href="#KnownIssues">Known Issues</a> for more information.</p>
       </td>
     </tr>
 </table>
@@ -1780,7 +1764,7 @@ adds the platform version qualifier so that older devices are sure to ignore it.
 a <code>w600dp</code> qualifier will automatically include the <code>v13</code> qualifier, because
 the available-width qualifier was new in API level 13. To avoid any issues, always include a set of
 default resources (a set of resources with <em>no qualifiers</em>). For more information, see the
-section about <a href="providing-resources.html#Compatibility">Providing the Best Device Compatibility with
+section about <a href="#Compatibility">Providing the Best Device Compatibility with
 Resources</a>.</p>
 
 
@@ -1793,7 +1777,7 @@ Resources</a>.</p>
     <li>You can specify multiple qualifiers for a single set of resources, separated by dashes. For
 example, <code>drawable-en-rUS-land</code> applies to US-English devices in landscape
 orientation.</li>
-    <li>The qualifiers must be in the order listed in <a href="providing-resources.html#table2">table 2</a>. For
+    <li>The qualifiers must be in the order listed in <a href="#table2">table 2</a>. For
 example:
       <ul>
         <li>Wrong: <code>drawable-hdpi-port/</code></li>
@@ -1810,14 +1794,14 @@ the same drawable files for Spain and France, you <em>cannot</em> have a directo
 <code>drawable-rES-rFR/</code>. Instead you need two resource directories, such as
 <code>drawable-rES/</code> and <code>drawable-rFR/</code>, which contain the appropriate files.
 However, you are not required to actually duplicate the same files in both locations. Instead, you
-can create an alias to a resource. See <a href="providing-resources.html#AliasResources">Creating
+can create an alias to a resource. See <a href="#AliasResources">Creating
 alias resources</a> below.</li>
 </ul>
 
 <p>After you save alternative resources into directories named with
 these qualifiers, Android automatically applies the resources in your application based on the
 current device configuration. Each time a resource is requested, Android checks for alternative
-resource directories that contain the requested resource file, then <a href="providing-resources.html#BestMatch">finds the
+resource directories that contain the requested resource file, then <a href="#BestMatch">finds the
 best-matching resource</a> (discussed below). If there are no alternative resources that match
 a particular device configuration, then Android uses the corresponding default resources (the
 set of resources for a particular resource type that does not include a configuration
@@ -1896,7 +1880,7 @@ string as the value for the new string. For example:</p>
 
 <p>The <code>R.string.hi</code> resource is now an alias for the <code>R.string.hello</code>.</p>
 
-<p> <a href="more-resources.html">Other simple values</a> work the
+<p> <a href="../../../guide/topics/resources/more-resources.html">Other simple values</a> work the
 same way. For example, a color:</p>
 
 <pre>
@@ -1916,7 +1900,7 @@ same way. For example, a color:</p>
 you always provide default resources for each type of resource that your application uses.</p>
 
 <p>For example, if your application supports several languages, always include a <code>values/</code> directory (in which your strings are saved) <em>without</em> a <a
-href="providing-resources.html#LocaleQualifier">language and region qualifier</a>. If you instead put all your string files
+href="#LocaleQualifier">language and region qualifier</a>. If you instead put all your string files
 in directories that have a language and region qualifier, then your application will crash when run
 on a device set to a language that your strings do not support. But, as long as you provide default
 <code>values/</code> resources, then your application will run properly (even if the user doesn't
@@ -1932,8 +1916,8 @@ configuration qualifiers that older versions do not support. If you use a new re
 but maintain code compatibility with older versions of Android, then when an older version of
 Android runs your application, it will crash if you do not provide default resources, because it
 cannot use the resources named with the new qualifier. For example, if your <a
-href="../manifest/uses-sdk-element.html#min"><code>minSdkVersion</code></a> is set to 4, and you qualify all of your drawable resources using <a
-href="providing-resources.html#NightQualifier">night mode</a> (<code>night</code> or <code>notnight</code>, which were added in API
+href="../../../guide/topics/manifest/uses-sdk-element.html#min"><code>minSdkVersion</code></a> is set to 4, and you qualify all of your drawable resources using <a
+href="#NightQualifier">night mode</a> (<code>night</code> or <code>notnight</code>, which were added in API
 Level 8), then an API level 4 device cannot access your drawable resources and will crash. In this
 case, you probably want <code>notnight</code> to be your default resources, so you should exclude that
 qualifier so your drawable resources are in either <code>drawable/</code> or <code>drawable-night/</code>.</p>
@@ -1943,13 +1927,13 @@ resources for the resources your application needs to perform properly. Then cre
 resources for specific device configurations using the configuration qualifiers.</p>
 
 <p>There is one exception to this rule: If your application's <a
-href="../manifest/uses-sdk-element.html#min"><code>minSdkVersion</code></a> is 4 or
+href="../../../guide/topics/manifest/uses-sdk-element.html#min"><code>minSdkVersion</code></a> is 4 or
 greater, you <em>do not</em> need default drawable resources when you provide alternative drawable
-resources with the <a href="providing-resources.html#DensityQualifier">screen density</a> qualifier. Even without default
+resources with the <a href="#DensityQualifier">screen density</a> qualifier. Even without default
 drawable resources, Android can find the best match among the alternative screen densities and scale
 the bitmaps as necessary. However, for the best experience on all types of devices, you should
 provide alternative drawables for all three types of density. If your <a
-href="../manifest/uses-sdk-element.html#min"><code>minSdkVersion</code></a> is
+href="../../../guide/topics/manifest/uses-sdk-element.html#min"><code>minSdkVersion</code></a> is
 <em>less than</em> 4 (Android 1.5 or lower), be aware that the screen size, density, and aspect
 qualifiers are not supported on Android 1.5 or lower, so you might need to perform additional
 compatibility for these versions.</p>
@@ -1959,11 +1943,11 @@ compatibility for these versions.</p>
 
 <p>Android 1.5 (and lower) does not support the following configuration qualifers:</p>
 <dl>
-  <dt><a href="providing-resources.html#DensityQualifier">Density</a></dt>
+  <dt><a href="#DensityQualifier">Density</a></dt>
     <dd><code>ldpi</code>, <code>mdpi</code>, <code>ldpi</code>, and <code>nodpi</code></dd>
-  <dt><a href="providing-resources.html#ScreenSizeQualifier">Screen size</a></dt>
+  <dt><a href="#ScreenSizeQualifier">Screen size</a></dt>
     <dd><code>small</code>, <code>normal</code>, and <code>large</code></dd>
-  <dt><a href="providing-resources.html#ScreenAspectQualifier">Screen aspect</a></dt>
+  <dt><a href="#ScreenAspectQualifier">Screen aspect</a></dt>
     <dd><code>long</code> and <code>notlong</code></dd>
 </dl>
 
@@ -1994,7 +1978,7 @@ put <code>normal</code> size resources in the corresponding default resource dir
 is r6 or greater.
 
     <p>You need SDK Tools, Revision 6 (or greater), because it includes a new packaging tool that
-automatically applies an appropriate <a href="providing-resources.html#VersionQualifier">version qualifier</a> to any
+automatically applies an appropriate <a href="#VersionQualifier">version qualifier</a> to any
 resource directory named with a qualifier that does not exist in Android 1.0. For example, because
 the density qualifier was introduced in Android 1.6 (API level 4), when the packaging tool
 encounters a resource directory using the density qualifier, it adds <code>v4</code> to the directory
@@ -2049,7 +2033,7 @@ logic:</p>
 
 
 <div class="figure" style="width:371px">
-<img src="http://developer.android.com/images/resources/res-selection-flowchart.png" alt="" height="471" />
+<img src="../../../images/resources/res-selection-flowchart.png" alt="" height="471" />
 <p class="img-caption"><strong>Figure 2.</strong> Flowchart of how Android finds the
 best-matching resource.</p>
 </div>
@@ -2072,10 +2056,10 @@ drawable-port-notouch-12key/
 eliminated due to a contradiction. Even though the screen density of the device is hdpi,
 <code>drawable-port-ldpi/</code> is not eliminated because every screen density is
 considered to be a match at this point. More information is available in the <a
-href="../../practices/screens_support.html">Supporting Multiple
+href="../../../guide/practices/screens_support.html">Supporting Multiple
 Screens</a> document.</p></li>
 
-  <li>Pick the (next) highest-precedence qualifier in the list (<a href="providing-resources.html#table2">table 2</a>).
+  <li>Pick the (next) highest-precedence qualifier in the list (<a href="#table2">table 2</a>).
 (Start with MCC, then move down.) </li>
   <li>Do any of the resource directories include this qualifier?  </li>
     <ul>
@@ -2098,7 +2082,7 @@ drawable-en-notouch-12key/
 <p class="note"><strong>Exception:</strong> If the qualifier in question is screen pixel density,
 Android selects the option that most closely matches the device screen density.
 In general, Android prefers scaling down a larger original image to scaling up a smaller
-original image. See <a href="../../practices/screens_support.html">Supporting Multiple
+original image. See <a href="../../../guide/practices/screens_support.html">Supporting Multiple
 Screens</a>.</p>
   </li>
 
@@ -2130,7 +2114,7 @@ configuration (for example, if all layout resources are tagged with the <code>xl
 but the device is a normal-size screen).</p>
 
 <p class="note"><strong>Note:</strong> The <em>precedence</em> of the qualifier (in <a
-href="providing-resources.html#table2">table 2</a>) is more important
+href="#table2">table 2</a>) is more important
 than the number of qualifiers that exactly match the device. For example, in step 4 above, the last
 choice on the list includes three qualifiers that exactly match the device (orientation, touchscreen
 type, and input method), while <code>drawable-en</code> has only one parameter that matches
@@ -2148,7 +2132,7 @@ href="accessing-resources.html">Accessing Resources</a>.</p>
 <h3>Android 1.5 and 1.6: Version qualifier performs exact match, instead of best match</h3>
 
 <p>The correct behavior is for the system to match resources marked with a <a
-href="providing-resources.html#VersionQualifier">version qualifier</a> equal
+href="#VersionQualifier">version qualifier</a> equal
 to or less than the platform version on the device, but on Android 1.5 and 1.6, (API level 3 and 4),
 there is a bug that causes the system to match resources marked with the version qualifier
 only when it exactly matches the version on the device.</p>
@@ -2178,7 +2162,7 @@ is no longer available).</p>
         
         <div class="paging-links layout-content-col col-4">
           
-            <a href="providing-resources.html#" class="prev-page-link hide"
+            <a href="#" class="prev-page-link hide"
                 zh-TW-lang="上一堂課"
                 zh-CN-lang="上一课"
                 ru-lang="Предыдущий"
@@ -2186,7 +2170,7 @@ is no longer available).</p>
                 ja-lang="前へ"
                 es-lang="Anterior"               
                 >Previous</a>
-            <a href="providing-resources.html#" class="next-page-link hide"
+            <a href="#" class="next-page-link hide"
                 zh-TW-lang="下一堂課"
                 zh-CN-lang="下一课"
                 ru-lang="Следующий"

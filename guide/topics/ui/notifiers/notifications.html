@@ -91,12 +91,14 @@ href="http://fonts.googleapis.com/css?family=Roboto:regular,medium,thin,italic,m
 <script src="http://www.google.com/jsapi" type="text/javascript"></script>
 <script src="../../../../assets/js/android_3p-bundle.js" type="text/javascript"></script>
 <script type="text/javascript">
-  var toRoot = "/";
+  var toRoot = "../../../../";
   
   var devsite = false;
   
 </script>
 <script src="../../../../assets/js/docs.js" type="text/javascript"></script>
+
+<script src="../../../../navtree_data.js" type="text/javascript"></script>
 
 
 <script type="text/javascript">
@@ -123,8 +125,8 @@ href="http://fonts.googleapis.com/css?family=Roboto:regular,medium,thin,italic,m
             <img src="../../../../assets/images/dac_logo.png" width="123" height="25" alt="Android Developers" />
           </a>
           <div class="btn-quicknav" id="btn-quicknav">
-          	<a href="notifications.html#" class="arrow-inactive">Quicknav</a>
-			      <a href="notifications.html#" class="arrow-active">Quicknav</a>
+          	<a href="#" class="arrow-inactive">Quicknav</a>
+			      <a href="#" class="arrow-active">Quicknav</a>
           </div>
           </div>
             <ul class="nav-x col-9">
@@ -179,24 +181,6 @@ href="http://fonts.googleapis.com/css?family=Roboto:regular,medium,thin,italic,m
 
       
       
-        <div class="header">Language</div>
-          <div id="language" class="locales">
-            <select name="language" onChange="changeLangPref(this.value, true)">
-                <option value="en">English</option>
-                <option value="es">Español</option>
-                <option value="ja">日本語</option>
-                <option value="ko">한국어</option>
-                <option value="ru">Русский</option>
-                <option value="zh-CN">中文 (中国)</option>
-                <option value="zh-TW">中文 (台灣)</option>
-            </select>
-          </div>
-        <script type="text/javascript">
-          <!--
-          loadLangPref();
-            //-->
-        </script>
-      
       
 
 
@@ -211,8 +195,8 @@ href="http://fonts.googleapis.com/css?family=Roboto:regular,medium,thin,italic,m
       <form onsubmit="return submit_search()">
         <input id="search_autocomplete" type="text" value="" autocomplete="off" name="q"
 onfocus="search_focus_changed(this, true)" onblur="search_focus_changed(this, false)"
-onkeydown="return search_changed(event, true, '/')" 
-onkeyup="return search_changed(event, false, '/')" />
+onkeydown="return search_changed(event, true, '../../../../')" 
+onkeyup="return search_changed(event, false, '../../../../')" />
       </form>
       <div class="right"></div>
         <a class="close hide">close</a>
@@ -254,7 +238,7 @@ onkeyup="return search_changed(event, false, '/')" />
                           ja-lang="トレーニング"
                           es-lang="Capacitación"               
                           >Training</a></li>
-                        <li><a href="../../../components/index.html"
+                        <li><a href="../../../../guide/components/index.html"
                           zh-TW-lang="API 指南"
                           zh-CN-lang="API 指南"
                           ru-lang="Руководства по API"
@@ -322,7 +306,7 @@ onkeyup="return search_changed(event, false, '/')" />
                   ja-lang="トレーニング"
                   es-lang="Capacitación"               
                   >Training</a></li>
-                <li class="guide"><a href="../../../components/index.html"
+                <li class="guide"><a href="../../../../guide/components/index.html"
                   zh-TW-lang="API 指南"
                   zh-CN-lang="API 指南"
                   ru-lang="Руководства по API"
@@ -360,7 +344,7 @@ onkeyup="return search_changed(event, false, '/')" />
   <div class="wrap clearfix" id="body-content">
     <div class="col-4" id="side-nav" itemscope itemtype="http://schema.org/SiteNavigationElement">
       <div id="devdoc-nav" class="scroll-pane">
-<a class="totop" href="notifications.html#top" data-g-event="left-nav-top">to top</a>
+<a class="totop" href="#top" data-g-event="left-nav-top">to top</a>
 
 
 
@@ -369,106 +353,106 @@ onkeyup="return search_changed(event, false, '/')" />
   <!--<li style="color:red">Overview</li> -->
 
   <li class="nav-section">
-    <div class="nav-section-header"><a href="../../../components/index.html">
+    <div class="nav-section-header"><a href="../../../../guide/components/index.html">
         <span class="en">App Components</span>
       </a></div>
     <ul>
-      <li><a href="../../../components/fundamentals.html">
+      <li><a href="../../../../guide/components/fundamentals.html">
             <span class="en">App Fundamentals</span></a>
       </li>
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../../../components/activities.html">
+        <div class="nav-section-header"><a href="../../../../guide/components/activities.html">
             <span class="en">Activities</span>
           </a></div>
         <ul>
-          <li><a href="../../../components/fragments.html">
+          <li><a href="../../../../guide/components/fragments.html">
               <span class="en">Fragments</span>
             </a></li>
-          <li><a href="../../../components/loaders.html">
+          <li><a href="../../../../guide/components/loaders.html">
               <span class="en">Loaders</span>
             </a></li>
-          <li><a href="../../../components/tasks-and-back-stack.html">
+          <li><a href="../../../../guide/components/tasks-and-back-stack.html">
               <span class="en">Tasks and Back Stack</span>
             </a></li>
         </ul>
       </li>
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../../../components/services.html">
+        <div class="nav-section-header"><a href="../../../../guide/components/services.html">
             <span class="en">Services</span>
           </a></div>
         <ul>
-          <li><a href="../../../components/bound-services.html">
+          <li><a href="../../../../guide/components/bound-services.html">
               <span class="en">Bound Services</span>
             </a></li>
-          <li><a href="../../../components/aidl.html">
+          <li><a href="../../../../guide/components/aidl.html">
               <span class="en">AIDL</span>
             </a></li>
         </ul>
       </li>
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../../providers/content-providers.html">
+        <div class="nav-section-header"><a href="../../../../guide/topics/providers/content-providers.html">
             <span class="en">Content Providers</span>
           </a></div>
         <ul>
-          <li><a href="../../providers/content-provider-basics.html">
+          <li><a href="../../../../guide/topics/providers/content-provider-basics.html">
               <span class="en">Content Provider Basics</span>
             </a></li>
-          <li><a href="../../providers/content-provider-creating.html">
+          <li><a href="../../../../guide/topics/providers/content-provider-creating.html">
               <span class="en">Creating a Content Provider</span>
             </a></li>
-          <li><a href="../../providers/calendar-provider.html">
+          <li><a href="../../../../guide/topics/providers/calendar-provider.html">
               <span class="en">Calendar Provider</span>
             </a></li>
-          <li><a href="../../providers/contacts-provider.html">
+          <li><a href="../../../../guide/topics/providers/contacts-provider.html">
               <span class="en">Contacts Provider</span>
             </a></li>
         </ul>
       </li>
-      <li><a href="../../../components/intents-filters.html">
+      <li><a href="../../../../guide/components/intents-filters.html">
           <span class="en">Intents and Intent Filters</span>
         </a></li>
-      <li><a href="../../../components/processes-and-threads.html">
+      <li><a href="../../../../guide/components/processes-and-threads.html">
           <span class="en">Processes and Threads</span>
         </a>
       </li>
-      <li><a href="../../security/permissions.html">
+      <li><a href="../../../../guide/topics/security/permissions.html">
           <span class="en">Permissions</span>
         </a>
       </li>
-      <li><a href="../../appwidgets/index.html">
+      <li><a href="../../../../guide/topics/appwidgets/index.html">
             <span class="en">App Widgets</span>
           </a></li>
       <li class="nav-section">
-      <div class="nav-section-header"><a href="../../manifest/manifest-intro.html">
+      <div class="nav-section-header"><a href="../../../../guide/topics/manifest/manifest-intro.html">
           <span class="en">Android Manifest</span>
         </a></div>
         <ul>
-          <li><a href="../../manifest/action-element.html">&lt;action&gt;</a></li>
-          <li><a href="../../manifest/activity-element.html">&lt;activity&gt;</a></li>
-          <li><a href="../../manifest/activity-alias-element.html">&lt;activity-alias&gt;</a></li>
-          <li><a href="../../manifest/application-element.html">&lt;application&gt;</a></li>
-          <li><a href="../../manifest/category-element.html">&lt;category&gt;</a></li>
-          <li><a href="../../manifest/compatible-screens-element.html">&lt;compatible-screens&gt;</a></li>
-          <li><a href="../../manifest/data-element.html">&lt;data&gt;</a></li>
-          <li><a href="../../manifest/grant-uri-permission-element.html">&lt;grant-uri-permission&gt;</a></li>
-          <li><a href="../../manifest/instrumentation-element.html">&lt;instrumentation&gt;</a></li>
-          <li><a href="../../manifest/intent-filter-element.html">&lt;intent-filter&gt;</a></li>
-          <li><a href="../../manifest/manifest-element.html">&lt;manifest&gt;</a></li>
-          <li><a href="../../manifest/meta-data-element.html">&lt;meta-data&gt;</a></li>
-          <li><a href="../../manifest/path-permission-element.html">&lt;path-permission&gt;</a></li>
-          <li><a href="../../manifest/permission-element.html">&lt;permission&gt;</a></li>
-          <li><a href="../../manifest/permission-group-element.html">&lt;permission-group&gt;</a></li>
-          <li><a href="../../manifest/permission-tree-element.html">&lt;permission-tree&gt;</a></li>
-          <li><a href="../../manifest/provider-element.html">&lt;provider&gt;</a></li>
-          <li><a href="../../manifest/receiver-element.html">&lt;receiver&gt;</a></li>
-          <li><a href="../../manifest/service-element.html">&lt;service&gt;</a></li>
-          <li><a href="../../manifest/supports-gl-texture-element.html">&lt;supports-gl-texture&gt;</a></li>
-          <li><a href="../../manifest/supports-screens-element.html">&lt;supports-screens&gt;</a></li><!-- ##api level 4## -->
-          <li><a href="../../manifest/uses-configuration-element.html">&lt;uses-configuration&gt;</a></li>
-          <li><a href="../../manifest/uses-feature-element.html">&lt;uses-feature&gt;</a></li> <!-- ##api level 4## -->
-          <li><a href="../../manifest/uses-library-element.html">&lt;uses-library&gt;</a></li>
-          <li><a href="../../manifest/uses-permission-element.html">&lt;uses-permission&gt;</a></li>
-          <li><a href="../../manifest/uses-sdk-element.html">&lt;uses-sdk&gt;</a></li>
+          <li><a href="../../../../guide/topics/manifest/action-element.html">&lt;action&gt;</a></li>
+          <li><a href="../../../../guide/topics/manifest/activity-element.html">&lt;activity&gt;</a></li>
+          <li><a href="../../../../guide/topics/manifest/activity-alias-element.html">&lt;activity-alias&gt;</a></li>
+          <li><a href="../../../../guide/topics/manifest/application-element.html">&lt;application&gt;</a></li>
+          <li><a href="../../../../guide/topics/manifest/category-element.html">&lt;category&gt;</a></li>
+          <li><a href="../../../../guide/topics/manifest/compatible-screens-element.html">&lt;compatible-screens&gt;</a></li>
+          <li><a href="../../../../guide/topics/manifest/data-element.html">&lt;data&gt;</a></li>
+          <li><a href="../../../../guide/topics/manifest/grant-uri-permission-element.html">&lt;grant-uri-permission&gt;</a></li>
+          <li><a href="../../../../guide/topics/manifest/instrumentation-element.html">&lt;instrumentation&gt;</a></li>
+          <li><a href="../../../../guide/topics/manifest/intent-filter-element.html">&lt;intent-filter&gt;</a></li>
+          <li><a href="../../../../guide/topics/manifest/manifest-element.html">&lt;manifest&gt;</a></li>
+          <li><a href="../../../../guide/topics/manifest/meta-data-element.html">&lt;meta-data&gt;</a></li>
+          <li><a href="../../../../guide/topics/manifest/path-permission-element.html">&lt;path-permission&gt;</a></li>
+          <li><a href="../../../../guide/topics/manifest/permission-element.html">&lt;permission&gt;</a></li>
+          <li><a href="../../../../guide/topics/manifest/permission-group-element.html">&lt;permission-group&gt;</a></li>
+          <li><a href="../../../../guide/topics/manifest/permission-tree-element.html">&lt;permission-tree&gt;</a></li>
+          <li><a href="../../../../guide/topics/manifest/provider-element.html">&lt;provider&gt;</a></li>
+          <li><a href="../../../../guide/topics/manifest/receiver-element.html">&lt;receiver&gt;</a></li>
+          <li><a href="../../../../guide/topics/manifest/service-element.html">&lt;service&gt;</a></li>
+          <li><a href="../../../../guide/topics/manifest/supports-gl-texture-element.html">&lt;supports-gl-texture&gt;</a></li>
+          <li><a href="../../../../guide/topics/manifest/supports-screens-element.html">&lt;supports-screens&gt;</a></li><!-- ##api level 4## -->
+          <li><a href="../../../../guide/topics/manifest/uses-configuration-element.html">&lt;uses-configuration&gt;</a></li>
+          <li><a href="../../../../guide/topics/manifest/uses-feature-element.html">&lt;uses-feature&gt;</a></li> <!-- ##api level 4## -->
+          <li><a href="../../../../guide/topics/manifest/uses-library-element.html">&lt;uses-library&gt;</a></li>
+          <li><a href="../../../../guide/topics/manifest/uses-permission-element.html">&lt;uses-permission&gt;</a></li>
+          <li><a href="../../../../guide/topics/manifest/uses-sdk-element.html">&lt;uses-sdk&gt;</a></li>
         </ul>
    </li><!-- end of the manifest file -->
 
@@ -476,263 +460,263 @@ onkeyup="return search_changed(event, false, '/')" />
   </li>
 
   <li class="nav-section">
-    <div class="nav-section-header"><a href="../index.html">
+    <div class="nav-section-header"><a href="../../../../guide/topics/ui/index.html">
         <span class="en">User Interface</span>
       </a></div>
     <ul>
-      <li><a href="../overview.html">
+      <li><a href="../../../../guide/topics/ui/overview.html">
           <span class="en">Overview</span>
         </a></li>
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../declaring-layout.html">
+        <div class="nav-section-header"><a href="../../../../guide/topics/ui/declaring-layout.html">
             <span class="en">Layouts</span>
           </a></div>
         <ul>
-          <li><a href="../layout/linear.html">
+          <li><a href="../../../../guide/topics/ui/layout/linear.html">
               <span class="en">Linear Layout</span>
             </a></li>
-          <li><a href="../layout/relative.html">
+          <li><a href="../../../../guide/topics/ui/layout/relative.html">
               <span class="en">Relative Layout</span>
             </a></li>
        <!--
-          <li><a href="/guide/topics/ui/layout/grid.html">
+          <li><a href="../../../../guide/topics/ui/layout/grid.html">
               <span class="en">Grid Layout</span>
             </a></li>
-          <li><a href="/guide/topics/ui/layout/tabs.html">
+          <li><a href="../../../../guide/topics/ui/layout/tabs.html">
               <span class="en">Tab Layout</span>
             </a></li>
        -->
-          <li><a href="../layout/listview.html">
+          <li><a href="../../../../guide/topics/ui/layout/listview.html">
               <span class="en">List View</span>
             </a></li>
-          <li><a href="../layout/gridview.html">
+          <li><a href="../../../../guide/topics/ui/layout/gridview.html">
               <span class="en">Grid View</span>
             </a></li>
         </ul>
       </li>
 
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../controls.html">
+        <div class="nav-section-header"><a href="../../../../guide/topics/ui/controls.html">
             <span class="en">Input Controls</span>
           </a></div>
         <ul>
-          <li><a href="../controls/button.html">
+          <li><a href="../../../../guide/topics/ui/controls/button.html">
               <span class="en">Buttons</span>
             </a></li>
-          <li><a href="../controls/text.html">
+          <li><a href="../../../../guide/topics/ui/controls/text.html">
               <span class="en">Text Fields</span>
             </a></li>
-          <li><a href="../controls/checkbox.html">
+          <li><a href="../../../../guide/topics/ui/controls/checkbox.html">
               <span class="en">Checkboxes</span>
             </a></li>
-          <li><a href="../controls/radiobutton.html">
+          <li><a href="../../../../guide/topics/ui/controls/radiobutton.html">
               <span class="en">Radio Buttons</span>
             </a></li>
-          <li><a href="../controls/togglebutton.html">
+          <li><a href="../../../../guide/topics/ui/controls/togglebutton.html">
               <span class="en">Toggle Buttons</span>
             </a></li>
-          <li><a href="../controls/spinner.html">
+          <li><a href="../../../../guide/topics/ui/controls/spinner.html">
               <span class="en">Spinners</span>
             </a></li>
-          <li><a href="../controls/pickers.html">
+          <li><a href="../../../../guide/topics/ui/controls/pickers.html">
               <span class="en">Pickers</span>
             </a></li>
 <!--
-          <li><a href="/guide/topics/ui/controls/progress.html">
+          <li><a href="../../../../guide/topics/ui/controls/progress.html">
               <span class="en">Seek and Progress Bars</span>
             </a></li>
 -->
         </ul>
       </li>
-      <li><a href="../ui-events.html">
+      <li><a href="../../../../guide/topics/ui/ui-events.html">
           <span class="en">Input Events</span>
         </a></li>
-      <li><a href="../menus.html">
+      <li><a href="../../../../guide/topics/ui/menus.html">
           <span class="en">Menus</span></span>
           </a></li>
-      <li><a href="../actionbar.html">
+      <li><a href="../../../../guide/topics/ui/actionbar.html">
            <span class="en">Action Bar</span>
           </a></li>
-      <li><a href="../settings.html">
+      <li><a href="../../../../guide/topics/ui/settings.html">
             <span class="en">Settings</span>
           </a></li>
-      <li><a href="../dialogs.html">
+      <li><a href="../../../../guide/topics/ui/dialogs.html">
            <span class="en">Dialogs</span>
           </a></li>
-      <li><a href="notifications.html">
+      <li><a href="../../../../guide/topics/ui/notifiers/notifications.html">
           <span class="en">Notifications</span>
         </a></li>
-      <li><a href="toasts.html">
+      <li><a href="../../../../guide/topics/ui/notifiers/toasts.html">
           <span class="en">Toasts</span>
         </a></li>
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../../search/index.html">
+        <div class="nav-section-header"><a href="../../../../guide/topics/search/index.html">
             <span class="en">Search</span>
           </a></div>
           <ul>
-            <li><a href="../../search/search-dialog.html">Creating a Search Interface</a></li>
-            <li><a href="../../search/adding-recent-query-suggestions.html">Adding Recent Query Suggestions</a></li>
-            <li><a href="../../search/adding-custom-suggestions.html">Adding Custom Suggestions</a></li>
-            <li><a href="../../search/searchable-config.html">Searchable Configuration</a></li>
+            <li><a href="../../../../guide/topics/search/search-dialog.html">Creating a Search Interface</a></li>
+            <li><a href="../../../../guide/topics/search/adding-recent-query-suggestions.html">Adding Recent Query Suggestions</a></li>
+            <li><a href="../../../../guide/topics/search/adding-custom-suggestions.html">Adding Custom Suggestions</a></li>
+            <li><a href="../../../../guide/topics/search/searchable-config.html">Searchable Configuration</a></li>
           </ul>
       </li>
-      <li><a href="../drag-drop.html">
+      <li><a href="../../../../guide/topics/ui/drag-drop.html">
           <span class="en">Drag and Drop</span>
         </a></li>
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../accessibility/index.html">
+        <div class="nav-section-header"><a href="../../../../guide/topics/ui/accessibility/index.html">
             <span class="en">Accessibility</span>
           </a></div>
         <ul>
-          <li><a href="../accessibility/apps.html">
+          <li><a href="../../../../guide/topics/ui/accessibility/apps.html">
               <span class="en">Making Applications Accessible</span>
             </a></li>
-          <li><a href="../accessibility/checklist.html">
+          <li><a href="../../../../guide/topics/ui/accessibility/checklist.html">
               <span class="en">Accessibility Developer Checklist</span>
             </a></li>
-          <li><a href="../accessibility/services.html">
+          <li><a href="../../../../guide/topics/ui/accessibility/services.html">
               <span class="en">Building Accessibility Services</span>
             </a></li>
         </ul>
       </li>
-      <li><a href="../themes.html">
+      <li><a href="../../../../guide/topics/ui/themes.html">
           <span class="en">Styles and Themes</span>
         </a></li>
-      <li><a href="../custom-components.html">
+      <li><a href="../../../../guide/topics/ui/custom-components.html">
           <span class="en">Custom Components</span>
         </a></li>
     </ul>
   </li><!-- end of User Interface -->
 
     <li class="nav-section">
-      <div class="nav-section-header"><a href="../../resources/index.html">
+      <div class="nav-section-header"><a href="../../../../guide/topics/resources/index.html">
            <span class="en">App Resources</span>
          </a></div>
       <ul>
-        <li><a href="../../resources/overview.html">
+        <li><a href="../../../../guide/topics/resources/overview.html">
             <span class="en">Overview</span>
           </a></li>
-          <li><a href="../../resources/providing-resources.html">
+          <li><a href="../../../../guide/topics/resources/providing-resources.html">
             <span class="en">Providing Resources</span>
           </a></li>
-        <li><a href="../../resources/accessing-resources.html">
+        <li><a href="../../../../guide/topics/resources/accessing-resources.html">
             <span class="en">Accessing Resources</span>
           </a></li>
-        <li><a href="../../resources/runtime-changes.html">
+        <li><a href="../../../../guide/topics/resources/runtime-changes.html">
               <span class="en">Handling Runtime Changes</span>
             </a></li>
-        <li><a href="../../resources/localization.html">
+        <li><a href="../../../../guide/topics/resources/localization.html">
             <span class="en">Localization</span>
           </a></li>
         <li class="nav-section">
-          <div class="nav-section-header"><a href="../../resources/available-resources.html">
+          <div class="nav-section-header"><a href="../../../../guide/topics/resources/available-resources.html">
               <span class="en">Resource Types</span>
             </a></div>
           <ul>
-            <li><a href="../../resources/animation-resource.html">Animation</a></li>
-            <li><a href="../../resources/color-list-resource.html">Color State List</a></li>
-            <li><a href="../../resources/drawable-resource.html">Drawable</a></li>
-            <li><a href="../../resources/layout-resource.html">Layout</a></li>
-            <li><a href="../../resources/menu-resource.html">Menu</a></li>
-            <li><a href="../../resources/string-resource.html">String</a></li>
-            <li><a href="../../resources/style-resource.html">Style</a></li>
-            <li><a href="../../resources/more-resources.html">More Types</a></li>
+            <li><a href="../../../../guide/topics/resources/animation-resource.html">Animation</a></li>
+            <li><a href="../../../../guide/topics/resources/color-list-resource.html">Color State List</a></li>
+            <li><a href="../../../../guide/topics/resources/drawable-resource.html">Drawable</a></li>
+            <li><a href="../../../../guide/topics/resources/layout-resource.html">Layout</a></li>
+            <li><a href="../../../../guide/topics/resources/menu-resource.html">Menu</a></li>
+            <li><a href="../../../../guide/topics/resources/string-resource.html">String</a></li>
+            <li><a href="../../../../guide/topics/resources/style-resource.html">Style</a></li>
+            <li><a href="../../../../guide/topics/resources/more-resources.html">More Types</a></li>
           </ul>
         </li><!-- end of resource types -->
       </ul>
     </li><!-- end of app resources -->
 
    <li class="nav-section">
-      <div class="nav-section-header"><a href="../../graphics/index.html">
+      <div class="nav-section-header"><a href="../../../../guide/topics/graphics/index.html">
           <span class="en">Animation and Graphics</span>
         </a></div>
       <ul>
       <li class="nav-section">
-        <li><a href="../../graphics/overview.html">
+        <li><a href="../../../../guide/topics/graphics/overview.html">
             <span class="en">Overview</span>
           </a></li>
-        <li><a href="../../graphics/prop-animation.html">
+        <li><a href="../../../../guide/topics/graphics/prop-animation.html">
             <span class="en">Property Animation</span>
           </a></li>
-        <li><a href="../../graphics/view-animation.html">
+        <li><a href="../../../../guide/topics/graphics/view-animation.html">
             <span class="en">View Animation</span>
           </a></li>
-        <li><a href="../../graphics/drawable-animation.html">
+        <li><a href="../../../../guide/topics/graphics/drawable-animation.html">
             <span class="en">Drawable Animation</span>
           </a></li>
-        <li><a href="../../graphics/2d-graphics.html">
+        <li><a href="../../../../guide/topics/graphics/2d-graphics.html">
             <span class="en">Canvas and Drawables</span>
           </a></li>
-        <li><a href="../../graphics/opengl.html">
+        <li><a href="../../../../guide/topics/graphics/opengl.html">
             <span class="en">OpenGL</span>
           </a></li>
-        <li><a href="../../graphics/hardware-accel.html">
+        <li><a href="../../../../guide/topics/graphics/hardware-accel.html">
             <span class="en">Hardware Acceleration</span>
           </a></li>
        </ul>
     </li><!-- end of graphics and animation-->
 
    <li class="nav-section">
-            <div class="nav-section-header"><a href="../../renderscript/index.html">
+            <div class="nav-section-header"><a href="../../../../guide/topics/renderscript/index.html">
               <span class="en">Computation</span>
             </a></div>
             <ul>
-              <li><a href="../../renderscript/compute.html">
+              <li><a href="../../../../guide/topics/renderscript/compute.html">
                     <span class="en">Renderscript</span></a>
                   </li>
 
-              <li><a href="../../renderscript/advanced.html">
+              <li><a href="../../../../guide/topics/renderscript/advanced.html">
                     <span class="en">Advanced Renderscript</span></a>
                   </li>
-              <li><a href="../../renderscript/reference.html">
+              <li><a href="../../../../guide/topics/renderscript/reference.html">
                     <span class="en">Runtime API Reference</span></a>
               </li>
              </ul>
    </li>
       <li class="nav-section">
-          <div class="nav-section-header"><a href="../../media/index.html">
+          <div class="nav-section-header"><a href="../../../../guide/topics/media/index.html">
             <span class="en">Media and Camera</span>
           </a></div>
           <ul>
-            <li><a href="../../media/mediaplayer.html">
+            <li><a href="../../../../guide/topics/media/mediaplayer.html">
                   <span class="en">Media Playback</span></a>
                 </li>
-            <li><a href="../../../appendix/media-formats.html">
+            <li><a href="../../../../guide/appendix/media-formats.html">
                    <span class="en">Supported Media Formats</span></a>
                 </li>
-            <li><a href="../../media/audio-capture.html">
+            <li><a href="../../../../guide/topics/media/audio-capture.html">
                   <span class="en">Audio Capture</span></a>
                 </li>
-            <li><a href="../../media/jetplayer.html">
+            <li><a href="../../../../guide/topics/media/jetplayer.html">
                   <span class="en">JetPlayer</span></a>
                 </li>
-            <li><a href="../../media/camera.html">
+            <li><a href="../../../../guide/topics/media/camera.html">
                   <span class="en">Camera</span></a>
                 </li>
           </ul>
       </li><!-- end of media and camera -->
 
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../../sensors/index.html">
+        <div class="nav-section-header"><a href="../../../../guide/topics/sensors/index.html">
               <span class="en">Location and Sensors</span>
               </a></div>
         <ul>
-          <li><a href="../../location/index.html">
+          <li><a href="../../../../guide/topics/location/index.html">
                <span class="en">Location and Maps</span>
              </a>
-          <li><a href="../../location/strategies.html">
+          <li><a href="../../../../guide/topics/location/strategies.html">
                <span class="en">Location Strategies</span>
              </a></li>
-          <li><a href="../../sensors/sensors_overview.html">
+          <li><a href="../../../../guide/topics/sensors/sensors_overview.html">
               <span class="en">Sensors Overview</span>
             </a></li>
-          <li><a href="../../sensors/sensors_motion.html">
+          <li><a href="../../../../guide/topics/sensors/sensors_motion.html">
               <span class="en">Motion Sensors</span>
             </a></li>
-          <li><a href="../../sensors/sensors_position.html">
+          <li><a href="../../../../guide/topics/sensors/sensors_position.html">
               <span class="en">Position Sensors</span>
             </a></li>
-          <li><a href="../../sensors/sensors_environment.html">
+          <li><a href="../../../../guide/topics/sensors/sensors_environment.html">
               <span class="en">Environment Sensors</span>
             </a></li>
         </ul>
@@ -741,36 +725,36 @@ onkeyup="return search_changed(event, false, '/')" />
 
 
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../../connectivity/index.html">
+        <div class="nav-section-header"><a href="../../../../guide/topics/connectivity/index.html">
                <span class="en">Connectivity</span>
              </a></div>
         <ul>
-          <li><a href="../../connectivity/bluetooth.html">
+          <li><a href="../../../../guide/topics/connectivity/bluetooth.html">
               <span class="en">Bluetooth</span>
             </a>
           </li>
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../../connectivity/nfc/index.html">
+        <div class="nav-section-header"><a href="../../../../guide/topics/connectivity/nfc/index.html">
           <span class="en">NFC</span></a>
         </div>
         <ul>
-          <li><a href="../../connectivity/nfc/nfc.html">NFC Basics</a></li>
-          <li><a href="../../connectivity/nfc/advanced-nfc.html">Advanced NFC</a></li>
+          <li><a href="../../../../guide/topics/connectivity/nfc/nfc.html">NFC Basics</a></li>
+          <li><a href="../../../../guide/topics/connectivity/nfc/advanced-nfc.html">Advanced NFC</a></li>
         </ul>
       </li>
-      <li><a href="../../connectivity/wifip2p.html">
+      <li><a href="../../../../guide/topics/connectivity/wifip2p.html">
             <span class="en">Wi-Fi Direct</span></a>
           </li>
       <li class="nav-section">
-          <div class="nav-section-header"><a href="../../connectivity/usb/index.html">
+          <div class="nav-section-header"><a href="../../../../guide/topics/connectivity/usb/index.html">
             <span class="en">USB</span></a>
           </div>
             <ul>
-              <li><a href="../../connectivity/usb/accessory.html">Accessory</a></li>
-              <li><a href="../../connectivity/usb/host.html">Host</a></li>
+              <li><a href="../../../../guide/topics/connectivity/usb/accessory.html">Accessory</a></li>
+              <li><a href="../../../../guide/topics/connectivity/usb/host.html">Host</a></li>
             </ul>
      </li>
-     <li><a href="../../connectivity/sip.html">
+     <li><a href="../../../../guide/topics/connectivity/sip.html">
             <span class="en">SIP</span>
           </a>
      </li>
@@ -779,34 +763,34 @@ onkeyup="return search_changed(event, false, '/')" />
   </li><!-- end of connectivity -->
 
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../../text/index.html">
+        <div class="nav-section-header"><a href="../../../../guide/topics/text/index.html">
             <span class="en">Text and Input</span>
         </a></div>
         <ul>
-          <li><a href="../../text/copy-paste.html">
+          <li><a href="../../../../guide/topics/text/copy-paste.html">
               <span class="en">Copy and Paste</span>
             </a></li>
-          <li><a href="../../text/creating-input-method.html">
+          <li><a href="../../../../guide/topics/text/creating-input-method.html">
               <span class="en">Creating an IME</span>
             </a></li>
-          <li><a href="../../text/spell-checker-framework.html">
+          <li><a href="../../../../guide/topics/text/spell-checker-framework.html">
               <span class="en">Spelling Checker</span>
             </a></li>
         </ul>
       </li><!-- end of text and input -->
 
      <li class="nav-section">
-      <div class="nav-section-header"><a href="../../data/index.html">
+      <div class="nav-section-header"><a href="../../../../guide/topics/data/index.html">
           <span class="en">Data Storage</span>
         </a></div>
       <ul>
-         <li><a href="../../data/data-storage.html">
+         <li><a href="../../../../guide/topics/data/data-storage.html">
             <span class="en">Storage Options</span>
            </a></li>
-        <li><a href="../../data/backup.html">
+        <li><a href="../../../../guide/topics/data/backup.html">
             <span class="en">Data Backup</span>
           </a></li>
-        <li><a href="../../data/install-location.html">
+        <li><a href="../../../../guide/topics/data/install-location.html">
             <span class="en">App Install Location</span>
           </a></li>
       </ul>
@@ -814,17 +798,17 @@ onkeyup="return search_changed(event, false, '/')" />
 
 
   <li class="nav-section">
-           <div class="nav-section-header"><a href="../../admin/index.html">
+           <div class="nav-section-header"><a href="../../../../guide/topics/admin/index.html">
                <span class="en">Administration</span>
              </a></div>
            <ul>
               <li>
-                <a href="../../admin/device-admin.html">
+                <a href="../../../../guide/topics/admin/device-admin.html">
                 <span class="en">Device Policies</span></a>
               </li>
             <!--
               <li>
-                <a href="/guide/topics/admin/keychain.html">
+                <a href="../../../../guide/topics/admin/keychain.html">
                 <span class="en">Certificate Store</span></a>
               </li>
             -->
@@ -832,30 +816,30 @@ onkeyup="return search_changed(event, false, '/')" />
   </li><!-- end of administration -->
 
   <li class="nav-section">
-    <div class="nav-section-header"><a href="../../../webapps/index.html">
+    <div class="nav-section-header"><a href="../../../../guide/webapps/index.html">
     <span class="en">Web Apps</span>
     </a></div>
     <ul>
-      <li><a href="../../../webapps/overview.html">
+      <li><a href="../../../../guide/webapps/overview.html">
             <span class="en">Overview</span>
           </a></li>
-      <li><a href="../../../webapps/targeting.html">
+      <li><a href="../../../../guide/webapps/targeting.html">
             <span class="en">Targeting Screens from Web Apps</span>
           </a></li>
-      <li><a href="../../../webapps/webview.html">
+      <li><a href="../../../../guide/webapps/webview.html">
             <span class="en">Building Web Apps in WebView</span>
           </a></li>
-      <li><a href="../../../webapps/debugging.html">
+      <li><a href="../../../../guide/webapps/debugging.html">
             <span class="en">Debugging Web Apps</span>
           </a></li>
-      <li><a href="../../../webapps/best-practices.html">
+      <li><a href="../../../../guide/webapps/best-practices.html">
             <span class="en">Best Practices for Web Apps</span>
           </a></li>
     </ul>
   </li><!-- end of web apps -->
 
   <li class="nav-section">
-    <div class="nav-section-header"><a href="../../../practices/index.html">
+    <div class="nav-section-header"><a href="../../../../guide/practices/index.html">
       <span class="en">Best Practices</span>
       <span class="de" style="display:none">Bewährte Verfahren</span>
       <span class="es" style="display:none">Prácticas recomendadas</span>
@@ -866,26 +850,26 @@ onkeyup="return search_changed(event, false, '/')" />
       <span class="zh-TW" style="display:none">最佳實務</span>
     </div></a>
     <ul>
-      <li><a href="../../../practices/compatibility.html">
+      <li><a href="../../../../guide/practices/compatibility.html">
             <span class="en">Compatibility</span>
           </a></li>
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../../../practices/screens_support.html">
+        <div class="nav-section-header"><a href="../../../../guide/practices/screens_support.html">
           <span class="en">Supporting Multiple Screens</span>
         </a></div>
         <ul>
-          <li><a href="../../../practices/screens-distribution.html">
+          <li><a href="../../../../guide/practices/screens-distribution.html">
             <span class="en">Distributing to Specific Screens</span>
           </a></li>
-          <li><a href="../../../practices/screen-compat-mode.html">
+          <li><a href="../../../../guide/practices/screen-compat-mode.html">
             <span class="en">Screen Compatibility Mode</span>
           </a></li>
-          <!--<li><a href="../../../practices/screens-support-1.5.html">
+          <!--<li><a href="../../../../guide/practices/screens-support-1.5.html">
             <span class="en">Strategies for Android 1.5</span>
           </a></li> -->
         </ul>
       </li>
-      <li><a href="../../../practices/tablets-and-handsets.html">
+      <li><a href="../../../../guide/practices/tablets-and-handsets.html">
             <span class="en">Supporting Tablets and Handsets</span>
           </a></li>
 
@@ -894,39 +878,39 @@ onkeyup="return search_changed(event, false, '/')" />
 
       <!-- this needs to move
       <li class="nav-section">
-        <div class="nav-section-header"><a href="/guide/practices/ui_guidelines/index.html">
+        <div class="nav-section-header"><a href="../../../../guide/practices/ui_guidelines/index.html">
                <span class="en">UI Guidelines</span>
              </a></div>
         <ul>
           <li class="nav-section">
-            <div class="nav-section-header"><a href="/guide/practices/ui_guidelines/icon_design.html">
+            <div class="nav-section-header"><a href="../../../../guide/practices/ui_guidelines/icon_design.html">
                    <span class="en">Icon Design</span>
                  </a></div>
             <ul>
-              <li><a href="/guide/practices/ui_guidelines/icon_design_launcher.html">
+              <li><a href="../../../../guide/practices/ui_guidelines/icon_design_launcher.html">
                     <span class="en">Launcher Icons</span>
                   </a></li>
-              <li><a href="/guide/practices/ui_guidelines/icon_design_menu.html">
+              <li><a href="../../../../guide/practices/ui_guidelines/icon_design_menu.html">
                     <span class="en">Menu Icons</span>
                   </a></li>
-              <li><a href="/guide/practices/ui_guidelines/icon_design_action_bar.html">
+              <li><a href="../../../../guide/practices/ui_guidelines/icon_design_action_bar.html">
                     <span class="en">Action Bar Icons</span>
                   </a></li>
-              <li><a href="/guide/practices/ui_guidelines/icon_design_status_bar.html">
+              <li><a href="../../../../guide/practices/ui_guidelines/icon_design_status_bar.html">
                     <span class="en">Status Bar Icons</span>
                   </a></li>
-              <li><a href="/guide/practices/ui_guidelines/icon_design_tab.html">
+              <li><a href="../../../../guide/practices/ui_guidelines/icon_design_tab.html">
                     <span class="en">Tab Icons</span>
                   </a></li>
-              <li><a href="/guide/practices/ui_guidelines/icon_design_dialog.html">
+              <li><a href="../../../../guide/practices/ui_guidelines/icon_design_dialog.html">
                     <span class="en">Dialog Icons</span>
                   </a></li>
-              <li><a href="/guide/practices/ui_guidelines/icon_design_list.html">
+              <li><a href="../../../../guide/practices/ui_guidelines/icon_design_list.html">
                     <span class="en">List View Icons</span>
                   </a></li>
             </ul>
           </li>
-          <li><div><a href="/guide/practices/ui_guidelines/widget_design.html">
+          <li><div><a href="../../../../guide/practices/ui_guidelines/widget_design.html">
                 <span class="en">App Widget Design</span>
               </a></div>
           </li>
@@ -936,7 +920,7 @@ onkeyup="return search_changed(event, false, '/')" />
 
 <!-- Remove
   <li class="nav-section">
-    <div class="nav-section-header"><a href="/guide/appendix/index.html">
+    <div class="nav-section-header"><a href="../../../../guide/appendix/index.html">
         <span class="en">Appendix</span>
         <span class="de" style="display:none">Anhang</span>
         <span class="es" style="display:none">Apéndice</span>
@@ -947,12 +931,12 @@ onkeyup="return search_changed(event, false, '/')" />
         <span class="zh-TW" style="display:none">附錄</span>
       </a></div>
     <ul>
-      <li><a href="/guide/appendix/g-app-intents.html">
+      <li><a href="../../../../guide/appendix/g-app-intents.html">
             <span class="en">Intents List: Google Apps</span>
           </a></li>
 
 
-      <li><a href="/guide/appendix/glossary.html">
+      <li><a href="../../../../guide/appendix/glossary.html">
             <span class="en">Glossary</span>
           </a></li>
     </ul>
@@ -1005,47 +989,47 @@ onkeyup="return search_changed(event, false, '/')" />
 <div id="qv">
 <h2>In this document</h2>
 <ol>
-  <li><a href="notifications.html#NotificationUI">Notification Display Elements</a>
+  <li><a href="#NotificationUI">Notification Display Elements</a>
     <ol>
-      <li><a href="notifications.html#NormalNotify">Normal view</a></li>
-      <li><a href="notifications.html#BigNotify">Big view</a></li>
+      <li><a href="#NormalNotify">Normal view</a></li>
+      <li><a href="#BigNotify">Big view</a></li>
     </ol>
   </li>
-  <li><a href="notifications.html#CreateNotification">Creating a Notification</a>
+  <li><a href="#CreateNotification">Creating a Notification</a>
     <ol>
-      <li><a href="notifications.html#Required">Required notification contents</a></li>
-      <li><a href="notifications.html#Optional">Optional notification contents and settings</a></li>
-      <li><a href="notifications.html#Actions">Notification actions</a></li>
-      <li><a href="notifications.html#SimpleNotification">Creating a simple notification</a></li>
-      <li><a href="notifications.html#ApplyStyle">Applying a big view style to a notification</a></li>
-      <li><a href="notifications.html#Compatibility">Handling compatibility</a></li>
+      <li><a href="#Required">Required notification contents</a></li>
+      <li><a href="#Optional">Optional notification contents and settings</a></li>
+      <li><a href="#Actions">Notification actions</a></li>
+      <li><a href="#SimpleNotification">Creating a simple notification</a></li>
+      <li><a href="#ApplyStyle">Applying a big view style to a notification</a></li>
+      <li><a href="#Compatibility">Handling compatibility</a></li>
     </ol>
   </li>
-  <li><a href="notifications.html#Managing">Managing Notifications</a>
+  <li><a href="#Managing">Managing Notifications</a>
     <ol>
-      <li><a href="notifications.html#Updating">Updating notifications</a></li>
-      <li><a href="notifications.html#Removing">Removing notifications</a></li>
+      <li><a href="#Updating">Updating notifications</a></li>
+      <li><a href="#Removing">Removing notifications</a></li>
     </ol>
   </li>
-  <li><a href="notifications.html#NotificationResponse">Preserving Navigation when Starting an Activity</a>
+  <li><a href="#NotificationResponse">Preserving Navigation when Starting an Activity</a>
     <ol>
-      <li><a href="notifications.html#DirectEntry">Setting up a regular activity PendingIntent</a></li>
-      <li><a href="notifications.html#ExtendedNotification">Setting up a special activity PendingIntent</a></li>
+      <li><a href="#DirectEntry">Setting up a regular activity PendingIntent</a></li>
+      <li><a href="#ExtendedNotification">Setting up a special activity PendingIntent</a></li>
     </ol>
   </li>
-  <li><a href="notifications.html#Progress">Displaying Progress in a Notification</a>
+  <li><a href="#Progress">Displaying Progress in a Notification</a>
     <ol>
-      <li><a href="notifications.html#FixedProgress">Displaying a fixed-duration progress indicator</a></li>
-      <li><a href="notifications.html#ActivityIndicator">Displaying a continuing activity indicator</a></li>
+      <li><a href="#FixedProgress">Displaying a fixed-duration progress indicator</a></li>
+      <li><a href="#ActivityIndicator">Displaying a continuing activity indicator</a></li>
     </ol>
   </li>
-  <li><a href="notifications.html#CustomNotification">Custom Notification Layouts</a></li>
+  <li><a href="#CustomNotification">Custom Notification Layouts</a></li>
 </ol>
 
     <h2>Key classes</h2>
     <ol>
-        <li><code><a href="http://developer.android.com/reference/android/app/NotificationManager.html">NotificationManager</a></code></li>
-        <li><code><a href="http://developer.android.com/reference/android/support/v4/app/NotificationCompat.html">NotificationCompat</a></code></li>
+        <li><code><a href="../../../../reference/android/app/NotificationManager.html">NotificationManager</a></code></li>
+        <li><code><a href="../../../../reference/android/support/v4/app/NotificationCompat.html">NotificationCompat</a></code></li>
     </ol>
     <h2>Videos</h2>
     <ol>
@@ -1071,12 +1055,12 @@ onkeyup="return search_changed(event, false, '/')" />
 </p>
 <img
     id="figure1"
-    src="http://developer.android.com/images/ui/notifications/iconic_notification.png"
+    src="../../../../images/ui/notifications/iconic_notification.png"
     height="120" alt="" />
 <p class="img-caption">
     <strong>Figure 1.</strong> Notifications in the notification area.
 </p>
-<img id="figure2" src="http://developer.android.com/images/ui/notifications/normal_notification.png"
+<img id="figure2" src="../../../../images/ui/notifications/normal_notification.png"
      height="293" alt="" />
 <p class="img-caption">
     <strong>Figure 2.</strong> Notifications in the notification drawer.
@@ -1093,9 +1077,9 @@ onkeyup="return search_changed(event, false, '/')" />
 </div>
 <p class="note">
     <strong>Note:</strong> Except where noted, this guide refers to the
-    <code><a href="http://developer.android.com/reference/android/support/v4/app/NotificationCompat.Builder.html">NotificationCompat.Builder</a></code> class
+    <code><a href="../../../../reference/android/support/v4/app/NotificationCompat.Builder.html">NotificationCompat.Builder</a></code> class
     in the version 4 <a href="../../../../tools/extras/support-library.html">Support Library</a>.
-    The class <code><a href="http://developer.android.com/reference/android/app/Notification.Builder.html">Notification.Builder</a></code> was added in Android
+    The class <code><a href="../../../../reference/android/app/Notification.Builder.html">Notification.Builder</a></code> was added in Android
     3.0.
 </p>
 <!-- ------------------------------------------------------------------------------------------ -->
@@ -1131,7 +1115,7 @@ onkeyup="return search_changed(event, false, '/')" />
     is an example of a normal view:
 </p>
 <img
-    src="http://developer.android.com/images/ui/notifications/normal_notification_callouts.png"
+    src="../../../../images/ui/notifications/normal_notification_callouts.png"
     alt=""
     height="153"
     id="figure3" />
@@ -1149,7 +1133,7 @@ onkeyup="return search_changed(event, false, '/')" />
     <li>Small icon</li>
     <li>
         Time that the notification was issued. You can set an explicit value with
-        <code><a href="http://developer.android.com/reference/android/support/v4/app/NotificationCompat.Builder.html#setWhen(long)">setWhen()</a></code>; if you don't
+        <code><a href="../../../../reference/android/support/v4/app/NotificationCompat.Builder.html#setWhen(long)">setWhen()</a></code>; if you don't
         it defaults to the time that the system received the notification.
     </li>
 </ol>
@@ -1163,7 +1147,7 @@ onkeyup="return search_changed(event, false, '/')" />
 <p>
     The following screenshot shows an inbox-style notification:
 </p>
-<img src="http://developer.android.com/images/ui/notifications/bigpicture_notification_callouts.png"
+<img src="../../../../images/ui/notifications/bigpicture_notification_callouts.png"
     alt=""
     height="240"
     id="figure4" />
@@ -1216,43 +1200,43 @@ onkeyup="return search_changed(event, false, '/')" />
 </dl>
 <p>
     Applying a big view style to a notification is described in the section
-    <a href="notifications.html#ApplyStyle">Applying a big view style to a notification</a>.
+    <a href="#ApplyStyle">Applying a big view style to a notification</a>.
 </p>
 <!-- ------------------------------------------------------------------------------------------ -->
 <!-- ------------------------------------------------------------------------------------------ -->
 <h2 id="CreateNotification">Creating a Notification</h2>
 <p>
     You specify the UI information and actions for a notification in a
-    <code><a href="http://developer.android.com/reference/android/support/v4/app/NotificationCompat.Builder.html">NotificationCompat.Builder</a></code> object.
+    <code><a href="../../../../reference/android/support/v4/app/NotificationCompat.Builder.html">NotificationCompat.Builder</a></code> object.
     To create the notification itself, you call
-    <code><a href="http://developer.android.com/reference/android/support/v4/app/NotificationCompat.Builder.html#build()">NotificationCompat.Builder.build()</a></code>, which returns a <code><a href="http://developer.android.com/reference/android/app/Notification.html">Notification</a></code> object
+    <code><a href="../../../../reference/android/support/v4/app/NotificationCompat.Builder.html#build()">NotificationCompat.Builder.build()</a></code>, which returns a <code><a href="../../../../reference/android/app/Notification.html">Notification</a></code> object
     containing your specifications.
-    To issue the notification, you pass the <code><a href="http://developer.android.com/reference/android/app/Notification.html">Notification</a></code> object to the system
-    by calling <code><a href="http://developer.android.com/reference/java/lang/Object.html#notify()">NotificationManager.notify()</a></code>.
+    To issue the notification, you pass the <code><a href="../../../../reference/android/app/Notification.html">Notification</a></code> object to the system
+    by calling <code><a href="../../../../reference/java/lang/Object.html#notify()">NotificationManager.notify()</a></code>.
 </p>
 <!-- ------------------------------------------------------------------------------------------ -->
 <h3 id="Required">Required notification contents</h3>
 <p>
-    A <code><a href="http://developer.android.com/reference/android/app/Notification.html">Notification</a></code> object <em>must</em> contain the following:
+    A <code><a href="../../../../reference/android/app/Notification.html">Notification</a></code> object <em>must</em> contain the following:
 </p>
 <ul>
     <li>
         A small icon, set by
-        <code><a href="http://developer.android.com/reference/android/support/v4/app/NotificationCompat.Builder.html#setSmallIcon(int)">setSmallIcon()</a></code>
+        <code><a href="../../../../reference/android/support/v4/app/NotificationCompat.Builder.html#setSmallIcon(int)">setSmallIcon()</a></code>
     </li>
     <li>
         A title, set by
-        <code><a href="http://developer.android.com/reference/android/support/v4/app/NotificationCompat.Builder.html#setContentTitle(java.lang.CharSequence)">setContentTitle()</a></code>
+        <code><a href="../../../../reference/android/support/v4/app/NotificationCompat.Builder.html#setContentTitle(java.lang.CharSequence)">setContentTitle()</a></code>
     </li>
     <li>
         Detail text, set by
-        <code><a href="http://developer.android.com/reference/android/support/v4/app/NotificationCompat.Builder.html#setContentText(java.lang.CharSequence)">setContentText()</a></code>
+        <code><a href="../../../../reference/android/support/v4/app/NotificationCompat.Builder.html#setContentText(java.lang.CharSequence)">setContentText()</a></code>
     </li>
 </ul>
 <h3 id="Optional">Optional notification contents and settings</h3>
 <p>
     All other notification settings and contents are optional. To learn more about them,
-    see the reference documentation for <code><a href="http://developer.android.com/reference/android/support/v4/app/NotificationCompat.Builder.html">NotificationCompat.Builder</a></code>.
+    see the reference documentation for <code><a href="../../../../reference/android/support/v4/app/NotificationCompat.Builder.html">NotificationCompat.Builder</a></code>.
 </p>
 <!-- ------------------------------------------------------------------------------------------ -->
 <h3 id="Actions">Notification actions</h3>
@@ -1269,33 +1253,33 @@ onkeyup="return search_changed(event, false, '/')" />
     that perform additional actions such as snoozing an alarm or responding immediately to a text
     message; this feature is available as of Android 4.1. If you use additional action buttons, you
     must also make their functionality available in an <code><a href="../../../../reference/android/app/Activity.html">Activity</a></code> in your app; see
-    the section <a href="notifications.html#Compatibility">Handling compatibility</a> for more details.
+    the section <a href="#Compatibility">Handling compatibility</a> for more details.
 </p>
 <p>
-    Inside a <code><a href="http://developer.android.com/reference/android/app/Notification.html">Notification</a></code>, the action itself is defined by a
-    <code><a href="http://developer.android.com/reference/android/app/PendingIntent.html">PendingIntent</a></code> containing an <code><a href="../../../../reference/android/content/Intent.html">Intent</a></code> that starts
+    Inside a <code><a href="../../../../reference/android/app/Notification.html">Notification</a></code>, the action itself is defined by a
+    <code><a href="../../../../reference/android/app/PendingIntent.html">PendingIntent</a></code> containing an <code><a href="../../../../reference/android/content/Intent.html">Intent</a></code> that starts
     an <code><a href="../../../../reference/android/app/Activity.html">Activity</a></code> in your application. To associate the
-    <code><a href="http://developer.android.com/reference/android/app/PendingIntent.html">PendingIntent</a></code> with a gesture, call the appropriate method of
-    <code><a href="http://developer.android.com/reference/android/support/v4/app/NotificationCompat.Builder.html">NotificationCompat.Builder</a></code>. For example, if you want to start
+    <code><a href="../../../../reference/android/app/PendingIntent.html">PendingIntent</a></code> with a gesture, call the appropriate method of
+    <code><a href="../../../../reference/android/support/v4/app/NotificationCompat.Builder.html">NotificationCompat.Builder</a></code>. For example, if you want to start
     <code><a href="../../../../reference/android/app/Activity.html">Activity</a></code> when the user clicks the notification text in
-    the notification drawer, you add the <code><a href="http://developer.android.com/reference/android/app/PendingIntent.html">PendingIntent</a></code> by calling
-    <code><a href="http://developer.android.com/reference/android/support/v4/app/NotificationCompat.Builder.html#setContentIntent(android.app.PendingIntent)">setContentIntent()</a></code>.
+    the notification drawer, you add the <code><a href="../../../../reference/android/app/PendingIntent.html">PendingIntent</a></code> by calling
+    <code><a href="../../../../reference/android/support/v4/app/NotificationCompat.Builder.html#setContentIntent(android.app.PendingIntent)">setContentIntent()</a></code>.
 </p>
 <p>
     Starting an <code><a href="../../../../reference/android/app/Activity.html">Activity</a></code> when the user clicks the notification is the most
     common action scenario. You can also start an <code><a href="../../../../reference/android/app/Activity.html">Activity</a></code> when the user
     dismisses an <code><a href="../../../../reference/android/app/Activity.html">Activity</a></code>. In Android 4.1 and later, you can start an
     <code><a href="../../../../reference/android/app/Activity.html">Activity</a></code> from an action button. To learn more, read the reference guide for
-    <code><a href="http://developer.android.com/reference/android/support/v4/app/NotificationCompat.Builder.html">NotificationCompat.Builder</a></code>.
+    <code><a href="../../../../reference/android/support/v4/app/NotificationCompat.Builder.html">NotificationCompat.Builder</a></code>.
 </p>
 <!-- ------------------------------------------------------------------------------------------ -->
 <h3 id="SimpleNotification">Creating a simple notification</h3>
 <p>
     The following snippet illustrates a simple notification that specifies an activity to open when
     the user clicks the notification. Notice that the code creates a
-    <code><a href="http://developer.android.com/reference/android/support/v4/app/TaskStackBuilder.html">TaskStackBuilder</a></code> object and uses it to create the
-    <code><a href="http://developer.android.com/reference/android/app/PendingIntent.html">PendingIntent</a></code> for the action. This pattern is explained in more detail
-    in the section <a href="notifications.html#NotificationResponse">
+    <code><a href="../../../../reference/android/support/v4/app/TaskStackBuilder.html">TaskStackBuilder</a></code> object and uses it to create the
+    <code><a href="../../../../reference/android/app/PendingIntent.html">PendingIntent</a></code> for the action. This pattern is explained in more detail
+    in the section <a href="#NotificationResponse">
     Preserving Navigation when Starting an Activity</a>:
 </p>
 <pre>
@@ -1332,13 +1316,13 @@ mNotificationManager.notify(mId, mBuilder.build());
 <h3 id="ApplyStyle">Applying a big view style to a notification</h3>
 <p>
     To have a notification appear in a big view when it's expanded, first create a
-    <code><a href="http://developer.android.com/reference/android/support/v4/app/NotificationCompat.Builder.html">NotificationCompat.Builder</a></code> object with the normal view options
-    you want. Next, call <code><a href="http://developer.android.com/reference/android/support/v4/app/NotificationCompat.Builder.html#setStyle(android.support.v4.app.NotificationCompat.Style)">Builder.setStyle()</a></code> with a big view style object as its argument.
+    <code><a href="../../../../reference/android/support/v4/app/NotificationCompat.Builder.html">NotificationCompat.Builder</a></code> object with the normal view options
+    you want. Next, call <code><a href="../../../../reference/android/support/v4/app/NotificationCompat.Builder.html#setStyle(android.support.v4.app.NotificationCompat.Style)">Builder.setStyle()</a></code> with a big view style object as its argument.
 </p>
 <p>
     Remember that expanded notifications are not available on platforms prior to Android 4.1. To
     learn how to handle notifications for Android 4.1 and for earlier platforms, read the
-    section <a href="notifications.html#Compatibility">Handling compatibility</a>.
+    section <a href="#Compatibility">Handling compatibility</a>.
 </p>
 <p>
     For example, the following code snippet demonstrates how to alter the notification created
@@ -1353,7 +1337,7 @@ NotificationCompat.InboxStyle inboxStyle =
         new NotificationCompat.InboxStyle();
 String[] events = new String[6];
 // Sets a title for the Inbox style big view
-inboxStyle.setBigContentTitle("Event tracker details:");
+inboxStyle.SetBigContentTitle("Event tracker details:");
 ...
 // Moves events into the big view
 for (int i=0; i &lt; events.length; i++) {
@@ -1369,15 +1353,15 @@ mBuilder.setStyle(inBoxStyle);
 <p>
     Not all notification features are available for a particular version, even though
     the methods to set them are in the support library class
-    <code><a href="http://developer.android.com/reference/android/support/v4/app/NotificationCompat.Builder.html">NotificationCompat.Builder</a></code>.
+    <code><a href="../../../../reference/android/support/v4/app/NotificationCompat.Builder.html">NotificationCompat.Builder</a></code>.
     For example, action buttons, which depend on expanded notifications, only appear on Android
     4.1 and higher, because expanded notifications themselves are only available on
     Android 4.1 and higher.
 </p>
 <p>
     To ensure the best compatibility, create notifications with
-    <code><a href="http://developer.android.com/reference/android/support/v4/app/NotificationCompat.html">NotificationCompat</a></code> and its subclasses,
-    particularly <code><a href="http://developer.android.com/reference/android/support/v4/app/NotificationCompat.Builder.html">NotificationCompat.Builder</a></code>. In addition, follow this process when you implement a notification:
+    <code><a href="../../../../reference/android/support/v4/app/NotificationCompat.html">NotificationCompat</a></code> and its subclasses,
+    particularly <code><a href="../../../../reference/android/support/v4/app/NotificationCompat.Builder.html">NotificationCompat.Builder</a></code>. In addition, follow this process when you implement a notification:
 </p>
 <ol>
     <li>
@@ -1387,7 +1371,7 @@ mBuilder.setStyle(inBoxStyle);
         <code><a href="../../../../reference/android/app/Activity.html">Activity</a></code> to do this.
         <p>
             For example, if you want to use
-            <code><a href="http://developer.android.com/reference/android/support/v4/app/NotificationCompat.Builder.html#addAction(int,%20java.lang.CharSequence,%20android.app.PendingIntent)">addAction()</a></code> to
+            <code><a href="../../../../reference/android/support/v4/app/NotificationCompat.Builder.html#addAction(int, java.lang.CharSequence, android.app.PendingIntent)">addAction()</a></code> to
             provide a control that stops and starts media playback, first implement this
             control in an <code><a href="../../../../reference/android/app/Activity.html">Activity</a></code> in your app.
         </p>
@@ -1395,8 +1379,8 @@ mBuilder.setStyle(inBoxStyle);
     <li>
         Ensure that all users can get to the functionality in the <code><a href="../../../../reference/android/app/Activity.html">Activity</a></code>,
         by having it start when users click the notification. To do this,
-        create a <code><a href="http://developer.android.com/reference/android/app/PendingIntent.html">PendingIntent</a></code> for the <code><a href="../../../../reference/android/app/Activity.html">Activity</a></code>. Call
-        <code><a href="http://developer.android.com/reference/android/support/v4/app/NotificationCompat.Builder.html#setContentIntent(android.app.PendingIntent)">setContentIntent()</a></code> to add the <code><a href="http://developer.android.com/reference/android/app/PendingIntent.html">PendingIntent</a></code> to the notification.
+        create a <code><a href="../../../../reference/android/app/PendingIntent.html">PendingIntent</a></code> for the <code><a href="../../../../reference/android/app/Activity.html">Activity</a></code>. Call
+        <code><a href="../../../../reference/android/support/v4/app/NotificationCompat.Builder.html#setContentIntent(android.app.PendingIntent)">setContentIntent()</a></code> to add the <code><a href="../../../../reference/android/app/PendingIntent.html">PendingIntent</a></code> to the notification.
     </li>
     <li>
         Now add the expanded notification features you want to use to the notification. Remember
@@ -1428,12 +1412,12 @@ mBuilder.setStyle(inBoxStyle);
 <h3 id="Updating">Updating notifications</h3>
 <p>
     To set up a notification so it can be updated, issue it with a notification ID by
-    calling <code><a href="http://developer.android.com/reference/android/app/NotificationManager.html#notify(int,%20android.app.Notification)">NotificationManager.notify(ID, notification)</a></code>. To update this notification once you've issued
-    it, update or create a <code><a href="http://developer.android.com/reference/android/support/v4/app/NotificationCompat.Builder.html">NotificationCompat.Builder</a></code> object,
-    build a <code><a href="http://developer.android.com/reference/android/app/Notification.html">Notification</a></code> object from it, and issue the
-    <code><a href="http://developer.android.com/reference/android/app/Notification.html">Notification</a></code> with the same ID you used previously. If
+    calling <code><a href="../../../../reference/android/app/NotificationManager.html#notify(int, android.app.Notification)">NotificationManager.notify(ID, notification)</a></code>. To update this notification once you've issued
+    it, update or create a <code><a href="../../../../reference/android/support/v4/app/NotificationCompat.Builder.html">NotificationCompat.Builder</a></code> object,
+    build a <code><a href="../../../../reference/android/app/Notification.html">Notification</a></code> object from it, and issue the
+    <code><a href="../../../../reference/android/app/Notification.html">Notification</a></code> with the same ID you used previously. If
     the previous notification is still visible, the system updates it from the contents of
-    the <code><a href="http://developer.android.com/reference/android/app/Notification.html">Notification</a></code> object. If the previous notification has been dismissed, a
+    the <code><a href="../../../../reference/android/app/Notification.html">Notification</a></code> object. If the previous notification has been dismissed, a
     new notification is created instead.
 </p>
 <p>
@@ -1466,7 +1450,7 @@ numMessages = 0;
 </p>
 <img
     id="figure5"
-    src="http://developer.android.com/images/ui/notifications/updated_notification.png"
+    src="../../../../images/ui/notifications/updated_notification.png"
     alt=""
     height="118"/>
 <p class="img-caption">
@@ -1484,15 +1468,15 @@ numMessages = 0;
     </li>
     <li>
         The user clicks the notification, and you called
-        <code><a href="http://developer.android.com/reference/android/support/v4/app/NotificationCompat.Builder.html#setAutoCancel(boolean)">setAutoCancel()</a></code> when
+        <code><a href="../../../../reference/android/support/v4/app/NotificationCompat.Builder.html#setAutoCancel(boolean)">setAutoCancel()</a></code> when
         you created the notification.
     </li>
     <li>
-        You call <code><a href="http://developer.android.com/reference/android/app/NotificationManager.html#cancel(int)">cancel()</a></code> for a specific
+        You call <code><a href="../../../../reference/android/app/NotificationManager.html#cancel(int)">cancel()</a></code> for a specific
         notification ID. This method also deletes ongoing notifications.
     </li>
     <li>
-        You call <code><a href="http://developer.android.com/reference/android/app/NotificationManager.html#cancelAll()">cancelAll()</a></code>, which removes
+        You call <code><a href="../../../../reference/android/app/NotificationManager.html#cancelAll()">cancelAll()</a></code>, which removes
         all of the notifications you previously issued.
     </li>
 </ul>
@@ -1505,7 +1489,7 @@ numMessages = 0;
     the application's normal work flow to the Home screen, and clicking <i>Recents</i> should show
     the <code><a href="../../../../reference/android/app/Activity.html">Activity</a></code> as a separate task. To preserve the navigation experience, you
     should start the <code><a href="../../../../reference/android/app/Activity.html">Activity</a></code> in a fresh task. How you set up the
-    <code><a href="http://developer.android.com/reference/android/app/PendingIntent.html">PendingIntent</a></code> to give you a fresh task depends on the nature of the
+    <code><a href="../../../../reference/android/app/PendingIntent.html">PendingIntent</a></code> to give you a fresh task depends on the nature of the
     <code><a href="../../../../reference/android/app/Activity.html">Activity</a></code> you're starting. There are two general situations:
 </p>
 <dl>
@@ -1514,8 +1498,8 @@ numMessages = 0;
     </dt>
     <dd>
         You're starting an <code><a href="../../../../reference/android/app/Activity.html">Activity</a></code> that's part of the application's normal
-        workflow. In this situation, set up the <code><a href="http://developer.android.com/reference/android/app/PendingIntent.html">PendingIntent</a></code> to
-        start a fresh task, and provide the <code><a href="http://developer.android.com/reference/android/app/PendingIntent.html">PendingIntent</a></code> with a back stack
+        workflow. In this situation, set up the <code><a href="../../../../reference/android/app/PendingIntent.html">PendingIntent</a></code> to
+        start a fresh task, and provide the <code><a href="../../../../reference/android/app/PendingIntent.html">PendingIntent</a></code> with a back stack
         that reproduces the application's normal <i>Back</i> behavior.
         <p>
             Notifications from the Gmail app demonstrate this. When you click a notification for
@@ -1538,7 +1522,7 @@ numMessages = 0;
         The user only sees this <code><a href="../../../../reference/android/app/Activity.html">Activity</a></code> if it's started from a notification.
         In a sense, the <code><a href="../../../../reference/android/app/Activity.html">Activity</a></code> extends the notification by providing
         information that would be hard to display in the notification itself. For this situation,
-        set up the <code><a href="http://developer.android.com/reference/android/app/PendingIntent.html">PendingIntent</a></code> to start in a fresh task. There's no need to
+        set up the <code><a href="../../../../reference/android/app/PendingIntent.html">PendingIntent</a></code> to start in a fresh task. There's no need to
         create a back stack, though, because the started <code><a href="../../../../reference/android/app/Activity.html">Activity</a></code> isn't part of
         the application's activity flow. Clicking <i>Back</i> will still take the user to the
         Home screen.
@@ -1547,7 +1531,7 @@ numMessages = 0;
 <!-- ------------------------------------------------------------------------------------------ -->
 <h3 id="DirectEntry">Setting up a regular activity PendingIntent</h3>
 <p>
-    To set up a <code><a href="http://developer.android.com/reference/android/app/PendingIntent.html">PendingIntent</a></code> that starts a direct entry
+    To set up a <code><a href="../../../../reference/android/app/PendingIntent.html">PendingIntent</a></code> that starts a direct entry
     <code><a href="../../../../reference/android/app/Activity.html">Activity</a></code>, follow these steps:
 </p>
 <ol>
@@ -1557,26 +1541,26 @@ numMessages = 0;
             <li>
                 Add support for Android 4.0.3 and earlier. To do this, specify the parent of the
                 <code><a href="../../../../reference/android/app/Activity.html">Activity</a></code> you're starting by adding a
-<code><a href="../../manifest/meta-data-element.html">&lt;meta-data&gt;</a></code>
+<code><a href="../../../../guide/topics/manifest/meta-data-element.html">&lt;meta-data&gt;</a></code>
                 element as the child of the
-<code><a href="../../manifest/activity-element.html">&lt;activity&gt;</a></code>.
+<code><a href="../../../../guide/topics/manifest/activity-element.html">&lt;activity&gt;</a></code>.
                 <p>
                     For this element, set
-<code><a href="../../manifest/meta-data-element.html#nm">android:name</a>="android.support.PARENT_ACTIVITY"</code>.
+<code><a href="../../../../guide/topics/manifest/meta-data-element.html#nm">android:name</a>="android.support.PARENT_ACTIVITY"</code>.
                     Set
-<code><a href="../../manifest/meta-data-element.html#val">android:value</a>="&lt;parent_activity_name&gt;"</code>
+<code><a href="../../../../guide/topics/manifest/meta-data-element.html#val">android:value</a>="&lt;parent_activity_name&gt;"</code>
                     where <code>&lt;parent_activity_name&gt;</code> is the value of
-<code><a href="../../manifest/meta-data-element.html#nm">android:name</a></code>
+<code><a href="../../../../guide/topics/manifest/meta-data-element.html#nm">android:name</a></code>
                     for the parent
-<code><a href="../../manifest/activity-element.html">&lt;activity&gt;</a></code>
+<code><a href="../../../../guide/topics/manifest/activity-element.html">&lt;activity&gt;</a></code>
                     element. See the following XML for an example.
                 </p>
             </li>
             <li>
                 Also add support for Android 4.1 and later. To do this, add the
-<code><a href="../../manifest/activity-element.html#parent">android:parentActivityName</a></code>
+<code><a href="../../../../guide/topics/manifest/activity-element.html#parent">android:parentActivityName</a></code>
                 attribute to the
-<code><a href="../../manifest/activity-element.html">&lt;activity&gt;</a></code>
+<code><a href="../../../../guide/topics/manifest/activity-element.html">&lt;activity&gt;</a></code>
                 element of the <code><a href="../../../../reference/android/app/Activity.html">Activity</a></code> you're starting.
             </li>
         </ol>
@@ -1609,18 +1593,18 @@ numMessages = 0;
                 Create the <code><a href="../../../../reference/android/content/Intent.html">Intent</a></code> to start the <code><a href="../../../../reference/android/app/Activity.html">Activity</a></code>.
             </li>
             <li>
-                Create a stack builder by calling <code><a href="http://developer.android.com/reference/android/app/TaskStackBuilder.html#create(android.content.Context)">TaskStackBuilder.create()</a></code>.
+                Create a stack builder by calling <code><a href="../../../../reference/android/app/TaskStackBuilder.html#create(android.content.Context)">TaskStackBuilder.create()</a></code>.
             </li>
             <li>
                 Add the back stack to the stack builder by calling
-                <code><a href="http://developer.android.com/reference/android/support/v4/app/TaskStackBuilder.html#addParentStack(android.app.Activity)">addParentStack()</a></code>.
+                <code><a href="../../../../reference/android/support/v4/app/TaskStackBuilder.html#addParentStack(android.app.Activity)">addParentStack()</a></code>.
                 For each <code><a href="../../../../reference/android/app/Activity.html">Activity</a></code> in the hierarchy you've defined in the
                 manifest, the back stack contains an <code><a href="../../../../reference/android/content/Intent.html">Intent</a></code> object that
                 starts the <code><a href="../../../../reference/android/app/Activity.html">Activity</a></code>. This method also adds flags that start the
                 stack in a fresh task.
                 <p class="note">
                     <strong>Note:</strong> Although the argument to
-                    <code><a href="http://developer.android.com/reference/android/support/v4/app/TaskStackBuilder.html#addParentStack(android.app.Activity)">addParentStack()</a></code>
+                    <code><a href="../../../../reference/android/support/v4/app/TaskStackBuilder.html#addParentStack(android.app.Activity)">addParentStack()</a></code>
                     is a reference to the started <code><a href="../../../../reference/android/app/Activity.html">Activity</a></code>, the method call
                     doesn't add the <code><a href="../../../../reference/android/content/Intent.html">Intent</a></code> that starts the
                     <code><a href="../../../../reference/android/app/Activity.html">Activity</a></code>. Instead, that's taken care of in the next step.
@@ -1629,22 +1613,22 @@ numMessages = 0;
             <li>
                 Add the <code><a href="../../../../reference/android/content/Intent.html">Intent</a></code> that starts the <code><a href="../../../../reference/android/app/Activity.html">Activity</a></code>
                 from the notification, by calling
-                <code><a href="http://developer.android.com/reference/android/support/v4/app/TaskStackBuilder.html#addNextIntent(android.content.Intent)">addNextIntent()</a></code>.
+                <code><a href="../../../../reference/android/support/v4/app/TaskStackBuilder.html#addNextIntent(android.content.Intent)">addNextIntent()</a></code>.
                 Pass the <code><a href="../../../../reference/android/content/Intent.html">Intent</a></code> you created in the first step as the
                 argument to
-                <code><a href="http://developer.android.com/reference/android/support/v4/app/TaskStackBuilder.html#addNextIntent(android.content.Intent)">addNextIntent()</a></code>.
+                <code><a href="../../../../reference/android/support/v4/app/TaskStackBuilder.html#addNextIntent(android.content.Intent)">addNextIntent()</a></code>.
             </li>
             <li>
                 If you need to, add arguments to <code><a href="../../../../reference/android/content/Intent.html">Intent</a></code> objects on the
-                stack by calling <code><a href="http://developer.android.com/reference/android/support/v4/app/TaskStackBuilder.html#editIntentAt(int)">TaskStackBuilder.editIntentAt()</a></code>. This is sometimes necessary to ensure that the
+                stack by calling <code><a href="../../../../reference/android/support/v4/app/TaskStackBuilder.html#editIntentAt(int)">TaskStackBuilder.editIntentAt()</a></code>. This is sometimes necessary to ensure that the
                 target <code><a href="../../../../reference/android/app/Activity.html">Activity</a></code> displays meaningful data when the user navigates
                 to it using <i>Back</i>.
             </li>
             <li>
-                Get a <code><a href="http://developer.android.com/reference/android/app/PendingIntent.html">PendingIntent</a></code> for this back stack by calling
-                <code><a href="http://developer.android.com/reference/android/support/v4/app/TaskStackBuilder.html#getPendingIntent(int,%20int)">getPendingIntent()</a></code>.
-                You can then use this <code><a href="http://developer.android.com/reference/android/app/PendingIntent.html">PendingIntent</a></code> as the argument to
-                <code><a href="http://developer.android.com/reference/android/support/v4/app/NotificationCompat.Builder.html#setContentIntent(android.app.PendingIntent)">setContentIntent()</a></code>.
+                Get a <code><a href="../../../../reference/android/app/PendingIntent.html">PendingIntent</a></code> for this back stack by calling
+                <code><a href="../../../../reference/android/support/v4/app/TaskStackBuilder.html#getPendingIntent(int, int)">getPendingIntent()</a></code>.
+                You can then use this <code><a href="../../../../reference/android/app/PendingIntent.html">PendingIntent</a></code> as the argument to
+                <code><a href="../../../../reference/android/support/v4/app/NotificationCompat.Builder.html#setContentIntent(android.app.PendingIntent)">setContentIntent()</a></code>.
             </li>
         </ol>
      </li>
@@ -1674,31 +1658,31 @@ mNotificationManager.notify(id, builder.build());
 <h3 id="ExtendedNotification">Setting up a special activity PendingIntent</h3>
 <p>
     The following section describes how to set up a special activity
-    <code><a href="http://developer.android.com/reference/android/app/PendingIntent.html">PendingIntent</a></code>.
+    <code><a href="../../../../reference/android/app/PendingIntent.html">PendingIntent</a></code>.
 </p>
 <p>
     A special <code><a href="../../../../reference/android/app/Activity.html">Activity</a></code> doesn't need a back stack, so you don't have to
     define its <code><a href="../../../../reference/android/app/Activity.html">Activity</a></code> hierarchy in the manifest, and you don't have
     to call
-    <code><a href="http://developer.android.com/reference/android/support/v4/app/TaskStackBuilder.html#addParentStack(android.app.Activity)">addParentStack()</a></code> to build a
+    <code><a href="../../../../reference/android/support/v4/app/TaskStackBuilder.html#addParentStack(android.app.Activity)">addParentStack()</a></code> to build a
     back stack. Instead, use the manifest to set up the <code><a href="../../../../reference/android/app/Activity.html">Activity</a></code> task options,
-    and create the <code><a href="http://developer.android.com/reference/android/app/PendingIntent.html">PendingIntent</a></code> by calling
-    <code><a href="http://developer.android.com/reference/android/app/PendingIntent.html#getActivity(android.content.Context,%20int,%20android.content.Intent,%20int)">getActivity()</a></code>:
+    and create the <code><a href="../../../../reference/android/app/PendingIntent.html">PendingIntent</a></code> by calling
+    <code><a href="../../../../reference/android/app/PendingIntent.html#getActivity(android.content.Context, int, android.content.Intent, int)">getActivity()</a></code>:
 </p>
 <ol>
     <li>
         In your manifest, add the following attributes to the
-<code><a href="../../manifest/activity-element.html">&lt;activity&gt;</a></code>
+<code><a href="../../../../guide/topics/manifest/activity-element.html">&lt;activity&gt;</a></code>
         element for the <code><a href="../../../../reference/android/app/Activity.html">Activity</a></code>
         <dl>
             <dt>
-<code><a href="../../manifest/activity-element.html#nm">android:name</a>="<i>activityclass</i>"</code>
+<code><a href="../../../../guide/topics/manifest/activity-element.html#nm">android:name</a>="<i>activityclass</i>"</code>
             </dt>
             <dd>
                 The activity's fully-qualified class name.
             </dd>
             <dt>
-<code><a href="../../manifest/activity-element.html#aff">android:taskAffinity</a>=""</code>
+<code><a href="../../../../guide/topics/manifest/activity-element.html#aff">android:taskAffinity</a>=""</code>
             </dt>
             <dd>
                 Combined with the
@@ -1708,7 +1692,7 @@ mNotificationManager.notify(id, builder.build());
                 application's default affinity are not affected.
             </dd>
             <dt>
-<code><a href="../../manifest/activity-element.html#exclude">android:excludeFromRecents</a>="true"</code>
+<code><a href="../../../../guide/topics/manifest/activity-element.html#exclude">android:excludeFromRecents</a>="true"</code>
             </dt>
             <dd>
                 Excludes the new task from <i>Recents</i>, so that the user can't accidentally
@@ -1747,10 +1731,10 @@ mNotificationManager.notify(id, builder.build());
                 Set any other options you need for the <code><a href="../../../../reference/android/content/Intent.html">Intent</a></code>.
             </li>
             <li>
-                Create a <code><a href="http://developer.android.com/reference/android/app/PendingIntent.html">PendingIntent</a></code> from the <code><a href="../../../../reference/android/content/Intent.html">Intent</a></code>
-                by calling <code><a href="http://developer.android.com/reference/android/app/PendingIntent.html#getActivity(android.content.Context,%20int,%20android.content.Intent,%20int)">getActivity()</a></code>.
-                You can then use this <code><a href="http://developer.android.com/reference/android/app/PendingIntent.html">PendingIntent</a></code> as the argument to
-                <code><a href="http://developer.android.com/reference/android/support/v4/app/NotificationCompat.Builder.html#setContentIntent(android.app.PendingIntent)">setContentIntent()</a></code>.
+                Create a <code><a href="../../../../reference/android/app/PendingIntent.html">PendingIntent</a></code> from the <code><a href="../../../../reference/android/content/Intent.html">Intent</a></code>
+                by calling <code><a href="../../../../reference/android/app/PendingIntent.html#getActivity(android.content.Context, int, android.content.Intent, int)">getActivity()</a></code>.
+                You can then use this <code><a href="../../../../reference/android/app/PendingIntent.html">PendingIntent</a></code> as the argument to
+                <code><a href="../../../../reference/android/support/v4/app/NotificationCompat.Builder.html#setContentIntent(android.app.PendingIntent)">setContentIntent()</a></code>.
             </li>
         </ol>
     <p>
@@ -1797,27 +1781,27 @@ mNotificationManager.notify(id, builder.build());
 </p>
 <p>
     Progress indicators are displayed with the platform's implementation of the
-    <code><a href="http://developer.android.com/reference/android/widget/ProgressBar.html">ProgressBar</a></code> class.
+    <code><a href="../../../../reference/android/widget/ProgressBar.html">ProgressBar</a></code> class.
 </p>
 <p>
     To use a progress indicator on platforms starting with Android 4.0, call
-    <code><a href="http://developer.android.com/reference/android/support/v4/app/NotificationCompat.Builder.html#setProgress(int,%20int,%20boolean)">setProgress()</a></code>. For
+    <code><a href="../../../../reference/android/support/v4/app/NotificationCompat.Builder.html#setProgress(int, int, boolean)">setProgress()</a></code>. For
     previous versions, you must create your own custom notification layout that
-    includes a <code><a href="http://developer.android.com/reference/android/widget/ProgressBar.html">ProgressBar</a></code> view.
+    includes a <code><a href="../../../../reference/android/widget/ProgressBar.html">ProgressBar</a></code> view.
 </p>
 <p>
     The following sections describe how to display progress in a notification using
-    <code><a href="http://developer.android.com/reference/android/support/v4/app/NotificationCompat.Builder.html#setProgress(int,%20int,%20boolean)">setProgress()</a></code>.
+    <code><a href="../../../../reference/android/support/v4/app/NotificationCompat.Builder.html#setProgress(int, int, boolean)">setProgress()</a></code>.
 </p>
 <!-- ------------------------------------------------------------------------------------------ -->
 <h3 id="FixedProgress">Displaying a fixed-duration progress indicator</h3>
 <p>
     To display a determinate progress bar, add the bar to your notification by calling
-    <code><a href="http://developer.android.com/reference/android/support/v4/app/NotificationCompat.Builder.html#setProgress(int,%20int,%20boolean)">setProgress()
+    <code><a href="../../../../reference/android/support/v4/app/NotificationCompat.Builder.html#setProgress(int, int, boolean)">setProgress()
     setProgress(max, progress, false)</a></code> and then issue the notification. As your operation proceeds,
     increment <code>progress</code>, and update the notification. At the end of the operation,
     <code>progress</code> should equal <code>max</code>. A common way to call
-    <code><a href="http://developer.android.com/reference/android/support/v4/app/NotificationCompat.Builder.html#setProgress(int,%20int,%20boolean)">setProgress()</a></code>
+    <code><a href="../../../../reference/android/support/v4/app/NotificationCompat.Builder.html#setProgress(int, int, boolean)">setProgress()</a></code>
     is to set <code>max</code> to 100 and then increment <code>progress</code> as a
     "percent complete" value for the operation.
 </p>
@@ -1825,7 +1809,7 @@ mNotificationManager.notify(id, builder.build());
     You can either leave the progress bar showing when the operation is done, or remove it. In
     either case, remember to update the notification text to show that the operation is complete.
     To remove the progress bar, call
-    <code><a href="http://developer.android.com/reference/android/support/v4/app/NotificationCompat.Builder.html#setProgress(int,%20int,%20boolean)">setProgress()
+    <code><a href="../../../../reference/android/support/v4/app/NotificationCompat.Builder.html#setProgress(int, int, boolean)">setProgress()
     setProgress(0, 0, false)</a></code>. For example:
 </p>
 <pre>
@@ -1876,7 +1860,7 @@ new Thread(
 </p>
 <img
     id="figure6"
-    src="http://developer.android.com/images/ui/notifications/progress_bar_summary.png"
+    src="../../../../images/ui/notifications/progress_bar_summary.png"
     height="84"
     alt="" />
 <p class="img-caption">
@@ -1885,14 +1869,14 @@ new Thread(
 <h3 id="ActivityIndicator">Displaying a continuing activity indicator</h3>
 <p>
     To display an indeterminate activity indicator, add it to your notification with
-    <code><a href="http://developer.android.com/reference/android/support/v4/app/NotificationCompat.Builder.html#setProgress(int,%20int,%20boolean)">setProgress(0, 0, true)</a></code>
+    <code><a href="../../../../reference/android/support/v4/app/NotificationCompat.Builder.html#setProgress(int, int, boolean)">setProgress(0, 0, true)</a></code>
     (the first two arguments are ignored), and issue the notification. The result is an indicator
     that has the same style as a progress bar, except that its animation is ongoing.
 </p>
 <p>
     Issue the notification at the beginning of the operation. The animation will run until you
     modify your notification. When the operation is done, call
-    <code><a href="http://developer.android.com/reference/android/support/v4/app/NotificationCompat.Builder.html#setProgress(int,%20int,%20boolean)">setProgress()
+    <code><a href="../../../../reference/android/support/v4/app/NotificationCompat.Builder.html#setProgress(int, int, boolean)">setProgress()
     setProgress(0, 0, false)</a></code> and then update the notification to remove the activity indicator.
     Always do this; otherwise, the animation will run even when the operation is complete. Also
     remember to change the notification text to indicate that the operation is complete.
@@ -1921,7 +1905,7 @@ mNotifyManager.notify(0, mBuilder.build());
 </p>
 <img
     id="figure7"
-    src="http://developer.android.com/images/ui/notifications/activity_indicator.png"
+    src="../../../../images/ui/notifications/activity_indicator.png"
     height="99"
     alt="" />
 <p class="img-caption"><strong>Figure 7.</strong> An ongoing activity indicator.</p>
@@ -1934,9 +1918,9 @@ mNotifyManager.notify(0, mBuilder.build());
 <h2 id="CustomNotification">Custom Notification Layouts</h2>
 <p>
     The notifications framework allows you to define a custom notification layout, which
-    defines the notification's appearance in a <code><a href="http://developer.android.com/reference/android/widget/RemoteViews.html">RemoteViews</a></code> object.
+    defines the notification's appearance in a <code><a href="../../../../reference/android/widget/RemoteViews.html">RemoteViews</a></code> object.
     Custom layout notifications are similar to normal notifications, but they're based on a
-    <code><a href="http://developer.android.com/reference/android/widget/RemoteViews.html">RemoteViews</a></code> defined in a XML layout file.
+    <code><a href="../../../../reference/android/widget/RemoteViews.html">RemoteViews</a></code> defined in a XML layout file.
 </p>
 <p>
     The height available for a custom notification layout depends on the notification view. Normal
@@ -1944,12 +1928,12 @@ mNotifyManager.notify(0, mBuilder.build());
 </p>
 <p>
     To define a custom notification layout, start by instantiating a
-    <code><a href="http://developer.android.com/reference/android/widget/RemoteViews.html">RemoteViews</a></code> object that inflates an XML layout file. Then,
+    <code><a href="../../../../reference/android/widget/RemoteViews.html">RemoteViews</a></code> object that inflates an XML layout file. Then,
     instead of calling methods such as
-    <code><a href="http://developer.android.com/reference/android/support/v4/app/NotificationCompat.Builder.html#setContentTitle(java.lang.CharSequence)">setContentTitle()</a></code>,
-    call <code><a href="http://developer.android.com/reference/android/support/v4/app/NotificationCompat.Builder.html#setContent(android.widget.RemoteViews)">setContent()</a></code>. To set
+    <code><a href="../../../../reference/android/support/v4/app/NotificationCompat.Builder.html#setContentTitle(java.lang.CharSequence)">setContentTitle()</a></code>,
+    call <code><a href="../../../../reference/android/support/v4/app/NotificationCompat.Builder.html#setContent(android.widget.RemoteViews)">setContent()</a></code>. To set
     content details in the custom notification, use the methods in
-    <code><a href="http://developer.android.com/reference/android/widget/RemoteViews.html">RemoteViews</a></code> to set the values of the view's children:
+    <code><a href="../../../../reference/android/widget/RemoteViews.html">RemoteViews</a></code> to set the values of the view's children:
 </p>
 <ol>
     <li>
@@ -1957,19 +1941,19 @@ mNotifyManager.notify(0, mBuilder.build());
         you wish, but you must use the extension <code>.xml</code>
     </li>
     <li>
-        In your app, use <code><a href="http://developer.android.com/reference/android/widget/RemoteViews.html">RemoteViews</a></code> methods to define your notification's
-        icons and text. Put this <code><a href="http://developer.android.com/reference/android/widget/RemoteViews.html">RemoteViews</a></code> object into your
-        <code><a href="http://developer.android.com/reference/android/support/v4/app/NotificationCompat.Builder.html">NotificationCompat.Builder</a></code> by calling
-        <code><a href="http://developer.android.com/reference/android/support/v4/app/NotificationCompat.Builder.html#setContent(android.widget.RemoteViews)">setContent()</a></code>. Avoid
-        setting a background <code><a href="http://developer.android.com/reference/android/graphics/drawable/Drawable.html">Drawable</a></code> on your
-        <code><a href="http://developer.android.com/reference/android/widget/RemoteViews.html">RemoteViews</a></code> object, because your text color may become unreadable.
+        In your app, use <code><a href="../../../../reference/android/widget/RemoteViews.html">RemoteViews</a></code> methods to define your notification's
+        icons and text. Put this <code><a href="../../../../reference/android/widget/RemoteViews.html">RemoteViews</a></code> object into your
+        <code><a href="../../../../reference/android/support/v4/app/NotificationCompat.Builder.html">NotificationCompat.Builder</a></code> by calling
+        <code><a href="../../../../reference/android/support/v4/app/NotificationCompat.Builder.html#setContent(android.widget.RemoteViews)">setContent()</a></code>. Avoid
+        setting a background <code><a href="../../../../reference/android/graphics/drawable/Drawable.html">Drawable</a></code> on your
+        <code><a href="../../../../reference/android/widget/RemoteViews.html">RemoteViews</a></code> object, because your text color may become unreadable.
     </li>
 </ol>
 <p>
-    The <code><a href="http://developer.android.com/reference/android/widget/RemoteViews.html">RemoteViews</a></code> class also includes methods that you can use to easily
-    add a <code><a href="http://developer.android.com/reference/android/widget/Chronometer.html">Chronometer</a></code> or <code><a href="http://developer.android.com/reference/android/widget/ProgressBar.html">ProgressBar</a></code>
+    The <code><a href="../../../../reference/android/widget/RemoteViews.html">RemoteViews</a></code> class also includes methods that you can use to easily
+    add a <code><a href="../../../../reference/android/widget/Chronometer.html">Chronometer</a></code> or <code><a href="../../../../reference/android/widget/ProgressBar.html">ProgressBar</a></code>
     to your notification's layout. For more information about creating custom layouts for your
-    notification, refer to the <code><a href="http://developer.android.com/reference/android/widget/RemoteViews.html">RemoteViews</a></code> reference documentation.
+    notification, refer to the <code><a href="../../../../reference/android/widget/RemoteViews.html">RemoteViews</a></code> reference documentation.
 </p>
 <p class="caution">
     <strong>Caution:</strong> When you use a custom notification layout, take special care to
@@ -2000,7 +1984,7 @@ mNotifyManager.notify(0, mBuilder.build());
         
         <div class="paging-links layout-content-col col-4">
           
-            <a href="notifications.html#" class="prev-page-link hide"
+            <a href="#" class="prev-page-link hide"
                 zh-TW-lang="上一堂課"
                 zh-CN-lang="上一课"
                 ru-lang="Предыдущий"
@@ -2008,7 +1992,7 @@ mNotifyManager.notify(0, mBuilder.build());
                 ja-lang="前へ"
                 es-lang="Anterior"               
                 >Previous</a>
-            <a href="notifications.html#" class="next-page-link hide"
+            <a href="#" class="next-page-link hide"
                 zh-TW-lang="下一堂課"
                 zh-CN-lang="下一课"
                 ru-lang="Следующий"

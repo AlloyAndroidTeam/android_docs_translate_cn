@@ -91,12 +91,14 @@ href="http://fonts.googleapis.com/css?family=Roboto:regular,medium,thin,italic,m
 <script src="http://www.google.com/jsapi" type="text/javascript"></script>
 <script src="../../../assets/js/android_3p-bundle.js" type="text/javascript"></script>
 <script type="text/javascript">
-  var toRoot = "/";
+  var toRoot = "../../../";
   
   var devsite = false;
   
 </script>
 <script src="../../../assets/js/docs.js" type="text/javascript"></script>
+
+<script src="../../../navtree_data.js" type="text/javascript"></script>
 
 
 <script type="text/javascript">
@@ -123,8 +125,8 @@ href="http://fonts.googleapis.com/css?family=Roboto:regular,medium,thin,italic,m
             <img src="../../../assets/images/dac_logo.png" width="123" height="25" alt="Android Developers" />
           </a>
           <div class="btn-quicknav" id="btn-quicknav">
-          	<a href="calendar-provider.html#" class="arrow-inactive">Quicknav</a>
-			      <a href="calendar-provider.html#" class="arrow-active">Quicknav</a>
+          	<a href="#" class="arrow-inactive">Quicknav</a>
+			      <a href="#" class="arrow-active">Quicknav</a>
           </div>
           </div>
             <ul class="nav-x col-9">
@@ -179,24 +181,6 @@ href="http://fonts.googleapis.com/css?family=Roboto:regular,medium,thin,italic,m
 
       
       
-        <div class="header">Language</div>
-          <div id="language" class="locales">
-            <select name="language" onChange="changeLangPref(this.value, true)">
-                <option value="en">English</option>
-                <option value="es">Español</option>
-                <option value="ja">日本語</option>
-                <option value="ko">한국어</option>
-                <option value="ru">Русский</option>
-                <option value="zh-CN">中文 (中国)</option>
-                <option value="zh-TW">中文 (台灣)</option>
-            </select>
-          </div>
-        <script type="text/javascript">
-          <!--
-          loadLangPref();
-            //-->
-        </script>
-      
       
 
 
@@ -211,8 +195,8 @@ href="http://fonts.googleapis.com/css?family=Roboto:regular,medium,thin,italic,m
       <form onsubmit="return submit_search()">
         <input id="search_autocomplete" type="text" value="" autocomplete="off" name="q"
 onfocus="search_focus_changed(this, true)" onblur="search_focus_changed(this, false)"
-onkeydown="return search_changed(event, true, '/')" 
-onkeyup="return search_changed(event, false, '/')" />
+onkeydown="return search_changed(event, true, '../../../')" 
+onkeyup="return search_changed(event, false, '../../../')" />
       </form>
       <div class="right"></div>
         <a class="close hide">close</a>
@@ -254,7 +238,7 @@ onkeyup="return search_changed(event, false, '/')" />
                           ja-lang="トレーニング"
                           es-lang="Capacitación"               
                           >Training</a></li>
-                        <li><a href="../../components/index.html"
+                        <li><a href="../../../guide/components/index.html"
                           zh-TW-lang="API 指南"
                           zh-CN-lang="API 指南"
                           ru-lang="Руководства по API"
@@ -322,7 +306,7 @@ onkeyup="return search_changed(event, false, '/')" />
                   ja-lang="トレーニング"
                   es-lang="Capacitación"               
                   >Training</a></li>
-                <li class="guide"><a href="../../components/index.html"
+                <li class="guide"><a href="../../../guide/components/index.html"
                   zh-TW-lang="API 指南"
                   zh-CN-lang="API 指南"
                   ru-lang="Руководства по API"
@@ -360,7 +344,7 @@ onkeyup="return search_changed(event, false, '/')" />
   <div class="wrap clearfix" id="body-content">
     <div class="col-4" id="side-nav" itemscope itemtype="http://schema.org/SiteNavigationElement">
       <div id="devdoc-nav" class="scroll-pane">
-<a class="totop" href="calendar-provider.html#top" data-g-event="left-nav-top">to top</a>
+<a class="totop" href="#top" data-g-event="left-nav-top">to top</a>
 
 
 
@@ -369,106 +353,106 @@ onkeyup="return search_changed(event, false, '/')" />
   <!--<li style="color:red">Overview</li> -->
 
   <li class="nav-section">
-    <div class="nav-section-header"><a href="../../components/index.html">
+    <div class="nav-section-header"><a href="../../../guide/components/index.html">
         <span class="en">App Components</span>
       </a></div>
     <ul>
-      <li><a href="../../components/fundamentals.html">
+      <li><a href="../../../guide/components/fundamentals.html">
             <span class="en">App Fundamentals</span></a>
       </li>
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../../components/activities.html">
+        <div class="nav-section-header"><a href="../../../guide/components/activities.html">
             <span class="en">Activities</span>
           </a></div>
         <ul>
-          <li><a href="../../components/fragments.html">
+          <li><a href="../../../guide/components/fragments.html">
               <span class="en">Fragments</span>
             </a></li>
-          <li><a href="../../components/loaders.html">
+          <li><a href="../../../guide/components/loaders.html">
               <span class="en">Loaders</span>
             </a></li>
-          <li><a href="../../components/tasks-and-back-stack.html">
+          <li><a href="../../../guide/components/tasks-and-back-stack.html">
               <span class="en">Tasks and Back Stack</span>
             </a></li>
         </ul>
       </li>
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../../components/services.html">
+        <div class="nav-section-header"><a href="../../../guide/components/services.html">
             <span class="en">Services</span>
           </a></div>
         <ul>
-          <li><a href="../../components/bound-services.html">
+          <li><a href="../../../guide/components/bound-services.html">
               <span class="en">Bound Services</span>
             </a></li>
-          <li><a href="../../components/aidl.html">
+          <li><a href="../../../guide/components/aidl.html">
               <span class="en">AIDL</span>
             </a></li>
         </ul>
       </li>
       <li class="nav-section">
-        <div class="nav-section-header"><a href="content-providers.html">
+        <div class="nav-section-header"><a href="../../../guide/topics/providers/content-providers.html">
             <span class="en">Content Providers</span>
           </a></div>
         <ul>
-          <li><a href="content-provider-basics.html">
+          <li><a href="../../../guide/topics/providers/content-provider-basics.html">
               <span class="en">Content Provider Basics</span>
             </a></li>
-          <li><a href="content-provider-creating.html">
+          <li><a href="../../../guide/topics/providers/content-provider-creating.html">
               <span class="en">Creating a Content Provider</span>
             </a></li>
-          <li><a href="calendar-provider.html">
+          <li><a href="../../../guide/topics/providers/calendar-provider.html">
               <span class="en">Calendar Provider</span>
             </a></li>
-          <li><a href="contacts-provider.html">
+          <li><a href="../../../guide/topics/providers/contacts-provider.html">
               <span class="en">Contacts Provider</span>
             </a></li>
         </ul>
       </li>
-      <li><a href="../../components/intents-filters.html">
+      <li><a href="../../../guide/components/intents-filters.html">
           <span class="en">Intents and Intent Filters</span>
         </a></li>
-      <li><a href="../../components/processes-and-threads.html">
+      <li><a href="../../../guide/components/processes-and-threads.html">
           <span class="en">Processes and Threads</span>
         </a>
       </li>
-      <li><a href="../security/permissions.html">
+      <li><a href="../../../guide/topics/security/permissions.html">
           <span class="en">Permissions</span>
         </a>
       </li>
-      <li><a href="../appwidgets/index.html">
+      <li><a href="../../../guide/topics/appwidgets/index.html">
             <span class="en">App Widgets</span>
           </a></li>
       <li class="nav-section">
-      <div class="nav-section-header"><a href="../manifest/manifest-intro.html">
+      <div class="nav-section-header"><a href="../../../guide/topics/manifest/manifest-intro.html">
           <span class="en">Android Manifest</span>
         </a></div>
         <ul>
-          <li><a href="../manifest/action-element.html">&lt;action&gt;</a></li>
-          <li><a href="../manifest/activity-element.html">&lt;activity&gt;</a></li>
-          <li><a href="../manifest/activity-alias-element.html">&lt;activity-alias&gt;</a></li>
-          <li><a href="../manifest/application-element.html">&lt;application&gt;</a></li>
-          <li><a href="../manifest/category-element.html">&lt;category&gt;</a></li>
-          <li><a href="../manifest/compatible-screens-element.html">&lt;compatible-screens&gt;</a></li>
-          <li><a href="../manifest/data-element.html">&lt;data&gt;</a></li>
-          <li><a href="../manifest/grant-uri-permission-element.html">&lt;grant-uri-permission&gt;</a></li>
-          <li><a href="../manifest/instrumentation-element.html">&lt;instrumentation&gt;</a></li>
-          <li><a href="../manifest/intent-filter-element.html">&lt;intent-filter&gt;</a></li>
-          <li><a href="../manifest/manifest-element.html">&lt;manifest&gt;</a></li>
-          <li><a href="../manifest/meta-data-element.html">&lt;meta-data&gt;</a></li>
-          <li><a href="../manifest/path-permission-element.html">&lt;path-permission&gt;</a></li>
-          <li><a href="../manifest/permission-element.html">&lt;permission&gt;</a></li>
-          <li><a href="../manifest/permission-group-element.html">&lt;permission-group&gt;</a></li>
-          <li><a href="../manifest/permission-tree-element.html">&lt;permission-tree&gt;</a></li>
-          <li><a href="../manifest/provider-element.html">&lt;provider&gt;</a></li>
-          <li><a href="../manifest/receiver-element.html">&lt;receiver&gt;</a></li>
-          <li><a href="../manifest/service-element.html">&lt;service&gt;</a></li>
-          <li><a href="../manifest/supports-gl-texture-element.html">&lt;supports-gl-texture&gt;</a></li>
-          <li><a href="../manifest/supports-screens-element.html">&lt;supports-screens&gt;</a></li><!-- ##api level 4## -->
-          <li><a href="../manifest/uses-configuration-element.html">&lt;uses-configuration&gt;</a></li>
-          <li><a href="../manifest/uses-feature-element.html">&lt;uses-feature&gt;</a></li> <!-- ##api level 4## -->
-          <li><a href="../manifest/uses-library-element.html">&lt;uses-library&gt;</a></li>
-          <li><a href="../manifest/uses-permission-element.html">&lt;uses-permission&gt;</a></li>
-          <li><a href="../manifest/uses-sdk-element.html">&lt;uses-sdk&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/action-element.html">&lt;action&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/activity-element.html">&lt;activity&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/activity-alias-element.html">&lt;activity-alias&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/application-element.html">&lt;application&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/category-element.html">&lt;category&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/compatible-screens-element.html">&lt;compatible-screens&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/data-element.html">&lt;data&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/grant-uri-permission-element.html">&lt;grant-uri-permission&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/instrumentation-element.html">&lt;instrumentation&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/intent-filter-element.html">&lt;intent-filter&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/manifest-element.html">&lt;manifest&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/meta-data-element.html">&lt;meta-data&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/path-permission-element.html">&lt;path-permission&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/permission-element.html">&lt;permission&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/permission-group-element.html">&lt;permission-group&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/permission-tree-element.html">&lt;permission-tree&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/provider-element.html">&lt;provider&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/receiver-element.html">&lt;receiver&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/service-element.html">&lt;service&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/supports-gl-texture-element.html">&lt;supports-gl-texture&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/supports-screens-element.html">&lt;supports-screens&gt;</a></li><!-- ##api level 4## -->
+          <li><a href="../../../guide/topics/manifest/uses-configuration-element.html">&lt;uses-configuration&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/uses-feature-element.html">&lt;uses-feature&gt;</a></li> <!-- ##api level 4## -->
+          <li><a href="../../../guide/topics/manifest/uses-library-element.html">&lt;uses-library&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/uses-permission-element.html">&lt;uses-permission&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/uses-sdk-element.html">&lt;uses-sdk&gt;</a></li>
         </ul>
    </li><!-- end of the manifest file -->
 
@@ -476,263 +460,263 @@ onkeyup="return search_changed(event, false, '/')" />
   </li>
 
   <li class="nav-section">
-    <div class="nav-section-header"><a href="../ui/index.html">
+    <div class="nav-section-header"><a href="../../../guide/topics/ui/index.html">
         <span class="en">User Interface</span>
       </a></div>
     <ul>
-      <li><a href="../ui/overview.html">
+      <li><a href="../../../guide/topics/ui/overview.html">
           <span class="en">Overview</span>
         </a></li>
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../ui/declaring-layout.html">
+        <div class="nav-section-header"><a href="../../../guide/topics/ui/declaring-layout.html">
             <span class="en">Layouts</span>
           </a></div>
         <ul>
-          <li><a href="../ui/layout/linear.html">
+          <li><a href="../../../guide/topics/ui/layout/linear.html">
               <span class="en">Linear Layout</span>
             </a></li>
-          <li><a href="../ui/layout/relative.html">
+          <li><a href="../../../guide/topics/ui/layout/relative.html">
               <span class="en">Relative Layout</span>
             </a></li>
        <!--
-          <li><a href="/guide/topics/ui/layout/grid.html">
+          <li><a href="../../../guide/topics/ui/layout/grid.html">
               <span class="en">Grid Layout</span>
             </a></li>
-          <li><a href="/guide/topics/ui/layout/tabs.html">
+          <li><a href="../../../guide/topics/ui/layout/tabs.html">
               <span class="en">Tab Layout</span>
             </a></li>
        -->
-          <li><a href="../ui/layout/listview.html">
+          <li><a href="../../../guide/topics/ui/layout/listview.html">
               <span class="en">List View</span>
             </a></li>
-          <li><a href="../ui/layout/gridview.html">
+          <li><a href="../../../guide/topics/ui/layout/gridview.html">
               <span class="en">Grid View</span>
             </a></li>
         </ul>
       </li>
 
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../ui/controls.html">
+        <div class="nav-section-header"><a href="../../../guide/topics/ui/controls.html">
             <span class="en">Input Controls</span>
           </a></div>
         <ul>
-          <li><a href="../ui/controls/button.html">
+          <li><a href="../../../guide/topics/ui/controls/button.html">
               <span class="en">Buttons</span>
             </a></li>
-          <li><a href="../ui/controls/text.html">
+          <li><a href="../../../guide/topics/ui/controls/text.html">
               <span class="en">Text Fields</span>
             </a></li>
-          <li><a href="../ui/controls/checkbox.html">
+          <li><a href="../../../guide/topics/ui/controls/checkbox.html">
               <span class="en">Checkboxes</span>
             </a></li>
-          <li><a href="../ui/controls/radiobutton.html">
+          <li><a href="../../../guide/topics/ui/controls/radiobutton.html">
               <span class="en">Radio Buttons</span>
             </a></li>
-          <li><a href="../ui/controls/togglebutton.html">
+          <li><a href="../../../guide/topics/ui/controls/togglebutton.html">
               <span class="en">Toggle Buttons</span>
             </a></li>
-          <li><a href="../ui/controls/spinner.html">
+          <li><a href="../../../guide/topics/ui/controls/spinner.html">
               <span class="en">Spinners</span>
             </a></li>
-          <li><a href="../ui/controls/pickers.html">
+          <li><a href="../../../guide/topics/ui/controls/pickers.html">
               <span class="en">Pickers</span>
             </a></li>
 <!--
-          <li><a href="/guide/topics/ui/controls/progress.html">
+          <li><a href="../../../guide/topics/ui/controls/progress.html">
               <span class="en">Seek and Progress Bars</span>
             </a></li>
 -->
         </ul>
       </li>
-      <li><a href="../ui/ui-events.html">
+      <li><a href="../../../guide/topics/ui/ui-events.html">
           <span class="en">Input Events</span>
         </a></li>
-      <li><a href="../ui/menus.html">
+      <li><a href="../../../guide/topics/ui/menus.html">
           <span class="en">Menus</span></span>
           </a></li>
-      <li><a href="../ui/actionbar.html">
+      <li><a href="../../../guide/topics/ui/actionbar.html">
            <span class="en">Action Bar</span>
           </a></li>
-      <li><a href="../ui/settings.html">
+      <li><a href="../../../guide/topics/ui/settings.html">
             <span class="en">Settings</span>
           </a></li>
-      <li><a href="../ui/dialogs.html">
+      <li><a href="../../../guide/topics/ui/dialogs.html">
            <span class="en">Dialogs</span>
           </a></li>
-      <li><a href="../ui/notifiers/notifications.html">
+      <li><a href="../../../guide/topics/ui/notifiers/notifications.html">
           <span class="en">Notifications</span>
         </a></li>
-      <li><a href="../ui/notifiers/toasts.html">
+      <li><a href="../../../guide/topics/ui/notifiers/toasts.html">
           <span class="en">Toasts</span>
         </a></li>
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../search/index.html">
+        <div class="nav-section-header"><a href="../../../guide/topics/search/index.html">
             <span class="en">Search</span>
           </a></div>
           <ul>
-            <li><a href="../search/search-dialog.html">Creating a Search Interface</a></li>
-            <li><a href="../search/adding-recent-query-suggestions.html">Adding Recent Query Suggestions</a></li>
-            <li><a href="../search/adding-custom-suggestions.html">Adding Custom Suggestions</a></li>
-            <li><a href="../search/searchable-config.html">Searchable Configuration</a></li>
+            <li><a href="../../../guide/topics/search/search-dialog.html">Creating a Search Interface</a></li>
+            <li><a href="../../../guide/topics/search/adding-recent-query-suggestions.html">Adding Recent Query Suggestions</a></li>
+            <li><a href="../../../guide/topics/search/adding-custom-suggestions.html">Adding Custom Suggestions</a></li>
+            <li><a href="../../../guide/topics/search/searchable-config.html">Searchable Configuration</a></li>
           </ul>
       </li>
-      <li><a href="../ui/drag-drop.html">
+      <li><a href="../../../guide/topics/ui/drag-drop.html">
           <span class="en">Drag and Drop</span>
         </a></li>
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../ui/accessibility/index.html">
+        <div class="nav-section-header"><a href="../../../guide/topics/ui/accessibility/index.html">
             <span class="en">Accessibility</span>
           </a></div>
         <ul>
-          <li><a href="../ui/accessibility/apps.html">
+          <li><a href="../../../guide/topics/ui/accessibility/apps.html">
               <span class="en">Making Applications Accessible</span>
             </a></li>
-          <li><a href="../ui/accessibility/checklist.html">
+          <li><a href="../../../guide/topics/ui/accessibility/checklist.html">
               <span class="en">Accessibility Developer Checklist</span>
             </a></li>
-          <li><a href="../ui/accessibility/services.html">
+          <li><a href="../../../guide/topics/ui/accessibility/services.html">
               <span class="en">Building Accessibility Services</span>
             </a></li>
         </ul>
       </li>
-      <li><a href="../ui/themes.html">
+      <li><a href="../../../guide/topics/ui/themes.html">
           <span class="en">Styles and Themes</span>
         </a></li>
-      <li><a href="../ui/custom-components.html">
+      <li><a href="../../../guide/topics/ui/custom-components.html">
           <span class="en">Custom Components</span>
         </a></li>
     </ul>
   </li><!-- end of User Interface -->
 
     <li class="nav-section">
-      <div class="nav-section-header"><a href="../resources/index.html">
+      <div class="nav-section-header"><a href="../../../guide/topics/resources/index.html">
            <span class="en">App Resources</span>
          </a></div>
       <ul>
-        <li><a href="../resources/overview.html">
+        <li><a href="../../../guide/topics/resources/overview.html">
             <span class="en">Overview</span>
           </a></li>
-          <li><a href="../resources/providing-resources.html">
+          <li><a href="../../../guide/topics/resources/providing-resources.html">
             <span class="en">Providing Resources</span>
           </a></li>
-        <li><a href="../resources/accessing-resources.html">
+        <li><a href="../../../guide/topics/resources/accessing-resources.html">
             <span class="en">Accessing Resources</span>
           </a></li>
-        <li><a href="../resources/runtime-changes.html">
+        <li><a href="../../../guide/topics/resources/runtime-changes.html">
               <span class="en">Handling Runtime Changes</span>
             </a></li>
-        <li><a href="../resources/localization.html">
+        <li><a href="../../../guide/topics/resources/localization.html">
             <span class="en">Localization</span>
           </a></li>
         <li class="nav-section">
-          <div class="nav-section-header"><a href="../resources/available-resources.html">
+          <div class="nav-section-header"><a href="../../../guide/topics/resources/available-resources.html">
               <span class="en">Resource Types</span>
             </a></div>
           <ul>
-            <li><a href="../resources/animation-resource.html">Animation</a></li>
-            <li><a href="../resources/color-list-resource.html">Color State List</a></li>
-            <li><a href="../resources/drawable-resource.html">Drawable</a></li>
-            <li><a href="../resources/layout-resource.html">Layout</a></li>
-            <li><a href="../resources/menu-resource.html">Menu</a></li>
-            <li><a href="../resources/string-resource.html">String</a></li>
-            <li><a href="../resources/style-resource.html">Style</a></li>
-            <li><a href="../resources/more-resources.html">More Types</a></li>
+            <li><a href="../../../guide/topics/resources/animation-resource.html">Animation</a></li>
+            <li><a href="../../../guide/topics/resources/color-list-resource.html">Color State List</a></li>
+            <li><a href="../../../guide/topics/resources/drawable-resource.html">Drawable</a></li>
+            <li><a href="../../../guide/topics/resources/layout-resource.html">Layout</a></li>
+            <li><a href="../../../guide/topics/resources/menu-resource.html">Menu</a></li>
+            <li><a href="../../../guide/topics/resources/string-resource.html">String</a></li>
+            <li><a href="../../../guide/topics/resources/style-resource.html">Style</a></li>
+            <li><a href="../../../guide/topics/resources/more-resources.html">More Types</a></li>
           </ul>
         </li><!-- end of resource types -->
       </ul>
     </li><!-- end of app resources -->
 
    <li class="nav-section">
-      <div class="nav-section-header"><a href="../graphics/index.html">
+      <div class="nav-section-header"><a href="../../../guide/topics/graphics/index.html">
           <span class="en">Animation and Graphics</span>
         </a></div>
       <ul>
       <li class="nav-section">
-        <li><a href="../graphics/overview.html">
+        <li><a href="../../../guide/topics/graphics/overview.html">
             <span class="en">Overview</span>
           </a></li>
-        <li><a href="../graphics/prop-animation.html">
+        <li><a href="../../../guide/topics/graphics/prop-animation.html">
             <span class="en">Property Animation</span>
           </a></li>
-        <li><a href="../graphics/view-animation.html">
+        <li><a href="../../../guide/topics/graphics/view-animation.html">
             <span class="en">View Animation</span>
           </a></li>
-        <li><a href="../graphics/drawable-animation.html">
+        <li><a href="../../../guide/topics/graphics/drawable-animation.html">
             <span class="en">Drawable Animation</span>
           </a></li>
-        <li><a href="../graphics/2d-graphics.html">
+        <li><a href="../../../guide/topics/graphics/2d-graphics.html">
             <span class="en">Canvas and Drawables</span>
           </a></li>
-        <li><a href="../graphics/opengl.html">
+        <li><a href="../../../guide/topics/graphics/opengl.html">
             <span class="en">OpenGL</span>
           </a></li>
-        <li><a href="../graphics/hardware-accel.html">
+        <li><a href="../../../guide/topics/graphics/hardware-accel.html">
             <span class="en">Hardware Acceleration</span>
           </a></li>
        </ul>
     </li><!-- end of graphics and animation-->
 
    <li class="nav-section">
-            <div class="nav-section-header"><a href="../renderscript/index.html">
+            <div class="nav-section-header"><a href="../../../guide/topics/renderscript/index.html">
               <span class="en">Computation</span>
             </a></div>
             <ul>
-              <li><a href="../renderscript/compute.html">
+              <li><a href="../../../guide/topics/renderscript/compute.html">
                     <span class="en">Renderscript</span></a>
                   </li>
 
-              <li><a href="../renderscript/advanced.html">
+              <li><a href="../../../guide/topics/renderscript/advanced.html">
                     <span class="en">Advanced Renderscript</span></a>
                   </li>
-              <li><a href="../renderscript/reference.html">
+              <li><a href="../../../guide/topics/renderscript/reference.html">
                     <span class="en">Runtime API Reference</span></a>
               </li>
              </ul>
    </li>
       <li class="nav-section">
-          <div class="nav-section-header"><a href="../media/index.html">
+          <div class="nav-section-header"><a href="../../../guide/topics/media/index.html">
             <span class="en">Media and Camera</span>
           </a></div>
           <ul>
-            <li><a href="../media/mediaplayer.html">
+            <li><a href="../../../guide/topics/media/mediaplayer.html">
                   <span class="en">Media Playback</span></a>
                 </li>
-            <li><a href="../../appendix/media-formats.html">
+            <li><a href="../../../guide/appendix/media-formats.html">
                    <span class="en">Supported Media Formats</span></a>
                 </li>
-            <li><a href="../media/audio-capture.html">
+            <li><a href="../../../guide/topics/media/audio-capture.html">
                   <span class="en">Audio Capture</span></a>
                 </li>
-            <li><a href="../media/jetplayer.html">
+            <li><a href="../../../guide/topics/media/jetplayer.html">
                   <span class="en">JetPlayer</span></a>
                 </li>
-            <li><a href="../media/camera.html">
+            <li><a href="../../../guide/topics/media/camera.html">
                   <span class="en">Camera</span></a>
                 </li>
           </ul>
       </li><!-- end of media and camera -->
 
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../sensors/index.html">
+        <div class="nav-section-header"><a href="../../../guide/topics/sensors/index.html">
               <span class="en">Location and Sensors</span>
               </a></div>
         <ul>
-          <li><a href="../location/index.html">
+          <li><a href="../../../guide/topics/location/index.html">
                <span class="en">Location and Maps</span>
              </a>
-          <li><a href="../location/strategies.html">
+          <li><a href="../../../guide/topics/location/strategies.html">
                <span class="en">Location Strategies</span>
              </a></li>
-          <li><a href="../sensors/sensors_overview.html">
+          <li><a href="../../../guide/topics/sensors/sensors_overview.html">
               <span class="en">Sensors Overview</span>
             </a></li>
-          <li><a href="../sensors/sensors_motion.html">
+          <li><a href="../../../guide/topics/sensors/sensors_motion.html">
               <span class="en">Motion Sensors</span>
             </a></li>
-          <li><a href="../sensors/sensors_position.html">
+          <li><a href="../../../guide/topics/sensors/sensors_position.html">
               <span class="en">Position Sensors</span>
             </a></li>
-          <li><a href="../sensors/sensors_environment.html">
+          <li><a href="../../../guide/topics/sensors/sensors_environment.html">
               <span class="en">Environment Sensors</span>
             </a></li>
         </ul>
@@ -741,36 +725,36 @@ onkeyup="return search_changed(event, false, '/')" />
 
 
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../connectivity/index.html">
+        <div class="nav-section-header"><a href="../../../guide/topics/connectivity/index.html">
                <span class="en">Connectivity</span>
              </a></div>
         <ul>
-          <li><a href="../connectivity/bluetooth.html">
+          <li><a href="../../../guide/topics/connectivity/bluetooth.html">
               <span class="en">Bluetooth</span>
             </a>
           </li>
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../connectivity/nfc/index.html">
+        <div class="nav-section-header"><a href="../../../guide/topics/connectivity/nfc/index.html">
           <span class="en">NFC</span></a>
         </div>
         <ul>
-          <li><a href="../connectivity/nfc/nfc.html">NFC Basics</a></li>
-          <li><a href="../connectivity/nfc/advanced-nfc.html">Advanced NFC</a></li>
+          <li><a href="../../../guide/topics/connectivity/nfc/nfc.html">NFC Basics</a></li>
+          <li><a href="../../../guide/topics/connectivity/nfc/advanced-nfc.html">Advanced NFC</a></li>
         </ul>
       </li>
-      <li><a href="../connectivity/wifip2p.html">
+      <li><a href="../../../guide/topics/connectivity/wifip2p.html">
             <span class="en">Wi-Fi Direct</span></a>
           </li>
       <li class="nav-section">
-          <div class="nav-section-header"><a href="../connectivity/usb/index.html">
+          <div class="nav-section-header"><a href="../../../guide/topics/connectivity/usb/index.html">
             <span class="en">USB</span></a>
           </div>
             <ul>
-              <li><a href="../connectivity/usb/accessory.html">Accessory</a></li>
-              <li><a href="../connectivity/usb/host.html">Host</a></li>
+              <li><a href="../../../guide/topics/connectivity/usb/accessory.html">Accessory</a></li>
+              <li><a href="../../../guide/topics/connectivity/usb/host.html">Host</a></li>
             </ul>
      </li>
-     <li><a href="../connectivity/sip.html">
+     <li><a href="../../../guide/topics/connectivity/sip.html">
             <span class="en">SIP</span>
           </a>
      </li>
@@ -779,34 +763,34 @@ onkeyup="return search_changed(event, false, '/')" />
   </li><!-- end of connectivity -->
 
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../text/index.html">
+        <div class="nav-section-header"><a href="../../../guide/topics/text/index.html">
             <span class="en">Text and Input</span>
         </a></div>
         <ul>
-          <li><a href="../text/copy-paste.html">
+          <li><a href="../../../guide/topics/text/copy-paste.html">
               <span class="en">Copy and Paste</span>
             </a></li>
-          <li><a href="../text/creating-input-method.html">
+          <li><a href="../../../guide/topics/text/creating-input-method.html">
               <span class="en">Creating an IME</span>
             </a></li>
-          <li><a href="../text/spell-checker-framework.html">
+          <li><a href="../../../guide/topics/text/spell-checker-framework.html">
               <span class="en">Spelling Checker</span>
             </a></li>
         </ul>
       </li><!-- end of text and input -->
 
      <li class="nav-section">
-      <div class="nav-section-header"><a href="../data/index.html">
+      <div class="nav-section-header"><a href="../../../guide/topics/data/index.html">
           <span class="en">Data Storage</span>
         </a></div>
       <ul>
-         <li><a href="../data/data-storage.html">
+         <li><a href="../../../guide/topics/data/data-storage.html">
             <span class="en">Storage Options</span>
            </a></li>
-        <li><a href="../data/backup.html">
+        <li><a href="../../../guide/topics/data/backup.html">
             <span class="en">Data Backup</span>
           </a></li>
-        <li><a href="../data/install-location.html">
+        <li><a href="../../../guide/topics/data/install-location.html">
             <span class="en">App Install Location</span>
           </a></li>
       </ul>
@@ -814,17 +798,17 @@ onkeyup="return search_changed(event, false, '/')" />
 
 
   <li class="nav-section">
-           <div class="nav-section-header"><a href="../admin/index.html">
+           <div class="nav-section-header"><a href="../../../guide/topics/admin/index.html">
                <span class="en">Administration</span>
              </a></div>
            <ul>
               <li>
-                <a href="../admin/device-admin.html">
+                <a href="../../../guide/topics/admin/device-admin.html">
                 <span class="en">Device Policies</span></a>
               </li>
             <!--
               <li>
-                <a href="/guide/topics/admin/keychain.html">
+                <a href="../../../guide/topics/admin/keychain.html">
                 <span class="en">Certificate Store</span></a>
               </li>
             -->
@@ -832,30 +816,30 @@ onkeyup="return search_changed(event, false, '/')" />
   </li><!-- end of administration -->
 
   <li class="nav-section">
-    <div class="nav-section-header"><a href="../../webapps/index.html">
+    <div class="nav-section-header"><a href="../../../guide/webapps/index.html">
     <span class="en">Web Apps</span>
     </a></div>
     <ul>
-      <li><a href="../../webapps/overview.html">
+      <li><a href="../../../guide/webapps/overview.html">
             <span class="en">Overview</span>
           </a></li>
-      <li><a href="../../webapps/targeting.html">
+      <li><a href="../../../guide/webapps/targeting.html">
             <span class="en">Targeting Screens from Web Apps</span>
           </a></li>
-      <li><a href="../../webapps/webview.html">
+      <li><a href="../../../guide/webapps/webview.html">
             <span class="en">Building Web Apps in WebView</span>
           </a></li>
-      <li><a href="../../webapps/debugging.html">
+      <li><a href="../../../guide/webapps/debugging.html">
             <span class="en">Debugging Web Apps</span>
           </a></li>
-      <li><a href="../../webapps/best-practices.html">
+      <li><a href="../../../guide/webapps/best-practices.html">
             <span class="en">Best Practices for Web Apps</span>
           </a></li>
     </ul>
   </li><!-- end of web apps -->
 
   <li class="nav-section">
-    <div class="nav-section-header"><a href="../../practices/index.html">
+    <div class="nav-section-header"><a href="../../../guide/practices/index.html">
       <span class="en">Best Practices</span>
       <span class="de" style="display:none">Bewährte Verfahren</span>
       <span class="es" style="display:none">Prácticas recomendadas</span>
@@ -866,26 +850,26 @@ onkeyup="return search_changed(event, false, '/')" />
       <span class="zh-TW" style="display:none">最佳實務</span>
     </div></a>
     <ul>
-      <li><a href="../../practices/compatibility.html">
+      <li><a href="../../../guide/practices/compatibility.html">
             <span class="en">Compatibility</span>
           </a></li>
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../../practices/screens_support.html">
+        <div class="nav-section-header"><a href="../../../guide/practices/screens_support.html">
           <span class="en">Supporting Multiple Screens</span>
         </a></div>
         <ul>
-          <li><a href="../../practices/screens-distribution.html">
+          <li><a href="../../../guide/practices/screens-distribution.html">
             <span class="en">Distributing to Specific Screens</span>
           </a></li>
-          <li><a href="../../practices/screen-compat-mode.html">
+          <li><a href="../../../guide/practices/screen-compat-mode.html">
             <span class="en">Screen Compatibility Mode</span>
           </a></li>
-          <!--<li><a href="../../practices/screens-support-1.5.html">
+          <!--<li><a href="../../../guide/practices/screens-support-1.5.html">
             <span class="en">Strategies for Android 1.5</span>
           </a></li> -->
         </ul>
       </li>
-      <li><a href="../../practices/tablets-and-handsets.html">
+      <li><a href="../../../guide/practices/tablets-and-handsets.html">
             <span class="en">Supporting Tablets and Handsets</span>
           </a></li>
 
@@ -894,39 +878,39 @@ onkeyup="return search_changed(event, false, '/')" />
 
       <!-- this needs to move
       <li class="nav-section">
-        <div class="nav-section-header"><a href="/guide/practices/ui_guidelines/index.html">
+        <div class="nav-section-header"><a href="../../../guide/practices/ui_guidelines/index.html">
                <span class="en">UI Guidelines</span>
              </a></div>
         <ul>
           <li class="nav-section">
-            <div class="nav-section-header"><a href="/guide/practices/ui_guidelines/icon_design.html">
+            <div class="nav-section-header"><a href="../../../guide/practices/ui_guidelines/icon_design.html">
                    <span class="en">Icon Design</span>
                  </a></div>
             <ul>
-              <li><a href="/guide/practices/ui_guidelines/icon_design_launcher.html">
+              <li><a href="../../../guide/practices/ui_guidelines/icon_design_launcher.html">
                     <span class="en">Launcher Icons</span>
                   </a></li>
-              <li><a href="/guide/practices/ui_guidelines/icon_design_menu.html">
+              <li><a href="../../../guide/practices/ui_guidelines/icon_design_menu.html">
                     <span class="en">Menu Icons</span>
                   </a></li>
-              <li><a href="/guide/practices/ui_guidelines/icon_design_action_bar.html">
+              <li><a href="../../../guide/practices/ui_guidelines/icon_design_action_bar.html">
                     <span class="en">Action Bar Icons</span>
                   </a></li>
-              <li><a href="/guide/practices/ui_guidelines/icon_design_status_bar.html">
+              <li><a href="../../../guide/practices/ui_guidelines/icon_design_status_bar.html">
                     <span class="en">Status Bar Icons</span>
                   </a></li>
-              <li><a href="/guide/practices/ui_guidelines/icon_design_tab.html">
+              <li><a href="../../../guide/practices/ui_guidelines/icon_design_tab.html">
                     <span class="en">Tab Icons</span>
                   </a></li>
-              <li><a href="/guide/practices/ui_guidelines/icon_design_dialog.html">
+              <li><a href="../../../guide/practices/ui_guidelines/icon_design_dialog.html">
                     <span class="en">Dialog Icons</span>
                   </a></li>
-              <li><a href="/guide/practices/ui_guidelines/icon_design_list.html">
+              <li><a href="../../../guide/practices/ui_guidelines/icon_design_list.html">
                     <span class="en">List View Icons</span>
                   </a></li>
             </ul>
           </li>
-          <li><div><a href="/guide/practices/ui_guidelines/widget_design.html">
+          <li><div><a href="../../../guide/practices/ui_guidelines/widget_design.html">
                 <span class="en">App Widget Design</span>
               </a></div>
           </li>
@@ -936,7 +920,7 @@ onkeyup="return search_changed(event, false, '/')" />
 
 <!-- Remove
   <li class="nav-section">
-    <div class="nav-section-header"><a href="/guide/appendix/index.html">
+    <div class="nav-section-header"><a href="../../../guide/appendix/index.html">
         <span class="en">Appendix</span>
         <span class="de" style="display:none">Anhang</span>
         <span class="es" style="display:none">Apéndice</span>
@@ -947,12 +931,12 @@ onkeyup="return search_changed(event, false, '/')" />
         <span class="zh-TW" style="display:none">附錄</span>
       </a></div>
     <ul>
-      <li><a href="/guide/appendix/g-app-intents.html">
+      <li><a href="../../../guide/appendix/g-app-intents.html">
             <span class="en">Intents List: Google Apps</span>
           </a></li>
 
 
-      <li><a href="/guide/appendix/glossary.html">
+      <li><a href="../../../guide/appendix/glossary.html">
             <span class="en">Glossary</span>
           </a></li>
     </ul>
@@ -1005,53 +989,53 @@ onkeyup="return search_changed(event, false, '/')" />
 <div id="qv">
     <h2>In this document</h2>
     <ol>
-  <li><a href="calendar-provider.html#overview">Basics</a></li>
-  <li><a href="calendar-provider.html#manifest">User Permissions</a></li>
-  <li><a href="calendar-provider.html#calendar">Calendars table</a>
+  <li><a href="#overview">Basics</a></li>
+  <li><a href="#manifest">User Permissions</a></li>
+  <li><a href="#calendar">Calendars table</a>
 <ol>
-      <li><a href="calendar-provider.html#query">Querying a calendar</a></li>
-      <li><a href="calendar-provider.html#modify-calendar">Modifying a calendar</a></li>
-      <li><a href="calendar-provider.html#insert-calendar">Inserting a calendar</a></li>
+      <li><a href="#query">Querying a calendar</a></li>
+      <li><a href="#modify-calendar">Modifying a calendar</a></li>
+      <li><a href="#insert-calendar">Inserting a calendar</a></li>
     </ol>
   </li>
-  <li><a href="calendar-provider.html#events">Events table</a>
+  <li><a href="#events">Events table</a>
 <ol>
-      <li><a href="calendar-provider.html#add-event">Adding Events</a></li>
-      <li><a href="calendar-provider.html#update-event">Updating Events</a></li>
-      <li><a href="calendar-provider.html#delete-event">Deleting Events</a></li>
+      <li><a href="#add-event">Adding Events</a></li>
+      <li><a href="#update-event">Updating Events</a></li>
+      <li><a href="#delete-event">Deleting Events</a></li>
     </ol>
   </li>
-  <li><a href="calendar-provider.html#attendees">Attendees table</a>
+  <li><a href="#attendees">Attendees table</a>
 <ol>
-      <li><a href="calendar-provider.html#add-attendees">Adding Attendees</a></li>
+      <li><a href="#add-attendees">Adding Attendees</a></li>
     </ol>
   </li>
-  <li><a href="calendar-provider.html#reminders">Reminders table</a>
+  <li><a href="#reminders">Reminders table</a>
 <ol>
-      <li><a href="calendar-provider.html#add-reminders">Adding Reminders</a></li>
+      <li><a href="#add-reminders">Adding Reminders</a></li>
     </ol>
   </li>
-  <li><a href="calendar-provider.html#instances">Instances table</a>
+  <li><a href="#instances">Instances table</a>
   <ol>
-      <li><a href="calendar-provider.html#query-instances">Querying the Instances table</a></li>
+      <li><a href="#query-instances">Querying the Instances table</a></li>
   </ol></li>
-  <li><a href="calendar-provider.html#intents">Calendar Intents</a>
+  <li><a href="#intents">Calendar Intents</a>
   <ol>
-      <li><a href="calendar-provider.html#intent-insert">Using an intent to insert an event</a></li>
-      <li><a href="calendar-provider.html#intent-edit">Using an intent to edit an event</a></li>
-      <li><a href="calendar-provider.html#intent-view">Using intents to view calendar data</a></li>
+      <li><a href="#intent-insert">Using an intent to insert an event</a></li>
+      <li><a href="#intent-edit">Using an intent to edit an event</a></li>
+      <li><a href="#intent-view">Using intents to view calendar data</a></li>
     </ol>
   </li>
   
-  <li><a href="calendar-provider.html#sync-adapter">Sync Adapters</a></li>
+  <li><a href="#sync-adapter">Sync Adapters</a></li>
 </ol>
 
     <h2>Key classes</h2>
     <ol>
-      <li><code><a href="http://developer.android.com/reference/android/provider/CalendarContract.Calendars.html">CalendarContract.Calendars</a></code></li>
-      <li><code><a href="http://developer.android.com/reference/android/provider/CalendarContract.Events.html">CalendarContract.Events</a></code></li>
-      <li><code><a href="http://developer.android.com/reference/android/provider/CalendarContract.Attendees.html">CalendarContract.Attendees</a></code></li>
-      <li><code><a href="http://developer.android.com/reference/android/provider/CalendarContract.Reminders.html">CalendarContract.Reminders</a></code></li>
+      <li><code><a href="../../../reference/android/provider/CalendarContract.Calendars.html">CalendarContract.Calendars</a></code></li>
+      <li><code><a href="../../../reference/android/provider/CalendarContract.Events.html">CalendarContract.Events</a></code></li>
+      <li><code><a href="../../../reference/android/provider/CalendarContract.Attendees.html">CalendarContract.Attendees</a></code></li>
+      <li><code><a href="../../../reference/android/provider/CalendarContract.Reminders.html">CalendarContract.Reminders</a></code></li>
     </ol>
 </div>
 </div>
@@ -1065,13 +1049,13 @@ operations on calendars, events, attendees, reminders, and so on.</p>
 rules vary depending on what type of program is making the calls. This document
 focuses primarily on using the Calendar Provider API as an application. For 
 a discussion of how sync adapters are different, see 
-<a href="calendar-provider.html#sync-adapter">Sync Adapters</a>.</p>
+<a href="#sync-adapter">Sync Adapters</a>.</p>
 
 
 <p>Normally, to read or write calendar data, an application's manifest must
-include the proper permissions, described in <a href="calendar-provider.html#manifest">User
+include the proper permissions, described in <a href="#manifest">User
 Permissions</a>. To make performing common operations easier, the Calendar
-Provider offers a set of intents, as described in <a href="calendar-provider.html#intents">Calendar
+Provider offers a set of intents, as described in <a href="#intents">Calendar
 Intents</a>. These intents take users to the Calendar application to insert, view,
 and edit events. The user interacts with the Calendar application and then
 returns to the original application. Thus your application doesn't need to request permissions,
@@ -1079,7 +1063,7 @@ nor does it need to provide a user interface to view or create events.</p>
 
 <h2 id="overview">Basics</h2>
 
-<p><a href="content-providers.html">Content providers</a> store data and make it accessible to 
+<p><a href="../../../guide/topics/providers/content-providers.html">Content providers</a> store data and make it accessible to 
 applications. The content providers offered by the Android platform (including the Calendar Provider) typically expose data as a set of tables based on a
 relational database model, where each row is a record and each column is data of
 a particular type and meaning. Through the Calendar Provider API, applications
@@ -1087,24 +1071,24 @@ and sync adapters can get read/write access to the database tables that hold a
 user's calendar data.</p>
 
 <p>Every content provider exposes a public URI (wrapped as a 
-<code><a href="http://developer.android.com/reference/android/net/Uri.html">Uri</a></code> 
+<code><a href="../../../reference/android/net/Uri.html">Uri</a></code> 
 object) that uniquely identifies its data set.  A content provider that controls
  multiple data sets (multiple tables) exposes a separate URI for each one.  All 
 URIs for providers begin with the string &quot;content://&quot;.  This
 identifies the data as being controlled by a content provider. The Calendar
 Provider defines constants for the URIs for each of its classes (tables). These
 URIs have the format <code><em>&lt;class&gt;</em>.CONTENT_URI</code>. For
-example, <code><a href="http://developer.android.com/reference/android/provider/CalendarContract.Events.html#CONTENT_URI">Events.CONTENT_URI</a></code>.</p>
+example, <code><a href="../../../reference/android/provider/CalendarContract.Events.html#CONTENT_URI">Events.CONTENT_URI</a></code>.</p>
 
 <p>Figure 1 shows a graphical representation of the Calendar Provider data model. It shows the
 main tables and the fields that link them to each other.</p>
 
-<img src="http://developer.android.com/images/providers/datamodel.png" alt="Calendar Provider Data Model"/>
+<img src="../../../images/providers/datamodel.png" alt="Calendar Provider Data Model"/>
 <p class="img-caption"><strong>Figure 1.</strong> Calendar Provider data model.</p>
 
 <p>A user can have multiple calendars, and different calendars can be associated with different types of accounts (Google Calendar, Exchange, and so on).</p>
 
-<p>The <code><a href="http://developer.android.com/reference/android/provider/CalendarContract.html">CalendarContract</a></code> defines the data model of calendar and event related information. This data is stored in a number of tables, listed below.</p>
+<p>The <code><a href="../../../reference/android/provider/CalendarContract.html">CalendarContract</a></code> defines the data model of calendar and event related information. This data is stored in a number of tables, listed below.</p>
 
 <table>
   <tr>
@@ -1112,26 +1096,26 @@ main tables and the fields that link them to each other.</p>
     <th>Description</th>
   </tr>
   <tr>
-    <td><p><code><a href="http://developer.android.com/reference/android/provider/CalendarContract.Calendars.html">CalendarContract.Calendars</a></code></p></td>
+    <td><p><code><a href="../../../reference/android/provider/CalendarContract.Calendars.html">CalendarContract.Calendars</a></code></p></td>
     
     <td>This table holds 
 the calendar-specific information. Each  row in this table contains the details for
 a single calendar, such as the  name, color, sync information, and so on.</td>
   </tr>
   <tr>
-    <td><code><a href="http://developer.android.com/reference/android/provider/CalendarContract.Events.html">CalendarContract.Events</a></code></td>
+    <td><code><a href="../../../reference/android/provider/CalendarContract.Events.html">CalendarContract.Events</a></code></td>
     
     <td>This table holds the
 event-specific information. Each row  in this table has the information for a single
 event&mdash;for example, event title, location, start time, end
 time, and so on. The event can occur one-time or can recur multiple times. Attendees,
 reminders, and extended  properties are stored in separate tables. 
-They each have an <code><a href="http://developer.android.com/reference/android/provider/CalendarContract.AttendeesColumns.html#EVENT_ID">EVENT_ID</a></code> 
-that references the <code><a href="http://developer.android.com/reference/android/provider/BaseColumns.html#_ID">_ID</a></code> in the Events table.</td>
+They each have an <code><a href="../../../reference/android/provider/CalendarContract.AttendeesColumns.html#EVENT_ID">EVENT_ID</a></code> 
+that references the <code><a href="../../../reference/android/provider/BaseColumns.html#_ID">_ID</a></code> in the Events table.</td>
 
   </tr>
   <tr>
-    <td><code><a href="http://developer.android.com/reference/android/provider/CalendarContract.Instances.html">CalendarContract.Instances</a></code></td>
+    <td><code><a href="../../../reference/android/provider/CalendarContract.Instances.html">CalendarContract.Instances</a></code></td>
     
     <td>This table holds the
 start and end time for each occurrence of an event. Each row in this table
@@ -1140,7 +1124,7 @@ of instances to events. For recurring events, multiple rows are automatically
  generated that correspond to multiple occurrences of that event.</td>
   </tr>
   <tr>
-    <td><code><a href="http://developer.android.com/reference/android/provider/CalendarContract.Attendees.html">CalendarContract.Attendees</a></code></td>
+    <td><code><a href="../../../reference/android/provider/CalendarContract.Attendees.html">CalendarContract.Attendees</a></code></td>
     
     <td>This table holds the
 event attendee (guest) information. Each row represents a single guest of an
@@ -1148,13 +1132,13 @@ event. It specifies the type of guest and the guest's attendance response
 for the event.</td>
   </tr>
   <tr>
-    <td><code><a href="http://developer.android.com/reference/android/provider/CalendarContract.Reminders.html">CalendarContract.Reminders</a></code></td>
+    <td><code><a href="../../../reference/android/provider/CalendarContract.Reminders.html">CalendarContract.Reminders</a></code></td>
     
     <td>This table holds the
 alert/notification data. Each row represents a single alert for an event. An
 event can have multiple reminders. The maximum number of reminders per event is
 specified in 
-<code><a href="http://developer.android.com/reference/android/provider/CalendarContract.CalendarColumns.html#MAX_REMINDERS">MAX_REMINDERS</a></code>, 
+<code><a href="../../../reference/android/provider/CalendarContract.CalendarColumns.html#MAX_REMINDERS">MAX_REMINDERS</a></code>, 
 which is set by the sync adapter that
 owns  the given calendar. Reminders are specified in minutes before the event
 and have a method that determines how the user will be alerted.</td>
@@ -1169,30 +1153,30 @@ some things to keep in mind when using the API:</p>
 
 <ul>
 
-<li><strong>Inserting, updating, and viewing calendar events.</strong> To directly insert, modify, and read events from the Calendar Provider, you need the appropriate <a href="calendar-provider.html#manifest">permissions</a>. However, if you're not building a full-fledged calendar application or sync adapter, requesting these permissions isn't necessary. You can instead use intents supported by Android's Calendar application to hand off read and write operations to that application. When you use the intents, your application sends users to the Calendar application to perform the desired operation
+<li><strong>Inserting, updating, and viewing calendar events.</strong> To directly insert, modify, and read events from the Calendar Provider, you need the appropriate <a href="#manifest">permissions</a>. However, if you're not building a full-fledged calendar application or sync adapter, requesting these permissions isn't necessary. You can instead use intents supported by Android's Calendar application to hand off read and write operations to that application. When you use the intents, your application sends users to the Calendar application to perform the desired operation
 in a pre-filled form. After they're done, they're returned to your application.
 By designing your application to perform common operations through the Calendar,
 you provide users with a consistent, robust user interface. This is the
-recommended approach. For more information, see <a href="calendar-provider.html#intents">Calendar
+recommended approach. For more information, see <a href="#intents">Calendar
 Intents</a>.</p>
 
 
 <li><strong>Sync adapters.</strong> A sync adapter synchronizes the calendar data
 on a user's device with another server or data source. In the 
-<code><a href="http://developer.android.com/reference/android/provider/CalendarContract.Calendars.html">CalendarContract.Calendars</a></code> and
-<code><a href="http://developer.android.com/reference/android/provider/CalendarContract.Events.html">CalendarContract.Events</a></code> tables, 
+<code><a href="../../../reference/android/provider/CalendarContract.Calendars.html">CalendarContract.Calendars</a></code> and
+<code><a href="../../../reference/android/provider/CalendarContract.Events.html">CalendarContract.Events</a></code> tables, 
 there are columns that are reserved for the sync adapters to use.
 The provider and applications should not modify them. In fact, they are not
 visible unless they are accessed as a sync adapter. For more information about
-sync adapters, see <a href="calendar-provider.html#sync-adapter">Sync Adapters</a>.</li>
+sync adapters, see <a href="#sync-adapter">Sync Adapters</a>.</li>
 
 </ul>
 
 
 <h2 id="manifest">User Permissions</h2>
 
-<p>To read calendar data, an application must include the <code><a href="http://developer.android.com/reference/android/Manifest.permission.html#READ_CALENDAR">READ_CALENDAR</a></code> permission in its manifest file. It
-must include the <code><a href="http://developer.android.com/reference/android/Manifest.permission.html#WRITE_CALENDAR">WRITE_CALENDAR</a></code> permission
+<p>To read calendar data, an application must include the <code><a href="../../../reference/android/Manifest.permission.html#READ_CALENDAR">READ_CALENDAR</a></code> permission in its manifest file. It
+must include the <code><a href="../../../reference/android/Manifest.permission.html#WRITE_CALENDAR">WRITE_CALENDAR</a></code> permission
 to delete, insert or update calendar data:</p>
 
 <pre>
@@ -1208,36 +1192,36 @@ to delete, insert or update calendar data:</p>
 
 <h2 id="calendar">Calendars Table</h2>
 
-<p>The <code><a href="http://developer.android.com/reference/android/provider/CalendarContract.Calendars.html">CalendarContract.Calendars</a></code> table contains details 
+<p>The <code><a href="../../../reference/android/provider/CalendarContract.Calendars.html">CalendarContract.Calendars</a></code> table contains details 
 for individual calendars. The following
-Calendars columns are writable by both an application and a <a href="calendar-provider.html#sync-adapter">sync adapter</a>. 
+Calendars columns are writable by both an application and a <a href="#sync-adapter">sync adapter</a>. 
 For a full list of supported fields, see the
-<code><a href="http://developer.android.com/reference/android/provider/CalendarContract.Calendars.html">CalendarContract.Calendars</a></code> reference.</p>
+<code><a href="../../../reference/android/provider/CalendarContract.Calendars.html">CalendarContract.Calendars</a></code> reference.</p>
 <table>
   <tr>
     <th>Constant</th>
     <th>Description</th>
   </tr>
   <tr>
-    <td><code><a href="http://developer.android.com/reference/android/provider/CalendarContract.Calendars.html#NAME">NAME</a></code></td>
+    <td><code><a href="../../../reference/android/provider/CalendarContract.Calendars.html#NAME">NAME</a></code></td>
     <td>The name of the calendar.</td>
   </tr>
   <tr>
-    <td><code><a href="http://developer.android.com/reference/android/provider/CalendarContract.CalendarColumns.html#CALENDAR_DISPLAY_NAME">CALENDAR_DISPLAY_NAME</a></code></td>
+    <td><code><a href="../../../reference/android/provider/CalendarContract.CalendarColumns.html#CALENDAR_DISPLAY_NAME">CALENDAR_DISPLAY_NAME</a></code></td>
     <td>The name of this calendar that is displayed to the user.</td>
   </tr>
   <tr>
-    <td><code><a href="http://developer.android.com/reference/android/provider/CalendarContract.CalendarColumns.html#VISIBLE">VISIBLE</a></code></td>
+    <td><code><a href="../../../reference/android/provider/CalendarContract.CalendarColumns.html#VISIBLE">VISIBLE</a></code></td>
     
     <td>A boolean indicating whether the calendar is selected to be displayed. A
 value of 0 indicates that events associated with this calendar should not be
 shown.  A value of 1 indicates that events associated with this calendar should
-be shown. This value affects the generation of rows in the <code><a href="http://developer.android.com/reference/android/provider/CalendarContract.Instances.html">CalendarContract.Instances</a></code> table.</td>
+be shown. This value affects the generation of rows in the <code><a href="../../../reference/android/provider/CalendarContract.Instances.html">CalendarContract.Instances</a></code> table.</td>
 
 
   </tr>
   <tr>
-    <td><code><a href="http://developer.android.com/reference/android/provider/CalendarContract.CalendarColumns.html#SYNC_EVENTS">SYNC_EVENTS</a></code></td>
+    <td><code><a href="../../../reference/android/provider/CalendarContract.CalendarColumns.html#SYNC_EVENTS">SYNC_EVENTS</a></code></td>
     
     <td>A boolean indicating whether the calendar should be synced and have its
 events stored on the device. A value of 0 says do not sync this calendar or
@@ -1252,8 +1236,8 @@ and store its events on the device.</td>
 user. For simplicity's sake, in this example the query operation is shown in the
 user interface thread ("main thread"). In practice, this should be done in an asynchronous
 thread instead of on the main thread. For more discussion, see 
-<a href="../../components/loaders.html">Loaders</a>. If you are not just 
-reading data but modifying it, see <code><a href="http://developer.android.com/reference/android/content/AsyncQueryHandler.html">AsyncQueryHandler</a></code>.
+<a href="../../../guide/components/loaders.html">Loaders</a>. If you are not just 
+reading data but modifying it, see <code><a href="../../../reference/android/content/AsyncQueryHandler.html">AsyncQueryHandler</a></code>.
 </p>
 
 
@@ -1275,14 +1259,14 @@ private static final int PROJECTION_OWNER_ACCOUNT_INDEX = 3;</pre>
   
 
 <div class="sidebox-wrapper"> <div class="sidebox"> <h3>Why must you include
-ACCOUNT_TYPE?</h3> <p>If you query on a <code><a href="http://developer.android.com/reference/android/provider/CalendarContract.SyncColumns.html#ACCOUNT_NAME">Calendars.ACCOUNT_NAME</a></code>, you must also include 
-<code><a href="http://developer.android.com/reference/android/provider/CalendarContract.SyncColumns.html#ACCOUNT_TYPE">Calendars.ACCOUNT_TYPE</a></code>
+ACCOUNT_TYPE?</h3> <p>If you query on a <code><a href="../../../reference/android/provider/CalendarContract.SyncColumns.html#ACCOUNT_NAME">Calendars.ACCOUNT_NAME</a></code>, you must also include 
+<code><a href="../../../reference/android/provider/CalendarContract.SyncColumns.html#ACCOUNT_TYPE">Calendars.ACCOUNT_TYPE</a></code>
 in the selection. That is because a given account is
 only considered unique given both its <code>ACCOUNT_NAME</code> and its
 <code>ACCOUNT_TYPE</code>. The <code>ACCOUNT_TYPE</code> is the string corresponding to the
 account authenticator that was used when the account was registered with the
-<code><a href="http://developer.android.com/reference/android/accounts/AccountManager.html">AccountManager</a></code>. There is also a special type of account called <code><a href="http://developer.android.com/reference/android/provider/CalendarContract.html#ACCOUNT_TYPE_LOCAL">ACCOUNT_TYPE_LOCAL</a></code> for calendars not
-associated with a device account. <code><a href="http://developer.android.com/reference/android/provider/CalendarContract.html#ACCOUNT_TYPE_LOCAL">ACCOUNT_TYPE_LOCAL</a></code> accounts do not get
+<code><a href="../../../reference/android/accounts/AccountManager.html">AccountManager</a></code>. There is also a special type of account called <code><a href="../../../reference/android/provider/CalendarContract.html#ACCOUNT_TYPE_LOCAL">ACCOUNT_TYPE_LOCAL</a></code> for calendars not
+associated with a device account. <code><a href="../../../reference/android/provider/CalendarContract.html#ACCOUNT_TYPE_LOCAL">ACCOUNT_TYPE_LOCAL</a></code> accounts do not get
 synced.</p> </div> </div> 
 
 
@@ -1296,7 +1280,7 @@ has viewed, not just calendars the user owns, omit the <code>OWNER_ACCOUNT</code
 The query returns a <code><a href="../../../reference/android/database/Cursor.html">Cursor</a></code>
 object that you can use to traverse the result set returned by the database
 query. For more discussion of using queries in content providers, 
-see <a href="content-providers.html">Content Providers</a>.</p>
+see <a href="../../../guide/topics/providers/content-providers.html">Content Providers</a>.</p>
 
 
 <pre>// Run query
@@ -1336,16 +1320,16 @@ while (cur.moveToNext()) {
   
 <h3 id="modify-calendar">Modifying a calendar</h3>
 
-<p>To perform an update of an calendar, you can provide the <code><a href="http://developer.android.com/reference/android/provider/BaseColumns.html#_ID">_ID</a></code> of the calendar either as an appended ID to
+<p>To perform an update of an calendar, you can provide the <code><a href="../../../reference/android/provider/BaseColumns.html#_ID">_ID</a></code> of the calendar either as an appended ID to
 the Uri 
 
-(<code><a href="http://developer.android.com/reference/android/content/ContentUris.html#withAppendedId(android.net.Uri,%20long)">withAppendedId()</a></code>) 
+(<code><a href="../../../reference/android/content/ContentUris.html#withAppendedId(android.net.Uri, long)">withAppendedId()</a></code>) 
 or as the first selection item. The  selection
 should start with <code>&quot;_id=?&quot;</code>, and the first
-<code>selectionArg</code> should be  the <code><a href="http://developer.android.com/reference/android/provider/BaseColumns.html#_ID">_ID</a></code> of the calendar. 
+<code>selectionArg</code> should be  the <code><a href="../../../reference/android/provider/BaseColumns.html#_ID">_ID</a></code> of the calendar. 
 You can also do updates by encoding the ID in the URI. This example changes a
 calendar's display name using the 
-(<code><a href="http://developer.android.com/reference/android/content/ContentUris.html#withAppendedId(android.net.Uri,%20long)">withAppendedId()</a></code>) 
+(<code><a href="../../../reference/android/content/ContentUris.html#withAppendedId(android.net.Uri, long)">withAppendedId()</a></code>) 
 approach:</p>
 
 <pre>private static final String DEBUG_TAG = "MyActivity";
@@ -1364,21 +1348,21 @@ Log.i(DEBUG_TAG, &quot;Rows updated: &quot; + rows);</pre>
 should only insert new calendars as a sync adapter. For the most part,
 applications can only make superficial changes to calendars, such as changing the display name. If
 an application needs to create a local calendar, it can do this by performing
-the calendar insertion as a sync adapter, using an <code><a href="http://developer.android.com/reference/android/provider/CalendarContract.SyncColumns.html#ACCOUNT_TYPE">ACCOUNT_TYPE</a></code> of <code><a href="http://developer.android.com/reference/android/provider/CalendarContract.html#ACCOUNT_TYPE_LOCAL">ACCOUNT_TYPE_LOCAL</a></code>.
-<code><a href="http://developer.android.com/reference/android/provider/CalendarContract.html#ACCOUNT_TYPE_LOCAL">ACCOUNT_TYPE_LOCAL</a></code> 
+the calendar insertion as a sync adapter, using an <code><a href="../../../reference/android/provider/CalendarContract.SyncColumns.html#ACCOUNT_TYPE">ACCOUNT_TYPE</a></code> of <code><a href="../../../reference/android/provider/CalendarContract.html#ACCOUNT_TYPE_LOCAL">ACCOUNT_TYPE_LOCAL</a></code>.
+<code><a href="../../../reference/android/provider/CalendarContract.html#ACCOUNT_TYPE_LOCAL">ACCOUNT_TYPE_LOCAL</a></code> 
 is a special account type for calendars that are not
 associated with a device account. Calendars of this type are not synced to a server. For a
-discussion of sync adapters, see <a href="calendar-provider.html#sync-adapter">Sync Adapters</a>.</p>
+discussion of sync adapters, see <a href="#sync-adapter">Sync Adapters</a>.</p>
 
 <h2 id="events">Events Table</h2>
 
-<p>The <code><a href="http://developer.android.com/reference/android/provider/CalendarContract.Events.html">CalendarContract.Events</a></code> table contains details
+<p>The <code><a href="../../../reference/android/provider/CalendarContract.Events.html">CalendarContract.Events</a></code> table contains details
 for individual events. To add, update, or delete  events, an application must
-include the <code><a href="http://developer.android.com/reference/android/Manifest.permission.html#WRITE_CALENDAR">WRITE_CALENDAR</a></code> permission in its
-<a href="calendar-provider.html#manifest">manifest file</a>.</p>
+include the <code><a href="../../../reference/android/Manifest.permission.html#WRITE_CALENDAR">WRITE_CALENDAR</a></code> permission in its
+<a href="#manifest">manifest file</a>.</p>
 
 <p>The following Events columns are writable by both an application and a sync
-adapter. For a full list of supported fields, see the <code><a href="http://developer.android.com/reference/android/provider/CalendarContract.Events.html">CalendarContract.Events</a></code> reference.</p>
+adapter. For a full list of supported fields, see the <code><a href="../../../reference/android/provider/CalendarContract.Events.html">CalendarContract.Events</a></code> reference.</p>
 
 <table>
   <tr>
@@ -1386,43 +1370,43 @@ adapter. For a full list of supported fields, see the <code><a href="http://deve
     <th>Description</th>
   </tr>
   <tr>
-    <td><code><a href="http://developer.android.com/reference/android/provider/CalendarContract.EventsColumns.html#CALENDAR_ID">CALENDAR_ID</a></code></td>
-    <td>The <code><a href="http://developer.android.com/reference/android/provider/BaseColumns.html#_ID">_ID</a></code> of the calendar the event belongs to.</td>
+    <td><code><a href="../../../reference/android/provider/CalendarContract.EventsColumns.html#CALENDAR_ID">CALENDAR_ID</a></code></td>
+    <td>The <code><a href="../../../reference/android/provider/BaseColumns.html#_ID">_ID</a></code> of the calendar the event belongs to.</td>
   </tr>
   <tr>
-    <td><code><a href="http://developer.android.com/reference/android/provider/CalendarContract.EventsColumns.html#ORGANIZER">ORGANIZER</a></code></td>
+    <td><code><a href="../../../reference/android/provider/CalendarContract.EventsColumns.html#ORGANIZER">ORGANIZER</a></code></td>
     <td>Email of the organizer (owner) of the event.</td>
   </tr>
   <tr>
-    <td><code><a href="http://developer.android.com/reference/android/provider/CalendarContract.EventsColumns.html#TITLE">TITLE</a></code></td>
+    <td><code><a href="../../../reference/android/provider/CalendarContract.EventsColumns.html#TITLE">TITLE</a></code></td>
     <td>The title of the event.</td>
   </tr>
   <tr>
-    <td><code><a href="http://developer.android.com/reference/android/provider/CalendarContract.EventsColumns.html#EVENT_LOCATION">EVENT_LOCATION</a></code></td>
+    <td><code><a href="../../../reference/android/provider/CalendarContract.EventsColumns.html#EVENT_LOCATION">EVENT_LOCATION</a></code></td>
     <td>Where the event takes place. </td>
   </tr>
   <tr>
-    <td><code><a href="http://developer.android.com/reference/android/provider/CalendarContract.EventsColumns.html#DESCRIPTION">DESCRIPTION</a></code></td>
+    <td><code><a href="../../../reference/android/provider/CalendarContract.EventsColumns.html#DESCRIPTION">DESCRIPTION</a></code></td>
     <td>The description of the event.</td>
   </tr>
   <tr>
-    <td><code><a href="http://developer.android.com/reference/android/provider/CalendarContract.EventsColumns.html#DTSTART">DTSTART</a></code></td>
+    <td><code><a href="../../../reference/android/provider/CalendarContract.EventsColumns.html#DTSTART">DTSTART</a></code></td>
     <td>The time the event starts in UTC milliseconds since the epoch. </td>
   </tr>
   <tr>
-    <td><code><a href="http://developer.android.com/reference/android/provider/CalendarContract.EventsColumns.html#DTEND">DTEND</a></code></td>
+    <td><code><a href="../../../reference/android/provider/CalendarContract.EventsColumns.html#DTEND">DTEND</a></code></td>
     <td>The time the event ends in UTC milliseconds since the epoch. </td>
   </tr>
   <tr>
-    <td><code><a href="http://developer.android.com/reference/android/provider/CalendarContract.EventsColumns.html#EVENT_TIMEZONE">EVENT_TIMEZONE</a></code></td>
+    <td><code><a href="../../../reference/android/provider/CalendarContract.EventsColumns.html#EVENT_TIMEZONE">EVENT_TIMEZONE</a></code></td>
     <td>The time zone for the event.</td>
   </tr>
   <tr>
-    <td><code><a href="http://developer.android.com/reference/android/provider/CalendarContract.EventsColumns.html#EVENT_END_TIMEZONE">EVENT_END_TIMEZONE</a></code></td>
+    <td><code><a href="../../../reference/android/provider/CalendarContract.EventsColumns.html#EVENT_END_TIMEZONE">EVENT_END_TIMEZONE</a></code></td>
     <td>The time zone for the end time of the event.</td>
   </tr>
   <tr>
-    <td><code><a href="http://developer.android.com/reference/android/provider/CalendarContract.EventsColumns.html#DURATION">DURATION</a></code></td>
+    <td><code><a href="../../../reference/android/provider/CalendarContract.EventsColumns.html#DURATION">DURATION</a></code></td>
     
     <td>The duration of the event in <a
 href="http://tools.ietf.org/html/rfc5545#section-3.8.2.5">RFC5545</a> format.
@@ -1433,7 +1417,7 @@ duration of 2 weeks. </td>
 
   </tr>
   <tr>
-    <td><code><a href="http://developer.android.com/reference/android/provider/CalendarContract.EventsColumns.html#ALL_DAY">ALL_DAY</a></code></td>
+    <td><code><a href="../../../reference/android/provider/CalendarContract.EventsColumns.html#ALL_DAY">ALL_DAY</a></code></td>
     
     <td>A value of 1 indicates this event occupies the entire day, as defined by
 the local time zone. A value of 0 indicates it is a regular event that may start
@@ -1444,7 +1428,7 @@ and end at any time during a day.</td>
   
   
   <tr>
-    <td><code><a href="http://developer.android.com/reference/android/provider/CalendarContract.EventsColumns.html#RRULE">RRULE</a></code></td>
+    <td><code><a href="../../../reference/android/provider/CalendarContract.EventsColumns.html#RRULE">RRULE</a></code></td>
     
     <td>The recurrence rule for the event format. For
 example, <code>&quot;FREQ=WEEKLY;COUNT=10;WKST=SU&quot;</code>. You can find
@@ -1454,32 +1438,32 @@ href="http://tools.ietf.org/html/rfc5545#section-3.8.5.3">here</a>.</td>
   </tr>
   
   <tr>
-    <td><code><a href="http://developer.android.com/reference/android/provider/CalendarContract.EventsColumns.html#RDATE">RDATE</a></code></td>
+    <td><code><a href="../../../reference/android/provider/CalendarContract.EventsColumns.html#RDATE">RDATE</a></code></td>
     <td>The recurrence dates for the event. 
-    You typically use <code><a href="http://developer.android.com/reference/android/provider/CalendarContract.EventsColumns.html#RDATE">RDATE</a></code> 
-    in conjunction with <code><a href="http://developer.android.com/reference/android/provider/CalendarContract.EventsColumns.html#RRULE">RRULE</a></code> 
+    You typically use <code><a href="../../../reference/android/provider/CalendarContract.EventsColumns.html#RDATE">RDATE</a></code> 
+    in conjunction with <code><a href="../../../reference/android/provider/CalendarContract.EventsColumns.html#RRULE">RRULE</a></code> 
     to define an aggregate set of
 repeating occurrences. For more discussion, see the <a
 href="http://tools.ietf.org/html/rfc5545#section-3.8.5.2">RFC5545 spec</a>.</td>
 </tr>
  
   <tr>
-    <td><code><a href="http://developer.android.com/reference/android/provider/CalendarContract.EventsColumns.html#AVAILABILITY">AVAILABILITY</a></code></td>
+    <td><code><a href="../../../reference/android/provider/CalendarContract.EventsColumns.html#AVAILABILITY">AVAILABILITY</a></code></td>
     
     <td>If this event counts as busy time or is free time that can be 
 scheduled over. </td>
     
   </tr>
   <tr>
-    <td><code><a href="http://developer.android.com/reference/android/provider/CalendarContract.EventsColumns.html#GUESTS_CAN_MODIFY">GUESTS_CAN_MODIFY</a></code></td>
+    <td><code><a href="../../../reference/android/provider/CalendarContract.EventsColumns.html#GUESTS_CAN_MODIFY">GUESTS_CAN_MODIFY</a></code></td>
     <td>Whether guests can modify the event. </td>
   </tr>
   <tr>
-    <td><code><a href="http://developer.android.com/reference/android/provider/CalendarContract.EventsColumns.html#GUESTS_CAN_INVITE_OTHERS">GUESTS_CAN_INVITE_OTHERS</a></code></td>
+    <td><code><a href="../../../reference/android/provider/CalendarContract.EventsColumns.html#GUESTS_CAN_INVITE_OTHERS">GUESTS_CAN_INVITE_OTHERS</a></code></td>
     <td>Whether guests can invite other guests. </td>
   </tr>
   <tr>
-    <td><code><a href="http://developer.android.com/reference/android/provider/CalendarContract.EventsColumns.html#GUESTS_CAN_SEE_GUESTS">GUESTS_CAN_SEE_GUESTS</a></code></td>
+    <td><code><a href="../../../reference/android/provider/CalendarContract.EventsColumns.html#GUESTS_CAN_SEE_GUESTS">GUESTS_CAN_SEE_GUESTS</a></code></td>
     <td>Whether guests can see the list of attendees.</td>
   </tr>
 </table>
@@ -1488,7 +1472,7 @@ scheduled over. </td>
 
 <p>When your application inserts a new event, we recommend that you use an
 <code><a href="../../../reference/android/content/Intent.html#ACTION_INSERT">INSERT</a></code> Intent, as described in <a
-href="calendar-provider.html#intent-insert">Using an intent to insert an event</a>. However, if you
+href="#intent-insert">Using an intent to insert an event</a>. However, if you
 need to, you can insert events directly. This section describes how to do
 this.</p>
 
@@ -1496,21 +1480,21 @@ this.</p>
 <p>Here are the rules for inserting a new event: </p>
 <ul>
 
-  <li>You must include  <code><a href="http://developer.android.com/reference/android/provider/CalendarContract.EventsColumns.html#CALENDAR_ID">CALENDAR_ID</a></code> and <code><a href="http://developer.android.com/reference/android/provider/CalendarContract.EventsColumns.html#DTSTART">DTSTART</a></code>.</li>
+  <li>You must include  <code><a href="../../../reference/android/provider/CalendarContract.EventsColumns.html#CALENDAR_ID">CALENDAR_ID</a></code> and <code><a href="../../../reference/android/provider/CalendarContract.EventsColumns.html#DTSTART">DTSTART</a></code>.</li>
 
-<li>You must include an <code><a href="http://developer.android.com/reference/android/provider/CalendarContract.EventsColumns.html#EVENT_TIMEZONE">EVENT_TIMEZONE</a></code>. To get a list
-of the system's installed time zone IDs, use <code><a href="http://developer.android.com/reference/java/util/TimeZone.html#getAvailableIDs()">getAvailableIDs()</a></code>. Note that this rule does not apply if
+<li>You must include an <code><a href="../../../reference/android/provider/CalendarContract.EventsColumns.html#EVENT_TIMEZONE">EVENT_TIMEZONE</a></code>. To get a list
+of the system's installed time zone IDs, use <code><a href="../../../reference/java/util/TimeZone.html#getAvailableIDs()">getAvailableIDs()</a></code>. Note that this rule does not apply if
 you're inserting an event through the <code><a href="../../../reference/android/content/Intent.html#ACTION_INSERT">INSERT</a></code> Intent, described in <a
-href="calendar-provider.html#intent-insert">Using an intent to insert an event</a>&mdash;in that
+href="#intent-insert">Using an intent to insert an event</a>&mdash;in that
 scenario, a default time zone is supplied.</li>
   
-  <li>For non-recurring events, you must include <code><a href="http://developer.android.com/reference/android/provider/CalendarContract.EventsColumns.html#DTEND">DTEND</a></code>. </li>
+  <li>For non-recurring events, you must include <code><a href="../../../reference/android/provider/CalendarContract.EventsColumns.html#DTEND">DTEND</a></code>. </li>
   
   
-  <li>For recurring events, you must include a <code><a href="http://developer.android.com/reference/android/provider/CalendarContract.EventsColumns.html#DURATION">DURATION</a></code> in addition to  <code><a href="http://developer.android.com/reference/android/provider/CalendarContract.EventsColumns.html#RRULE">RRULE</a></code> or <code><a href="http://developer.android.com/reference/android/provider/CalendarContract.EventsColumns.html#RDATE">RDATE</a></code>. Note that this rule does not apply if
+  <li>For recurring events, you must include a <code><a href="../../../reference/android/provider/CalendarContract.EventsColumns.html#DURATION">DURATION</a></code> in addition to  <code><a href="../../../reference/android/provider/CalendarContract.EventsColumns.html#RRULE">RRULE</a></code> or <code><a href="../../../reference/android/provider/CalendarContract.EventsColumns.html#RDATE">RDATE</a></code>. Note that this rule does not apply if
 you're inserting an event through the <code><a href="../../../reference/android/content/Intent.html#ACTION_INSERT">INSERT</a></code> Intent, described in <a
-href="calendar-provider.html#intent-insert">Using an intent to insert an event</a>&mdash;in that
-scenario, you can use an <code><a href="http://developer.android.com/reference/android/provider/CalendarContract.EventsColumns.html#RRULE">RRULE</a></code> in conjunction with <code><a href="http://developer.android.com/reference/android/provider/CalendarContract.EventsColumns.html#DTSTART">DTSTART</a></code> and <code><a href="http://developer.android.com/reference/android/provider/CalendarContract.EventsColumns.html#DTEND">DTEND</a></code>, and the Calendar application 
+href="#intent-insert">Using an intent to insert an event</a>&mdash;in that
+scenario, you can use an <code><a href="../../../reference/android/provider/CalendarContract.EventsColumns.html#RRULE">RRULE</a></code> in conjunction with <code><a href="../../../reference/android/provider/CalendarContract.EventsColumns.html#DTSTART">DTSTART</a></code> and <code><a href="../../../reference/android/provider/CalendarContract.EventsColumns.html#DTEND">DTEND</a></code>, and the Calendar application 
 converts it to a duration automatically.</li>
   
 </ul>
@@ -1518,7 +1502,7 @@ converts it to a duration automatically.</li>
 <p>Here is an example of inserting an event. This is being performed in the UI
 thread for simplicity. In practice, inserts and updates should be done in an
 asynchronous thread to move the action into a background thread. For more
-information, see <code><a href="http://developer.android.com/reference/android/content/AsyncQueryHandler.html">AsyncQueryHandler</a></code>.</p>
+information, see <code><a href="../../../reference/android/content/AsyncQueryHandler.html">AsyncQueryHandler</a></code>.</p>
 
 
 <pre>
@@ -1560,16 +1544,16 @@ attendees or reminders to an event.</p>
 
 <p>When your application wants to allow the user to edit an event, we recommend
 that you use an <code><a href="../../../reference/android/content/Intent.html#ACTION_EDIT">EDIT</a></code> Intent, as
-described in <a href="calendar-provider.html#intent-edit">Using an intent to edit an  event</a>.
+described in <a href="#intent-edit">Using an intent to edit an  event</a>.
 However, if you need to, you can edit events directly. To perform an update of
 an Event, you can provide the <code>_ID</code> of the 
-event either as an appended ID to the Uri (<code><a href="http://developer.android.com/reference/android/content/ContentUris.html#withAppendedId(android.net.Uri,%20long)">withAppendedId()</a></code>) 
+event either as an appended ID to the Uri (<code><a href="../../../reference/android/content/ContentUris.html#withAppendedId(android.net.Uri, long)">withAppendedId()</a></code>) 
 or as the first selection item. 
 The selection should start with <code>&quot;_id=?&quot;</code>, and the first
 <code>selectionArg</code> should be  the <code>_ID</code> of the event. You can
 also do updates using a selection with no ID. Here is an example of updating an
 event. It changes the title of the event using the 
-<code><a href="http://developer.android.com/reference/android/content/ContentUris.html#withAppendedId(android.net.Uri,%20long)">withAppendedId()</a></code>
+<code><a href="../../../reference/android/content/ContentUris.html#withAppendedId(android.net.Uri, long)">withAppendedId()</a></code>
 approach:</p>
 
 
@@ -1588,14 +1572,14 @@ Log.i(DEBUG_TAG, &quot;Rows updated: &quot; + rows);  </pre>
 
 <h3 id="delete-event">Deleting Events</h3>
 
-<p>You can delete an event either by its <code><a href="http://developer.android.com/reference/android/provider/BaseColumns.html#_ID">_ID</a></code> as an appended  ID on the URI, or by using
+<p>You can delete an event either by its <code><a href="../../../reference/android/provider/BaseColumns.html#_ID">_ID</a></code> as an appended  ID on the URI, or by using
 standard selection. If you use an appended ID, you can't also do a selection.
 There are two versions of delete: as an application and as a sync adapter. An
 application delete sets the <em>deleted</em> column to 1. This flag that tells
 the sync adapter that the row was deleted and that this deletion should be
 propagated to the server. A sync adapter delete removes the event from the
 database along with all its associated data. Here is an example of application
-deleting an event through its <code><a href="http://developer.android.com/reference/android/provider/BaseColumns.html#_ID">_ID</a></code>:</p>
+deleting an event through its <code><a href="../../../reference/android/provider/BaseColumns.html#_ID">_ID</a></code>:</p>
 
 
 <pre>private static final String DEBUG_TAG = "MyActivity";
@@ -1612,13 +1596,13 @@ Log.i(DEBUG_TAG, &quot;Rows deleted: &quot; + rows);
 
 <h2 id="attendees">Attendees Table</h2>
 
-<p>Each row of the <code><a href="http://developer.android.com/reference/android/provider/CalendarContract.Attendees.html">CalendarContract.Attendees</a></code> table
+<p>Each row of the <code><a href="../../../reference/android/provider/CalendarContract.Attendees.html">CalendarContract.Attendees</a></code> table
 represents a single attendee or guest of an event. Calling 
-<code><a href="http://developer.android.com/reference/android/provider/CalendarContract.Reminders.html#query(android.content.ContentResolver,%20long,%20java.lang.String%5B%5D)">query()</a></code> 
+<code><a href="../../../reference/android/provider/CalendarContract.Reminders.html#query(android.content.ContentResolver, long, java.lang.String[])">query()</a></code> 
 returns a list of attendees for  the
-event with the given <code><a href="http://developer.android.com/reference/android/provider/CalendarContract.AttendeesColumns.html#EVENT_ID">EVENT_ID</a></code>. 
-This  <code><a href="http://developer.android.com/reference/android/provider/CalendarContract.AttendeesColumns.html#EVENT_ID">EVENT_ID</a></code> 
-must match the <code><a href="http://developer.android.com/reference/android/provider/BaseColumns.html#_ID">_ID</a></code> of a particular event.</p> 
+event with the given <code><a href="../../../reference/android/provider/CalendarContract.AttendeesColumns.html#EVENT_ID">EVENT_ID</a></code>. 
+This  <code><a href="../../../reference/android/provider/CalendarContract.AttendeesColumns.html#EVENT_ID">EVENT_ID</a></code> 
+must match the <code><a href="../../../reference/android/provider/BaseColumns.html#_ID">_ID</a></code> of a particular event.</p> 
 
 <p>The following table lists the
 writable fields. When inserting a new attendee, you must include all of them 
@@ -1632,46 +1616,46 @@ except <code>ATTENDEE_NAME</code>.
     <th>Description</th>
   </tr>
   <tr>
-    <td><code><a href="http://developer.android.com/reference/android/provider/CalendarContract.AttendeesColumns.html#EVENT_ID">EVENT_ID</a></code></td>
+    <td><code><a href="../../../reference/android/provider/CalendarContract.AttendeesColumns.html#EVENT_ID">EVENT_ID</a></code></td>
     <td>The ID of the event.</td>
   </tr>
   <tr>
-    <td><code><a href="http://developer.android.com/reference/android/provider/CalendarContract.AttendeesColumns.html#ATTENDEE_NAME">ATTENDEE_NAME</a></code></td>
+    <td><code><a href="../../../reference/android/provider/CalendarContract.AttendeesColumns.html#ATTENDEE_NAME">ATTENDEE_NAME</a></code></td>
     <td>The name of the attendee.</td>
   </tr>
   <tr>
-    <td><code><a href="http://developer.android.com/reference/android/provider/CalendarContract.AttendeesColumns.html#ATTENDEE_EMAIL">ATTENDEE_EMAIL</a></code></td>
+    <td><code><a href="../../../reference/android/provider/CalendarContract.AttendeesColumns.html#ATTENDEE_EMAIL">ATTENDEE_EMAIL</a></code></td>
     <td>The email address of the attendee.</td>
   </tr>
   <tr>
-    <td><code><a href="http://developer.android.com/reference/android/provider/CalendarContract.AttendeesColumns.html#ATTENDEE_RELATIONSHIP">ATTENDEE_RELATIONSHIP</a></code></td>
+    <td><code><a href="../../../reference/android/provider/CalendarContract.AttendeesColumns.html#ATTENDEE_RELATIONSHIP">ATTENDEE_RELATIONSHIP</a></code></td>
     <td><p>The relationship of the attendee to the event. One of:</p>
       <ul>
-        <li><code><a href="http://developer.android.com/reference/android/provider/CalendarContract.AttendeesColumns.html#RELATIONSHIP_ATTENDEE">RELATIONSHIP_ATTENDEE</a></code></li>
-        <li><code><a href="http://developer.android.com/reference/android/provider/CalendarContract.AttendeesColumns.html#RELATIONSHIP_NONE">RELATIONSHIP_NONE</a></code></li>
-        <li><code><a href="http://developer.android.com/reference/android/provider/CalendarContract.AttendeesColumns.html#RELATIONSHIP_ORGANIZER">RELATIONSHIP_ORGANIZER</a></code></li>
-        <li><code><a href="http://developer.android.com/reference/android/provider/CalendarContract.AttendeesColumns.html#RELATIONSHIP_PERFORMER">RELATIONSHIP_PERFORMER</a></code></li>
-        <li><code><a href="http://developer.android.com/reference/android/provider/CalendarContract.AttendeesColumns.html#RELATIONSHIP_SPEAKER">RELATIONSHIP_SPEAKER</a></code></li>
+        <li><code><a href="../../../reference/android/provider/CalendarContract.AttendeesColumns.html#RELATIONSHIP_ATTENDEE">RELATIONSHIP_ATTENDEE</a></code></li>
+        <li><code><a href="../../../reference/android/provider/CalendarContract.AttendeesColumns.html#RELATIONSHIP_NONE">RELATIONSHIP_NONE</a></code></li>
+        <li><code><a href="../../../reference/android/provider/CalendarContract.AttendeesColumns.html#RELATIONSHIP_ORGANIZER">RELATIONSHIP_ORGANIZER</a></code></li>
+        <li><code><a href="../../../reference/android/provider/CalendarContract.AttendeesColumns.html#RELATIONSHIP_PERFORMER">RELATIONSHIP_PERFORMER</a></code></li>
+        <li><code><a href="../../../reference/android/provider/CalendarContract.AttendeesColumns.html#RELATIONSHIP_SPEAKER">RELATIONSHIP_SPEAKER</a></code></li>
     </ul>
     </td>
   </tr>
   <tr>
-    <td><code><a href="http://developer.android.com/reference/android/provider/CalendarContract.AttendeesColumns.html#ATTENDEE_TYPE">ATTENDEE_TYPE</a></code></td>
+    <td><code><a href="../../../reference/android/provider/CalendarContract.AttendeesColumns.html#ATTENDEE_TYPE">ATTENDEE_TYPE</a></code></td>
     <td><p>The type of attendee. One of: </p>
       <ul>
-        <li><code><a href="http://developer.android.com/reference/android/provider/CalendarContract.AttendeesColumns.html#TYPE_REQUIRED">TYPE_REQUIRED</a></code></li>
-        <li><code><a href="http://developer.android.com/reference/android/provider/CalendarContract.AttendeesColumns.html#TYPE_OPTIONAL">TYPE_OPTIONAL</a></code></li>
+        <li><code><a href="../../../reference/android/provider/CalendarContract.AttendeesColumns.html#TYPE_REQUIRED">TYPE_REQUIRED</a></code></li>
+        <li><code><a href="../../../reference/android/provider/CalendarContract.AttendeesColumns.html#TYPE_OPTIONAL">TYPE_OPTIONAL</a></code></li>
     </ul></td>
   </tr>
   <tr>
-    <td><code><a href="http://developer.android.com/reference/android/provider/CalendarContract.AttendeesColumns.html#ATTENDEE_STATUS">ATTENDEE_STATUS</a></code></td>
+    <td><code><a href="../../../reference/android/provider/CalendarContract.AttendeesColumns.html#ATTENDEE_STATUS">ATTENDEE_STATUS</a></code></td>
     <td><p>The attendance status of the attendee. One of:</p>
       <ul>
-        <li><code><a href="http://developer.android.com/reference/android/provider/CalendarContract.AttendeesColumns.html#ATTENDEE_STATUS_ACCEPTED">ATTENDEE_STATUS_ACCEPTED</a></code></li>
-        <li><code><a href="http://developer.android.com/reference/android/provider/CalendarContract.AttendeesColumns.html#ATTENDEE_STATUS_DECLINED">ATTENDEE_STATUS_DECLINED</a></code></li>
-        <li><code><a href="http://developer.android.com/reference/android/provider/CalendarContract.AttendeesColumns.html#ATTENDEE_STATUS_INVITED">ATTENDEE_STATUS_INVITED</a></code></li>
-        <li><code><a href="http://developer.android.com/reference/android/provider/CalendarContract.AttendeesColumns.html#ATTENDEE_STATUS_NONE">ATTENDEE_STATUS_NONE</a></code></li>
-        <li><code><a href="http://developer.android.com/reference/android/provider/CalendarContract.AttendeesColumns.html#ATTENDEE_STATUS_TENTATIVE">ATTENDEE_STATUS_TENTATIVE</a></code></li>
+        <li><code><a href="../../../reference/android/provider/CalendarContract.AttendeesColumns.html#ATTENDEE_STATUS_ACCEPTED">ATTENDEE_STATUS_ACCEPTED</a></code></li>
+        <li><code><a href="../../../reference/android/provider/CalendarContract.AttendeesColumns.html#ATTENDEE_STATUS_DECLINED">ATTENDEE_STATUS_DECLINED</a></code></li>
+        <li><code><a href="../../../reference/android/provider/CalendarContract.AttendeesColumns.html#ATTENDEE_STATUS_INVITED">ATTENDEE_STATUS_INVITED</a></code></li>
+        <li><code><a href="../../../reference/android/provider/CalendarContract.AttendeesColumns.html#ATTENDEE_STATUS_NONE">ATTENDEE_STATUS_NONE</a></code></li>
+        <li><code><a href="../../../reference/android/provider/CalendarContract.AttendeesColumns.html#ATTENDEE_STATUS_TENTATIVE">ATTENDEE_STATUS_TENTATIVE</a></code></li>
     </ul></td>
   </tr>
 </table>
@@ -1679,7 +1663,7 @@ except <code>ATTENDEE_NAME</code>.
 <h3 id="add-attendees">Adding Attendees</h3>
 
 <p>Here is an example that adds a single attendee to an event. Note that the
-<code><a href="http://developer.android.com/reference/android/provider/CalendarContract.AttendeesColumns.html#EVENT_ID">EVENT_ID</a></code> 
+<code><a href="../../../reference/android/provider/CalendarContract.AttendeesColumns.html#EVENT_ID">EVENT_ID</a></code> 
 is required:</p>
 
 <pre>
@@ -1698,17 +1682,17 @@ Uri uri = cr.insert(Attendees.CONTENT_URI, values);
 
 <h2 id="reminders">Reminders Table</h2>
 
-<p>Each row of the <code><a href="http://developer.android.com/reference/android/provider/CalendarContract.Reminders.html">CalendarContract.Reminders</a></code> table
+<p>Each row of the <code><a href="../../../reference/android/provider/CalendarContract.Reminders.html">CalendarContract.Reminders</a></code> table
 represents a single reminder for an event. Calling 
-<code><a href="http://developer.android.com/reference/android/provider/CalendarContract.Reminders.html#query(android.content.ContentResolver,%20long,%20java.lang.String%5B%5D)">query()</a></code>  returns a list of reminders for the
+<code><a href="../../../reference/android/provider/CalendarContract.Reminders.html#query(android.content.ContentResolver, long, java.lang.String[])">query()</a></code>  returns a list of reminders for the
 event with the given 
-<code><a href="http://developer.android.com/reference/android/provider/CalendarContract.AttendeesColumns.html#EVENT_ID">EVENT_ID</a></code>.</p>
+<code><a href="../../../reference/android/provider/CalendarContract.AttendeesColumns.html#EVENT_ID">EVENT_ID</a></code>.</p>
 
 
 <p>The following table lists the writable fields for reminders. All of them must
 be included when inserting a new reminder. Note that sync adapters specify the
-types of reminders they support in the <code><a href="http://developer.android.com/reference/android/provider/CalendarContract.Calendars.html">CalendarContract.Calendars</a></code> table. See 
-<code><a href="http://developer.android.com/reference/android/provider/CalendarContract.CalendarColumns.html#ALLOWED_REMINDERS">ALLOWED_REMINDERS</a></code> 
+types of reminders they support in the <code><a href="../../../reference/android/provider/CalendarContract.Calendars.html">CalendarContract.Calendars</a></code> table. See 
+<code><a href="../../../reference/android/provider/CalendarContract.CalendarColumns.html#ALLOWED_REMINDERS">ALLOWED_REMINDERS</a></code> 
 for details.</p>
 
 
@@ -1718,21 +1702,21 @@ for details.</p>
     <th>Description</th>
   </tr>
   <tr>
-    <td><code><a href="http://developer.android.com/reference/android/provider/CalendarContract.RemindersColumns.html#EVENT_ID">EVENT_ID</a></code></td>
+    <td><code><a href="../../../reference/android/provider/CalendarContract.RemindersColumns.html#EVENT_ID">EVENT_ID</a></code></td>
     <td>The ID of the event.</td>
   </tr>
   <tr>
-    <td><code><a href="http://developer.android.com/reference/android/provider/CalendarContract.RemindersColumns.html#MINUTES">MINUTES</a></code></td>
+    <td><code><a href="../../../reference/android/provider/CalendarContract.RemindersColumns.html#MINUTES">MINUTES</a></code></td>
     <td>The minutes prior to the event that the reminder should fire.</td>
   </tr>
   <tr>
-    <td><code><a href="http://developer.android.com/reference/android/provider/CalendarContract.RemindersColumns.html#METHOD">METHOD</a></code></td>
+    <td><code><a href="../../../reference/android/provider/CalendarContract.RemindersColumns.html#METHOD">METHOD</a></code></td>
     <td><p>The alarm method, as set on the server. One of:</p>
       <ul>
-        <li><code><a href="http://developer.android.com/reference/android/provider/CalendarContract.RemindersColumns.html#METHOD_ALERT">METHOD_ALERT</a></code></li>
-        <li><code><a href="http://developer.android.com/reference/android/provider/CalendarContract.RemindersColumns.html#METHOD_DEFAULT">METHOD_DEFAULT</a></code></li>
-        <li><code><a href="http://developer.android.com/reference/android/provider/CalendarContract.RemindersColumns.html#METHOD_EMAIL">METHOD_EMAIL</a></code></li>
-        <li><code><a href="http://developer.android.com/reference/android/provider/CalendarContract.RemindersColumns.html#METHOD_SMS">METHOD_SMS</a></code></li>
+        <li><code><a href="../../../reference/android/provider/CalendarContract.RemindersColumns.html#METHOD_ALERT">METHOD_ALERT</a></code></li>
+        <li><code><a href="../../../reference/android/provider/CalendarContract.RemindersColumns.html#METHOD_DEFAULT">METHOD_DEFAULT</a></code></li>
+        <li><code><a href="../../../reference/android/provider/CalendarContract.RemindersColumns.html#METHOD_EMAIL">METHOD_EMAIL</a></code></li>
+        <li><code><a href="../../../reference/android/provider/CalendarContract.RemindersColumns.html#METHOD_SMS">METHOD_SMS</a></code></li>
     </ul></td>
   </tr>
 </table>
@@ -1754,16 +1738,16 @@ Uri uri = cr.insert(Reminders.CONTENT_URI, values);</pre>
 <h2 id="instances">Instances Table</h2>
 
 <p>The 
-<code><a href="http://developer.android.com/reference/android/provider/CalendarContract.Instances.html">CalendarContract.Instances</a></code> table holds the
+<code><a href="../../../reference/android/provider/CalendarContract.Instances.html">CalendarContract.Instances</a></code> table holds the
 start and end time for occurrences of an event. Each row in this table
 represents a single event occurrence. The instances table is not writable and only
 provides a  way to query event occurrences. </p>
 
 <p>The following table lists some of the fields you can query on for an instance. Note 
 that time zone is defined by 
-<code><a href="http://developer.android.com/reference/android/provider/CalendarContract.CalendarCache.html#KEY_TIMEZONE_TYPE">KEY_TIMEZONE_TYPE</a></code> 
+<code><a href="../../../reference/android/provider/CalendarContract.CalendarCache.html#KEY_TIMEZONE_TYPE">KEY_TIMEZONE_TYPE</a></code> 
 and 
-<code><a href="http://developer.android.com/reference/android/provider/CalendarContract.CalendarCache.html#KEY_TIMEZONE_INSTANCES">KEY_TIMEZONE_INSTANCES</a></code>.</p>
+<code><a href="../../../reference/android/provider/CalendarContract.CalendarCache.html#KEY_TIMEZONE_INSTANCES">KEY_TIMEZONE_INSTANCES</a></code>.</p>
 
 
 <table>
@@ -1772,15 +1756,15 @@ and
     <th>Description</th>
   </tr>
   <tr>
-    <td><code><a href="http://developer.android.com/reference/android/provider/CalendarContract.Instances.html#BEGIN">BEGIN</a></code></td>
+    <td><code><a href="../../../reference/android/provider/CalendarContract.Instances.html#BEGIN">BEGIN</a></code></td>
     <td>The beginning time of the instance, in UTC milliseconds.</td>
   </tr>
   <tr>
-    <td><code><a href="http://developer.android.com/reference/android/provider/CalendarContract.Instances.html#END">END</a></code></td>
+    <td><code><a href="../../../reference/android/provider/CalendarContract.Instances.html#END">END</a></code></td>
     <td>The ending time of the instance, in UTC milliseconds.</td>
   </tr>
   <tr>
-    <td><code><a href="http://developer.android.com/reference/android/provider/CalendarContract.Instances.html#END_DAY">END_DAY</a></code></td>
+    <td><code><a href="../../../reference/android/provider/CalendarContract.Instances.html#END_DAY">END_DAY</a></code></td>
     
     <td>The Julian end day of the instance, relative to the Calendar's time
 zone. 
@@ -1788,23 +1772,23 @@ zone.
 </td>
   </tr>
   <tr>
-    <td><code><a href="http://developer.android.com/reference/android/provider/CalendarContract.Instances.html#END_MINUTE">END_MINUTE</a></code></td>
+    <td><code><a href="../../../reference/android/provider/CalendarContract.Instances.html#END_MINUTE">END_MINUTE</a></code></td>
     
     <td>The end minute of the instance measured from midnight in the the
 Calendar's time zone.</td>
     
   </tr>
   <tr>
-    <td><code><a href="http://developer.android.com/reference/android/provider/CalendarContract.Instances.html#EVENT_ID">EVENT_ID</a></code></td>
+    <td><code><a href="../../../reference/android/provider/CalendarContract.Instances.html#EVENT_ID">EVENT_ID</a></code></td>
     <td>The <code>_ID</code> of the event for this instance.</td>
   </tr>
     <tr>
-    <td><code><a href="http://developer.android.com/reference/android/provider/CalendarContract.Instances.html#START_DAY">START_DAY</a></code></td>
+    <td><code><a href="../../../reference/android/provider/CalendarContract.Instances.html#START_DAY">START_DAY</a></code></td>
     <td>The Julian start day of the instance, relative to the Calendar's time zone. 
  </td>
   </tr>
   <tr>
-    <td><code><a href="http://developer.android.com/reference/android/provider/CalendarContract.Instances.html#START_MINUTE">START_MINUTE</a></code></td>
+    <td><code><a href="../../../reference/android/provider/CalendarContract.Instances.html#START_MINUTE">START_MINUTE</a></code></td>
     
     <td>The start minute of the instance measured from midnight, relative to the
 Calendar's time zone. 
@@ -1817,11 +1801,11 @@ Calendar's time zone.
 <h3 id="query-instances">Querying the Instances table</h3>
 
 <p>To query the Instances table, you need to specify a range time for the query
-in the URI. In this example, <code><a href="http://developer.android.com/reference/android/provider/CalendarContract.Instances.html">CalendarContract.Instances</a></code>
-gets access to the <code><a href="http://developer.android.com/reference/android/provider/CalendarContract.EventsColumns.html#TITLE">TITLE</a></code> field through its
-implementation of the <code><a href="http://developer.android.com/reference/android/provider/CalendarContract.EventsColumns.html">CalendarContract.EventsColumns</a></code> interface. 
-In other words, <code><a href="http://developer.android.com/reference/android/provider/CalendarContract.EventsColumns.html#TITLE">TITLE</a></code> is returned through a
-database view, not through querying the raw <code><a href="http://developer.android.com/reference/android/provider/CalendarContract.Instances.html">CalendarContract.Instances</a></code> table.</p>
+in the URI. In this example, <code><a href="../../../reference/android/provider/CalendarContract.Instances.html">CalendarContract.Instances</a></code>
+gets access to the <code><a href="../../../reference/android/provider/CalendarContract.EventsColumns.html#TITLE">TITLE</a></code> field through its
+implementation of the <code><a href="../../../reference/android/provider/CalendarContract.EventsColumns.html">CalendarContract.EventsColumns</a></code> interface. 
+In other words, <code><a href="../../../reference/android/provider/CalendarContract.EventsColumns.html#TITLE">TITLE</a></code> is returned through a
+database view, not through querying the raw <code><a href="../../../reference/android/provider/CalendarContract.Instances.html">CalendarContract.Instances</a></code> table.</p>
 
 <pre>
 private static final String DEBUG_TAG = "MyActivity";
@@ -1886,7 +1870,7 @@ while (cur.moveToNext()) {
  }</pre>
 
 <h2 id="intents">Calendar Intents</h2>
-<p>Your application doesn't need <a href="calendar-provider.html#manifest">permissions</a> to read and write calendar data. It can instead use intents supported by Android's Calendar application to hand off read and write operations to that application. The following table lists the intents supported by the Calendar Provider:</p>
+<p>Your application doesn't need <a href="#manifest">permissions</a> to read and write calendar data. It can instead use intents supported by Android's Calendar application to hand off read and write operations to that application. The following table lists the intents supported by the Calendar Provider:</p>
 <table>
   <tr>
     <th>Action</th>
@@ -1900,8 +1884,8 @@ while (cur.moveToNext()) {
     <code><a href="../../../reference/android/content/Intent.html#ACTION_VIEW">VIEW</a></code> <br></td>
     <td><p><code>content://com.android.calendar/time/&lt;ms_since_epoch&gt;</code></p>
     You can also refer to the URI with 
-<code><a href="http://developer.android.com/reference/android/provider/CalendarContract.html#CONTENT_URI">CalendarContract.CONTENT_URI</a></code>. 
-For an example of using this intent, see <a href="calendar-provider.html#intent-view">Using intents to view calendar data</a>. 
+<code><a href="../../../reference/android/provider/CalendarContract.html#CONTENT_URI">CalendarContract.CONTENT_URI</a></code>. 
+For an example of using this intent, see <a href="../../../guide/topics/providers/calendar-provider.html#intent-view">Using intents to view calendar data</a>. 
 
     </td>
     <td>Open calendar to the time specified by <code>&lt;ms_since_epoch&gt;</code>.</td>
@@ -1914,16 +1898,16 @@ For an example of using this intent, see <a href="calendar-provider.html#intent-
     <td><p><code>content://com.android.calendar/events/&lt;event_id&gt;</code></p>
     
     You can also refer to the URI with 
-<code><a href="http://developer.android.com/reference/android/provider/CalendarContract.Events.html#CONTENT_URI">Events.CONTENT_URI</a></code>. 
-For an example of using this intent, see <a href="calendar-provider.html#intent-view">Using intents to view calendar data</a>.
+<code><a href="../../../reference/android/provider/CalendarContract.Events.html#CONTENT_URI">Events.CONTENT_URI</a></code>. 
+For an example of using this intent, see <a href="../../../guide/topics/providers/calendar-provider.html#intent-view">Using intents to view calendar data</a>.
     
     </td>
     <td>View the event specified by <code>&lt;event_id&gt;</code>.</td>
 
-    <td><code><a href="http://developer.android.com/reference/android/provider/CalendarContract.html#EXTRA_EVENT_BEGIN_TIME">CalendarContract.EXTRA_EVENT_BEGIN_TIME</a></code><br>
+    <td><code><a href="../../../reference/android/provider/CalendarContract.html#EXTRA_EVENT_BEGIN_TIME">CalendarContract.EXTRA_EVENT_BEGIN_TIME</a></code><br>
       <br>
       <br>
-    <code><a href="http://developer.android.com/reference/android/provider/CalendarContract.html#EXTRA_EVENT_END_TIME">CalendarContract.EXTRA_EVENT_END_TIME</a></code></td>
+    <code><a href="../../../reference/android/provider/CalendarContract.html#EXTRA_EVENT_END_TIME">CalendarContract.EXTRA_EVENT_END_TIME</a></code></td>
   </tr>
 
   <tr>
@@ -1931,17 +1915,17 @@ For an example of using this intent, see <a href="calendar-provider.html#intent-
     <td><p><code>content://com.android.calendar/events/&lt;event_id&gt;</code></p>
     
   You can also refer to the URI with 
-<code><a href="http://developer.android.com/reference/android/provider/CalendarContract.Events.html#CONTENT_URI">Events.CONTENT_URI</a></code>. 
-For an example of using this intent, see <a href="calendar-provider.html#intent-edit">Using an intent to edit an event</a>.
+<code><a href="../../../reference/android/provider/CalendarContract.Events.html#CONTENT_URI">Events.CONTENT_URI</a></code>. 
+For an example of using this intent, see <a href="../../../guide/topics/providers/calendar-provider.html#intent-edit">Using an intent to edit an event</a>.
     
     
     </td>
     <td>Edit the event specified by <code>&lt;event_id&gt;</code>.</td>
 
-    <td><code><a href="http://developer.android.com/reference/android/provider/CalendarContract.html#EXTRA_EVENT_BEGIN_TIME">CalendarContract.EXTRA_EVENT_BEGIN_TIME</a></code><br>
+    <td><code><a href="../../../reference/android/provider/CalendarContract.html#EXTRA_EVENT_BEGIN_TIME">CalendarContract.EXTRA_EVENT_BEGIN_TIME</a></code><br>
       <br>
       <br>
-    <code><a href="http://developer.android.com/reference/android/provider/CalendarContract.html#EXTRA_EVENT_END_TIME">CalendarContract.EXTRA_EVENT_END_TIME</a></code></td>
+    <code><a href="../../../reference/android/provider/CalendarContract.html#EXTRA_EVENT_END_TIME">CalendarContract.EXTRA_EVENT_END_TIME</a></code></td>
   </tr>
 
   <tr>
@@ -1951,8 +1935,8 @@ For an example of using this intent, see <a href="calendar-provider.html#intent-
     <td><p><code>content://com.android.calendar/events</code></p>
     
    You can also refer to the URI with 
-<code><a href="http://developer.android.com/reference/android/provider/CalendarContract.Events.html#CONTENT_URI">Events.CONTENT_URI</a></code>. 
-For an example of using this intent, see <a href="calendar-provider.html#intent-insert">Using an intent to insert an event</a>.
+<code><a href="../../../reference/android/provider/CalendarContract.Events.html#CONTENT_URI">Events.CONTENT_URI</a></code>. 
+For an example of using this intent, see <a href="../../../guide/topics/providers/calendar-provider.html#intent-insert">Using an intent to insert an event</a>.
     
     </td>
 
@@ -1969,31 +1953,31 @@ For an example of using this intent, see <a href="calendar-provider.html#intent-
     <th>Description</th>
   </tr>
   <tr>
-    <td><code><a href="http://developer.android.com/reference/android/provider/CalendarContract.EventsColumns.html#TITLE">Events.TITLE</a></code></td>
+    <td><code><a href="../../../reference/android/provider/CalendarContract.EventsColumns.html#TITLE">Events.TITLE</a></code></td>
     <td>Name for the event.</td>
   </tr>
   <tr>
   
-    <td><code><a href="http://developer.android.com/reference/android/provider/CalendarContract.html#EXTRA_EVENT_BEGIN_TIME">CalendarContract.EXTRA_EVENT_BEGIN_TIME</a></code></td>
+    <td><code><a href="../../../reference/android/provider/CalendarContract.html#EXTRA_EVENT_BEGIN_TIME">CalendarContract.EXTRA_EVENT_BEGIN_TIME</a></code></td>
     <td>Event begin time in milliseconds from the epoch.</td>
   </tr>
   <tr>
-    <td><code><a href="http://developer.android.com/reference/android/provider/CalendarContract.html#EXTRA_EVENT_END_TIME">CalendarContract.EXTRA_EVENT_END_TIME</a></code></td>
+    <td><code><a href="../../../reference/android/provider/CalendarContract.html#EXTRA_EVENT_END_TIME">CalendarContract.EXTRA_EVENT_END_TIME</a></code></td>
     
     <td>Event end time in milliseconds from the epoch.</td>
   </tr>
   <tr>
-    <td><code><a href="http://developer.android.com/reference/android/provider/CalendarContract.html#EXTRA_EVENT_ALL_DAY">CalendarContract.EXTRA_EVENT_ALL_DAY</a></code></td>
+    <td><code><a href="../../../reference/android/provider/CalendarContract.html#EXTRA_EVENT_ALL_DAY">CalendarContract.EXTRA_EVENT_ALL_DAY</a></code></td>
     
     <td>A boolean that indicates that an event is all day. Value can be
 <code>true</code> or <code>false</code>.</td> </tr>
   <tr>
-    <td><code><a href="http://developer.android.com/reference/android/provider/CalendarContract.EventsColumns.html#EVENT_LOCATION">Events.EVENT_LOCATION</a></code></td>
+    <td><code><a href="../../../reference/android/provider/CalendarContract.EventsColumns.html#EVENT_LOCATION">Events.EVENT_LOCATION</a></code></td>
     
     <td>Location of the event.</td>
   </tr>
   <tr>
-    <td><code><a href="http://developer.android.com/reference/android/provider/CalendarContract.EventsColumns.html#DESCRIPTION">Events.DESCRIPTION</a></code></td>
+    <td><code><a href="../../../reference/android/provider/CalendarContract.EventsColumns.html#DESCRIPTION">Events.DESCRIPTION</a></code></td>
     
     <td>Event description.</td>
   </tr>
@@ -2004,17 +1988,17 @@ For an example of using this intent, see <a href="calendar-provider.html#intent-
   </tr>
   <tr>
     <td>
-    <code><a href="http://developer.android.com/reference/android/provider/CalendarContract.EventsColumns.html#RRULE">Events.RRULE</a></code></td>
+    <code><a href="../../../reference/android/provider/CalendarContract.EventsColumns.html#RRULE">Events.RRULE</a></code></td>
     <td>The recurrence rule for the event.</td>
   </tr>
   <tr>
     <td>
-    <code><a href="http://developer.android.com/reference/android/provider/CalendarContract.EventsColumns.html#ACCESS_LEVEL">Events.ACCESS_LEVEL</a></code></td>
+    <code><a href="../../../reference/android/provider/CalendarContract.EventsColumns.html#ACCESS_LEVEL">Events.ACCESS_LEVEL</a></code></td>
     
     <td>Whether the event is private or public.</td>
   </tr>
   <tr>
-    <td><code><a href="http://developer.android.com/reference/android/provider/CalendarContract.EventsColumns.html#AVAILABILITY">Events.AVAILABILITY</a></code></td>
+    <td><code><a href="../../../reference/android/provider/CalendarContract.EventsColumns.html#AVAILABILITY">Events.AVAILABILITY</a></code></td>
     
     <td>If this event counts as busy time or is free time that can be scheduled over.</td>
     
@@ -2026,8 +2010,8 @@ For an example of using this intent, see <a href="calendar-provider.html#intent-
 
 <p>Using the <code><a href="../../../reference/android/content/Intent.html#ACTION_INSERT">INSERT</a></code> Intent
 lets your application hand off the event insertion task to the Calendar itself.
-With this approach, your application doesn't even need to have the <code><a href="http://developer.android.com/reference/android/Manifest.permission.html#WRITE_CALENDAR">WRITE_CALENDAR</a></code> permission included in its <a
-href="calendar-provider.html#manifest">manifest file</a>.</p>
+With this approach, your application doesn't even need to have the <code><a href="../../../reference/android/Manifest.permission.html#WRITE_CALENDAR">WRITE_CALENDAR</a></code> permission included in its <a
+href="#manifest">manifest file</a>.</p>
 
   
 <p>When users run an application that uses this approach, the application sends
@@ -2042,10 +2026,10 @@ calendars.</p>
 from 7:30 a.m. to 8:30 a.m. Note the following about this code snippet:</p>
 
 <ul>
-  <li>It specifies <code><a href="http://developer.android.com/reference/android/provider/CalendarContract.Events.html#CONTENT_URI">Events.CONTENT_URI</a></code> 
+  <li>It specifies <code><a href="../../../reference/android/provider/CalendarContract.Events.html#CONTENT_URI">Events.CONTENT_URI</a></code> 
   as the Uri.</li>
   
-  <li>It uses the <code><a href="http://developer.android.com/reference/android/provider/CalendarContract.html#EXTRA_EVENT_BEGIN_TIME">CalendarContract.EXTRA_EVENT_BEGIN_TIME</a></code> and <code><a href="http://developer.android.com/reference/android/provider/CalendarContract.html#EXTRA_EVENT_END_TIME">CalendarContract.EXTRA_EVENT_END_TIME</a></code> extra fields to pre-populate the form
+  <li>It uses the <code><a href="../../../reference/android/provider/CalendarContract.html#EXTRA_EVENT_BEGIN_TIME">CalendarContract.EXTRA_EVENT_BEGIN_TIME</a></code> and <code><a href="../../../reference/android/provider/CalendarContract.html#EXTRA_EVENT_END_TIME">CalendarContract.EXTRA_EVENT_END_TIME</a></code> extra fields to pre-populate the form
 with the time of the event. The values  for these times must be in UTC milliseconds
 from the epoch.</li>
   
@@ -2073,7 +2057,7 @@ startActivity(intent);
 <h3 id="intent-edit">Using an intent to edit an event</h3>
 
 <p>You can update an event directly, as described in <a
-href="calendar-provider.html#update-event">Updating events</a>. But using the <code><a href="../../../reference/android/content/Intent.html#ACTION_EDIT">EDIT</a></code> Intent allows an application that
+href="#update-event">Updating events</a>. But using the <code><a href="../../../reference/android/content/Intent.html#ACTION_EDIT">EDIT</a></code> Intent allows an application that
 doesn't have permission to hand off event editing to the Calendar application.
 When users finish editing their event in Calendar, they're returned to the
 original application.</p> <p>Here is an example of an intent that sets a new
@@ -2122,10 +2106,10 @@ startActivity(intent);
 access the Calendar Provider:</p>
 
 <ul>
-  <li>A sync adapter needs to specify that it's a sync adapter by setting <code><a href="http://developer.android.com/reference/android/provider/CalendarContract.html#CALLER_IS_SYNCADAPTER">CALLER_IS_SYNCADAPTER</a></code> to <code>true</code>.</li>
+  <li>A sync adapter needs to specify that it's a sync adapter by setting <code><a href="../../../reference/android/provider/CalendarContract.html#CALLER_IS_SYNCADAPTER">CALLER_IS_SYNCADAPTER</a></code> to <code>true</code>.</li>
   
   
-  <li>A sync adapter needs to provide an <code><a href="http://developer.android.com/reference/android/provider/CalendarContract.SyncColumns.html#ACCOUNT_NAME">ACCOUNT_NAME</a></code> and an <code><a href="http://developer.android.com/reference/android/provider/CalendarContract.SyncColumns.html#ACCOUNT_TYPE">ACCOUNT_TYPE</a></code> as query parameters in the URI. </li>
+  <li>A sync adapter needs to provide an <code><a href="../../../reference/android/provider/CalendarContract.SyncColumns.html#ACCOUNT_NAME">ACCOUNT_NAME</a></code> and an <code><a href="../../../reference/android/provider/CalendarContract.SyncColumns.html#ACCOUNT_TYPE">ACCOUNT_TYPE</a></code> as query parameters in the URI. </li>
   
   <li>A sync adapter has write access to more columns than an application or widget.
   For example, an application can only modify a few characteristics of a calendar, 
@@ -2144,7 +2128,7 @@ However, a sync adapter is restricted to the <code>ACCOUNT_NAME</code> and
  }
 </pre>
 <p>For a sample implementation of a sync adapter (not specifically related to Calendar), see 
-<a href="http://developer.android.com/resources/samples/SampleSyncAdapter/index.html">SampleSyncAdapter</a>.
+<a href="../../../resources/samples/SampleSyncAdapter/index.html">SampleSyncAdapter</a>.
 
     </div>
       
@@ -2158,7 +2142,7 @@ However, a sync adapter is restricted to the <code>ACCOUNT_NAME</code> and
         
         <div class="paging-links layout-content-col col-4">
           
-            <a href="calendar-provider.html#" class="prev-page-link hide"
+            <a href="#" class="prev-page-link hide"
                 zh-TW-lang="上一堂課"
                 zh-CN-lang="上一课"
                 ru-lang="Предыдущий"
@@ -2166,7 +2150,7 @@ However, a sync adapter is restricted to the <code>ACCOUNT_NAME</code> and
                 ja-lang="前へ"
                 es-lang="Anterior"               
                 >Previous</a>
-            <a href="calendar-provider.html#" class="next-page-link hide"
+            <a href="#" class="next-page-link hide"
                 zh-TW-lang="下一堂課"
                 zh-CN-lang="下一课"
                 ru-lang="Следующий"

@@ -91,12 +91,14 @@ href="http://fonts.googleapis.com/css?family=Roboto:regular,medium,thin,italic,m
 <script src="http://www.google.com/jsapi" type="text/javascript"></script>
 <script src="../../assets/js/android_3p-bundle.js" type="text/javascript"></script>
 <script type="text/javascript">
-  var toRoot = "/";
+  var toRoot = "../../";
   
   var devsite = false;
   
 </script>
 <script src="../../assets/js/docs.js" type="text/javascript"></script>
+
+<script src="../../navtree_data.js" type="text/javascript"></script>
 
 
 <script type="text/javascript">
@@ -123,8 +125,8 @@ href="http://fonts.googleapis.com/css?family=Roboto:regular,medium,thin,italic,m
             <img src="../../assets/images/dac_logo.png" width="123" height="25" alt="Android Developers" />
           </a>
           <div class="btn-quicknav" id="btn-quicknav">
-          	<a href="processes-and-threads.html#" class="arrow-inactive">Quicknav</a>
-			      <a href="processes-and-threads.html#" class="arrow-active">Quicknav</a>
+          	<a href="#" class="arrow-inactive">Quicknav</a>
+			      <a href="#" class="arrow-active">Quicknav</a>
           </div>
           </div>
             <ul class="nav-x col-9">
@@ -179,24 +181,6 @@ href="http://fonts.googleapis.com/css?family=Roboto:regular,medium,thin,italic,m
 
       
       
-        <div class="header">Language</div>
-          <div id="language" class="locales">
-            <select name="language" onChange="changeLangPref(this.value, true)">
-                <option value="en">English</option>
-                <option value="es">Español</option>
-                <option value="ja">日本語</option>
-                <option value="ko">한국어</option>
-                <option value="ru">Русский</option>
-                <option value="zh-CN">中文 (中国)</option>
-                <option value="zh-TW">中文 (台灣)</option>
-            </select>
-          </div>
-        <script type="text/javascript">
-          <!--
-          loadLangPref();
-            //-->
-        </script>
-      
       
 
 
@@ -211,8 +195,8 @@ href="http://fonts.googleapis.com/css?family=Roboto:regular,medium,thin,italic,m
       <form onsubmit="return submit_search()">
         <input id="search_autocomplete" type="text" value="" autocomplete="off" name="q"
 onfocus="search_focus_changed(this, true)" onblur="search_focus_changed(this, false)"
-onkeydown="return search_changed(event, true, '/')" 
-onkeyup="return search_changed(event, false, '/')" />
+onkeydown="return search_changed(event, true, '../../')" 
+onkeyup="return search_changed(event, false, '../../')" />
       </form>
       <div class="right"></div>
         <a class="close hide">close</a>
@@ -254,7 +238,7 @@ onkeyup="return search_changed(event, false, '/')" />
                           ja-lang="トレーニング"
                           es-lang="Capacitación"               
                           >Training</a></li>
-                        <li><a href="index.html"
+                        <li><a href="../../guide/components/index.html"
                           zh-TW-lang="API 指南"
                           zh-CN-lang="API 指南"
                           ru-lang="Руководства по API"
@@ -322,7 +306,7 @@ onkeyup="return search_changed(event, false, '/')" />
                   ja-lang="トレーニング"
                   es-lang="Capacitación"               
                   >Training</a></li>
-                <li class="guide"><a href="index.html"
+                <li class="guide"><a href="../../guide/components/index.html"
                   zh-TW-lang="API 指南"
                   zh-CN-lang="API 指南"
                   ru-lang="Руководства по API"
@@ -360,7 +344,7 @@ onkeyup="return search_changed(event, false, '/')" />
   <div class="wrap clearfix" id="body-content">
     <div class="col-4" id="side-nav" itemscope itemtype="http://schema.org/SiteNavigationElement">
       <div id="devdoc-nav" class="scroll-pane">
-<a class="totop" href="processes-and-threads.html#top" data-g-event="left-nav-top">to top</a>
+<a class="totop" href="#top" data-g-event="left-nav-top">to top</a>
 
 
 
@@ -369,106 +353,106 @@ onkeyup="return search_changed(event, false, '/')" />
   <!--<li style="color:red">Overview</li> -->
 
   <li class="nav-section">
-    <div class="nav-section-header"><a href="index.html">
+    <div class="nav-section-header"><a href="../../guide/components/index.html">
         <span class="en">App Components</span>
       </a></div>
     <ul>
-      <li><a href="fundamentals.html">
+      <li><a href="../../guide/components/fundamentals.html">
             <span class="en">App Fundamentals</span></a>
       </li>
       <li class="nav-section">
-        <div class="nav-section-header"><a href="activities.html">
+        <div class="nav-section-header"><a href="../../guide/components/activities.html">
             <span class="en">Activities</span>
           </a></div>
         <ul>
-          <li><a href="fragments.html">
+          <li><a href="../../guide/components/fragments.html">
               <span class="en">Fragments</span>
             </a></li>
-          <li><a href="loaders.html">
+          <li><a href="../../guide/components/loaders.html">
               <span class="en">Loaders</span>
             </a></li>
-          <li><a href="tasks-and-back-stack.html">
+          <li><a href="../../guide/components/tasks-and-back-stack.html">
               <span class="en">Tasks and Back Stack</span>
             </a></li>
         </ul>
       </li>
       <li class="nav-section">
-        <div class="nav-section-header"><a href="services.html">
+        <div class="nav-section-header"><a href="../../guide/components/services.html">
             <span class="en">Services</span>
           </a></div>
         <ul>
-          <li><a href="bound-services.html">
+          <li><a href="../../guide/components/bound-services.html">
               <span class="en">Bound Services</span>
             </a></li>
-          <li><a href="aidl.html">
+          <li><a href="../../guide/components/aidl.html">
               <span class="en">AIDL</span>
             </a></li>
         </ul>
       </li>
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../topics/providers/content-providers.html">
+        <div class="nav-section-header"><a href="../../guide/topics/providers/content-providers.html">
             <span class="en">Content Providers</span>
           </a></div>
         <ul>
-          <li><a href="../topics/providers/content-provider-basics.html">
+          <li><a href="../../guide/topics/providers/content-provider-basics.html">
               <span class="en">Content Provider Basics</span>
             </a></li>
-          <li><a href="../topics/providers/content-provider-creating.html">
+          <li><a href="../../guide/topics/providers/content-provider-creating.html">
               <span class="en">Creating a Content Provider</span>
             </a></li>
-          <li><a href="../topics/providers/calendar-provider.html">
+          <li><a href="../../guide/topics/providers/calendar-provider.html">
               <span class="en">Calendar Provider</span>
             </a></li>
-          <li><a href="../topics/providers/contacts-provider.html">
+          <li><a href="../../guide/topics/providers/contacts-provider.html">
               <span class="en">Contacts Provider</span>
             </a></li>
         </ul>
       </li>
-      <li><a href="intents-filters.html">
+      <li><a href="../../guide/components/intents-filters.html">
           <span class="en">Intents and Intent Filters</span>
         </a></li>
-      <li><a href="processes-and-threads.html">
+      <li><a href="../../guide/components/processes-and-threads.html">
           <span class="en">Processes and Threads</span>
         </a>
       </li>
-      <li><a href="../topics/security/permissions.html">
+      <li><a href="../../guide/topics/security/permissions.html">
           <span class="en">Permissions</span>
         </a>
       </li>
-      <li><a href="../topics/appwidgets/index.html">
+      <li><a href="../../guide/topics/appwidgets/index.html">
             <span class="en">App Widgets</span>
           </a></li>
       <li class="nav-section">
-      <div class="nav-section-header"><a href="../topics/manifest/manifest-intro.html">
+      <div class="nav-section-header"><a href="../../guide/topics/manifest/manifest-intro.html">
           <span class="en">Android Manifest</span>
         </a></div>
         <ul>
-          <li><a href="../topics/manifest/action-element.html">&lt;action&gt;</a></li>
-          <li><a href="../topics/manifest/activity-element.html">&lt;activity&gt;</a></li>
-          <li><a href="../topics/manifest/activity-alias-element.html">&lt;activity-alias&gt;</a></li>
-          <li><a href="../topics/manifest/application-element.html">&lt;application&gt;</a></li>
-          <li><a href="../topics/manifest/category-element.html">&lt;category&gt;</a></li>
-          <li><a href="../topics/manifest/compatible-screens-element.html">&lt;compatible-screens&gt;</a></li>
-          <li><a href="../topics/manifest/data-element.html">&lt;data&gt;</a></li>
-          <li><a href="../topics/manifest/grant-uri-permission-element.html">&lt;grant-uri-permission&gt;</a></li>
-          <li><a href="../topics/manifest/instrumentation-element.html">&lt;instrumentation&gt;</a></li>
-          <li><a href="../topics/manifest/intent-filter-element.html">&lt;intent-filter&gt;</a></li>
-          <li><a href="../topics/manifest/manifest-element.html">&lt;manifest&gt;</a></li>
-          <li><a href="../topics/manifest/meta-data-element.html">&lt;meta-data&gt;</a></li>
-          <li><a href="../topics/manifest/path-permission-element.html">&lt;path-permission&gt;</a></li>
-          <li><a href="../topics/manifest/permission-element.html">&lt;permission&gt;</a></li>
-          <li><a href="../topics/manifest/permission-group-element.html">&lt;permission-group&gt;</a></li>
-          <li><a href="../topics/manifest/permission-tree-element.html">&lt;permission-tree&gt;</a></li>
-          <li><a href="../topics/manifest/provider-element.html">&lt;provider&gt;</a></li>
-          <li><a href="../topics/manifest/receiver-element.html">&lt;receiver&gt;</a></li>
-          <li><a href="../topics/manifest/service-element.html">&lt;service&gt;</a></li>
-          <li><a href="../topics/manifest/supports-gl-texture-element.html">&lt;supports-gl-texture&gt;</a></li>
-          <li><a href="../topics/manifest/supports-screens-element.html">&lt;supports-screens&gt;</a></li><!-- ##api level 4## -->
-          <li><a href="../topics/manifest/uses-configuration-element.html">&lt;uses-configuration&gt;</a></li>
-          <li><a href="../topics/manifest/uses-feature-element.html">&lt;uses-feature&gt;</a></li> <!-- ##api level 4## -->
-          <li><a href="../topics/manifest/uses-library-element.html">&lt;uses-library&gt;</a></li>
-          <li><a href="../topics/manifest/uses-permission-element.html">&lt;uses-permission&gt;</a></li>
-          <li><a href="../topics/manifest/uses-sdk-element.html">&lt;uses-sdk&gt;</a></li>
+          <li><a href="../../guide/topics/manifest/action-element.html">&lt;action&gt;</a></li>
+          <li><a href="../../guide/topics/manifest/activity-element.html">&lt;activity&gt;</a></li>
+          <li><a href="../../guide/topics/manifest/activity-alias-element.html">&lt;activity-alias&gt;</a></li>
+          <li><a href="../../guide/topics/manifest/application-element.html">&lt;application&gt;</a></li>
+          <li><a href="../../guide/topics/manifest/category-element.html">&lt;category&gt;</a></li>
+          <li><a href="../../guide/topics/manifest/compatible-screens-element.html">&lt;compatible-screens&gt;</a></li>
+          <li><a href="../../guide/topics/manifest/data-element.html">&lt;data&gt;</a></li>
+          <li><a href="../../guide/topics/manifest/grant-uri-permission-element.html">&lt;grant-uri-permission&gt;</a></li>
+          <li><a href="../../guide/topics/manifest/instrumentation-element.html">&lt;instrumentation&gt;</a></li>
+          <li><a href="../../guide/topics/manifest/intent-filter-element.html">&lt;intent-filter&gt;</a></li>
+          <li><a href="../../guide/topics/manifest/manifest-element.html">&lt;manifest&gt;</a></li>
+          <li><a href="../../guide/topics/manifest/meta-data-element.html">&lt;meta-data&gt;</a></li>
+          <li><a href="../../guide/topics/manifest/path-permission-element.html">&lt;path-permission&gt;</a></li>
+          <li><a href="../../guide/topics/manifest/permission-element.html">&lt;permission&gt;</a></li>
+          <li><a href="../../guide/topics/manifest/permission-group-element.html">&lt;permission-group&gt;</a></li>
+          <li><a href="../../guide/topics/manifest/permission-tree-element.html">&lt;permission-tree&gt;</a></li>
+          <li><a href="../../guide/topics/manifest/provider-element.html">&lt;provider&gt;</a></li>
+          <li><a href="../../guide/topics/manifest/receiver-element.html">&lt;receiver&gt;</a></li>
+          <li><a href="../../guide/topics/manifest/service-element.html">&lt;service&gt;</a></li>
+          <li><a href="../../guide/topics/manifest/supports-gl-texture-element.html">&lt;supports-gl-texture&gt;</a></li>
+          <li><a href="../../guide/topics/manifest/supports-screens-element.html">&lt;supports-screens&gt;</a></li><!-- ##api level 4## -->
+          <li><a href="../../guide/topics/manifest/uses-configuration-element.html">&lt;uses-configuration&gt;</a></li>
+          <li><a href="../../guide/topics/manifest/uses-feature-element.html">&lt;uses-feature&gt;</a></li> <!-- ##api level 4## -->
+          <li><a href="../../guide/topics/manifest/uses-library-element.html">&lt;uses-library&gt;</a></li>
+          <li><a href="../../guide/topics/manifest/uses-permission-element.html">&lt;uses-permission&gt;</a></li>
+          <li><a href="../../guide/topics/manifest/uses-sdk-element.html">&lt;uses-sdk&gt;</a></li>
         </ul>
    </li><!-- end of the manifest file -->
 
@@ -476,263 +460,263 @@ onkeyup="return search_changed(event, false, '/')" />
   </li>
 
   <li class="nav-section">
-    <div class="nav-section-header"><a href="../topics/ui/index.html">
+    <div class="nav-section-header"><a href="../../guide/topics/ui/index.html">
         <span class="en">User Interface</span>
       </a></div>
     <ul>
-      <li><a href="../topics/ui/overview.html">
+      <li><a href="../../guide/topics/ui/overview.html">
           <span class="en">Overview</span>
         </a></li>
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../topics/ui/declaring-layout.html">
+        <div class="nav-section-header"><a href="../../guide/topics/ui/declaring-layout.html">
             <span class="en">Layouts</span>
           </a></div>
         <ul>
-          <li><a href="../topics/ui/layout/linear.html">
+          <li><a href="../../guide/topics/ui/layout/linear.html">
               <span class="en">Linear Layout</span>
             </a></li>
-          <li><a href="../topics/ui/layout/relative.html">
+          <li><a href="../../guide/topics/ui/layout/relative.html">
               <span class="en">Relative Layout</span>
             </a></li>
        <!--
-          <li><a href="/guide/topics/ui/layout/grid.html">
+          <li><a href="../../guide/topics/ui/layout/grid.html">
               <span class="en">Grid Layout</span>
             </a></li>
-          <li><a href="/guide/topics/ui/layout/tabs.html">
+          <li><a href="../../guide/topics/ui/layout/tabs.html">
               <span class="en">Tab Layout</span>
             </a></li>
        -->
-          <li><a href="../topics/ui/layout/listview.html">
+          <li><a href="../../guide/topics/ui/layout/listview.html">
               <span class="en">List View</span>
             </a></li>
-          <li><a href="../topics/ui/layout/gridview.html">
+          <li><a href="../../guide/topics/ui/layout/gridview.html">
               <span class="en">Grid View</span>
             </a></li>
         </ul>
       </li>
 
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../topics/ui/controls.html">
+        <div class="nav-section-header"><a href="../../guide/topics/ui/controls.html">
             <span class="en">Input Controls</span>
           </a></div>
         <ul>
-          <li><a href="../topics/ui/controls/button.html">
+          <li><a href="../../guide/topics/ui/controls/button.html">
               <span class="en">Buttons</span>
             </a></li>
-          <li><a href="../topics/ui/controls/text.html">
+          <li><a href="../../guide/topics/ui/controls/text.html">
               <span class="en">Text Fields</span>
             </a></li>
-          <li><a href="../topics/ui/controls/checkbox.html">
+          <li><a href="../../guide/topics/ui/controls/checkbox.html">
               <span class="en">Checkboxes</span>
             </a></li>
-          <li><a href="../topics/ui/controls/radiobutton.html">
+          <li><a href="../../guide/topics/ui/controls/radiobutton.html">
               <span class="en">Radio Buttons</span>
             </a></li>
-          <li><a href="../topics/ui/controls/togglebutton.html">
+          <li><a href="../../guide/topics/ui/controls/togglebutton.html">
               <span class="en">Toggle Buttons</span>
             </a></li>
-          <li><a href="../topics/ui/controls/spinner.html">
+          <li><a href="../../guide/topics/ui/controls/spinner.html">
               <span class="en">Spinners</span>
             </a></li>
-          <li><a href="../topics/ui/controls/pickers.html">
+          <li><a href="../../guide/topics/ui/controls/pickers.html">
               <span class="en">Pickers</span>
             </a></li>
 <!--
-          <li><a href="/guide/topics/ui/controls/progress.html">
+          <li><a href="../../guide/topics/ui/controls/progress.html">
               <span class="en">Seek and Progress Bars</span>
             </a></li>
 -->
         </ul>
       </li>
-      <li><a href="../topics/ui/ui-events.html">
+      <li><a href="../../guide/topics/ui/ui-events.html">
           <span class="en">Input Events</span>
         </a></li>
-      <li><a href="../topics/ui/menus.html">
+      <li><a href="../../guide/topics/ui/menus.html">
           <span class="en">Menus</span></span>
           </a></li>
-      <li><a href="../topics/ui/actionbar.html">
+      <li><a href="../../guide/topics/ui/actionbar.html">
            <span class="en">Action Bar</span>
           </a></li>
-      <li><a href="../topics/ui/settings.html">
+      <li><a href="../../guide/topics/ui/settings.html">
             <span class="en">Settings</span>
           </a></li>
-      <li><a href="../topics/ui/dialogs.html">
+      <li><a href="../../guide/topics/ui/dialogs.html">
            <span class="en">Dialogs</span>
           </a></li>
-      <li><a href="../topics/ui/notifiers/notifications.html">
+      <li><a href="../../guide/topics/ui/notifiers/notifications.html">
           <span class="en">Notifications</span>
         </a></li>
-      <li><a href="../topics/ui/notifiers/toasts.html">
+      <li><a href="../../guide/topics/ui/notifiers/toasts.html">
           <span class="en">Toasts</span>
         </a></li>
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../topics/search/index.html">
+        <div class="nav-section-header"><a href="../../guide/topics/search/index.html">
             <span class="en">Search</span>
           </a></div>
           <ul>
-            <li><a href="../topics/search/search-dialog.html">Creating a Search Interface</a></li>
-            <li><a href="../topics/search/adding-recent-query-suggestions.html">Adding Recent Query Suggestions</a></li>
-            <li><a href="../topics/search/adding-custom-suggestions.html">Adding Custom Suggestions</a></li>
-            <li><a href="../topics/search/searchable-config.html">Searchable Configuration</a></li>
+            <li><a href="../../guide/topics/search/search-dialog.html">Creating a Search Interface</a></li>
+            <li><a href="../../guide/topics/search/adding-recent-query-suggestions.html">Adding Recent Query Suggestions</a></li>
+            <li><a href="../../guide/topics/search/adding-custom-suggestions.html">Adding Custom Suggestions</a></li>
+            <li><a href="../../guide/topics/search/searchable-config.html">Searchable Configuration</a></li>
           </ul>
       </li>
-      <li><a href="../topics/ui/drag-drop.html">
+      <li><a href="../../guide/topics/ui/drag-drop.html">
           <span class="en">Drag and Drop</span>
         </a></li>
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../topics/ui/accessibility/index.html">
+        <div class="nav-section-header"><a href="../../guide/topics/ui/accessibility/index.html">
             <span class="en">Accessibility</span>
           </a></div>
         <ul>
-          <li><a href="../topics/ui/accessibility/apps.html">
+          <li><a href="../../guide/topics/ui/accessibility/apps.html">
               <span class="en">Making Applications Accessible</span>
             </a></li>
-          <li><a href="../topics/ui/accessibility/checklist.html">
+          <li><a href="../../guide/topics/ui/accessibility/checklist.html">
               <span class="en">Accessibility Developer Checklist</span>
             </a></li>
-          <li><a href="../topics/ui/accessibility/services.html">
+          <li><a href="../../guide/topics/ui/accessibility/services.html">
               <span class="en">Building Accessibility Services</span>
             </a></li>
         </ul>
       </li>
-      <li><a href="../topics/ui/themes.html">
+      <li><a href="../../guide/topics/ui/themes.html">
           <span class="en">Styles and Themes</span>
         </a></li>
-      <li><a href="../topics/ui/custom-components.html">
+      <li><a href="../../guide/topics/ui/custom-components.html">
           <span class="en">Custom Components</span>
         </a></li>
     </ul>
   </li><!-- end of User Interface -->
 
     <li class="nav-section">
-      <div class="nav-section-header"><a href="../topics/resources/index.html">
+      <div class="nav-section-header"><a href="../../guide/topics/resources/index.html">
            <span class="en">App Resources</span>
          </a></div>
       <ul>
-        <li><a href="../topics/resources/overview.html">
+        <li><a href="../../guide/topics/resources/overview.html">
             <span class="en">Overview</span>
           </a></li>
-          <li><a href="../topics/resources/providing-resources.html">
+          <li><a href="../../guide/topics/resources/providing-resources.html">
             <span class="en">Providing Resources</span>
           </a></li>
-        <li><a href="../topics/resources/accessing-resources.html">
+        <li><a href="../../guide/topics/resources/accessing-resources.html">
             <span class="en">Accessing Resources</span>
           </a></li>
-        <li><a href="../topics/resources/runtime-changes.html">
+        <li><a href="../../guide/topics/resources/runtime-changes.html">
               <span class="en">Handling Runtime Changes</span>
             </a></li>
-        <li><a href="../topics/resources/localization.html">
+        <li><a href="../../guide/topics/resources/localization.html">
             <span class="en">Localization</span>
           </a></li>
         <li class="nav-section">
-          <div class="nav-section-header"><a href="../topics/resources/available-resources.html">
+          <div class="nav-section-header"><a href="../../guide/topics/resources/available-resources.html">
               <span class="en">Resource Types</span>
             </a></div>
           <ul>
-            <li><a href="../topics/resources/animation-resource.html">Animation</a></li>
-            <li><a href="../topics/resources/color-list-resource.html">Color State List</a></li>
-            <li><a href="../topics/resources/drawable-resource.html">Drawable</a></li>
-            <li><a href="../topics/resources/layout-resource.html">Layout</a></li>
-            <li><a href="../topics/resources/menu-resource.html">Menu</a></li>
-            <li><a href="../topics/resources/string-resource.html">String</a></li>
-            <li><a href="../topics/resources/style-resource.html">Style</a></li>
-            <li><a href="../topics/resources/more-resources.html">More Types</a></li>
+            <li><a href="../../guide/topics/resources/animation-resource.html">Animation</a></li>
+            <li><a href="../../guide/topics/resources/color-list-resource.html">Color State List</a></li>
+            <li><a href="../../guide/topics/resources/drawable-resource.html">Drawable</a></li>
+            <li><a href="../../guide/topics/resources/layout-resource.html">Layout</a></li>
+            <li><a href="../../guide/topics/resources/menu-resource.html">Menu</a></li>
+            <li><a href="../../guide/topics/resources/string-resource.html">String</a></li>
+            <li><a href="../../guide/topics/resources/style-resource.html">Style</a></li>
+            <li><a href="../../guide/topics/resources/more-resources.html">More Types</a></li>
           </ul>
         </li><!-- end of resource types -->
       </ul>
     </li><!-- end of app resources -->
 
    <li class="nav-section">
-      <div class="nav-section-header"><a href="../topics/graphics/index.html">
+      <div class="nav-section-header"><a href="../../guide/topics/graphics/index.html">
           <span class="en">Animation and Graphics</span>
         </a></div>
       <ul>
       <li class="nav-section">
-        <li><a href="../topics/graphics/overview.html">
+        <li><a href="../../guide/topics/graphics/overview.html">
             <span class="en">Overview</span>
           </a></li>
-        <li><a href="../topics/graphics/prop-animation.html">
+        <li><a href="../../guide/topics/graphics/prop-animation.html">
             <span class="en">Property Animation</span>
           </a></li>
-        <li><a href="../topics/graphics/view-animation.html">
+        <li><a href="../../guide/topics/graphics/view-animation.html">
             <span class="en">View Animation</span>
           </a></li>
-        <li><a href="../topics/graphics/drawable-animation.html">
+        <li><a href="../../guide/topics/graphics/drawable-animation.html">
             <span class="en">Drawable Animation</span>
           </a></li>
-        <li><a href="../topics/graphics/2d-graphics.html">
+        <li><a href="../../guide/topics/graphics/2d-graphics.html">
             <span class="en">Canvas and Drawables</span>
           </a></li>
-        <li><a href="../topics/graphics/opengl.html">
+        <li><a href="../../guide/topics/graphics/opengl.html">
             <span class="en">OpenGL</span>
           </a></li>
-        <li><a href="../topics/graphics/hardware-accel.html">
+        <li><a href="../../guide/topics/graphics/hardware-accel.html">
             <span class="en">Hardware Acceleration</span>
           </a></li>
        </ul>
     </li><!-- end of graphics and animation-->
 
    <li class="nav-section">
-            <div class="nav-section-header"><a href="../topics/renderscript/index.html">
+            <div class="nav-section-header"><a href="../../guide/topics/renderscript/index.html">
               <span class="en">Computation</span>
             </a></div>
             <ul>
-              <li><a href="../topics/renderscript/compute.html">
+              <li><a href="../../guide/topics/renderscript/compute.html">
                     <span class="en">Renderscript</span></a>
                   </li>
 
-              <li><a href="../topics/renderscript/advanced.html">
+              <li><a href="../../guide/topics/renderscript/advanced.html">
                     <span class="en">Advanced Renderscript</span></a>
                   </li>
-              <li><a href="../topics/renderscript/reference.html">
+              <li><a href="../../guide/topics/renderscript/reference.html">
                     <span class="en">Runtime API Reference</span></a>
               </li>
              </ul>
    </li>
       <li class="nav-section">
-          <div class="nav-section-header"><a href="../topics/media/index.html">
+          <div class="nav-section-header"><a href="../../guide/topics/media/index.html">
             <span class="en">Media and Camera</span>
           </a></div>
           <ul>
-            <li><a href="../topics/media/mediaplayer.html">
+            <li><a href="../../guide/topics/media/mediaplayer.html">
                   <span class="en">Media Playback</span></a>
                 </li>
-            <li><a href="../appendix/media-formats.html">
+            <li><a href="../../guide/appendix/media-formats.html">
                    <span class="en">Supported Media Formats</span></a>
                 </li>
-            <li><a href="../topics/media/audio-capture.html">
+            <li><a href="../../guide/topics/media/audio-capture.html">
                   <span class="en">Audio Capture</span></a>
                 </li>
-            <li><a href="../topics/media/jetplayer.html">
+            <li><a href="../../guide/topics/media/jetplayer.html">
                   <span class="en">JetPlayer</span></a>
                 </li>
-            <li><a href="../topics/media/camera.html">
+            <li><a href="../../guide/topics/media/camera.html">
                   <span class="en">Camera</span></a>
                 </li>
           </ul>
       </li><!-- end of media and camera -->
 
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../topics/sensors/index.html">
+        <div class="nav-section-header"><a href="../../guide/topics/sensors/index.html">
               <span class="en">Location and Sensors</span>
               </a></div>
         <ul>
-          <li><a href="../topics/location/index.html">
+          <li><a href="../../guide/topics/location/index.html">
                <span class="en">Location and Maps</span>
              </a>
-          <li><a href="../topics/location/strategies.html">
+          <li><a href="../../guide/topics/location/strategies.html">
                <span class="en">Location Strategies</span>
              </a></li>
-          <li><a href="../topics/sensors/sensors_overview.html">
+          <li><a href="../../guide/topics/sensors/sensors_overview.html">
               <span class="en">Sensors Overview</span>
             </a></li>
-          <li><a href="../topics/sensors/sensors_motion.html">
+          <li><a href="../../guide/topics/sensors/sensors_motion.html">
               <span class="en">Motion Sensors</span>
             </a></li>
-          <li><a href="../topics/sensors/sensors_position.html">
+          <li><a href="../../guide/topics/sensors/sensors_position.html">
               <span class="en">Position Sensors</span>
             </a></li>
-          <li><a href="../topics/sensors/sensors_environment.html">
+          <li><a href="../../guide/topics/sensors/sensors_environment.html">
               <span class="en">Environment Sensors</span>
             </a></li>
         </ul>
@@ -741,36 +725,36 @@ onkeyup="return search_changed(event, false, '/')" />
 
 
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../topics/connectivity/index.html">
+        <div class="nav-section-header"><a href="../../guide/topics/connectivity/index.html">
                <span class="en">Connectivity</span>
              </a></div>
         <ul>
-          <li><a href="../topics/connectivity/bluetooth.html">
+          <li><a href="../../guide/topics/connectivity/bluetooth.html">
               <span class="en">Bluetooth</span>
             </a>
           </li>
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../topics/connectivity/nfc/index.html">
+        <div class="nav-section-header"><a href="../../guide/topics/connectivity/nfc/index.html">
           <span class="en">NFC</span></a>
         </div>
         <ul>
-          <li><a href="../topics/connectivity/nfc/nfc.html">NFC Basics</a></li>
-          <li><a href="../topics/connectivity/nfc/advanced-nfc.html">Advanced NFC</a></li>
+          <li><a href="../../guide/topics/connectivity/nfc/nfc.html">NFC Basics</a></li>
+          <li><a href="../../guide/topics/connectivity/nfc/advanced-nfc.html">Advanced NFC</a></li>
         </ul>
       </li>
-      <li><a href="../topics/connectivity/wifip2p.html">
+      <li><a href="../../guide/topics/connectivity/wifip2p.html">
             <span class="en">Wi-Fi Direct</span></a>
           </li>
       <li class="nav-section">
-          <div class="nav-section-header"><a href="../topics/connectivity/usb/index.html">
+          <div class="nav-section-header"><a href="../../guide/topics/connectivity/usb/index.html">
             <span class="en">USB</span></a>
           </div>
             <ul>
-              <li><a href="../topics/connectivity/usb/accessory.html">Accessory</a></li>
-              <li><a href="../topics/connectivity/usb/host.html">Host</a></li>
+              <li><a href="../../guide/topics/connectivity/usb/accessory.html">Accessory</a></li>
+              <li><a href="../../guide/topics/connectivity/usb/host.html">Host</a></li>
             </ul>
      </li>
-     <li><a href="../topics/connectivity/sip.html">
+     <li><a href="../../guide/topics/connectivity/sip.html">
             <span class="en">SIP</span>
           </a>
      </li>
@@ -779,34 +763,34 @@ onkeyup="return search_changed(event, false, '/')" />
   </li><!-- end of connectivity -->
 
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../topics/text/index.html">
+        <div class="nav-section-header"><a href="../../guide/topics/text/index.html">
             <span class="en">Text and Input</span>
         </a></div>
         <ul>
-          <li><a href="../topics/text/copy-paste.html">
+          <li><a href="../../guide/topics/text/copy-paste.html">
               <span class="en">Copy and Paste</span>
             </a></li>
-          <li><a href="../topics/text/creating-input-method.html">
+          <li><a href="../../guide/topics/text/creating-input-method.html">
               <span class="en">Creating an IME</span>
             </a></li>
-          <li><a href="../topics/text/spell-checker-framework.html">
+          <li><a href="../../guide/topics/text/spell-checker-framework.html">
               <span class="en">Spelling Checker</span>
             </a></li>
         </ul>
       </li><!-- end of text and input -->
 
      <li class="nav-section">
-      <div class="nav-section-header"><a href="../topics/data/index.html">
+      <div class="nav-section-header"><a href="../../guide/topics/data/index.html">
           <span class="en">Data Storage</span>
         </a></div>
       <ul>
-         <li><a href="../topics/data/data-storage.html">
+         <li><a href="../../guide/topics/data/data-storage.html">
             <span class="en">Storage Options</span>
            </a></li>
-        <li><a href="../topics/data/backup.html">
+        <li><a href="../../guide/topics/data/backup.html">
             <span class="en">Data Backup</span>
           </a></li>
-        <li><a href="../topics/data/install-location.html">
+        <li><a href="../../guide/topics/data/install-location.html">
             <span class="en">App Install Location</span>
           </a></li>
       </ul>
@@ -814,17 +798,17 @@ onkeyup="return search_changed(event, false, '/')" />
 
 
   <li class="nav-section">
-           <div class="nav-section-header"><a href="../topics/admin/index.html">
+           <div class="nav-section-header"><a href="../../guide/topics/admin/index.html">
                <span class="en">Administration</span>
              </a></div>
            <ul>
               <li>
-                <a href="../topics/admin/device-admin.html">
+                <a href="../../guide/topics/admin/device-admin.html">
                 <span class="en">Device Policies</span></a>
               </li>
             <!--
               <li>
-                <a href="/guide/topics/admin/keychain.html">
+                <a href="../../guide/topics/admin/keychain.html">
                 <span class="en">Certificate Store</span></a>
               </li>
             -->
@@ -832,30 +816,30 @@ onkeyup="return search_changed(event, false, '/')" />
   </li><!-- end of administration -->
 
   <li class="nav-section">
-    <div class="nav-section-header"><a href="../webapps/index.html">
+    <div class="nav-section-header"><a href="../../guide/webapps/index.html">
     <span class="en">Web Apps</span>
     </a></div>
     <ul>
-      <li><a href="../webapps/overview.html">
+      <li><a href="../../guide/webapps/overview.html">
             <span class="en">Overview</span>
           </a></li>
-      <li><a href="../webapps/targeting.html">
+      <li><a href="../../guide/webapps/targeting.html">
             <span class="en">Targeting Screens from Web Apps</span>
           </a></li>
-      <li><a href="../webapps/webview.html">
+      <li><a href="../../guide/webapps/webview.html">
             <span class="en">Building Web Apps in WebView</span>
           </a></li>
-      <li><a href="../webapps/debugging.html">
+      <li><a href="../../guide/webapps/debugging.html">
             <span class="en">Debugging Web Apps</span>
           </a></li>
-      <li><a href="../webapps/best-practices.html">
+      <li><a href="../../guide/webapps/best-practices.html">
             <span class="en">Best Practices for Web Apps</span>
           </a></li>
     </ul>
   </li><!-- end of web apps -->
 
   <li class="nav-section">
-    <div class="nav-section-header"><a href="../practices/index.html">
+    <div class="nav-section-header"><a href="../../guide/practices/index.html">
       <span class="en">Best Practices</span>
       <span class="de" style="display:none">Bewährte Verfahren</span>
       <span class="es" style="display:none">Prácticas recomendadas</span>
@@ -866,26 +850,26 @@ onkeyup="return search_changed(event, false, '/')" />
       <span class="zh-TW" style="display:none">最佳實務</span>
     </div></a>
     <ul>
-      <li><a href="../practices/compatibility.html">
+      <li><a href="../../guide/practices/compatibility.html">
             <span class="en">Compatibility</span>
           </a></li>
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../practices/screens_support.html">
+        <div class="nav-section-header"><a href="../../guide/practices/screens_support.html">
           <span class="en">Supporting Multiple Screens</span>
         </a></div>
         <ul>
-          <li><a href="../practices/screens-distribution.html">
+          <li><a href="../../guide/practices/screens-distribution.html">
             <span class="en">Distributing to Specific Screens</span>
           </a></li>
-          <li><a href="../practices/screen-compat-mode.html">
+          <li><a href="../../guide/practices/screen-compat-mode.html">
             <span class="en">Screen Compatibility Mode</span>
           </a></li>
-          <!--<li><a href="../practices/screens-support-1.5.html">
+          <!--<li><a href="../../guide/practices/screens-support-1.5.html">
             <span class="en">Strategies for Android 1.5</span>
           </a></li> -->
         </ul>
       </li>
-      <li><a href="../practices/tablets-and-handsets.html">
+      <li><a href="../../guide/practices/tablets-and-handsets.html">
             <span class="en">Supporting Tablets and Handsets</span>
           </a></li>
 
@@ -894,39 +878,39 @@ onkeyup="return search_changed(event, false, '/')" />
 
       <!-- this needs to move
       <li class="nav-section">
-        <div class="nav-section-header"><a href="/guide/practices/ui_guidelines/index.html">
+        <div class="nav-section-header"><a href="../../guide/practices/ui_guidelines/index.html">
                <span class="en">UI Guidelines</span>
              </a></div>
         <ul>
           <li class="nav-section">
-            <div class="nav-section-header"><a href="/guide/practices/ui_guidelines/icon_design.html">
+            <div class="nav-section-header"><a href="../../guide/practices/ui_guidelines/icon_design.html">
                    <span class="en">Icon Design</span>
                  </a></div>
             <ul>
-              <li><a href="/guide/practices/ui_guidelines/icon_design_launcher.html">
+              <li><a href="../../guide/practices/ui_guidelines/icon_design_launcher.html">
                     <span class="en">Launcher Icons</span>
                   </a></li>
-              <li><a href="/guide/practices/ui_guidelines/icon_design_menu.html">
+              <li><a href="../../guide/practices/ui_guidelines/icon_design_menu.html">
                     <span class="en">Menu Icons</span>
                   </a></li>
-              <li><a href="/guide/practices/ui_guidelines/icon_design_action_bar.html">
+              <li><a href="../../guide/practices/ui_guidelines/icon_design_action_bar.html">
                     <span class="en">Action Bar Icons</span>
                   </a></li>
-              <li><a href="/guide/practices/ui_guidelines/icon_design_status_bar.html">
+              <li><a href="../../guide/practices/ui_guidelines/icon_design_status_bar.html">
                     <span class="en">Status Bar Icons</span>
                   </a></li>
-              <li><a href="/guide/practices/ui_guidelines/icon_design_tab.html">
+              <li><a href="../../guide/practices/ui_guidelines/icon_design_tab.html">
                     <span class="en">Tab Icons</span>
                   </a></li>
-              <li><a href="/guide/practices/ui_guidelines/icon_design_dialog.html">
+              <li><a href="../../guide/practices/ui_guidelines/icon_design_dialog.html">
                     <span class="en">Dialog Icons</span>
                   </a></li>
-              <li><a href="/guide/practices/ui_guidelines/icon_design_list.html">
+              <li><a href="../../guide/practices/ui_guidelines/icon_design_list.html">
                     <span class="en">List View Icons</span>
                   </a></li>
             </ul>
           </li>
-          <li><div><a href="/guide/practices/ui_guidelines/widget_design.html">
+          <li><div><a href="../../guide/practices/ui_guidelines/widget_design.html">
                 <span class="en">App Widget Design</span>
               </a></div>
           </li>
@@ -936,7 +920,7 @@ onkeyup="return search_changed(event, false, '/')" />
 
 <!-- Remove
   <li class="nav-section">
-    <div class="nav-section-header"><a href="/guide/appendix/index.html">
+    <div class="nav-section-header"><a href="../../guide/appendix/index.html">
         <span class="en">Appendix</span>
         <span class="de" style="display:none">Anhang</span>
         <span class="es" style="display:none">Apéndice</span>
@@ -947,12 +931,12 @@ onkeyup="return search_changed(event, false, '/')" />
         <span class="zh-TW" style="display:none">附錄</span>
       </a></div>
     <ul>
-      <li><a href="/guide/appendix/g-app-intents.html">
+      <li><a href="../../guide/appendix/g-app-intents.html">
             <span class="en">Intents List: Google Apps</span>
           </a></li>
 
 
-      <li><a href="/guide/appendix/glossary.html">
+      <li><a href="../../guide/appendix/glossary.html">
             <span class="en">Glossary</span>
           </a></li>
     </ul>
@@ -1013,18 +997,18 @@ down the user interface</li>
 
 <h2>In this document</h2>
 <ol>
-<li><a href="processes-and-threads.html#Processes">Processes</a>
+<li><a href="#Processes">Processes</a>
   <ol>
-    <li><a href="processes-and-threads.html#Lifecycle">Process lifecycle</a></li>
+    <li><a href="#Lifecycle">Process lifecycle</a></li>
   </ol>
 </li>
-<li><a href="processes-and-threads.html#Threads">Threads</a>
+<li><a href="#Threads">Threads</a>
   <ol>
-    <li><a href="processes-and-threads.html#WorkerThreads">Worker threads</a></li>
-    <li><a href="processes-and-threads.html#ThreadSafe">Thread-safe methods</a></li>
+    <li><a href="#WorkerThreads">Worker threads</a></li>
+    <li><a href="#ThreadSafe">Thread-safe methods</a></li>
   </ol>
 </li>
-<li><a href="processes-and-threads.html#IPC">Interprocess Communication</a></li>
+<li><a href="#IPC">Interprocess Communication</a></li>
 </ol>
 
 </div>
@@ -1049,14 +1033,14 @@ should not change this. However, if you find that you need to control which proc
 component belongs to, you can do so in the manifest file.</p>
 
 <p>The manifest entry for each type of component element&mdash;<a
-href="../topics/manifest/activity-element.html"><code>&lt;activity&gt;</code></a>, <a href="../topics/manifest/service-element.html"><code>&lt;service&gt;</code></a>, <a href="../topics/manifest/receiver-element.html"><code>&lt;receiver&gt;</code></a>, and <a href="../topics/manifest/provider-element.html"><code>&lt;provider&gt;</code></a>&mdash;supports an <code>android:process</code> attribute that can specify a
+href="../../guide/topics/manifest/activity-element.html"><code>&lt;activity&gt;</code></a>, <a href="../../guide/topics/manifest/service-element.html"><code>&lt;service&gt;</code></a>, <a href="../../guide/topics/manifest/receiver-element.html"><code>&lt;receiver&gt;</code></a>, and <a href="../../guide/topics/manifest/provider-element.html"><code>&lt;provider&gt;</code></a>&mdash;supports an <code>android:process</code> attribute that can specify a
 process in which that component should run. You can set this attribute so that each component runs
 in its own process or so that some components share a process while others do not.  You can also set
 <code>android:process</code> so that components of different applications run in the same
 process&mdash;provided that the applications share the same Linux user ID and are signed with the
 same certificates.</p>
 
-<p>The <a href="../topics/manifest/application-element.html"><code>&lt;application&gt;</code></a> element also supports an <code>android:process</code> attribute, to set a
+<p>The <a href="../../guide/topics/manifest/application-element.html"><code>&lt;application&gt;</code></a> element also supports an <code>android:process</code> attribute, to set a
 default value that applies to all components.</p>
 
 <p>Android might decide to shut down a process at some point, when memory is low and required by
@@ -1149,7 +1133,7 @@ recently seen by the user is the last to be killed. If an activity implements it
 correctly, and saves its current state, killing its process will not have a visible effect on
 the user experience, because when the user navigates back to the activity, the activity restores
 all of its visible state. See the <a
-href="activities.html#SavingActivityState">Activities</a>
+href="../../guide/components/activities.html#SavingActivityState">Activities</a>
 document for information about saving and restoring state.</p>
   </li>
 
@@ -1174,7 +1158,7 @@ as important as process B.</p>
 
   <p>Because a process running a service is ranked higher than a process with background activities,
 an activity that initiates a long-running operation might do well to start a <a
-href="services.html">service</a> for that operation, rather than
+href="../../guide/components/services.html">service</a> for that operation, rather than
 simply create a worker thread&mdash;particularly if the operation will likely outlast the activity.
 For example, an activity that's uploading a picture to a web site should start a service to perform
 the upload so that the upload can continue in the background even if the user leaves the activity.
@@ -1232,7 +1216,7 @@ that are not instantaneous, you should make sure to do them in separate threads 
 "worker" threads).</p>
 
 <p>For example, below is some code for a click listener that downloads an image from a separate
-thread and displays it in an <code><a href="http://developer.android.com/reference/android/widget/ImageView.html">ImageView</a></code>:</p>
+thread and displays it in an <code><a href="../../reference/android/widget/ImageView.html">ImageView</a></code>:</p>
 
 <pre>
 public void onClick(View v) {
@@ -1247,7 +1231,7 @@ public void onClick(View v) {
 
 <p>At first, this seems to work fine, because it creates a new thread to handle the network
 operation. However, it violates the second rule of the single-threaded model: <em>do not access the
-Android UI toolkit from outside the UI thread</em>&mdash;this sample modifies the <code><a href="http://developer.android.com/reference/android/widget/ImageView.html">ImageView</a></code> from the worker thread instead of the UI thread. This can result in
+Android UI toolkit from outside the UI thread</em>&mdash;this sample modifies the <code><a href="../../reference/android/widget/ImageView.html">ImageView</a></code> from the worker thread instead of the UI thread. This can result in
 undefined and unexpected behavior, which can be difficult and time-consuming to track down.</p>
 
 <p>To fix this problem, Android offers several ways to access the UI thread from other
@@ -1278,27 +1262,27 @@ public void onClick(View v) {
 </pre>
 
 <p>Now this implementation is thread-safe: the network operation is done from a separate thread
-while the <code><a href="http://developer.android.com/reference/android/widget/ImageView.html">ImageView</a></code> is manipulated from the UI thread.</p>
+while the <code><a href="../../reference/android/widget/ImageView.html">ImageView</a></code> is manipulated from the UI thread.</p>
 
 <p>However, as the complexity of the operation grows, this kind of code can get complicated and
 difficult to maintain. To handle more complex interactions with a worker thread, you might consider
-using a <code><a href="http://developer.android.com/reference/android/os/Handler.html">Handler</a></code> in your worker thread, to process messages delivered from the UI
-thread. Perhaps the best solution, though, is to extend the <code><a href="http://developer.android.com/reference/android/os/AsyncTask.html">AsyncTask</a></code> class,
+using a <code><a href="../../reference/android/os/Handler.html">Handler</a></code> in your worker thread, to process messages delivered from the UI
+thread. Perhaps the best solution, though, is to extend the <code><a href="../../reference/android/os/AsyncTask.html">AsyncTask</a></code> class,
 which simplifies the execution of worker thread tasks that need to interact with the UI.</p>
 
 
 <h4 id="AsyncTask">Using AsyncTask</h4>
 
-<p><code><a href="http://developer.android.com/reference/android/os/AsyncTask.html">AsyncTask</a></code> allows you to perform asynchronous work on your user
+<p><code><a href="../../reference/android/os/AsyncTask.html">AsyncTask</a></code> allows you to perform asynchronous work on your user
 interface. It performs the blocking operations in a worker thread and then publishes the results on
 the UI thread, without requiring you to handle threads and/or handlers yourself.</p>
 
-<p>To use it, you must subclass <code><a href="http://developer.android.com/reference/android/os/AsyncTask.html">AsyncTask</a></code> and implement the <code><a href="http://developer.android.com/reference/android/os/AsyncTask.html#doInBackground(Params...)">doInBackground()</a></code> callback method, which runs in a pool of
-background threads. To update your UI, you should implement <code><a href="http://developer.android.com/reference/android/os/AsyncTask.html#onPostExecute(Result)">onPostExecute()</a></code>, which delivers the result from <code><a href="http://developer.android.com/reference/android/os/AsyncTask.html#doInBackground(Params...)">doInBackground()</a></code> and runs in the UI thread, so you can safely
-update your UI. You can then run the task by calling <code><a href="http://developer.android.com/reference/android/os/AsyncTask.html#execute(Params...)">execute()</a></code>
+<p>To use it, you must subclass <code><a href="../../reference/android/os/AsyncTask.html">AsyncTask</a></code> and implement the <code><a href="../../reference/android/os/AsyncTask.html#doInBackground(Params...)">doInBackground()</a></code> callback method, which runs in a pool of
+background threads. To update your UI, you should implement <code><a href="../../reference/android/os/AsyncTask.html#onPostExecute(Result)">onPostExecute()</a></code>, which delivers the result from <code><a href="../../reference/android/os/AsyncTask.html#doInBackground(Params...)">doInBackground()</a></code> and runs in the UI thread, so you can safely
+update your UI. You can then run the task by calling <code><a href="../../reference/android/os/AsyncTask.html#execute(Params...)">execute()</a></code>
 from the UI thread.</p>
 
-<p>For example, you can implement the previous example using <code><a href="http://developer.android.com/reference/android/os/AsyncTask.html">AsyncTask</a></code> this
+<p>For example, you can implement the previous example using <code><a href="../../reference/android/os/AsyncTask.html">AsyncTask</a></code> this
 way:</p>
 
 <pre>
@@ -1324,24 +1308,24 @@ private class DownloadImageTask extends AsyncTask&lt;String, Void, Bitmap&gt; {
 <p>Now the UI is safe and the code is simpler, because it separates the work into the
 part that should be done on a worker thread and the part that should be done on the UI thread.</p>
 
-<p>You should read the <code><a href="http://developer.android.com/reference/android/os/AsyncTask.html">AsyncTask</a></code> reference for a full understanding on
+<p>You should read the <code><a href="../../reference/android/os/AsyncTask.html">AsyncTask</a></code> reference for a full understanding on
 how to use this class, but here is a quick overview of how it works:</p>
 
 <ul>
 <li>You can specify the type of the parameters, the progress values, and the final
 value of the task, using generics</li>
-<li>The method <code><a href="http://developer.android.com/reference/android/os/AsyncTask.html#doInBackground(Params...)">doInBackground()</a></code> executes automatically
+<li>The method <code><a href="../../reference/android/os/AsyncTask.html#doInBackground(Params...)">doInBackground()</a></code> executes automatically
 on a worker thread</li>
-<li><code><a href="http://developer.android.com/reference/android/os/AsyncTask.html#onPreExecute()">onPreExecute()</a></code>, <code><a href="http://developer.android.com/reference/android/os/AsyncTask.html#onPostExecute(Result)">onPostExecute()</a></code>, and <code><a href="http://developer.android.com/reference/android/os/AsyncTask.html#onProgressUpdate(Progress...)">onProgressUpdate()</a></code> are all invoked on the UI thread</li>
-<li>The value returned by <code><a href="http://developer.android.com/reference/android/os/AsyncTask.html#doInBackground(Params...)">doInBackground()</a></code> is sent to
-<code><a href="http://developer.android.com/reference/android/os/AsyncTask.html#onPostExecute(Result)">onPostExecute()</a></code></li>
-<li>You can call <code><a href="http://developer.android.com/reference/android/os/AsyncTask.html#publishProgress(Progress...)">publishProgress()</a></code> at anytime in <code><a href="http://developer.android.com/reference/android/os/AsyncTask.html#doInBackground(Params...)">doInBackground()</a></code> to execute <code><a href="http://developer.android.com/reference/android/os/AsyncTask.html#onProgressUpdate(Progress...)">onProgressUpdate()</a></code> on the UI thread</li>
+<li><code><a href="../../reference/android/os/AsyncTask.html#onPreExecute()">onPreExecute()</a></code>, <code><a href="../../reference/android/os/AsyncTask.html#onPostExecute(Result)">onPostExecute()</a></code>, and <code><a href="../../reference/android/os/AsyncTask.html#onProgressUpdate(Progress...)">onProgressUpdate()</a></code> are all invoked on the UI thread</li>
+<li>The value returned by <code><a href="../../reference/android/os/AsyncTask.html#doInBackground(Params...)">doInBackground()</a></code> is sent to
+<code><a href="../../reference/android/os/AsyncTask.html#onPostExecute(Result)">onPostExecute()</a></code></li>
+<li>You can call <code><a href="../../reference/android/os/AsyncTask.html#publishProgress(Progress...)">publishProgress()</a></code> at anytime in <code><a href="../../reference/android/os/AsyncTask.html#doInBackground(Params...)">doInBackground()</a></code> to execute <code><a href="../../reference/android/os/AsyncTask.html#onProgressUpdate(Progress...)">onProgressUpdate()</a></code> on the UI thread</li>
 <li>You can cancel the task at any time, from any thread</li>
 </ul>
 
 <p class="caution"><strong>Caution:</strong> Another problem you might encounter when using a worker
 thread is unexpected restarts in your activity due to a <a
-href="../topics/resources/runtime-changes.html">runtime configuration change</a>
+href="../../guide/topics/resources/runtime-changes.html">runtime configuration change</a>
 (such as when the user changes the screen orientation), which may destroy your worker thread. To
 see how you can persist your task during one of these restarts and how to properly cancel the task
 when the activity is destroyed, see the source code for the <a
@@ -1354,15 +1338,15 @@ href="http://code.google.com/p/shelves/">Shelves</a> sample application.</p>
 therefore must be written to be thread-safe. </p>
 
 <p>This is primarily true for methods that can be called remotely&mdash;such as methods in a <a
-href="bound-services.html">bound service</a>. When a call on a
-method implemented in an <code><a href="http://developer.android.com/reference/android/os/IBinder.html">IBinder</a></code> originates in the same process in which the
-<code><a href="http://developer.android.com/reference/android/os/IBinder.html">IBinder</a></code> is running, the method is executed in the caller's thread.
+href="../../guide/components/bound-services.html">bound service</a>. When a call on a
+method implemented in an <code><a href="../../reference/android/os/IBinder.html">IBinder</a></code> originates in the same process in which the
+<code><a href="../../reference/android/os/IBinder.html">IBinder</a></code> is running, the method is executed in the caller's thread.
 However, when the call originates in another process, the method is executed in a thread chosen from
-a pool of threads that the system maintains in the same process as the <code><a href="http://developer.android.com/reference/android/os/IBinder.html">IBinder</a></code> (it's not executed in the UI thread of the process).  For example, whereas a service's
+a pool of threads that the system maintains in the same process as the <code><a href="../../reference/android/os/IBinder.html">IBinder</a></code> (it's not executed in the UI thread of the process).  For example, whereas a service's
 <code><a href="../../reference/android/app/Service.html#onBind(android.content.Intent)">onBind()</a></code> method would be called from the UI thread of the
 service's process, methods implemented in the object that <code><a href="../../reference/android/app/Service.html#onBind(android.content.Intent)">onBind()</a></code> returns (for example, a subclass that implements RPC methods) would be called from threads
 in the pool. Because a service can have more than one client, more than one pool thread can engage
-the same <code><a href="http://developer.android.com/reference/android/os/IBinder.html">IBinder</a></code> method at the same time.  <code><a href="http://developer.android.com/reference/android/os/IBinder.html">IBinder</a></code> methods must, therefore, be implemented to be thread-safe.</p>
+the same <code><a href="../../reference/android/os/IBinder.html">IBinder</a></code> method at the same time.  <code><a href="../../reference/android/os/IBinder.html">IBinder</a></code> methods must, therefore, be implemented to be thread-safe.</p>
 
 <p> Similarly, a content provider can receive data requests that originate in other processes.
 Although the <code><a href="../../reference/android/content/ContentResolver.html">ContentResolver</a></code> and <code><a href="../../reference/android/content/ContentProvider.html">ContentProvider</a></code>
@@ -1383,7 +1367,7 @@ transmitted in the opposite direction.  Android provides all the code to perform
 transactions, so you can focus on defining and implementing the RPC programming interface. </p>
 
 <p>To perform IPC, your application must bind to a service, using <code><a href="../../reference/android/content/Context.html#bindService(android.content.Intent, android.content.ServiceConnection, int)">bindService()</a></code>. For more information, see the <a
-href="services.html">Services</a> developer guide.</p>
+href="../../guide/components/services.html">Services</a> developer guide.</p>
 
 
 <!--
@@ -1391,7 +1375,7 @@ href="services.html">Services</a> developer guide.</p>
 
 <p>For information about how to perform work in the background for an indefinite period of time
 (without a user interface), continue with the <b><a
-href="/guide/components/services.html">Services</a></b> document.</p>
+href="../../guide/components/services.html">Services</a></b> document.</p>
 -->
 
     </div>
@@ -1406,7 +1390,7 @@ href="/guide/components/services.html">Services</a></b> document.</p>
         
         <div class="paging-links layout-content-col col-4">
           
-            <a href="processes-and-threads.html#" class="prev-page-link hide"
+            <a href="#" class="prev-page-link hide"
                 zh-TW-lang="上一堂課"
                 zh-CN-lang="上一课"
                 ru-lang="Предыдущий"
@@ -1414,7 +1398,7 @@ href="/guide/components/services.html">Services</a></b> document.</p>
                 ja-lang="前へ"
                 es-lang="Anterior"               
                 >Previous</a>
-            <a href="processes-and-threads.html#" class="next-page-link hide"
+            <a href="#" class="next-page-link hide"
                 zh-TW-lang="下一堂課"
                 zh-CN-lang="下一课"
                 ru-lang="Следующий"

@@ -91,12 +91,14 @@ href="http://fonts.googleapis.com/css?family=Roboto:regular,medium,thin,italic,m
 <script src="http://www.google.com/jsapi" type="text/javascript"></script>
 <script src="../../../assets/js/android_3p-bundle.js" type="text/javascript"></script>
 <script type="text/javascript">
-  var toRoot = "/";
+  var toRoot = "../../../";
   
   var devsite = false;
   
 </script>
 <script src="../../../assets/js/docs.js" type="text/javascript"></script>
+
+<script src="../../../navtree_data.js" type="text/javascript"></script>
 
 
 <script type="text/javascript">
@@ -123,8 +125,8 @@ href="http://fonts.googleapis.com/css?family=Roboto:regular,medium,thin,italic,m
             <img src="../../../assets/images/dac_logo.png" width="123" height="25" alt="Android Developers" />
           </a>
           <div class="btn-quicknav" id="btn-quicknav">
-          	<a href="sip.html#" class="arrow-inactive">Quicknav</a>
-			      <a href="sip.html#" class="arrow-active">Quicknav</a>
+          	<a href="#" class="arrow-inactive">Quicknav</a>
+			      <a href="#" class="arrow-active">Quicknav</a>
           </div>
           </div>
             <ul class="nav-x col-9">
@@ -179,24 +181,6 @@ href="http://fonts.googleapis.com/css?family=Roboto:regular,medium,thin,italic,m
 
       
       
-        <div class="header">Language</div>
-          <div id="language" class="locales">
-            <select name="language" onChange="changeLangPref(this.value, true)">
-                <option value="en">English</option>
-                <option value="es">Español</option>
-                <option value="ja">日本語</option>
-                <option value="ko">한국어</option>
-                <option value="ru">Русский</option>
-                <option value="zh-CN">中文 (中国)</option>
-                <option value="zh-TW">中文 (台灣)</option>
-            </select>
-          </div>
-        <script type="text/javascript">
-          <!--
-          loadLangPref();
-            //-->
-        </script>
-      
       
 
 
@@ -211,8 +195,8 @@ href="http://fonts.googleapis.com/css?family=Roboto:regular,medium,thin,italic,m
       <form onsubmit="return submit_search()">
         <input id="search_autocomplete" type="text" value="" autocomplete="off" name="q"
 onfocus="search_focus_changed(this, true)" onblur="search_focus_changed(this, false)"
-onkeydown="return search_changed(event, true, '/')" 
-onkeyup="return search_changed(event, false, '/')" />
+onkeydown="return search_changed(event, true, '../../../')" 
+onkeyup="return search_changed(event, false, '../../../')" />
       </form>
       <div class="right"></div>
         <a class="close hide">close</a>
@@ -254,7 +238,7 @@ onkeyup="return search_changed(event, false, '/')" />
                           ja-lang="トレーニング"
                           es-lang="Capacitación"               
                           >Training</a></li>
-                        <li><a href="../../components/index.html"
+                        <li><a href="../../../guide/components/index.html"
                           zh-TW-lang="API 指南"
                           zh-CN-lang="API 指南"
                           ru-lang="Руководства по API"
@@ -322,7 +306,7 @@ onkeyup="return search_changed(event, false, '/')" />
                   ja-lang="トレーニング"
                   es-lang="Capacitación"               
                   >Training</a></li>
-                <li class="guide"><a href="../../components/index.html"
+                <li class="guide"><a href="../../../guide/components/index.html"
                   zh-TW-lang="API 指南"
                   zh-CN-lang="API 指南"
                   ru-lang="Руководства по API"
@@ -360,7 +344,7 @@ onkeyup="return search_changed(event, false, '/')" />
   <div class="wrap clearfix" id="body-content">
     <div class="col-4" id="side-nav" itemscope itemtype="http://schema.org/SiteNavigationElement">
       <div id="devdoc-nav" class="scroll-pane">
-<a class="totop" href="sip.html#top" data-g-event="left-nav-top">to top</a>
+<a class="totop" href="#top" data-g-event="left-nav-top">to top</a>
 
 
 
@@ -369,106 +353,106 @@ onkeyup="return search_changed(event, false, '/')" />
   <!--<li style="color:red">Overview</li> -->
 
   <li class="nav-section">
-    <div class="nav-section-header"><a href="../../components/index.html">
+    <div class="nav-section-header"><a href="../../../guide/components/index.html">
         <span class="en">App Components</span>
       </a></div>
     <ul>
-      <li><a href="../../components/fundamentals.html">
+      <li><a href="../../../guide/components/fundamentals.html">
             <span class="en">App Fundamentals</span></a>
       </li>
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../../components/activities.html">
+        <div class="nav-section-header"><a href="../../../guide/components/activities.html">
             <span class="en">Activities</span>
           </a></div>
         <ul>
-          <li><a href="../../components/fragments.html">
+          <li><a href="../../../guide/components/fragments.html">
               <span class="en">Fragments</span>
             </a></li>
-          <li><a href="../../components/loaders.html">
+          <li><a href="../../../guide/components/loaders.html">
               <span class="en">Loaders</span>
             </a></li>
-          <li><a href="../../components/tasks-and-back-stack.html">
+          <li><a href="../../../guide/components/tasks-and-back-stack.html">
               <span class="en">Tasks and Back Stack</span>
             </a></li>
         </ul>
       </li>
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../../components/services.html">
+        <div class="nav-section-header"><a href="../../../guide/components/services.html">
             <span class="en">Services</span>
           </a></div>
         <ul>
-          <li><a href="../../components/bound-services.html">
+          <li><a href="../../../guide/components/bound-services.html">
               <span class="en">Bound Services</span>
             </a></li>
-          <li><a href="../../components/aidl.html">
+          <li><a href="../../../guide/components/aidl.html">
               <span class="en">AIDL</span>
             </a></li>
         </ul>
       </li>
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../providers/content-providers.html">
+        <div class="nav-section-header"><a href="../../../guide/topics/providers/content-providers.html">
             <span class="en">Content Providers</span>
           </a></div>
         <ul>
-          <li><a href="../providers/content-provider-basics.html">
+          <li><a href="../../../guide/topics/providers/content-provider-basics.html">
               <span class="en">Content Provider Basics</span>
             </a></li>
-          <li><a href="../providers/content-provider-creating.html">
+          <li><a href="../../../guide/topics/providers/content-provider-creating.html">
               <span class="en">Creating a Content Provider</span>
             </a></li>
-          <li><a href="../providers/calendar-provider.html">
+          <li><a href="../../../guide/topics/providers/calendar-provider.html">
               <span class="en">Calendar Provider</span>
             </a></li>
-          <li><a href="../providers/contacts-provider.html">
+          <li><a href="../../../guide/topics/providers/contacts-provider.html">
               <span class="en">Contacts Provider</span>
             </a></li>
         </ul>
       </li>
-      <li><a href="../../components/intents-filters.html">
+      <li><a href="../../../guide/components/intents-filters.html">
           <span class="en">Intents and Intent Filters</span>
         </a></li>
-      <li><a href="../../components/processes-and-threads.html">
+      <li><a href="../../../guide/components/processes-and-threads.html">
           <span class="en">Processes and Threads</span>
         </a>
       </li>
-      <li><a href="../security/permissions.html">
+      <li><a href="../../../guide/topics/security/permissions.html">
           <span class="en">Permissions</span>
         </a>
       </li>
-      <li><a href="../appwidgets/index.html">
+      <li><a href="../../../guide/topics/appwidgets/index.html">
             <span class="en">App Widgets</span>
           </a></li>
       <li class="nav-section">
-      <div class="nav-section-header"><a href="../manifest/manifest-intro.html">
+      <div class="nav-section-header"><a href="../../../guide/topics/manifest/manifest-intro.html">
           <span class="en">Android Manifest</span>
         </a></div>
         <ul>
-          <li><a href="../manifest/action-element.html">&lt;action&gt;</a></li>
-          <li><a href="../manifest/activity-element.html">&lt;activity&gt;</a></li>
-          <li><a href="../manifest/activity-alias-element.html">&lt;activity-alias&gt;</a></li>
-          <li><a href="../manifest/application-element.html">&lt;application&gt;</a></li>
-          <li><a href="../manifest/category-element.html">&lt;category&gt;</a></li>
-          <li><a href="../manifest/compatible-screens-element.html">&lt;compatible-screens&gt;</a></li>
-          <li><a href="../manifest/data-element.html">&lt;data&gt;</a></li>
-          <li><a href="../manifest/grant-uri-permission-element.html">&lt;grant-uri-permission&gt;</a></li>
-          <li><a href="../manifest/instrumentation-element.html">&lt;instrumentation&gt;</a></li>
-          <li><a href="../manifest/intent-filter-element.html">&lt;intent-filter&gt;</a></li>
-          <li><a href="../manifest/manifest-element.html">&lt;manifest&gt;</a></li>
-          <li><a href="../manifest/meta-data-element.html">&lt;meta-data&gt;</a></li>
-          <li><a href="../manifest/path-permission-element.html">&lt;path-permission&gt;</a></li>
-          <li><a href="../manifest/permission-element.html">&lt;permission&gt;</a></li>
-          <li><a href="../manifest/permission-group-element.html">&lt;permission-group&gt;</a></li>
-          <li><a href="../manifest/permission-tree-element.html">&lt;permission-tree&gt;</a></li>
-          <li><a href="../manifest/provider-element.html">&lt;provider&gt;</a></li>
-          <li><a href="../manifest/receiver-element.html">&lt;receiver&gt;</a></li>
-          <li><a href="../manifest/service-element.html">&lt;service&gt;</a></li>
-          <li><a href="../manifest/supports-gl-texture-element.html">&lt;supports-gl-texture&gt;</a></li>
-          <li><a href="../manifest/supports-screens-element.html">&lt;supports-screens&gt;</a></li><!-- ##api level 4## -->
-          <li><a href="../manifest/uses-configuration-element.html">&lt;uses-configuration&gt;</a></li>
-          <li><a href="../manifest/uses-feature-element.html">&lt;uses-feature&gt;</a></li> <!-- ##api level 4## -->
-          <li><a href="../manifest/uses-library-element.html">&lt;uses-library&gt;</a></li>
-          <li><a href="../manifest/uses-permission-element.html">&lt;uses-permission&gt;</a></li>
-          <li><a href="../manifest/uses-sdk-element.html">&lt;uses-sdk&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/action-element.html">&lt;action&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/activity-element.html">&lt;activity&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/activity-alias-element.html">&lt;activity-alias&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/application-element.html">&lt;application&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/category-element.html">&lt;category&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/compatible-screens-element.html">&lt;compatible-screens&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/data-element.html">&lt;data&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/grant-uri-permission-element.html">&lt;grant-uri-permission&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/instrumentation-element.html">&lt;instrumentation&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/intent-filter-element.html">&lt;intent-filter&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/manifest-element.html">&lt;manifest&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/meta-data-element.html">&lt;meta-data&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/path-permission-element.html">&lt;path-permission&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/permission-element.html">&lt;permission&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/permission-group-element.html">&lt;permission-group&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/permission-tree-element.html">&lt;permission-tree&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/provider-element.html">&lt;provider&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/receiver-element.html">&lt;receiver&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/service-element.html">&lt;service&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/supports-gl-texture-element.html">&lt;supports-gl-texture&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/supports-screens-element.html">&lt;supports-screens&gt;</a></li><!-- ##api level 4## -->
+          <li><a href="../../../guide/topics/manifest/uses-configuration-element.html">&lt;uses-configuration&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/uses-feature-element.html">&lt;uses-feature&gt;</a></li> <!-- ##api level 4## -->
+          <li><a href="../../../guide/topics/manifest/uses-library-element.html">&lt;uses-library&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/uses-permission-element.html">&lt;uses-permission&gt;</a></li>
+          <li><a href="../../../guide/topics/manifest/uses-sdk-element.html">&lt;uses-sdk&gt;</a></li>
         </ul>
    </li><!-- end of the manifest file -->
 
@@ -476,263 +460,263 @@ onkeyup="return search_changed(event, false, '/')" />
   </li>
 
   <li class="nav-section">
-    <div class="nav-section-header"><a href="../ui/index.html">
+    <div class="nav-section-header"><a href="../../../guide/topics/ui/index.html">
         <span class="en">User Interface</span>
       </a></div>
     <ul>
-      <li><a href="../ui/overview.html">
+      <li><a href="../../../guide/topics/ui/overview.html">
           <span class="en">Overview</span>
         </a></li>
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../ui/declaring-layout.html">
+        <div class="nav-section-header"><a href="../../../guide/topics/ui/declaring-layout.html">
             <span class="en">Layouts</span>
           </a></div>
         <ul>
-          <li><a href="../ui/layout/linear.html">
+          <li><a href="../../../guide/topics/ui/layout/linear.html">
               <span class="en">Linear Layout</span>
             </a></li>
-          <li><a href="../ui/layout/relative.html">
+          <li><a href="../../../guide/topics/ui/layout/relative.html">
               <span class="en">Relative Layout</span>
             </a></li>
        <!--
-          <li><a href="/guide/topics/ui/layout/grid.html">
+          <li><a href="../../../guide/topics/ui/layout/grid.html">
               <span class="en">Grid Layout</span>
             </a></li>
-          <li><a href="/guide/topics/ui/layout/tabs.html">
+          <li><a href="../../../guide/topics/ui/layout/tabs.html">
               <span class="en">Tab Layout</span>
             </a></li>
        -->
-          <li><a href="../ui/layout/listview.html">
+          <li><a href="../../../guide/topics/ui/layout/listview.html">
               <span class="en">List View</span>
             </a></li>
-          <li><a href="../ui/layout/gridview.html">
+          <li><a href="../../../guide/topics/ui/layout/gridview.html">
               <span class="en">Grid View</span>
             </a></li>
         </ul>
       </li>
 
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../ui/controls.html">
+        <div class="nav-section-header"><a href="../../../guide/topics/ui/controls.html">
             <span class="en">Input Controls</span>
           </a></div>
         <ul>
-          <li><a href="../ui/controls/button.html">
+          <li><a href="../../../guide/topics/ui/controls/button.html">
               <span class="en">Buttons</span>
             </a></li>
-          <li><a href="../ui/controls/text.html">
+          <li><a href="../../../guide/topics/ui/controls/text.html">
               <span class="en">Text Fields</span>
             </a></li>
-          <li><a href="../ui/controls/checkbox.html">
+          <li><a href="../../../guide/topics/ui/controls/checkbox.html">
               <span class="en">Checkboxes</span>
             </a></li>
-          <li><a href="../ui/controls/radiobutton.html">
+          <li><a href="../../../guide/topics/ui/controls/radiobutton.html">
               <span class="en">Radio Buttons</span>
             </a></li>
-          <li><a href="../ui/controls/togglebutton.html">
+          <li><a href="../../../guide/topics/ui/controls/togglebutton.html">
               <span class="en">Toggle Buttons</span>
             </a></li>
-          <li><a href="../ui/controls/spinner.html">
+          <li><a href="../../../guide/topics/ui/controls/spinner.html">
               <span class="en">Spinners</span>
             </a></li>
-          <li><a href="../ui/controls/pickers.html">
+          <li><a href="../../../guide/topics/ui/controls/pickers.html">
               <span class="en">Pickers</span>
             </a></li>
 <!--
-          <li><a href="/guide/topics/ui/controls/progress.html">
+          <li><a href="../../../guide/topics/ui/controls/progress.html">
               <span class="en">Seek and Progress Bars</span>
             </a></li>
 -->
         </ul>
       </li>
-      <li><a href="../ui/ui-events.html">
+      <li><a href="../../../guide/topics/ui/ui-events.html">
           <span class="en">Input Events</span>
         </a></li>
-      <li><a href="../ui/menus.html">
+      <li><a href="../../../guide/topics/ui/menus.html">
           <span class="en">Menus</span></span>
           </a></li>
-      <li><a href="../ui/actionbar.html">
+      <li><a href="../../../guide/topics/ui/actionbar.html">
            <span class="en">Action Bar</span>
           </a></li>
-      <li><a href="../ui/settings.html">
+      <li><a href="../../../guide/topics/ui/settings.html">
             <span class="en">Settings</span>
           </a></li>
-      <li><a href="../ui/dialogs.html">
+      <li><a href="../../../guide/topics/ui/dialogs.html">
            <span class="en">Dialogs</span>
           </a></li>
-      <li><a href="../ui/notifiers/notifications.html">
+      <li><a href="../../../guide/topics/ui/notifiers/notifications.html">
           <span class="en">Notifications</span>
         </a></li>
-      <li><a href="../ui/notifiers/toasts.html">
+      <li><a href="../../../guide/topics/ui/notifiers/toasts.html">
           <span class="en">Toasts</span>
         </a></li>
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../search/index.html">
+        <div class="nav-section-header"><a href="../../../guide/topics/search/index.html">
             <span class="en">Search</span>
           </a></div>
           <ul>
-            <li><a href="../search/search-dialog.html">Creating a Search Interface</a></li>
-            <li><a href="../search/adding-recent-query-suggestions.html">Adding Recent Query Suggestions</a></li>
-            <li><a href="../search/adding-custom-suggestions.html">Adding Custom Suggestions</a></li>
-            <li><a href="../search/searchable-config.html">Searchable Configuration</a></li>
+            <li><a href="../../../guide/topics/search/search-dialog.html">Creating a Search Interface</a></li>
+            <li><a href="../../../guide/topics/search/adding-recent-query-suggestions.html">Adding Recent Query Suggestions</a></li>
+            <li><a href="../../../guide/topics/search/adding-custom-suggestions.html">Adding Custom Suggestions</a></li>
+            <li><a href="../../../guide/topics/search/searchable-config.html">Searchable Configuration</a></li>
           </ul>
       </li>
-      <li><a href="../ui/drag-drop.html">
+      <li><a href="../../../guide/topics/ui/drag-drop.html">
           <span class="en">Drag and Drop</span>
         </a></li>
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../ui/accessibility/index.html">
+        <div class="nav-section-header"><a href="../../../guide/topics/ui/accessibility/index.html">
             <span class="en">Accessibility</span>
           </a></div>
         <ul>
-          <li><a href="../ui/accessibility/apps.html">
+          <li><a href="../../../guide/topics/ui/accessibility/apps.html">
               <span class="en">Making Applications Accessible</span>
             </a></li>
-          <li><a href="../ui/accessibility/checklist.html">
+          <li><a href="../../../guide/topics/ui/accessibility/checklist.html">
               <span class="en">Accessibility Developer Checklist</span>
             </a></li>
-          <li><a href="../ui/accessibility/services.html">
+          <li><a href="../../../guide/topics/ui/accessibility/services.html">
               <span class="en">Building Accessibility Services</span>
             </a></li>
         </ul>
       </li>
-      <li><a href="../ui/themes.html">
+      <li><a href="../../../guide/topics/ui/themes.html">
           <span class="en">Styles and Themes</span>
         </a></li>
-      <li><a href="../ui/custom-components.html">
+      <li><a href="../../../guide/topics/ui/custom-components.html">
           <span class="en">Custom Components</span>
         </a></li>
     </ul>
   </li><!-- end of User Interface -->
 
     <li class="nav-section">
-      <div class="nav-section-header"><a href="../resources/index.html">
+      <div class="nav-section-header"><a href="../../../guide/topics/resources/index.html">
            <span class="en">App Resources</span>
          </a></div>
       <ul>
-        <li><a href="../resources/overview.html">
+        <li><a href="../../../guide/topics/resources/overview.html">
             <span class="en">Overview</span>
           </a></li>
-          <li><a href="../resources/providing-resources.html">
+          <li><a href="../../../guide/topics/resources/providing-resources.html">
             <span class="en">Providing Resources</span>
           </a></li>
-        <li><a href="../resources/accessing-resources.html">
+        <li><a href="../../../guide/topics/resources/accessing-resources.html">
             <span class="en">Accessing Resources</span>
           </a></li>
-        <li><a href="../resources/runtime-changes.html">
+        <li><a href="../../../guide/topics/resources/runtime-changes.html">
               <span class="en">Handling Runtime Changes</span>
             </a></li>
-        <li><a href="../resources/localization.html">
+        <li><a href="../../../guide/topics/resources/localization.html">
             <span class="en">Localization</span>
           </a></li>
         <li class="nav-section">
-          <div class="nav-section-header"><a href="../resources/available-resources.html">
+          <div class="nav-section-header"><a href="../../../guide/topics/resources/available-resources.html">
               <span class="en">Resource Types</span>
             </a></div>
           <ul>
-            <li><a href="../resources/animation-resource.html">Animation</a></li>
-            <li><a href="../resources/color-list-resource.html">Color State List</a></li>
-            <li><a href="../resources/drawable-resource.html">Drawable</a></li>
-            <li><a href="../resources/layout-resource.html">Layout</a></li>
-            <li><a href="../resources/menu-resource.html">Menu</a></li>
-            <li><a href="../resources/string-resource.html">String</a></li>
-            <li><a href="../resources/style-resource.html">Style</a></li>
-            <li><a href="../resources/more-resources.html">More Types</a></li>
+            <li><a href="../../../guide/topics/resources/animation-resource.html">Animation</a></li>
+            <li><a href="../../../guide/topics/resources/color-list-resource.html">Color State List</a></li>
+            <li><a href="../../../guide/topics/resources/drawable-resource.html">Drawable</a></li>
+            <li><a href="../../../guide/topics/resources/layout-resource.html">Layout</a></li>
+            <li><a href="../../../guide/topics/resources/menu-resource.html">Menu</a></li>
+            <li><a href="../../../guide/topics/resources/string-resource.html">String</a></li>
+            <li><a href="../../../guide/topics/resources/style-resource.html">Style</a></li>
+            <li><a href="../../../guide/topics/resources/more-resources.html">More Types</a></li>
           </ul>
         </li><!-- end of resource types -->
       </ul>
     </li><!-- end of app resources -->
 
    <li class="nav-section">
-      <div class="nav-section-header"><a href="../graphics/index.html">
+      <div class="nav-section-header"><a href="../../../guide/topics/graphics/index.html">
           <span class="en">Animation and Graphics</span>
         </a></div>
       <ul>
       <li class="nav-section">
-        <li><a href="../graphics/overview.html">
+        <li><a href="../../../guide/topics/graphics/overview.html">
             <span class="en">Overview</span>
           </a></li>
-        <li><a href="../graphics/prop-animation.html">
+        <li><a href="../../../guide/topics/graphics/prop-animation.html">
             <span class="en">Property Animation</span>
           </a></li>
-        <li><a href="../graphics/view-animation.html">
+        <li><a href="../../../guide/topics/graphics/view-animation.html">
             <span class="en">View Animation</span>
           </a></li>
-        <li><a href="../graphics/drawable-animation.html">
+        <li><a href="../../../guide/topics/graphics/drawable-animation.html">
             <span class="en">Drawable Animation</span>
           </a></li>
-        <li><a href="../graphics/2d-graphics.html">
+        <li><a href="../../../guide/topics/graphics/2d-graphics.html">
             <span class="en">Canvas and Drawables</span>
           </a></li>
-        <li><a href="../graphics/opengl.html">
+        <li><a href="../../../guide/topics/graphics/opengl.html">
             <span class="en">OpenGL</span>
           </a></li>
-        <li><a href="../graphics/hardware-accel.html">
+        <li><a href="../../../guide/topics/graphics/hardware-accel.html">
             <span class="en">Hardware Acceleration</span>
           </a></li>
        </ul>
     </li><!-- end of graphics and animation-->
 
    <li class="nav-section">
-            <div class="nav-section-header"><a href="../renderscript/index.html">
+            <div class="nav-section-header"><a href="../../../guide/topics/renderscript/index.html">
               <span class="en">Computation</span>
             </a></div>
             <ul>
-              <li><a href="../renderscript/compute.html">
+              <li><a href="../../../guide/topics/renderscript/compute.html">
                     <span class="en">Renderscript</span></a>
                   </li>
 
-              <li><a href="../renderscript/advanced.html">
+              <li><a href="../../../guide/topics/renderscript/advanced.html">
                     <span class="en">Advanced Renderscript</span></a>
                   </li>
-              <li><a href="../renderscript/reference.html">
+              <li><a href="../../../guide/topics/renderscript/reference.html">
                     <span class="en">Runtime API Reference</span></a>
               </li>
              </ul>
    </li>
       <li class="nav-section">
-          <div class="nav-section-header"><a href="../media/index.html">
+          <div class="nav-section-header"><a href="../../../guide/topics/media/index.html">
             <span class="en">Media and Camera</span>
           </a></div>
           <ul>
-            <li><a href="../media/mediaplayer.html">
+            <li><a href="../../../guide/topics/media/mediaplayer.html">
                   <span class="en">Media Playback</span></a>
                 </li>
-            <li><a href="../../appendix/media-formats.html">
+            <li><a href="../../../guide/appendix/media-formats.html">
                    <span class="en">Supported Media Formats</span></a>
                 </li>
-            <li><a href="../media/audio-capture.html">
+            <li><a href="../../../guide/topics/media/audio-capture.html">
                   <span class="en">Audio Capture</span></a>
                 </li>
-            <li><a href="../media/jetplayer.html">
+            <li><a href="../../../guide/topics/media/jetplayer.html">
                   <span class="en">JetPlayer</span></a>
                 </li>
-            <li><a href="../media/camera.html">
+            <li><a href="../../../guide/topics/media/camera.html">
                   <span class="en">Camera</span></a>
                 </li>
           </ul>
       </li><!-- end of media and camera -->
 
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../sensors/index.html">
+        <div class="nav-section-header"><a href="../../../guide/topics/sensors/index.html">
               <span class="en">Location and Sensors</span>
               </a></div>
         <ul>
-          <li><a href="../location/index.html">
+          <li><a href="../../../guide/topics/location/index.html">
                <span class="en">Location and Maps</span>
              </a>
-          <li><a href="../location/strategies.html">
+          <li><a href="../../../guide/topics/location/strategies.html">
                <span class="en">Location Strategies</span>
              </a></li>
-          <li><a href="../sensors/sensors_overview.html">
+          <li><a href="../../../guide/topics/sensors/sensors_overview.html">
               <span class="en">Sensors Overview</span>
             </a></li>
-          <li><a href="../sensors/sensors_motion.html">
+          <li><a href="../../../guide/topics/sensors/sensors_motion.html">
               <span class="en">Motion Sensors</span>
             </a></li>
-          <li><a href="../sensors/sensors_position.html">
+          <li><a href="../../../guide/topics/sensors/sensors_position.html">
               <span class="en">Position Sensors</span>
             </a></li>
-          <li><a href="../sensors/sensors_environment.html">
+          <li><a href="../../../guide/topics/sensors/sensors_environment.html">
               <span class="en">Environment Sensors</span>
             </a></li>
         </ul>
@@ -741,36 +725,36 @@ onkeyup="return search_changed(event, false, '/')" />
 
 
       <li class="nav-section">
-        <div class="nav-section-header"><a href="index.html">
+        <div class="nav-section-header"><a href="../../../guide/topics/connectivity/index.html">
                <span class="en">Connectivity</span>
              </a></div>
         <ul>
-          <li><a href="bluetooth.html">
+          <li><a href="../../../guide/topics/connectivity/bluetooth.html">
               <span class="en">Bluetooth</span>
             </a>
           </li>
       <li class="nav-section">
-        <div class="nav-section-header"><a href="nfc/index.html">
+        <div class="nav-section-header"><a href="../../../guide/topics/connectivity/nfc/index.html">
           <span class="en">NFC</span></a>
         </div>
         <ul>
-          <li><a href="nfc/nfc.html">NFC Basics</a></li>
-          <li><a href="nfc/advanced-nfc.html">Advanced NFC</a></li>
+          <li><a href="../../../guide/topics/connectivity/nfc/nfc.html">NFC Basics</a></li>
+          <li><a href="../../../guide/topics/connectivity/nfc/advanced-nfc.html">Advanced NFC</a></li>
         </ul>
       </li>
-      <li><a href="wifip2p.html">
+      <li><a href="../../../guide/topics/connectivity/wifip2p.html">
             <span class="en">Wi-Fi Direct</span></a>
           </li>
       <li class="nav-section">
-          <div class="nav-section-header"><a href="usb/index.html">
+          <div class="nav-section-header"><a href="../../../guide/topics/connectivity/usb/index.html">
             <span class="en">USB</span></a>
           </div>
             <ul>
-              <li><a href="usb/accessory.html">Accessory</a></li>
-              <li><a href="usb/host.html">Host</a></li>
+              <li><a href="../../../guide/topics/connectivity/usb/accessory.html">Accessory</a></li>
+              <li><a href="../../../guide/topics/connectivity/usb/host.html">Host</a></li>
             </ul>
      </li>
-     <li><a href="sip.html">
+     <li><a href="../../../guide/topics/connectivity/sip.html">
             <span class="en">SIP</span>
           </a>
      </li>
@@ -779,34 +763,34 @@ onkeyup="return search_changed(event, false, '/')" />
   </li><!-- end of connectivity -->
 
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../text/index.html">
+        <div class="nav-section-header"><a href="../../../guide/topics/text/index.html">
             <span class="en">Text and Input</span>
         </a></div>
         <ul>
-          <li><a href="../text/copy-paste.html">
+          <li><a href="../../../guide/topics/text/copy-paste.html">
               <span class="en">Copy and Paste</span>
             </a></li>
-          <li><a href="../text/creating-input-method.html">
+          <li><a href="../../../guide/topics/text/creating-input-method.html">
               <span class="en">Creating an IME</span>
             </a></li>
-          <li><a href="../text/spell-checker-framework.html">
+          <li><a href="../../../guide/topics/text/spell-checker-framework.html">
               <span class="en">Spelling Checker</span>
             </a></li>
         </ul>
       </li><!-- end of text and input -->
 
      <li class="nav-section">
-      <div class="nav-section-header"><a href="../data/index.html">
+      <div class="nav-section-header"><a href="../../../guide/topics/data/index.html">
           <span class="en">Data Storage</span>
         </a></div>
       <ul>
-         <li><a href="../data/data-storage.html">
+         <li><a href="../../../guide/topics/data/data-storage.html">
             <span class="en">Storage Options</span>
            </a></li>
-        <li><a href="../data/backup.html">
+        <li><a href="../../../guide/topics/data/backup.html">
             <span class="en">Data Backup</span>
           </a></li>
-        <li><a href="../data/install-location.html">
+        <li><a href="../../../guide/topics/data/install-location.html">
             <span class="en">App Install Location</span>
           </a></li>
       </ul>
@@ -814,17 +798,17 @@ onkeyup="return search_changed(event, false, '/')" />
 
 
   <li class="nav-section">
-           <div class="nav-section-header"><a href="../admin/index.html">
+           <div class="nav-section-header"><a href="../../../guide/topics/admin/index.html">
                <span class="en">Administration</span>
              </a></div>
            <ul>
               <li>
-                <a href="../admin/device-admin.html">
+                <a href="../../../guide/topics/admin/device-admin.html">
                 <span class="en">Device Policies</span></a>
               </li>
             <!--
               <li>
-                <a href="/guide/topics/admin/keychain.html">
+                <a href="../../../guide/topics/admin/keychain.html">
                 <span class="en">Certificate Store</span></a>
               </li>
             -->
@@ -832,30 +816,30 @@ onkeyup="return search_changed(event, false, '/')" />
   </li><!-- end of administration -->
 
   <li class="nav-section">
-    <div class="nav-section-header"><a href="../../webapps/index.html">
+    <div class="nav-section-header"><a href="../../../guide/webapps/index.html">
     <span class="en">Web Apps</span>
     </a></div>
     <ul>
-      <li><a href="../../webapps/overview.html">
+      <li><a href="../../../guide/webapps/overview.html">
             <span class="en">Overview</span>
           </a></li>
-      <li><a href="../../webapps/targeting.html">
+      <li><a href="../../../guide/webapps/targeting.html">
             <span class="en">Targeting Screens from Web Apps</span>
           </a></li>
-      <li><a href="../../webapps/webview.html">
+      <li><a href="../../../guide/webapps/webview.html">
             <span class="en">Building Web Apps in WebView</span>
           </a></li>
-      <li><a href="../../webapps/debugging.html">
+      <li><a href="../../../guide/webapps/debugging.html">
             <span class="en">Debugging Web Apps</span>
           </a></li>
-      <li><a href="../../webapps/best-practices.html">
+      <li><a href="../../../guide/webapps/best-practices.html">
             <span class="en">Best Practices for Web Apps</span>
           </a></li>
     </ul>
   </li><!-- end of web apps -->
 
   <li class="nav-section">
-    <div class="nav-section-header"><a href="../../practices/index.html">
+    <div class="nav-section-header"><a href="../../../guide/practices/index.html">
       <span class="en">Best Practices</span>
       <span class="de" style="display:none">Bewährte Verfahren</span>
       <span class="es" style="display:none">Prácticas recomendadas</span>
@@ -866,26 +850,26 @@ onkeyup="return search_changed(event, false, '/')" />
       <span class="zh-TW" style="display:none">最佳實務</span>
     </div></a>
     <ul>
-      <li><a href="../../practices/compatibility.html">
+      <li><a href="../../../guide/practices/compatibility.html">
             <span class="en">Compatibility</span>
           </a></li>
       <li class="nav-section">
-        <div class="nav-section-header"><a href="../../practices/screens_support.html">
+        <div class="nav-section-header"><a href="../../../guide/practices/screens_support.html">
           <span class="en">Supporting Multiple Screens</span>
         </a></div>
         <ul>
-          <li><a href="../../practices/screens-distribution.html">
+          <li><a href="../../../guide/practices/screens-distribution.html">
             <span class="en">Distributing to Specific Screens</span>
           </a></li>
-          <li><a href="../../practices/screen-compat-mode.html">
+          <li><a href="../../../guide/practices/screen-compat-mode.html">
             <span class="en">Screen Compatibility Mode</span>
           </a></li>
-          <!--<li><a href="../../practices/screens-support-1.5.html">
+          <!--<li><a href="../../../guide/practices/screens-support-1.5.html">
             <span class="en">Strategies for Android 1.5</span>
           </a></li> -->
         </ul>
       </li>
-      <li><a href="../../practices/tablets-and-handsets.html">
+      <li><a href="../../../guide/practices/tablets-and-handsets.html">
             <span class="en">Supporting Tablets and Handsets</span>
           </a></li>
 
@@ -894,39 +878,39 @@ onkeyup="return search_changed(event, false, '/')" />
 
       <!-- this needs to move
       <li class="nav-section">
-        <div class="nav-section-header"><a href="/guide/practices/ui_guidelines/index.html">
+        <div class="nav-section-header"><a href="../../../guide/practices/ui_guidelines/index.html">
                <span class="en">UI Guidelines</span>
              </a></div>
         <ul>
           <li class="nav-section">
-            <div class="nav-section-header"><a href="/guide/practices/ui_guidelines/icon_design.html">
+            <div class="nav-section-header"><a href="../../../guide/practices/ui_guidelines/icon_design.html">
                    <span class="en">Icon Design</span>
                  </a></div>
             <ul>
-              <li><a href="/guide/practices/ui_guidelines/icon_design_launcher.html">
+              <li><a href="../../../guide/practices/ui_guidelines/icon_design_launcher.html">
                     <span class="en">Launcher Icons</span>
                   </a></li>
-              <li><a href="/guide/practices/ui_guidelines/icon_design_menu.html">
+              <li><a href="../../../guide/practices/ui_guidelines/icon_design_menu.html">
                     <span class="en">Menu Icons</span>
                   </a></li>
-              <li><a href="/guide/practices/ui_guidelines/icon_design_action_bar.html">
+              <li><a href="../../../guide/practices/ui_guidelines/icon_design_action_bar.html">
                     <span class="en">Action Bar Icons</span>
                   </a></li>
-              <li><a href="/guide/practices/ui_guidelines/icon_design_status_bar.html">
+              <li><a href="../../../guide/practices/ui_guidelines/icon_design_status_bar.html">
                     <span class="en">Status Bar Icons</span>
                   </a></li>
-              <li><a href="/guide/practices/ui_guidelines/icon_design_tab.html">
+              <li><a href="../../../guide/practices/ui_guidelines/icon_design_tab.html">
                     <span class="en">Tab Icons</span>
                   </a></li>
-              <li><a href="/guide/practices/ui_guidelines/icon_design_dialog.html">
+              <li><a href="../../../guide/practices/ui_guidelines/icon_design_dialog.html">
                     <span class="en">Dialog Icons</span>
                   </a></li>
-              <li><a href="/guide/practices/ui_guidelines/icon_design_list.html">
+              <li><a href="../../../guide/practices/ui_guidelines/icon_design_list.html">
                     <span class="en">List View Icons</span>
                   </a></li>
             </ul>
           </li>
-          <li><div><a href="/guide/practices/ui_guidelines/widget_design.html">
+          <li><div><a href="../../../guide/practices/ui_guidelines/widget_design.html">
                 <span class="en">App Widget Design</span>
               </a></div>
           </li>
@@ -936,7 +920,7 @@ onkeyup="return search_changed(event, false, '/')" />
 
 <!-- Remove
   <li class="nav-section">
-    <div class="nav-section-header"><a href="/guide/appendix/index.html">
+    <div class="nav-section-header"><a href="../../../guide/appendix/index.html">
         <span class="en">Appendix</span>
         <span class="de" style="display:none">Anhang</span>
         <span class="es" style="display:none">Apéndice</span>
@@ -947,12 +931,12 @@ onkeyup="return search_changed(event, false, '/')" />
         <span class="zh-TW" style="display:none">附錄</span>
       </a></div>
     <ul>
-      <li><a href="/guide/appendix/g-app-intents.html">
+      <li><a href="../../../guide/appendix/g-app-intents.html">
             <span class="en">Intents List: Google Apps</span>
           </a></li>
 
 
-      <li><a href="/guide/appendix/glossary.html">
+      <li><a href="../../../guide/appendix/glossary.html">
             <span class="en">Glossary</span>
           </a></li>
     </ul>
@@ -1006,27 +990,27 @@ onkeyup="return search_changed(event, false, '/')" />
     <h2>In this document</h2>
     <ol>
 
-      <li><a href="sip.html#requirements">Requirements and Limitations</a></li>
-      <li><a href="sip.html#classes">Classes and Interfaces</a></li>
-      <li><a href="sip.html#manifest">Creating the Manifest</a></li>
-      <li><a href="sip.html#manager">Creating a SIP Manager</a></li>
-      <li><a href="sip.html#profiles">Registering with a SIP Server</a></li>
-      <li><a href="sip.html#audio">Making an Audio Call</a></li>
-      <li><a href="sip.html#receiving">Receiving Calls</a></li>   
-      <li><a href="sip.html#testing">Testing SIP Applications</a></li>
+      <li><a href="#requirements">Requirements and Limitations</a></li>
+      <li><a href="#classes">Classes and Interfaces</a></li>
+      <li><a href="#manifest">Creating the Manifest</a></li>
+      <li><a href="#manager">Creating a SIP Manager</a></li>
+      <li><a href="#profiles">Registering with a SIP Server</a></li>
+      <li><a href="#audio">Making an Audio Call</a></li>
+      <li><a href="#receiving">Receiving Calls</a></li>   
+      <li><a href="#testing">Testing SIP Applications</a></li>
     </ol>
     
   <h2>Key classes</h2>
     <ol>
-      <li><code><a href="http://developer.android.com/reference/android/net/sip/SipManager.html">SipManager</a></code></li>
-      <li><code><a href="http://developer.android.com/reference/android/net/sip/SipProfile.html">SipProfile</a></code></li>
-      <li><code><a href="http://developer.android.com/reference/android/net/sip/SipAudioCall.html">SipAudioCall</a></code></li>
+      <li><code><a href="../../../reference/android/net/sip/SipManager.html">SipManager</a></code></li>
+      <li><code><a href="../../../reference/android/net/sip/SipProfile.html">SipProfile</a></code></li>
+      <li><code><a href="../../../reference/android/net/sip/SipAudioCall.html">SipAudioCall</a></code></li>
 
     </ol>
     
    <h2>Related samples</h2>
    <ol>
-     <li> <a href="http://developer.android.com/resources/samples/SipDemo/index.html"> SipDemo</a></li>
+     <li> <a href="../../../resources/samples/SipDemo/index.html"> SipDemo</a></li>
    </ol>
   </div>
 </div>
@@ -1052,7 +1036,7 @@ record or playback directly.</p>
   <li>SIP runs over a wireless data connection, so your device must have a data
 connection (with a mobile data service or Wi-Fi)</span>. This means that you
 can't test on AVD&#8212;you can only test on a physical device. For details, see
-<a href="sip.html#testing">Testing SIP Applications</a>.</li>
+<a href="#testing">Testing SIP Applications</a>.</li>
 
   <li>Each participant in the application's communication session must have a
 SIP account. There are many different SIP providers that offer SIP accounts.</li>
@@ -1074,48 +1058,48 @@ API:</p>
   </thead>
   <tbody>
     <tr>
-      <td><code><a href="http://developer.android.com/reference/android/net/sip/SipAudioCall.html">SipAudioCall</a></code></td>
+      <td><code><a href="../../../reference/android/net/sip/SipAudioCall.html">SipAudioCall</a></code></td>
       <td>Handles an Internet audio call over SIP.</td>
     </tr>
     <tr>
-      <td><code><a href="http://developer.android.com/reference/android/net/sip/SipAudioCall.Listener.html">SipAudioCall.Listener</a></code></td>
+      <td><code><a href="../../../reference/android/net/sip/SipAudioCall.Listener.html">SipAudioCall.Listener</a></code></td>
       <td>Listener for events relating to a SIP call, such as when a call is being
 received ("on ringing") or a call is outgoing ("on calling").</td>
     </tr>
     <tr>
-      <td><code><a href="http://developer.android.com/reference/android/net/sip/SipErrorCode.html">SipErrorCode</a></code></td>
+      <td><code><a href="../../../reference/android/net/sip/SipErrorCode.html">SipErrorCode</a></code></td>
       <td>Defines error codes returned during SIP actions.</td>
     </tr>
     <tr>
-      <td><code><a href="http://developer.android.com/reference/android/net/sip/SipManager.html">SipManager</a></code></td>
+      <td><code><a href="../../../reference/android/net/sip/SipManager.html">SipManager</a></code></td>
       <td>Provides APIs for SIP tasks, such as initiating SIP connections, and provides access
 to related SIP services.</td>
     </tr>
     <tr>
-      <td><code><a href="http://developer.android.com/reference/android/net/sip/SipProfile.html">SipProfile</a></code></td>
+      <td><code><a href="../../../reference/android/net/sip/SipProfile.html">SipProfile</a></code></td>
       <td>Defines a SIP profile, including a SIP account, domain and server information.
 </td>
     </tr>
     <tr>
-      <td><code><a href="http://developer.android.com/reference/android/net/sip/SipProfile.Builder.html">SipProfile.Builder</a></code></td>
+      <td><code><a href="../../../reference/android/net/sip/SipProfile.Builder.html">SipProfile.Builder</a></code></td>
       <td>Helper class for creating a SipProfile.</td>
     </tr>
     <tr>
-      <td><code><a href="http://developer.android.com/reference/android/net/sip/SipSession.html">SipSession</a></code></td>
+      <td><code><a href="../../../reference/android/net/sip/SipSession.html">SipSession</a></code></td>
       <td>Represents a SIP session that is associated with a SIP dialog or a standalone transaction
 not within a dialog.</td>
     </tr>
     <tr>
-      <td><code><a href="http://developer.android.com/reference/android/net/sip/SipSession.Listener.html">SipSession.Listener</a></code></td>
+      <td><code><a href="../../../reference/android/net/sip/SipSession.Listener.html">SipSession.Listener</a></code></td>
       <td>Listener for events relating to a SIP session, such as when a session is being registered
 ("on registering") or a call is outgoing ("on calling"). </td>
     </tr>
     <tr>
-      <td><code><a href="http://developer.android.com/reference/android/net/sip/SipSession.State.html">SipSession.State</a></code></td>
+      <td><code><a href="../../../reference/android/net/sip/SipSession.State.html">SipSession.State</a></code></td>
       <td>Defines SIP session states, such as "registering", "outgoing call", and "in call". </td>
     </tr>
     <tr>
-      <td><code><a href="http://developer.android.com/reference/android/net/sip/SipRegistrationListener.html">SipRegistrationListener</a></code></td>
+      <td><code><a href="../../../reference/android/net/sip/SipRegistrationListener.html">SipRegistrationListener</a></code></td>
       <td>An interface that is a listener for SIP registration events.</td>
     </tr>
   </tbody>
@@ -1141,9 +1125,9 @@ manifest:</p>
 <ul>
   <li><code>&lt;uses-sdk android:minSdkVersion=&quot;9&quot; /&gt;</code>. This 
  indicates that your application requires   Android 2.3 or higher. For more
-information, see <a href="../manifest/uses-sdk-element.html#ApiLevels">API
+information, see <a href="../../../guide/topics/manifest/uses-sdk-element.html#ApiLevels">API
 Levels</a> and the documentation for the <a
-href="../manifest/uses-sdk-element.html">&lt;uses-sdk&gt;</a
+href="../../../guide/topics/manifest/uses-sdk-element.html">&lt;uses-sdk&gt;</a
 > element.</li>
 </ul>
 
@@ -1160,7 +1144,7 @@ indicates whether you want the application to be filtered from devices that do
 not offer SIP   support. Other <code>&lt;uses-feature&gt;</code> declarations
 may also be   needed, depending on your implementation. For more information,
 see the   documentation for the <a
-href="../manifest/uses-feature-element.html">&lt;uses-
+href="../../../guide/topics/manifest/uses-feature-element.html">&lt;uses-
 feature&gt;</a> element.</li>
   
 </ul>
@@ -1192,7 +1176,7 @@ feature&gt;</a> element.</li>
 
 <h2 id="manager">Creating a SipManager</h2>
 
-<p>To use the SIP API, your application must create a <code><a href="http://developer.android.com/reference/android/net/sip/SipManager.html">SipManager</a></code> object. The <code><a href="http://developer.android.com/reference/android/net/sip/SipManager.html">SipManager</a></code> takes
+<p>To use the SIP API, your application must create a <code><a href="../../../reference/android/net/sip/SipManager.html">SipManager</a></code> object. The <code><a href="../../../reference/android/net/sip/SipManager.html">SipManager</a></code> takes
 care of the following in your application:</p>
 
 <ul>
@@ -1201,7 +1185,7 @@ care of the following in your application:</p>
   <li>Registering and unregistering with a SIP provider.</li>
   <li>Verifying session connectivity.</li>
 </ul>
-<p>You instantiate a new <code><a href="http://developer.android.com/reference/android/net/sip/SipManager.html">SipManager</a></code> as follows:</p>
+<p>You instantiate a new <code><a href="../../../reference/android/net/sip/SipManager.html">SipManager</a></code> as follows:</p>
 <pre>public SipManager mSipManager = null;
 ...
 if(mSipManager == null) {
@@ -1211,20 +1195,20 @@ if(mSipManager == null) {
 
 <p>A typical Android SIP application involves one or more users, each of whom
 has a SIP account. In an Android SIP application, each SIP account  is
-represented by  a <code><a href="http://developer.android.com/reference/android/net/sip/SipProfile.html">SipProfile</a></code> object.</p>
+represented by  a <code><a href="../../../reference/android/net/sip/SipProfile.html">SipProfile</a></code> object.</p>
 
-<p>A <code><a href="http://developer.android.com/reference/android/net/sip/SipProfile.html">SipProfile</a></code> defines a SIP profile, including a SIP
+<p>A <code><a href="../../../reference/android/net/sip/SipProfile.html">SipProfile</a></code> defines a SIP profile, including a SIP
 account, and domain and server information. The profile associated with the SIP
 account on the device running the application is called the <em>local
 profile</em>. The profile that the session is connected to is called the
 <em>peer profile</em>. When your SIP application logs into the SIP server with
-the local <code><a href="http://developer.android.com/reference/android/net/sip/SipProfile.html">SipProfile</a></code>, this effectively registers the
+the local <code><a href="../../../reference/android/net/sip/SipProfile.html">SipProfile</a></code>, this effectively registers the
 device as the location to send SIP calls to for your SIP address.</p>
 
-<p>This section shows how to create a <code><a href="http://developer.android.com/reference/android/net/sip/SipProfile.html">SipProfile</a></code>,
+<p>This section shows how to create a <code><a href="../../../reference/android/net/sip/SipProfile.html">SipProfile</a></code>,
 register it with a SIP server, and track registration events.</p>
 
-<p>You  create a <code><a href="http://developer.android.com/reference/android/net/sip/SipProfile.html">SipProfile</a></code> object as follows:</p>
+<p>You  create a <code><a href="../../../reference/android/net/sip/SipProfile.html">SipProfile</a></code> object as follows:</p>
 <pre>
 public SipProfile mSipProfile = null;
 ...
@@ -1237,7 +1221,7 @@ mSipProfile = builder.build();</pre>
 receiving generic SIP calls. The caller can  make subsequent calls through
 <code>mSipManager.makeAudioCall</code>. This excerpt also sets the action
 <code>android.SipDemo.INCOMING_CALL</code>, which will be used by an intent
-filter when the device receives a call (see <a href="sip.html#intent_filter">Setting up
+filter when the device receives a call (see <a href="#intent_filter">Setting up
 an intent filter to receive calls</a>). This is the registration step:</p>
 
 <pre>Intent intent = new Intent();
@@ -1245,7 +1229,7 @@ intent.setAction(&quot;android.SipDemo.INCOMING_CALL&quot;);
 PendingIntent pendingIntent = PendingIntent.getBroadcast(this, 0, intent, Intent.FILL_IN_DATA);
 mSipManager.open(mSipProfile, pendingIntent, null);</pre>
 
-<p>Finally, this code sets a <code>SipRegistrationListener</code> on the <code><a href="http://developer.android.com/reference/android/net/sip/SipManager.html">SipManager</a></code>. This tracks whether the <code><a href="http://developer.android.com/reference/android/net/sip/SipProfile.html">SipProfile</a></code> was successfully registered with your SIP service
+<p>Finally, this code sets a <code>SipRegistrationListener</code> on the <code><a href="../../../reference/android/net/sip/SipManager.html">SipManager</a></code>. This tracks whether the <code><a href="../../../reference/android/net/sip/SipProfile.html">SipProfile</a></code> was successfully registered with your SIP service
 provider:<br>
 </p>
 
@@ -1286,15 +1270,15 @@ example:</p>
 <p>To make an audio call, you must have the following in place:</p>
 <ul>
 
-  <li>A <code><a href="http://developer.android.com/reference/android/net/sip/SipProfile.html">SipProfile</a></code> that is making the call (the
+  <li>A <code><a href="../../../reference/android/net/sip/SipProfile.html">SipProfile</a></code> that is making the call (the
 &quot;local profile&quot;), and a valid SIP address to receive the call (the
 &quot;peer profile&quot;). 
   
-  <li>A <code><a href="http://developer.android.com/reference/android/net/sip/SipManager.html">SipManager</a></code> object. </li>
+  <li>A <code><a href="../../../reference/android/net/sip/SipManager.html">SipManager</a></code> object. </li>
 </ul>
 
-<p>To make an audio call, you should set up a <code><a href="http://developer.android.com/reference/android/net/sip/SipAudioCall.Listener.html">SipAudioCall.Listener</a></code>. Much of the client's interaction with
-the SIP stack happens through listeners. In this snippet, you see how the <code><a href="http://developer.android.com/reference/android/net/sip/SipAudioCall.Listener.html">SipAudioCall.Listener</a></code> sets things up after the call is
+<p>To make an audio call, you should set up a <code><a href="../../../reference/android/net/sip/SipAudioCall.Listener.html">SipAudioCall.Listener</a></code>. Much of the client's interaction with
+the SIP stack happens through listeners. In this snippet, you see how the <code><a href="../../../reference/android/net/sip/SipAudioCall.Listener.html">SipAudioCall.Listener</a></code> sets things up after the call is
 established:</p>
 
 <pre>
@@ -1314,16 +1298,16 @@ SipAudioCall.Listener listener = new SipAudioCall.Listener() {
    }
 };</pre>
 
-<p>Once you've set up the <code><a href="http://developer.android.com/reference/android/net/sip/SipAudioCall.Listener.html">SipAudioCall.Listener</a></code>, you can
-make the  call. The <code><a href="http://developer.android.com/reference/android/net/sip/SipManager.html">SipManager</a></code> method
+<p>Once you've set up the <code><a href="../../../reference/android/net/sip/SipAudioCall.Listener.html">SipAudioCall.Listener</a></code>, you can
+make the  call. The <code><a href="../../../reference/android/net/sip/SipManager.html">SipManager</a></code> method
 <code>makeAudioCall</code> takes the following parameters:</p>
 
 <ul>
   <li>A local SIP profile (the caller).</li>
   <li>A peer SIP profile (the user being called).</li>
   
-  <li>A <code><a href="http://developer.android.com/reference/android/net/sip/SipAudioCall.Listener.html">SipAudioCall.Listener</a></code> to listen to the call
-events from <code><a href="http://developer.android.com/reference/android/net/sip/SipAudioCall.html">SipAudioCall</a></code>. This can be <code>null</code>,
+  <li>A <code><a href="../../../reference/android/net/sip/SipAudioCall.Listener.html">SipAudioCall.Listener</a></code> to listen to the call
+events from <code><a href="../../../reference/android/net/sip/SipAudioCall.html">SipAudioCall</a></code>. This can be <code>null</code>,
 but as shown above, the listener is used to set things up once the call is
 established.</li>
   
@@ -1347,7 +1331,7 @@ android:label=&quot;Call Receiver&quot;/&gt;</code>.</li>
   <li>Implement the receiver, which is a subclass of <code><a href="../../../reference/android/content/BroadcastReceiver.html">BroadcastReceiver</a></code>. In <strong>SipDemo</strong>, this is
 <code>IncomingCallReceiver</code>.</li>
   
-  <li>Initialize the local profile (<code><a href="http://developer.android.com/reference/android/net/sip/SipProfile.html">SipProfile</a></code>) with a
+  <li>Initialize the local profile (<code><a href="../../../reference/android/net/sip/SipProfile.html">SipProfile</a></code>) with a
 pending intent that fires your receiver when someone calls the local profile.
 </li>
   
@@ -1362,10 +1346,10 @@ Android system handles incoming SIP calls and broadcasts an &quot;incoming
 call&quot;<code></code> intent  (as defined by the application) when it receives
 a call.</span> Here is the subclassed <code><a href="../../../reference/android/content/BroadcastReceiver.html">BroadcastReceiver</a></code>
 code from <strong>SipDemo</strong>. To see the full example, go to <a
-href="http://developer.android.com/resources/samples/SipDemo/index.html">SipDemo sample</a>, which
+href="../../../resources/samples/SipDemo/index.html">SipDemo sample</a>, which
 is included in the SDK samples. For information on downloading and installing
 the SDK samples, see <a
-href="http://developer.android.com/resources/samples/get.html">
+href="../../../resources/samples/get.html">
 Getting the Samples</a>. </p>
 
 <pre>/*** Listens for incoming SIP calls, intercepts and hands them off to WalkieTalkieActivity.
@@ -1415,9 +1399,9 @@ public class IncomingCallReceiver extends BroadcastReceiver {
 <p>When the SIP service  receives a new call, it  sends out an intent with the
 action  string provided by the application. In SipDemo, this action string is
 <code>android.SipDemo.INCOMING_CALL</code>. </p>
-<p>This code excerpt from <strong>SipDemo</strong> shows how the <code><a href="http://developer.android.com/reference/android/net/sip/SipProfile.html">SipProfile</a></code> object gets created with a pending intent based on
+<p>This code excerpt from <strong>SipDemo</strong> shows how the <code><a href="../../../reference/android/net/sip/SipProfile.html">SipProfile</a></code> object gets created with a pending intent based on
 the action string <code>android.SipDemo.INCOMING_CALL</code>. The
-<code>PendingIntent</code> object   will perform a broadcast when the <code><a href="http://developer.android.com/reference/android/net/sip/SipProfile.html">SipProfile</a></code>  receives a call:</p> 
+<code>PendingIntent</code> object   will perform a broadcast when the <code><a href="../../../reference/android/net/sip/SipProfile.html">SipProfile</a></code>  receives a call:</p> 
 
 <pre>
 public SipManager mSipManager = null;
@@ -1492,7 +1476,7 @@ LogCat</strong>).</li>
         
         <div class="paging-links layout-content-col col-4">
           
-            <a href="sip.html#" class="prev-page-link hide"
+            <a href="#" class="prev-page-link hide"
                 zh-TW-lang="上一堂課"
                 zh-CN-lang="上一课"
                 ru-lang="Предыдущий"
@@ -1500,7 +1484,7 @@ LogCat</strong>).</li>
                 ja-lang="前へ"
                 es-lang="Anterior"               
                 >Previous</a>
-            <a href="sip.html#" class="next-page-link hide"
+            <a href="#" class="next-page-link hide"
                 zh-TW-lang="下一堂課"
                 zh-CN-lang="下一课"
                 ru-lang="Следующий"
