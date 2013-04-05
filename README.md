@@ -27,13 +27,13 @@ andorid_docs_api_guide
 |完成度    | 页面                                               |译者
 |:--------|---------------------------------------------------|-------
 |-
-| `99%`     |**training/basics/supporting-devices/**            | 
+| `99%`     |**basics/supporting-devices/**            | 
 |20%      |index.html      | iptton
 |**DONE** |platforms.html  | iptton
 |**DONE** |languages.html  | iptton
 |99%      |screens.html    | iptton
 |-
-| `40%`|**training/basics/fragments/** 
+| `40%`|**basics/fragments/** 
 |20%      |index.html               | iptton
 |**DONE** |support-lib.html         | iptton
 |10%      |creating.html            | iptton
@@ -44,8 +44,12 @@ andorid_docs_api_guide
 
 |完成度    | 页面                                                |译者
 |:--------|----------------------------------------------------|-------
-| 0%      | guide/components/index.html                        | iptton 
-| 30%     | guide/components/tasks-and-back-stack.html         | iptton
+|`5%`     | **components/**                                    |
+| 0%      | index.html                                         | iptton 
+| 30%     | tasks-and-back-stack.html                          | iptton
+|`1%`     | ** topics/ui/**                                    |
+|1%       | declaring-layout.html  		                     | iptton
+
 
 
 ### 建议不译的术语

@@ -1037,32 +1037,29 @@ onkeyup="return search_changed(event, false, '/')" />
 Interface</a></li> </div>
 </div>
 
-<p>A layout defines the visual structure for a user interface, such as the UI for an <a
-href="../../components/activities.html">activity</a> or <a
-href="../appwidgets/index.html">app widget</a>.
-You can declare a layout in two ways:</p>
+<p>Layout 用于定义用户界面的视觉结构，<a
+href="../../components/activities.html">activity</a> 或 <a
+href="../appwidgets/index.html">app widget</a> 的界面都是用它来定义的。
+Layout的申明有两种方式：</p>
 <ul>
-<li><strong>Declare UI elements in XML</strong>. Android provides a straightforward XML 
-vocabulary that corresponds to the View classes and subclasses, such as those for widgets and layouts.</li>
-<li><strong>Instantiate layout elements at runtime</strong>. Your 
-application can create View and ViewGroup objects (and manipulate their properties) programmatically. </li>
+<li><strong>XML文件中申明</strong>。Android 用简单明了的 XML 元素来声明各种 View 类及其子类（widget 和 layout 之类）。</li>
+<li><strong>运行时实例化</strong>。你可以在应用运行时动态创建 View 或 ViewGroup 对象及修改其属性。</li>
 </ul>
 
-<p>The Android framework gives you the flexibility to use either or both of these methods for declaring and managing your application's UI. For example, you could declare your application's default layouts in XML, including the screen elements that will appear in them and their properties. You could then add code in your application that would modify the state of the screen objects, including those declared in XML, at run time. </p>
+<p>Android 允许你单独或一起使用这两种方法来管理你的用户界面。你可以在 XML 里申明程序的默认界面，XML 中包括显示的元素及其属性；
+  而在应用运行期间，你也可以通过代码修改界面元素（包括是用 XML 来声明的那些）的状态及属性。 </p>
 
 <div class="sidebox-wrapper">
 <div class="sidebox">
   <ul>
-  <li>The <a href="../../../tools/sdk/eclipse-adt.html">ADT
-  Plugin for Eclipse</a> offers a layout preview of your XML &mdash; 
-  with the XML file opened, select the <strong>Layout</strong> tab.</li>
-  <li>You should also try the 
-  <a href="../../../tools/debugging/debugging-ui.html#hierarchyViewer">Hierarchy Viewer</a> tool, 
-  for debugging layouts &mdash; it reveals layout property values, 
-  draws wireframes with padding/margin indicators, and full rendered views while 
-  you debug on the emulator or device.</li>
-  <li>The <a href="../../../tools/debugging/debugging-ui.html#layoutopt">layoutopt</a> tool lets
-  you quickly analyze your layouts and hierarchies for inefficiencies or other problems.</li>
+  <li>Eclipse 的 <a href="../../../tools/sdk/eclipse-adt.html">ADT 插件</a>可查看 XML 效果预览 &mdash; 
+  打开 XML 文件，选择  <strong>Layout</strong> 标签栏。</li>
+  <li>你还可以用 
+  <a href="../../../tools/debugging/debugging-ui.html#hierarchyViewer">Hierarchy Viewer</a> 工具 
+  来对 layout 进行 debug  &mdash; 它可以从模拟器或设备中提取 layout 属性值，绘制边框等。</li>
+  <li>还有个 <a href="../../../tools/debugging/debugging-ui.html#layoutopt">layoutopt</a> 的工具，
+    可用于分析你的 layout 及 层次结构 的低效影响或其它问题。
+  </li>
 </div>
 </div>
 
